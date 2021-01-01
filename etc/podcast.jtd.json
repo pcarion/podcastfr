@@ -1,7 +1,7 @@
 {
   "properties": {
     "title": { "type": "string" },
-    "feed": {
+    "feedUrls": {
       "optionalProperties": {
         "rss": { "type": "string" },
         "soundcloud": { "type": "string" },

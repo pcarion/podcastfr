@@ -7,7 +7,9 @@ async function validate(podcastsDirectory: string): Promise<void> {
   for (const fileName of files) {
     const descriptions = await validateYamlFile(fileName);
     console.log(descriptions);
-    await validateFeedUrls(descriptions);
+    const feedUrls = await validateFeedUrls(descriptions);
+    console.log('FeedUrls:');
+    console.log(feedUrls);
   }
 }
 

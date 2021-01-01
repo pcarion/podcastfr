@@ -1,8 +1,10 @@
 import { PodcastDescription } from '../jtd/podcastDescription';
+import { FeedUrls } from '../jtd/podcast/index';
 import checkUrl from './checkUrl';
 
-export default async function validateFeedUrls(podcast: PodcastDescription): Promise<void> {
-  console.log(`\n${podcast.title}:`);
+export default async function validateFeedUrls(podcast: PodcastDescription): Promise<FeedUrls> {
+  const result: FeedUrls = {};
+  let count = 0;
   if (!podcast.feed) {
     throw new Error(`at least one feed URL is required`);
   }
@@ -10,34 +12,47 @@ export default async function validateFeedUrls(podcast: PodcastDescription): Pro
 
   if (feed.rss) {
     const url = await checkUrl(feed.rss);
-    console.log(`${feed.rss} => ${url}`);
+    count++;
+    result.rss = url;
   }
   if (feed.castbox) {
     const url = await checkUrl(feed.castbox);
-    console.log(`${feed.castbox} => ${url}`);
+    count++;
+    result.castbox = url;
   }
   if (feed.deezer) {
     const url = await checkUrl(feed.deezer);
-    console.log(`${feed.deezer} => ${url}`);
+    count++;
+    result.deezer = url;
   }
   if (feed.google) {
     const url = await checkUrl(feed.google);
-    console.log(`${feed.google} => ${url}`);
+    count++;
+    result.google = url;
   }
   if (feed.itunes) {
     const url = await checkUrl(feed.itunes);
-    console.log(`${feed.itunes} => ${url}`);
+    count++;
+    result.itunes = url;
   }
   if (feed.pocketcast) {
     const url = await checkUrl(feed.pocketcast);
-    console.log(`${feed.pocketcast} => ${url}`);
+    count++;
+    result.pocketcast = url;
   }
   if (feed.soundcloud) {
     const url = await checkUrl(feed.soundcloud);
-    console.log(`${feed.soundcloud} => ${url}`);
+    count++;
+    result.soundcloud = url;
   }
   if (feed.spotify) {
     const url = await checkUrl(feed.spotify);
-    console.log(`${feed.spotify} => ${url}`);
+    count++;
+    result.spotify = url;
   }
+  if (count === 0) {
+    throw new Error(`at least one feed URL is required`);
+  }
+
+  return result;
 }
