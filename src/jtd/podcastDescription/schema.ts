@@ -2,7 +2,7 @@ import { Schema } from 'jtd';
 
 const schema: Schema = {
   properties: {
-    titre: { type: 'string' },
+    title: { type: 'string' },
     feed: {
       optionalProperties: {
         rss: { type: 'string' },

@@ -2,7 +2,7 @@ import { PodcastDescription } from '../jtd/podcastDescription';
 import checkUrl from './checkUrl';
 
 export default async function validateFeedUrls(podcast: PodcastDescription): Promise<void> {
-  console.log(`\n${podcast.titre}:`);
+  console.log(`\n${podcast.title}:`);
   if (!podcast.feed) {
     throw new Error(`at least one feed URL is required`);
   }

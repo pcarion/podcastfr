@@ -1,4 +1,4 @@
-- titre: titre du podcast
+- title: titre du podcast
   feed:
     # détruisez les lignes pour lesquelles vous n'avez pas d'URL
     rss: url
