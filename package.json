@@ -11,8 +11,14 @@
     "format": "prettier --write **/*.ts",
     "format-check": "prettier --check **/*.ts"
   },
-  "dependencies": {},
+  "dependencies": {
+    "fs-extra": "^9.0.1",
+    "js-yaml": "^3.14.1",
+    "jtd": "0.0.9"
+  },
   "devDependencies": {
+    "@types/fs-extra": "^9.0.6",
+    "@types/js-yaml": "^3.12.5",
     "@types/node": "^14.14.17",
     "@typescript-eslint/eslint-plugin": "^4.11.1",
     "@typescript-eslint/parser": "^4.11.1",
