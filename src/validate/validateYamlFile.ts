@@ -1,8 +1,8 @@
 import fs from 'fs-extra';
 import yaml from 'js-yaml';
 import { validate as validateAgainsJtdSchema } from 'jtd';
-import schema from './jtd/schema';
-import { PodcastDescription } from './jtd';
+import schema from '../jtd/podcastDescriptions/schema';
+import { PodcastDescriptions } from '../jtd/podcastDescriptions';
 
 async function loadYamlFile(fileName: string): Promise<unknown> {
   return new Promise((resolve, reject) => {
@@ -20,30 +20,18 @@ async function loadYamlFile(fileName: string): Promise<unknown> {
   });
 }
 
-function validateJdtSchema(content: unknown): PodcastDescription {
+function validateJdtSchema(content: unknown): PodcastDescriptions {
   const validationErrors = validateAgainsJtdSchema(schema, content);
 
   if (validationErrors.length !== 0) {
     console.log(validationErrors);
     throw new Error(`file is not valid (schema validation): ${validationErrors}`);
   }
-  return content as PodcastDescription;
+  return content as PodcastDescriptions;
 }
 
-async function validate(fileName: string): Promise<void> {
+export default async function validateYamlFile(fileName: string): Promise<PodcastDescriptions> {
   const doc = await loadYamlFile(fileName);
-  console.log(doc);
-  const description = validateJdtSchema(doc);
-  console.log(description);
+  const descriptions = validateJdtSchema(doc);
+  return descriptions;
 }
-
-const fileName = './podcast.yaml';
-console.log(`Validating ${fileName}...`);
-validate(fileName)
-  .then(() => {
-    console.log('File is valid');
-  })
-  .catch((err) => {
-    console.log('File is not valid');
-    console.log(err);
-  });

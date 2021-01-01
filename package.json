@@ -12,11 +12,13 @@
     "format-check": "prettier --check **/*.ts"
   },
   "dependencies": {
+    "axios": "^0.21.1",
     "fs-extra": "^9.0.1",
     "js-yaml": "^3.14.1",
     "jtd": "0.0.9"
   },
   "devDependencies": {
+    "@types/axios": "^0.14.0",
     "@types/fs-extra": "^9.0.6",
     "@types/js-yaml": "^3.12.5",
     "@types/node": "^14.14.17",
