@@ -1,0 +1,23 @@
+# list of podcasts: add podcast at the top of this file
+
+- titre: Les Cast Codeurs Podcast
+  feed:
+    rss: https://lescastcodeurs.libsyn.com/rss
+
+- titre: Artisan Développeur
+  feed:
+    itunes: https://apple.co/2D6SZ8k
+    soundcloud: https://soundcloud.com/benoitgantaume
+    spotify: https://open.spotify.com/show/2K61NjpvkL13y53tRZtUpQ?si=w-ls8bciSt6K4tKgOMH4FQ
+
+- titre: Anti-brouillard
+  feed:
+    itunes: https://podcasts.apple.com/fr/podcast/anti-brouillard/id1419098222?mt=2
+    spotify: https://open.spotify.com/show/5ZPwitfQ7ESuWnMzxHDqyx
+    deezer: https://www.deezer.com/fr/show/58133
+    google: https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkLmF1c2hhLmNvL0IxMEVhY2xldjc5TA%3D%3D
+    castbox: https://castbox.fm/channel/id1382660?utm_campaign=op_dlink_hao_1382660__ch_&utm_medium=dlink_hao_1382660&utm_source=op&country=fr
+    pocketCast: http://pca.st/itunes/1419098222
+
+
+
