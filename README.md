@@ -1,2 +1,2 @@
 # podcastfr
-LIste de podcasts techniques en français. 
+Liste de podcasts techniques en français.
