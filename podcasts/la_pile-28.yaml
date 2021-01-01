@@ -1,0 +1,28 @@
+title: La pile
+description: |
+  La pile, un podcast pour les développeurs qui aiment aller plus loins que le code.
+  Présenté par Mathieu Fosse et Jimmy Oliger.
+imageUrl: https://medias.podcastics.com/podcastics/podcasts/artwork/la-pile.jpeg.f4995d73aafb967c29c6e49f329bb97f.jpeg
+
+contacts:
+  link: https://www.podcastics.com/podcast/la-pile_1/
+  email: _
+  twitter: _
+  patreon: _
+  googleGroup: _
+
+hosts:
+  - name: Mathieu Fosse
+    twitter: _
+  - name: Jimmy Oliger
+    twitter: _
+
+feed:
+  rss: https://feeds.podcastics.com/podcastics/podcasts/rss/669_1f268fef7f5f774f10485dadd8388326.rss
+  itunes: https://podcasts.apple.com/us/podcast/id1356565442
+  spotify: _
+  soundcloud: _
+  deezer: _
+  google: _
+  castbox: _
+  pocketcast: _

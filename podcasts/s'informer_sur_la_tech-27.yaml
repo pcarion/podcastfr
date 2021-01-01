@@ -1,0 +1,25 @@
+title: s'informer sur la tech
+description: |
+  Le blog Info Tech de Cédric, c'est un retour sur des expériences et des découvertes s$ Licence d'utilisation de ce podcast : Attribution 4.0 International - https://creativecommons.org/licenses/by/4.0/
+imageUrl: https://info.mindcast.fr/images/itunes_image.png
+
+contacts:
+  link: _
+  email: _
+  twitter: _
+  patreon: _
+  googleGroup: _
+
+hosts:
+  - name: Cédric Abonnel
+    twitter: _
+
+feed:
+  rss: https://info.mindcast.fr/feed.xml
+  itunes: https://podcasts.apple.com/us/podcast/id1345098278
+  spotify: _
+  soundcloud: _
+  deezer: _
+  google: _
+  castbox: _
+  pocketcast: _

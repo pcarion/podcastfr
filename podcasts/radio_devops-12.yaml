@@ -1,0 +1,29 @@
+title: Radio DevOps
+description: |
+  VOUS AVEZ L’ENVIE D’EN CONNAITRE PLUS SUR LE MOUVEMENT DEVOPS ?
+  LES PROBLÉMATIQUES LIÉES AU DÉPLOIEMENT VOUS TITILLENT…
+  ALORS, VOUS ÊTES AU BON ENDROIT !
+  Radio DevOps est la Baladodiffusion des Compagnons du DevOps [https://www.compagnons-devops.fr/].
+  Le podcast en français dédié à notre mouvement.
+imageUrl: https://assets.pippa.io/shows/5df7c112b9e5bf6d176cbfcb/1605087665018-03e71470e98bb5ad9303958e18533f21.jpeg
+
+contacts:
+  link: _
+  email: _
+  twitter: _
+  patreon: _
+  googleGroup: _
+
+hosts:
+  - name: Lydra
+    twitter: _
+
+feed:
+  rss: https://feeds.acast.com/public/shows/radio-devops
+  itunes: https://podcasts.apple.com/us/podcast/id1502434010?mt=2
+  spotify: _
+  soundcloud: _
+  deezer: _
+  google: _
+  castbox: _
+  pocketcast: _

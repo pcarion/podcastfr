@@ -1,0 +1,25 @@
+title: Big Data Hebdo
+description: |
+  Toute l'actualité du Bigdata et surtout de sa communauté francophone dans un podcast.
+imageUrl: https://d1bm3dmew779uf.cloudfront.net/rss/show/1952874/0b54150c5f5ae731b8d06ef9fe962891.png
+
+contacts:
+  link: https://bigdatahebdo.com/podcast/
+  email: _
+  twitter: _
+  patreon: _
+  googleGroup: _
+
+hosts:
+  - name: Vincent Heuschling
+    twitter: _
+
+feed:
+  rss: https://www.bigdatahebdo.com/podcast/index.xml
+  itunes: _
+  spotify: _
+  soundcloud: _
+  deezer: _
+  google: _
+  castbox: _
+  pocketcast: _

@@ -1,0 +1,25 @@
+title: DevApps
+description: |
+  DevApps - Actualité, Développement et Architecture en technologies Microsoft .NET. Présenté par Denis Voituron, Christophe Peugnet et Richard Clark, ce podcast ce veut technique et convivial.
+imageUrl: https://devappsfiles.blob.core.windows.net/web/medias/logo/logo1400.png
+
+contacts:
+  link: _
+  email: _
+  twitter: _
+  patreon: _
+  googleGroup: _
+
+hosts:
+  - name: Voituron / Peugnet / Clark
+    twitter: _
+
+feed:
+  rss: https://devapps.be/Feed
+  itunes: _
+  spotify: _
+  soundcloud: _
+  deezer: _
+  google: _
+  castbox: _
+  pocketcast: _
