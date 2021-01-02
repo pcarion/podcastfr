@@ -54,6 +54,8 @@ function infoFromRss(rss: any): PodcastInformation {
   return info;
 }
 
+// old / obsolete? format
+// http://1v5d8f8hvcfdr.blogspot.com/feeds/posts/default
 function infoFromFeed(feed: any): PodcastInformation {
   const info: PodcastInformation = {};
   info.title = getTextFromFeed(feed.title);
