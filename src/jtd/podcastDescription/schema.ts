@@ -16,5 +16,8 @@ const schema: Schema = {
       },
     },
   },
+  optionalProperties: {
+    ignore: { type: 'boolean' },
+  },
 };
 export default schema;

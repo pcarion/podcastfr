@@ -16,8 +16,20 @@ export interface FeedUrls {
   spotify?: string;
 }
 
+export interface Information {
+  author?: string;
+
+  description?: string;
+
+  imageUrl?: string;
+
+  link?: string;
+
+  title?: string;
+}
+
 export interface Podcast {
   feedUrls: FeedUrls;
 
-  title: string;
+  information: Information;
 }

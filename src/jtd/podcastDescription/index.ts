@@ -19,5 +19,7 @@ export interface Feed {
 export interface PodcastDescription {
   feed: Feed;
 
+  ignore?: boolean;
+
   title: string;
 }
