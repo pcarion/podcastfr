@@ -1,0 +1,25 @@
+name: "Check PR for new podcast addition"
+on: [pull_request]
+
+jobs:
+  check_pr:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v1
+        with:
+          node-version: '12'
+      - name: set github identity
+        run: |
+          git config --global user.email "pcarion@gmail.com"
+          git config --global user.name "Pierre Carion"
+      - name: Authenticate with GitHub package registry
+        run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.GH_PAT }}" > ~/.npmrc
+      - run: npm install
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.GH_PAT }}
+      - run: env
+      - run: npm run pr
+        env:
+          GH_PAT: ${{ secrets.GH_PAT }}
+
