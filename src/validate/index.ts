@@ -21,6 +21,9 @@ async function validate(podcastsDirectory: string, resultFile: string): Promise<
     const rssUrl = await getPodcastFeedUrl(feedUrls);
     console.log('rssUrl:', rssUrl);
     if (rssUrl) {
+      if (!feedUrls.rss) {
+        feedUrls.rss = rssUrl;
+      }
       const info = await extractPodcastInfoFromRss(rssUrl);
       console.log(info);
       descriptions.push({

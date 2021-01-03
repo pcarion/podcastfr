@@ -15,9 +15,9 @@ async function generateHtml(): Promise<void> {
   const indexFile = `${destDirectory}/index.html`;
   await copyAssets(assetDirectory, destDirectory);
 
-  htmlStart(lines);
+  htmlStart(lines, 'Podcast Tech Français');
   header(lines);
-  lines.push(`<ul class="grid grid-cols-1 gap-6 grid-cols-2">`);
+  lines.push(`<ul class="grid gap-6 grid-cols-1">`);
   podcasts.forEach((p) => {
     outputPodcast(lines, p);
   });
