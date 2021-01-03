@@ -10,8 +10,10 @@
     "build": "tsc",
     "buildcss": "postcss css/styles.css -o static/assets/css/styles.css",
     "format": "prettier --write **/*.ts",
-    "validate": "npm run dist && node build/validate/index.js",
-    "generate": "npm run dist && node build/generate/index.js",
+    "prevalidate": "npm run dist",
+    "validate": "node build/validate/index.js",
+    "pregenerate": "npm run dist",
+    "generate": "node build/generate/index.js",
     "live": "node build/live.js",
     "format-check": "prettier --check **/*.ts"
   },
