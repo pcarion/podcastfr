@@ -14,7 +14,7 @@ export default function header(lines: string[]): void {
         -->
       <div class="pt-1.5">
         <h1 class="text-2xl font-bold text-gray-900">Podcasts Tech en Français</h1>
-        <p class="text-sm font-medium text-gray-500">Vous pouvez ajouter le votre gratuitement sur <a href="https://github.com/pcarion/podcastfr" class="text-gray-900">https://github.com/pcarion/podcastfr</a></p>
+        <p class="text-sm font-medium text-gray-500">Vous pouvez ajouter votre podcast gratuitement sur <a href="https://github.com/pcarion/podcastfr" class="text-gray-900">https://github.com/pcarion/podcastfr</a></p>
       </div>
     </div>
   </div>
