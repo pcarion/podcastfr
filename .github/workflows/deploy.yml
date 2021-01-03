@@ -2,7 +2,10 @@ name: Deploy podcastfr.com
 on:
   repository_dispatch:
     types: [deploy]
-
+  push:
+    branches: main
+    paths:
+    - content/podcasts.json
 jobs:
   build:
     name: deploying podcastfr.com
