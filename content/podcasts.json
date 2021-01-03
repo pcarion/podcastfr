@@ -13,7 +13,8 @@
       "google": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLmF1c2hhLmNvL0IxMEVhY2xldjc5TA==",
       "itunes": "https://podcasts.apple.com/fr/podcast/anti-brouillard/id1419098222?mt=2",
       "pocketcast": "https://pca.st/lK6f",
-      "spotify": "https://open.spotify.com/show/5ZPwitfQ7ESuWnMzxHDqyx"
+      "spotify": "https://open.spotify.com/show/5ZPwitfQ7ESuWnMzxHDqyx",
+      "rss": "https://feeds.audiomeans.fr/feed/c4a4da51-17f1-4f0b-825f-6340b48dedde.xml"
     }
   },
   {
@@ -27,7 +28,8 @@
     "feedUrls": {
       "itunes": "https://podcasts.apple.com/fr/podcast/artisan-d%C3%A9veloppeur/id1355327935?l=en&mt=2",
       "soundcloud": "https://soundcloud.com/benoitgantaume",
-      "spotify": "https://open.spotify.com/show/2K61NjpvkL13y53tRZtUpQ?si=w-ls8bciSt6K4tKgOMH4FQ"
+      "spotify": "https://open.spotify.com/show/2K61NjpvkL13y53tRZtUpQ?si=w-ls8bciSt6K4tKgOMH4FQ",
+      "rss": "https://feed.ausha.co/BxW2S9Mex0Vb"
     }
   },
   {
