@@ -89,7 +89,7 @@ export default function outputPodcast(lines: string[], podcast: Podcast): void {
     deezerLogo(lineFeeds, urls.deezer);
   }
   lines.push(`
-  <li class="col-span-1 bg-white rounded-lg shadow divide-y divide-gray-200">
+  <li class="col-span-1 bg-white rounded-lg shadow divide-y divide-gray-200 m-2">
     <div class="w-full flex items-center justify-between p-6 space-x-6">
       <img class="w-20 h-20 bg-gray-300 flex-shrink-0" src="${podcast.information.imageUrl}" alt="">
       <div class="flex-1">
