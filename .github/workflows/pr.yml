@@ -23,7 +23,7 @@ jobs:
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GH_PAT }}
       - run: env
-      - run: ls -alR
+      - run: ls -alR podcasts
       - run: npm run pr
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
