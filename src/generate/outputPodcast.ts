@@ -94,7 +94,10 @@ export default function outputPodcast(lines: string[], podcast: Podcast): void {
       <img class="w-20 h-20 bg-gray-300 flex-shrink-0" src="${podcast.information.imageUrl}" alt="">
       <div class="flex-1">
         <div class="flex items-center space-x-3">
-          <h3 class="text-gray-900 text-sm font-medium truncate">${podcast.information.title}</h3>
+          <h3 class="text-gray-900 text-base font-medium py-2">${podcast.information.title}</h3>
+        </div>
+        <div class="flex items-center space-x-3">
+          <h4 class="text-gray-600 text-sm font-medium">${podcast.information.author}</h4>
         </div>
         <p class="mt-1 text-gray-500 text-sm">${podcast.information.description}</p>
       </div>
