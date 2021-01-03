@@ -24,6 +24,21 @@ async function run() {
     const result = await octokit.request(diff_url);
     const files = parse(result.data);
     console.log('files in PR:', files);
+    const errors: string[] = [];
+    files.forEach(prfile => {
+      if(!prfile.new) {
+        errors.push(`You cannot change a file from a pr: ${prfile.to}`);
+      } else {
+        if(!(prfile.to || '').startsWith('podcasts/')) {
+          errors.push(`You can only add files in the podcasts directory: ${prfile.to}`);
+        }
+        if(!(prfile.to || '').endsWith('.yaml')) {
+          errors.push(`You can only add .yaml files in the podcasts directory: ${prfile.to}`);
+        }
+      }
+    });
+
+    });
   } catch (error) {
     core.setFailed(error.message);
   }
