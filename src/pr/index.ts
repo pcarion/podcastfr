@@ -41,6 +41,7 @@ async function run() {
     });
     console.log('@@@ errors:', errors);
     console.log('@@@ files:', podcastFiles);
+    core.exportVariable('PODCAST_FILES', podcastFiles.join('|'));
   } catch (error) {
     core.setFailed(error.message);
   }
