@@ -9,9 +9,32 @@ const destDirectory = './__html__';
 const assetDirectory = './static';
 const contenFile = './content/podcasts.json';
 
+// reference:
+// https://stackoverflow.com/a/2450976/1985560
+function shuffle(array: unknown[]) {
+  let currentIndex = array.length,
+    temporaryValue,
+    randomIndex;
+
+  // While there remain elements to shuffle...
+  while (0 !== currentIndex) {
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+
+    // And swap it with the current element.
+    temporaryValue = array[currentIndex];
+    array[currentIndex] = array[randomIndex];
+    array[randomIndex] = temporaryValue;
+  }
+
+  return array;
+}
+
 async function generateHtml(): Promise<void> {
   const lines: string[] = [];
   const podcasts = await validateContentFile(contenFile);
+  shuffle(podcasts);
   const indexFile = `${destDirectory}/index.html`;
   await copyAssets(assetDirectory, destDirectory);
 
