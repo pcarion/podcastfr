@@ -16,7 +16,6 @@ export default async function validate(
   const files = await getPodcastDescriptionsFiles(podcastsDirectory, filesToValidate);
   const podcasts = await validateContentFile(resultFile);
 
-  const descriptions: Podcast[] = [];
   for (const fileName of files) {
     const description = await validateYamlFile(fileName);
     if (description.ignore) {
@@ -45,14 +44,14 @@ export default async function validate(
 
       const ix = podcasts.findIndex((p) => p.meta.fileName === fileName);
       if (ix < 0) {
-        descriptions.push(newPodcast);
+        podcasts.push(newPodcast);
       } else {
-        descriptions[ix] = newPodcast;
+        podcasts[ix] = newPodcast;
       }
     }
   }
-  console.log(descriptions);
-  await fs.writeJSON(resultFile, descriptions, {
+  console.log(podcasts);
+  await fs.writeJSON(resultFile, podcasts, {
     spaces: 2,
   });
 }
