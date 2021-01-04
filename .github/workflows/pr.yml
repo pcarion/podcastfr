@@ -8,6 +8,7 @@ jobs:
   check_pr:
     runs-on: ubuntu-latest
     steps:
+      - run: env
       - run: |
           git checkout -b ${{ env.GITHUB_HEAD_REF }} origin/${{ env.GITHUB_HEAD_REF }}
           git status
