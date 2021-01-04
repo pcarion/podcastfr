@@ -9,10 +9,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+        with:
+          ref: ${{ env.GITHUB_HEAD_REF }}
       - uses: actions/setup-node@v1
         with:
           node-version: '12'
-          ref: ${{ env.GITHUB_HEAD_REF }}
       - name: set github identity
         run: |
           git config --global user.email "pcarion@gmail.com"
