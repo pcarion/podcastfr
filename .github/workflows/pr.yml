@@ -10,10 +10,11 @@ jobs:
     steps:
       - run: env
       - run: |
-          echo "GITHUB_HEAD_REF: ${{env.GITHUB_HEAD_REF}}"
-          git checkout -b ${{ env.GITHUB_HEAD_REF }} origin/${{ env.GITHUB_HEAD_REF }}
+          echo "GITHUB_HEAD_REF: $GITHUB_HEAD_REF"
+          git checkout -b $GITHUB_HEAD_REF origin/$GITHUB_HEAD_REF
           git status
           git branch -a
+
       - uses: actions/setup-node@v1
         with:
           node-version: '12'
