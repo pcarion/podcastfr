@@ -9,7 +9,6 @@ async function run() {
   try {
     // get information on everything
     const token = process.env['GH_PAT'];
-    console.log('@@ token is:', token);
     if (!token) {
       throw new Error(`missing gh token`);
     }
@@ -24,6 +23,7 @@ async function run() {
     console.log('files in PR:', files);
     const errors: string[] = [];
     const podcastFiles: string[] = [];
+
     // TODO: check that the podcast file is not in a subdirectory
     files.forEach((prfile) => {
       if (!prfile.to) {
@@ -32,12 +32,11 @@ async function run() {
         errors.push(`You cannot change a file from a pr: ${prfile.to}`);
       } else {
         const fileName = path.normalize(prfile.to);
-        console.log('@@ fileName is:', fileName);
         const parsedFile = path.parse(fileName);
         console.log('@@ parsed fileName is:', parsedFile);
         if (parsedFile.dir !== 'podcasts') {
           errors.push(`You can only add files in the podcasts directory: ${fileName}`);
-        } else if (parsedFile.base !== '.yaml') {
+        } else if (parsedFile.ext !== '.yaml') {
           errors.push(`You can only add .yaml files in the podcasts directory: ${prfile.to}`);
         } else {
           podcastFiles.push(fileName);

@@ -11,7 +11,7 @@
     "buildcss": "postcss css/styles.css -o static/assets/css/styles.css",
     "format": "prettier --write **/*.ts",
     "prevalidate": "npm run dist",
-    "validate": "node build/validate/index.js",
+    "validate": "node build/validate/main.js",
     "pregenerate": "npm run dist && npm run buildcss",
     "generate": "node build/generate/index.js",
     "prepr": "npm run dist",
