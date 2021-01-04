@@ -1,5 +1,8 @@
 [
   {
+    "meta": {
+      "fileName": "podcasts/anti-brouillard.fr.yaml"
+    },
     "information": {
       "title": "Anti-brouillard",
       "link": "https://www.anti-brouillard.fr/",
@@ -18,6 +21,9 @@
     }
   },
   {
+    "meta": {
+      "fileName": "podcasts/artisandeveloppeur.fr.yaml"
+    },
     "information": {
       "title": "Artisan Développeur",
       "link": "https://artisandeveloppeur.fr/",
@@ -33,6 +39,9 @@
     }
   },
   {
+    "meta": {
+      "fileName": "podcasts/lescastcodeurs.com.yaml"
+    },
     "information": {
       "title": "Les Cast Codeurs Podcast",
       "link": "https://lescastcodeurs.com",

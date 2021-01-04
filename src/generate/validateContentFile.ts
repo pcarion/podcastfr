@@ -14,6 +14,10 @@ function validateJdtSchema(content: unknown): Podcast {
 }
 
 export default async function validateContentFile(fileName: string): Promise<Podcast[]> {
+  const exists = await fs.pathExists(fileName);
+  if (!exists) {
+    return [];
+  }
   const doc = await fs.readJSON(fileName);
   if (!Array.isArray(doc)) {
     throw new Error(`content invalid (not an array)`);

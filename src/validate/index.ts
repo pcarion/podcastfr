@@ -1,13 +1,21 @@
 import fs from 'fs-extra';
 import validateYamlFile from './validateYamlFile';
 import validateFeedUrls from './validateFeedUrls';
+import validateContentFile from '../generate/validateContentFile';
+
 import getPodcastDescriptionsFiles from './getPodcastDescriptionsFiles';
 import getPodcastFeedUrl from './getPodcastFeedUrl';
 import extractPodcastInfoFromRss from './extractPodcastInfoFromRss';
 import { Podcast } from '../jtd/podcast';
 
-async function validate(podcastsDirectory: string, resultFile: string): Promise<void> {
-  const files = await getPodcastDescriptionsFiles(podcastsDirectory);
+export async function validate(
+  podcastsDirectory: string,
+  filesToValidate: string[],
+  resultFile: string,
+): Promise<void> {
+  const files = await getPodcastDescriptionsFiles(podcastsDirectory, filesToValidate);
+  const podcasts = await validateContentFile(resultFile);
+
   const descriptions: Podcast[] = [];
   for (const fileName of files) {
     const description = await validateYamlFile(fileName);
@@ -26,10 +34,21 @@ async function validate(podcastsDirectory: string, resultFile: string): Promise<
       }
       const info = await extractPodcastInfoFromRss(rssUrl);
       console.log(info);
-      descriptions.push({
+
+      const newPodcast: Podcast = {
+        meta: {
+          fileName: fileName,
+        },
         information: info,
         feedUrls: feedUrls,
-      });
+      };
+
+      const ix = podcasts.findIndex((p) => p.meta.fileName === fileName);
+      if (ix < 0) {
+        descriptions.push(newPodcast);
+      } else {
+        descriptions[ix] = newPodcast;
+      }
     }
   }
   console.log(descriptions);
@@ -40,7 +59,9 @@ async function validate(podcastsDirectory: string, resultFile: string): Promise<
 
 const podcastsDirectory = './podcasts';
 const resultFile = './content/podcasts.json';
-validate(podcastsDirectory, resultFile)
+const filesToValidte: string[] = [];
+
+validate(podcastsDirectory, filesToValidte, resultFile)
   .then(() => {
     console.log('File is valid');
   })

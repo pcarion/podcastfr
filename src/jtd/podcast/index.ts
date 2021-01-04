@@ -28,8 +28,14 @@ export interface Information {
   title?: string;
 }
 
+export interface Meta {
+  fileName: string;
+}
+
 export interface Podcast {
   feedUrls: FeedUrls;
 
   information: Information;
+
+  meta: Meta;
 }

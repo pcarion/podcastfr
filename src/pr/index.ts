@@ -3,6 +3,8 @@ import * as core from '@actions/core';
 import { context, getOctokit } from '@actions/github';
 import parse from 'parse-diff';
 
+import validate from '../validate';
+
 async function run() {
   try {
     // get information on everything
@@ -31,13 +33,14 @@ async function run() {
       } else {
         const fileName = path.normalize(prfile.to);
         console.log('@@ fileName is:', fileName);
-        console.log('@@ parsed fileName is:', path.parse(fileName));
-        if (!(prfile.to || '').startsWith('podcasts/')) {
-          errors.push(`You can only add files in the podcasts directory: ${prfile.to}`);
-        } else if (!(prfile.to || '').endsWith('.yaml')) {
+        const parsedFile = path.parse(fileName);
+        console.log('@@ parsed fileName is:', parsedFile);
+        if (parsedFile.dir !== 'podcasts') {
+          errors.push(`You can only add files in the podcasts directory: ${fileName}`);
+        } else if (parsedFile.base !== '.yaml') {
           errors.push(`You can only add .yaml files in the podcasts directory: ${prfile.to}`);
         } else {
-          podcastFiles.push(prfile.to || '');
+          podcastFiles.push(fileName);
         }
       }
     });
@@ -46,6 +49,7 @@ async function run() {
       core.setFailed(errors.join('\n'));
     } else {
       console.log('Podcast files:', podcastFiles);
+      await validate('./podcasts', podcastFiles, './content/podcasts.json');
     }
     core.exportVariable('PODCAST_FILES', podcastFiles.join('|'));
   } catch (error) {

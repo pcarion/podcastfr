@@ -11,6 +11,11 @@ const schema: Schema = {
         imageUrl: { type: 'string' },
       },
     },
+    meta: {
+      properties: {
+        fileName: { type: 'string' },
+      },
+    },
     feedUrls: {
       optionalProperties: {
         rss: { type: 'string' },
