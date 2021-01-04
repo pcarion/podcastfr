@@ -20,18 +20,20 @@ async function loadYamlFile(fileName: string): Promise<unknown> {
   });
 }
 
-function validateJdtSchema(content: unknown): PodcastDescription {
+function validateJdtSchema(content: unknown, fileName: string): PodcastDescription {
   const validationErrors = validateAgainsJtdSchema(schema, content);
 
   if (validationErrors.length !== 0) {
     console.log(validationErrors);
-    throw new Error(`file is not valid (schema validation): ${validationErrors}`);
+    throw new Error(
+      `file is not valid - ${fileName} - (schema validation): ${JSON.stringify(validationErrors, null, '  ')}`,
+    );
   }
   return content as PodcastDescription;
 }
 
 export default async function validateYamlFile(fileName: string): Promise<PodcastDescription> {
   const doc = await loadYamlFile(fileName);
-  const descriptions = validateJdtSchema(doc);
+  const descriptions = validateJdtSchema(doc, fileName);
   return descriptions;
 }

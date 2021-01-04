@@ -8,7 +8,9 @@ function validateJdtSchema(content: unknown, fileName: string): Podcast {
 
   if (validationErrors.length !== 0) {
     console.log(validationErrors);
-    throw new Error(`file is not valid - ${fileName} - (schema validation): ${validationErrors}`);
+    throw new Error(
+      `file is not valid - ${fileName} - (schema validation): ${JSON.stringify(validationErrors, null, '  ')}`,
+    );
   }
   return content as Podcast;
 }
