@@ -10,6 +10,7 @@ jobs:
     steps:
       - run: env
       - run: |
+          echo "GITHUB_HEAD_REF: ${{env.GITHUB_HEAD_REF}}"
           git checkout -b ${{ env.GITHUB_HEAD_REF }} origin/${{ env.GITHUB_HEAD_REF }}
           git status
           git branch -a
