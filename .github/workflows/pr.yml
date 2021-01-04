@@ -31,6 +31,8 @@ jobs:
       - run: echo $PODCAST_FILES
       - run: cat './content/podcasts.json'
       - run: |
+          git status
+          git branch -a
           git add content
           git commit -m 'add content file'
           git push
