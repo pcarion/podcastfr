@@ -8,7 +8,7 @@ import getPodcastFeedUrl from './getPodcastFeedUrl';
 import extractPodcastInfoFromRss from './extractPodcastInfoFromRss';
 import { Podcast } from '../jtd/podcast';
 
-export async function validate(
+export default async function validate(
   podcastsDirectory: string,
   filesToValidate: string[],
   resultFile: string,
