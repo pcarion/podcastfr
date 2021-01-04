@@ -8,9 +8,10 @@ jobs:
   check_pr:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
-        with:
-          ref: ${{ env.GITHUB_HEAD_REF }}
+      - run: |
+          git checkout -b ${{ env.GITHUB_HEAD_REF }} origin/${{ env.GITHUB_HEAD_REF }}
+          git status
+          git branch -a
       - uses: actions/setup-node@v1
         with:
           node-version: '12'
