@@ -1,11 +1,11 @@
-- title: titre du podcast
-  feed:
-    # détruisez les lignes pour lesquelles vous n'avez pas d'URL
-    rss: url
-    itunes: url
-    spotify: url
-    soundcloud: url
-    deezer: url
-    google: url
-    castbox: url
-    pocketcast: url
+title: titre du podcast
+feed:
+  # détruisez les lignes pour lesquelles vous n'avez pas d'URL
+  rss: url
+  itunes: url
+  spotify: url
+  soundcloud: url
+  deezer: url
+  google: url
+  castbox: url
+  pocketcast: url
