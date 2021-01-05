@@ -1,7 +1,7 @@
 name: "Issue to add a podcast"
 on:
   issues:
-    types: [opened, edited]
+    types: [opened, edited, labeled, unlabeled]
 
 jobs:
   issue_add_podcast:
