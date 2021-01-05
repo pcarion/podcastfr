@@ -16,6 +16,8 @@
     "generate": "node build/generate/index.js",
     "prepr": "npm run dist",
     "pr": "node build/pr/index.js",
+    "preghaissue": "npm run dist",
+    "ghaissue": "node build/ghaIssueAddPodcast/index.js",
     "live": "node build/live.js",
     "format-check": "prettier --check **/*.ts"
   },
