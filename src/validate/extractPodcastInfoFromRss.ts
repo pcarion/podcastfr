@@ -1,6 +1,8 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import axios from 'axios';
 import { parseString } from 'xml2js';
+import { htmlToText } from 'html-to-text';
+
 import { Information as PodcastInformation } from '../jtd/podcast';
 
 // other podcast parsers:
@@ -32,7 +34,7 @@ function infoFromRss(rss: any): PodcastInformation {
   }
   const info: PodcastInformation = {};
   if (channel.title) {
-    info.title = stringFromArray(channel.title);
+    info.title = htmlToText(stringFromArray(channel.title));
   }
   if (channel.link) {
     info.link = stringFromArray(channel.link);
@@ -41,9 +43,9 @@ function infoFromRss(rss: any): PodcastInformation {
     info.author = stringFromArray(channel['itunes:author']);
   }
   if (channel['itunes:summary']) {
-    info.description = stringFromArray(channel['itunes:summary']);
+    info.description = htmlToText(stringFromArray(channel['itunes:summary']));
   } else if (channel['description']) {
-    info.description = stringFromArray(channel['description']);
+    info.description = htmlToText(stringFromArray(channel['description']));
   }
   if (channel['itunes:image']) {
     const atts = getAttributes(channel['itunes:image']);
