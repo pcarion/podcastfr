@@ -10,7 +10,7 @@ async function run() {
     }
     const octokit = getOctokit(token);
 
-    console.log('@@@ context.payload:', context.payload);
+    // console.log('@@@ context.payload:', context.payload);
     if (context.payload.issue) {
       const title = context.payload.issue.title as string;
       if (!title) {

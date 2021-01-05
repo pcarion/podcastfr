@@ -4,7 +4,7 @@ on:
     types: [opened, edited]
 
 jobs:
-  check_pr:
+  issue_add_podcast:
     runs-on: ubuntu-latest
     steps:
       - run: env
