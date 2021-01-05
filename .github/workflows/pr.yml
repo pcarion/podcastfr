@@ -9,12 +9,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: env
-      - run: |
-          echo "GITHUB_HEAD_REF: $GITHUB_HEAD_REF"
-          git checkout -b $GITHUB_HEAD_REF origin/$GITHUB_HEAD_REF
-          git status
-          git branch -a
-
+      - uses: actions/checkout@v2
+        with:
+          ref: ${{ github.head_ref }}
       - uses: actions/setup-node@v1
         with:
           node-version: '12'
