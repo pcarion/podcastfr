@@ -1,5 +1,6 @@
 import axios from 'axios';
 
+// follow URL redirect to get final landing URL
 export default async function checkUrl(url: string): Promise<string> {
   return new Promise((resolve, reject) => {
     axios

@@ -1,6 +1,6 @@
 import { PodcastDescription } from '../jtd/podcastDescription';
 import { FeedUrls } from '../jtd/podcast/index';
-import checkUrl from './checkUrl';
+import checkUrl from '../util/checkUrl';
 
 export default async function validateFeedUrls(podcast: PodcastDescription): Promise<FeedUrls> {
   const result: FeedUrls = {};
