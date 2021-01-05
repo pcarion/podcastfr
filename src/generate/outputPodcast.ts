@@ -1,5 +1,9 @@
 import { Podcast } from '../jtd/podcast';
 
+function txtToHtml(input: string): string {
+  return `<p>${input.split('\n').join('</p><p>')}</p>`;
+}
+
 function deezerLogo(lines: string[], url: string) {
   lines.push(`
   <div class="w-0 flex-1 flex">
@@ -99,7 +103,7 @@ export default function outputPodcast(lines: string[], podcast: Podcast): void {
         <div class="flex items-center space-x-3">
           <h4 class="text-gray-600 text-sm font-medium">${podcast.information.author}</h4>
         </div>
-        <p class="mt-1 text-gray-500 text-sm">${podcast.information.description}</p>
+        <p class="mt-1 text-gray-500 text-sm">${txtToHtml(podcast.information.description || '')}</p>
       </div>
     </div>
     <div>

@@ -5,6 +5,23 @@ import { htmlToText } from 'html-to-text';
 
 import { Information as PodcastInformation } from '../jtd/podcast';
 
+function filterText(input: string, length: number): string {
+  const parts = htmlToText(input, { wordwrap: false })
+    .split('\n')
+    .filter((s) => s.length > 0);
+
+  let curlen = 0;
+  return parts
+    .filter((s) => {
+      if (curlen > length) {
+        return false;
+      }
+      curlen += s.length;
+      return true;
+    })
+    .join('\n');
+}
+
 // other podcast parsers:
 // https://github.com/akupila/node-podcast-parser/blob/master/src/index.js
 
@@ -34,7 +51,7 @@ function infoFromRss(rss: any): PodcastInformation {
   }
   const info: PodcastInformation = {};
   if (channel.title) {
-    info.title = htmlToText(stringFromArray(channel.title));
+    info.title = filterText(stringFromArray(channel.title), 260);
   }
   if (channel.link) {
     info.link = stringFromArray(channel.link);
@@ -43,9 +60,9 @@ function infoFromRss(rss: any): PodcastInformation {
     info.author = stringFromArray(channel['itunes:author']);
   }
   if (channel['itunes:summary']) {
-    info.description = htmlToText(stringFromArray(channel['itunes:summary']));
+    info.description = filterText(stringFromArray(channel['itunes:summary']), 260);
   } else if (channel['description']) {
-    info.description = htmlToText(stringFromArray(channel['description']));
+    info.description = filterText(stringFromArray(channel['description']), 260);
   }
   if (channel['itunes:image']) {
     const atts = getAttributes(channel['itunes:image']);
