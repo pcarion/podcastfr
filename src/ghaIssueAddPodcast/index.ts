@@ -70,7 +70,7 @@ async function run() {
     const octokit = getOctokit(token);
 
     if (context.payload.issue) {
-      console.log(context.payload);
+      const issueNumber = context.payload.issue.number;
       const title = context.payload.issue.title as string;
       if (!title) {
         core.setFailed('no title for the issue');
@@ -84,9 +84,9 @@ async function run() {
         } else {
           console.log('url info:', info);
           if (info.isItunesUrl) {
-            await processPodcastItunesUrl(info.url);
+            await processPodcastItunesUrl(info.url, issueNumber);
           } else {
-            await processPodcastRssUrl(info.url);
+            await processPodcastRssUrl(info.url, issueNumber);
           }
         }
       }

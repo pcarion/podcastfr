@@ -2,15 +2,22 @@ import sanitizeFileName from 'sanitize-filename';
 import extractPodcastIfFromItunesUrl from '../util/extractPodcastIfFromItunesUrl';
 import rssFeedFromItunes from '../util/rssFeedFromItunes';
 import extractPodcastInfoFromRss from '../util/extractPodcastInfoFromRss';
+import { Information } from '../jtd/podcast';
 
-export async function processPodcastRssUrl(rssUrl: string): Promise<void> {
-  const info = await extractPodcastInfoFromRss(rssUrl);
+function podcastJsonFileName(info: Information, issueNumber: number): string {
   const fileName = sanitizeFileName(info.title || info.link || 'podcast');
-  console.log(info);
-  console.log('@@@ fileName:', fileName);
+  const lower = fileName.replace(/\s/g, '').toLowerCase();
+  return `${lower}-${issueNumber}`;
 }
 
-export async function processPodcastItunesUrl(itunesUrl: string): Promise<void> {
+export async function processPodcastRssUrl(rssUrl: string, issueNumber: number): Promise<void> {
+  const info = await extractPodcastInfoFromRss(rssUrl);
+  const jsonFileName = podcastJsonFileName(info, issueNumber);
+  console.log(info);
+  console.log('@@@ fileName:', jsonFileName);
+}
+
+export async function processPodcastItunesUrl(itunesUrl: string, issueNumber: number): Promise<void> {
   const itunesId = extractPodcastIfFromItunesUrl(itunesUrl);
   if (!itunesId) {
     throw new Error(`not a valid itunes url: ${itunesUrl}`);
@@ -19,5 +26,5 @@ export async function processPodcastItunesUrl(itunesUrl: string): Promise<void> 
   if (!url) {
     throw new Error(`could not retrieve rss from itunes url: ${itunesUrl}`);
   }
-  return processPodcastRssUrl(url);
+  return processPodcastRssUrl(url, issueNumber);
 }
