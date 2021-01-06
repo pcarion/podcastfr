@@ -1,13 +1,16 @@
 import sanitizeFileName from 'sanitize-filename';
+import { remove as removeDiacritics } from 'diacritics';
+
 import extractPodcastIfFromItunesUrl from '../util/extractPodcastIfFromItunesUrl';
 import rssFeedFromItunes from '../util/rssFeedFromItunes';
 import extractPodcastInfoFromRss from '../util/extractPodcastInfoFromRss';
 import { Information } from '../jtd/podcast';
 
 function podcastJsonFileName(info: Information, issueNumber: number): string {
-  const fileName = sanitizeFileName(info.title || info.link || 'podcast');
-  const lower = fileName.replace(/\s/g, '_').toLowerCase();
-  return `${lower}-${issueNumber}`;
+  const clean1 = sanitizeFileName(info.title || info.link || 'podcast');
+  const clean2 = removeDiacritics(clean1);
+  const clean3 = clean2.replace(/\s/g, '_').toLowerCase();
+  return `${clean3}-${issueNumber}`;
 }
 
 export async function processPodcastRssUrl(rssUrl: string, issueNumber: number): Promise<void> {
