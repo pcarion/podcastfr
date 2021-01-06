@@ -5,7 +5,7 @@ import validateContentFile from '../generate/validateContentFile';
 
 import getPodcastDescriptionsFiles from './getPodcastDescriptionsFiles';
 import getPodcastFeedUrl from './getPodcastFeedUrl';
-import extractPodcastInfoFromRss from './extractPodcastInfoFromRss';
+import extractPodcastInfoFromRss from '../util/extractPodcastInfoFromRss';
 import { Podcast } from '../jtd/podcast';
 
 export default async function validate(

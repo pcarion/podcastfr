@@ -2,6 +2,8 @@ import * as core from '@actions/core';
 import { context, getOctokit } from '@actions/github';
 import checkUrl from '../util/checkUrl';
 
+import { processPodcastRssUrl, processPodcastItunesUrl } from './processPodcastUrl';
+
 function checkIfValidUrl(input: string): boolean {
   let url;
 
@@ -19,7 +21,7 @@ interface ProcessUrlResult {
   isItunesUrl: boolean;
 }
 
-async function processInputUrl(input: string): Promise<ProcessUrlResult> {
+async function checkInputUrl(input: string): Promise<ProcessUrlResult> {
   const urlCandidate = input.trim();
   try {
     if (!checkIfValidUrl(urlCandidate)) {
@@ -75,11 +77,16 @@ async function run() {
         console.log('title of issue:', title);
         // we have a title for the issue
         const urlCandidate = title.trim();
-        const info = await processInputUrl(urlCandidate);
+        const info = await checkInputUrl(urlCandidate);
         if (!info.isValid) {
           core.setFailed('title is not a URL');
         } else {
           console.log('url info:', info);
+          if (info.isItunesUrl) {
+            await processPodcastItunesUrl(info.url);
+          } else {
+            await processPodcastRssUrl(info.url);
+          }
         }
       }
     } else {
