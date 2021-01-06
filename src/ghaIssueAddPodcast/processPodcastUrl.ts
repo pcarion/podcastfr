@@ -6,7 +6,7 @@ import { Information } from '../jtd/podcast';
 
 function podcastJsonFileName(info: Information, issueNumber: number): string {
   const fileName = sanitizeFileName(info.title || info.link || 'podcast');
-  const lower = fileName.replace(/\s/g, '').toLowerCase();
+  const lower = fileName.replace(/\s/g, '_').toLowerCase();
   return `${lower}-${issueNumber}`;
 }
 
