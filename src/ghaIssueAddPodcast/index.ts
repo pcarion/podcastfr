@@ -70,6 +70,7 @@ async function run() {
     const octokit = getOctokit(token);
 
     if (context.payload.issue) {
+      console.log(context.payload);
       const title = context.payload.issue.title as string;
       if (!title) {
         core.setFailed('no title for the issue');
