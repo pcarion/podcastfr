@@ -4,6 +4,7 @@ import { remove as removeDiacritics } from 'diacritics';
 import extractPodcastIfFromItunesUrl from '../util/extractPodcastIfFromItunesUrl';
 import rssFeedFromItunes from '../util/rssFeedFromItunes';
 import extractPodcastInfoFromRss from '../util/extractPodcastInfoFromRss';
+import writePodcastYamlFile from '../util/writePodcastYamlFile';
 
 function podcastJsonFileName(title: string, issueNumber: number): string {
   const clean1 = sanitizeFileName(title || 'podcast');
@@ -14,9 +15,12 @@ function podcastJsonFileName(title: string, issueNumber: number): string {
 
 export async function processPodcastRssUrl(rssUrl: string, issueNumber: number): Promise<void> {
   const info = await extractPodcastInfoFromRss(rssUrl);
-  const jsonFileName = podcastJsonFileName(info.title, issueNumber);
+  const podcastFileName = podcastJsonFileName(info.title, issueNumber);
   console.log(info);
-  console.log('@@@ fileName:', jsonFileName);
+  console.log('@@@ fileName:', podcastFileName);
+
+  const fileName = './podcasts/${podcastFileName}.yaml';
+  await writePodcastYamlFile(info, fileName);
 }
 
 export async function processPodcastItunesUrl(itunesUrl: string, issueNumber: number): Promise<void> {
