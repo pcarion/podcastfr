@@ -1,8 +1,8 @@
-import { FeedUrls } from '../jtd/podcast/index';
+import { Feed } from '../jtd/podcast/index';
 import extractPodcastIfFromItunesUrl from '../util/extractPodcastIfFromItunesUrl';
 import rssFeedFromItunes from '../util/rssFeedFromItunes';
 
-export default async function getPodcastFeedUrl(urls: FeedUrls): Promise<string | null> {
+export default async function getPodcastFeedUrl(urls: Feed): Promise<string | null> {
   if (urls.rss) {
     return urls.rss;
   }

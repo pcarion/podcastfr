@@ -75,7 +75,7 @@ function spotifyLogo(lines: string[], url: string) {
 }
 
 export default function outputPodcast(lines: string[], podcast: Podcast): void {
-  const urls = podcast.feedUrls;
+  const urls = podcast.feed;
   const lineFeeds: string[] = [];
   if (urls.rss) {
     rssLogo(lineFeeds, urls.rss);
@@ -95,15 +95,15 @@ export default function outputPodcast(lines: string[], podcast: Podcast): void {
   lines.push(`
   <li class="col-span-1 bg-white rounded-lg shadow divide-y divide-gray-200 m-2">
     <div class="w-full flex items-center justify-between p-6 space-x-6">
-      <img class="w-20 h-20 bg-gray-300 flex-shrink-0" src="${podcast.information.imageUrl}" alt="">
+      <img class="w-20 h-20 bg-gray-300 flex-shrink-0" src="${podcast.imageUrl}" alt="">
       <div class="flex-1">
         <div class="flex items-center space-x-3">
-          <h3 class="text-gray-900 text-base font-medium py-2">${podcast.information.title}</h3>
+          <h3 class="text-gray-900 text-base font-medium py-2">${podcast.title}</h3>
         </div>
         <div class="flex items-center space-x-3">
-          <h4 class="text-gray-600 text-sm font-medium">${podcast.information.author}</h4>
+          <h4 class="text-gray-600 text-sm font-medium">${(podcast.hosts || []).map((h) => h.name).join(',')}</h4>
         </div>
-        <p class="mt-1 text-gray-500 text-sm">${txtToHtml(podcast.information.description || '')}</p>
+        <p class="mt-1 text-gray-500 text-sm">${txtToHtml(podcast.description || '')}</p>
       </div>
     </div>
     <div>

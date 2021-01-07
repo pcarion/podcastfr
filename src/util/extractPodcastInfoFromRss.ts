@@ -3,7 +3,19 @@ import axios from 'axios';
 import { parseString } from 'xml2js';
 import { htmlToText } from 'html-to-text';
 
-import { Information as PodcastInformation } from '../jtd/podcast';
+import { Podcast, Host } from '../jtd/podcast';
+
+function parseHost(hosts: string): Host[] {
+  if (!hosts || hosts.trim().length === 0) {
+    return [];
+  }
+  return hosts
+    .trim()
+    .split(',')
+    .map((h) => ({
+      name: h.trim(),
+    }));
+}
 
 function filterText(input: string, length: number): string {
   const parts = htmlToText(input, { wordwrap: false })
@@ -44,12 +56,18 @@ function getAttributes(element: any): any {
   return null;
 }
 
-function infoFromRss(rss: any): PodcastInformation {
+function infoFromRss(rss: any, rssUrl: string): Podcast {
   const channel = rss.channel && rss.channel[0];
   if (!channel) {
     throw new Error('bad rss');
   }
-  const info: PodcastInformation = {};
+  const info = {
+    title: '',
+    link: '',
+    author: '',
+    description: '',
+    imageUrl: '',
+  };
   if (channel.title) {
     info.title = filterText(stringFromArray(channel.title), 260);
   }
@@ -70,13 +88,24 @@ function infoFromRss(rss: any): PodcastInformation {
       info.imageUrl = atts['href'];
     }
   }
-  return info;
+  return {
+    title: info.title || '_',
+    description: info.description || '_',
+    imageUrl: info.imageUrl || '_',
+    feed: {
+      rss: rssUrl,
+    },
+    hosts: parseHost(info.author),
+  };
 }
 
 // old / obsolete? format
 // http://1v5d8f8hvcfdr.blogspot.com/feeds/posts/default
-function infoFromFeed(feed: any): PodcastInformation {
-  const info: PodcastInformation = {};
+function infoFromFeed(feed: any, rssUrl: string): Podcast {
+  const info = {
+    title: '',
+    author: '',
+  };
   info.title = getTextFromFeed(feed.title);
   if (feed.author) {
     const elementName = feed.author.find((e: any) => !!e.name);
@@ -84,10 +113,18 @@ function infoFromFeed(feed: any): PodcastInformation {
       info.author = stringFromArray(elementName.name);
     }
   }
-  return info;
+  return {
+    title: info.title || '_',
+    description: '_',
+    imageUrl: '_',
+    feed: {
+      rss: rssUrl,
+    },
+    hosts: parseHost(info.author),
+  };
 }
 
-export default async function extractPodcastInfoFromRss(rssUrl: string): Promise<PodcastInformation> {
+export default async function extractPodcastInfoFromRss(rssUrl: string): Promise<Podcast> {
   return new Promise((resolve, reject) => {
     axios
       .get(rssUrl)
@@ -98,9 +135,9 @@ export default async function extractPodcastInfoFromRss(rssUrl: string): Promise
             return reject(new Error(`error parsing xml`));
           }
           if (xml.rss) {
-            return resolve(infoFromRss(xml.rss));
+            return resolve(infoFromRss(xml.rss, rssUrl));
           } else if (xml.feed) {
-            return resolve(infoFromFeed(xml.feed));
+            return resolve(infoFromFeed(xml.feed, rssUrl));
           } else {
             return reject(new Error('invalid xml podcast data'));
           }

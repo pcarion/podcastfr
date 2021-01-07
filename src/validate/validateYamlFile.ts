@@ -1,8 +1,8 @@
 import fs from 'fs-extra';
 import yaml from 'js-yaml';
 import { validate as validateAgainsJtdSchema } from 'jtd';
-import schema from '../jtd/podcastDescription/schema';
-import { PodcastDescription } from '../jtd/podcastDescription';
+import schema from '../jtd/podcast/schema';
+import { Podcast } from '../jtd/podcast';
 
 async function loadYamlFile(fileName: string): Promise<unknown> {
   return new Promise((resolve, reject) => {
@@ -20,7 +20,7 @@ async function loadYamlFile(fileName: string): Promise<unknown> {
   });
 }
 
-function validateJdtSchema(content: unknown, fileName: string): PodcastDescription {
+function validateJdtSchema(content: unknown, fileName: string): Podcast {
   const validationErrors = validateAgainsJtdSchema(schema, content);
 
   if (validationErrors.length !== 0) {
@@ -29,10 +29,10 @@ function validateJdtSchema(content: unknown, fileName: string): PodcastDescripti
       `file is not valid - ${fileName} - (schema validation): ${JSON.stringify(validationErrors, null, '  ')}`,
     );
   }
-  return content as PodcastDescription;
+  return content as Podcast;
 }
 
-export default async function validateYamlFile(fileName: string): Promise<PodcastDescription> {
+export default async function validateYamlFile(fileName: string): Promise<Podcast> {
   const doc = await loadYamlFile(fileName);
   const descriptions = validateJdtSchema(doc, fileName);
   return descriptions;

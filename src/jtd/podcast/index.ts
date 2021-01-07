@@ -1,4 +1,16 @@
-export interface FeedUrls {
+export interface Contacts {
+  email?: string;
+
+  googleGroup?: string;
+
+  link?: string;
+
+  patreon?: string;
+
+  twitter?: string;
+}
+
+export interface Feed {
   castbox?: string;
 
   deezer?: string;
@@ -16,26 +28,22 @@ export interface FeedUrls {
   spotify?: string;
 }
 
-export interface Information {
-  author?: string;
+export interface Host {
+  name?: string;
 
-  description?: string;
-
-  imageUrl?: string;
-
-  link?: string;
-
-  title?: string;
-}
-
-export interface Meta {
-  fileName: string;
+  twitter?: string;
 }
 
 export interface Podcast {
-  feedUrls: FeedUrls;
+  contacts?: Contacts;
 
-  information: Information;
+  description: string;
 
-  meta: Meta;
+  feed: Feed;
+
+  hosts?: Host[];
+
+  imageUrl: string;
+
+  title: string;
 }

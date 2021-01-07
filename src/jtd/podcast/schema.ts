@@ -2,30 +2,74 @@ import { Schema } from 'jtd';
 
 const schema: Schema = {
   properties: {
-    information: {
+    title: {
+      type: 'string',
+    },
+    description: {
+      type: 'string',
+    },
+    imageUrl: {
+      type: 'string',
+    },
+    feed: {
       optionalProperties: {
-        title: { type: 'string' },
-        link: { type: 'string' },
-        author: { type: 'string' },
-        description: { type: 'string' },
-        imageUrl: { type: 'string' },
+        rss: {
+          type: 'string',
+        },
+        itunes: {
+          type: 'string',
+        },
+        soundcloud: {
+          type: 'string',
+        },
+        deezer: {
+          type: 'string',
+        },
+        castbox: {
+          type: 'string',
+        },
+        spotify: {
+          type: 'string',
+        },
+        pocketcast: {
+          type: 'string',
+        },
+        google: {
+          type: 'string',
+        },
       },
     },
-    meta: {
-      properties: {
-        fileName: { type: 'string' },
+  },
+  optionalProperties: {
+    hosts: {
+      elements: {
+        optionalProperties: {
+          name: {
+            type: 'string',
+          },
+          twitter: {
+            type: 'string',
+          },
+        },
       },
     },
-    feedUrls: {
+    contacts: {
       optionalProperties: {
-        rss: { type: 'string' },
-        soundcloud: { type: 'string' },
-        itunes: { type: 'string' },
-        spotify: { type: 'string' },
-        deezer: { type: 'string' },
-        google: { type: 'string' },
-        castbox: { type: 'string' },
-        pocketcast: { type: 'string' },
+        twitter: {
+          type: 'string',
+        },
+        link: {
+          type: 'string',
+        },
+        googleGroup: {
+          type: 'string',
+        },
+        email: {
+          type: 'string',
+        },
+        patreon: {
+          type: 'string',
+        },
       },
     },
   },

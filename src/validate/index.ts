@@ -17,36 +17,21 @@ export default async function validate(
   const podcasts = await validateContentFile(resultFile);
 
   for (const fileName of files) {
-    const description = await validateYamlFile(fileName);
-    if (description.ignore) {
-      continue;
-    }
-    console.log(description);
-    const feedUrls = await validateFeedUrls(description);
-    console.log('FeedUrls:');
-    console.log(feedUrls);
-    const rssUrl = await getPodcastFeedUrl(feedUrls);
+    const podcast = await validateYamlFile(fileName);
+    console.log(podcast);
+    await validateFeedUrls(podcast);
+    const rssUrl = await getPodcastFeedUrl(podcast.feed);
     console.log('rssUrl:', rssUrl);
     if (rssUrl) {
-      if (!feedUrls.rss) {
-        feedUrls.rss = rssUrl;
-      }
+      podcast.feed.rss = rssUrl;
       const info = await extractPodcastInfoFromRss(rssUrl);
       console.log(info);
 
-      const newPodcast: Podcast = {
-        meta: {
-          fileName: fileName,
-        },
-        information: info,
-        feedUrls: feedUrls,
-      };
-
-      const ix = podcasts.findIndex((p) => p.meta.fileName === fileName);
+      const ix = -1; // podcasts.findIndex((p) => p.meta.fileName === fileName);
       if (ix < 0) {
-        podcasts.push(newPodcast);
+        podcasts.push(podcast);
       } else {
-        podcasts[ix] = newPodcast;
+        podcasts[ix] = podcast;
       }
     }
   }

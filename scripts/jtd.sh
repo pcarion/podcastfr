@@ -17,6 +17,5 @@ processJtd() {
   ./node_modules/.bin/prettier --write ${outDir}
 }
 
-processJtd ./etc/podcastDescription.jtd.json ./src/jtd/podcastDescription
 processJtd ./etc/podcast.jtd.json ./src/jtd/podcast
 
