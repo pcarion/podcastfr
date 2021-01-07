@@ -19,7 +19,7 @@ export async function processPodcastRssUrl(rssUrl: string, issueNumber: number):
   console.log(info);
   console.log('@@@ fileName:', podcastFileName);
 
-  const fileName = './podcasts/${podcastFileName}.yaml';
+  const fileName = `./podcasts/${podcastFileName}.yaml`;
   await writePodcastYamlFile(info, fileName);
 }
 
