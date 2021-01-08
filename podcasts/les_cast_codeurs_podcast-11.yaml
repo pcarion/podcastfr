@@ -20,3 +20,13 @@ hosts:
     twitter: _
   - name: Aud
     twitter: _
+
+feed:
+  rss: https://lescastcodeurs.libsyn.com/rss
+  itunes: _
+  spotify: _
+  soundcloud: _
+  deezer: _
+  google: _
+  castbox: _
+  pocketcast: _
