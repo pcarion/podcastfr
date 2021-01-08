@@ -43,6 +43,16 @@ export default async function writePodcastYamlFile(podcast: Podcast, fileName: s
     addProp(lines, '-name', undefined, 2);
     addProp(lines, 'twitter', undefined, 2);
   }
+  lines.push('');
+  lines.push('feed:');
+  addProp(lines, 'rss', podcast.feed.rss, 1);
+  addProp(lines, 'itunes', podcast.feed.itunes, 1);
+  addProp(lines, 'spotify', podcast.feed.spotify, 1);
+  addProp(lines, 'soundcloud', podcast.feed.soundcloud, 1);
+  addProp(lines, 'deezer', podcast.feed.deezer, 1);
+  addProp(lines, 'google', podcast.feed.google, 1);
+  addProp(lines, 'castbox', podcast.feed.castbox, 1);
+  addProp(lines, 'pocketcast', podcast.feed.pocketcast, 1);
 
   await fs.writeFile(fileName, lines.join('\n'));
 }
