@@ -3,11 +3,21 @@ import { Podcast } from '../jtd/podcast';
 
 function addProp(lines: string[], propName: string, value: string | undefined, indent = 0): void {
   let tab = '';
+  let name = propName;
+  let withDash = false;
+  if (propName.charAt(0) == '-') {
+    name = propName.substring(1).trim();
+    withDash = true;
+  }
   for (let i = 0; i < indent; i++) {
-    tab += '  ';
+    if (i == indent - 1 && withDash) {
+      tab += '- ';
+    } else {
+      tab += '  ';
+    }
   }
   const val = value || '_';
-  lines.push(`${tab}${propName}: ${val}`);
+  lines.push(`${tab}${name}: ${val}`);
 }
 
 export default async function writePodcastYamlFile(podcast: Podcast, fileName: string): Promise<void> {
@@ -23,6 +33,16 @@ export default async function writePodcastYamlFile(podcast: Podcast, fileName: s
   addProp(lines, 'patreon', podcast.contacts?.patreon, 1);
   addProp(lines, 'googleGroup', podcast.contacts?.googleGroup, 1);
   lines.push('');
+  lines.push('hosts:');
+  if (podcast.hosts && podcast.hosts.length > 0) {
+    podcast.hosts.forEach((h) => {
+      addProp(lines, '-name', h.name, 2);
+      addProp(lines, 'twitter', h.twitter, 2);
+    });
+  } else {
+    addProp(lines, '-name', undefined, 2);
+    addProp(lines, 'twitter', undefined, 2);
+  }
 
   await fs.writeFile(fileName, lines.join('\n'));
 }
