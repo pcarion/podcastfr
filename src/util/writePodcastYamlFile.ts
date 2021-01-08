@@ -20,10 +20,23 @@ function addProp(lines: string[], propName: string, value: string | undefined, i
   lines.push(`${tab}${name}: ${val}`);
 }
 
+function writeDescription(lines: string[], description: string, indent: number) {
+  let tab = '';
+  for (let i = 0; i < indent; i++) {
+    tab += '  ';
+  }
+
+  const parts = description.split('\n');
+  lines.push(`${tab}description: |`);
+  parts.forEach((p) => {
+    lines.push(`${tab}  ${p}`);
+  });
+}
+
 export default async function writePodcastYamlFile(podcast: Podcast, fileName: string): Promise<void> {
   const lines: string[] = [];
   addProp(lines, 'title', podcast.title);
-  addProp(lines, 'description', podcast.description);
+  writeDescription(lines, podcast.description, 0);
   addProp(lines, 'imageUrl', podcast.imageUrl);
   lines.push('');
   lines.push('contacts:');
