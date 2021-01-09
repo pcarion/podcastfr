@@ -16,7 +16,7 @@ hosts:
 
 feed:
   rss: https://feeds.buzzsprout.com/926791.rss
-  itunes: _
+  itunes: https://podcasts.apple.com/us/podcast/id1503255739
   spotify: _
   soundcloud: _
   deezer: _
