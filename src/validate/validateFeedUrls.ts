@@ -8,42 +8,42 @@ export default async function validateFeedUrls(podcast: Podcast): Promise<void> 
   }
   const feed = podcast.feed;
 
-  if (feed.rss) {
+  if (feed.rss && feed.rss !== '_') {
     const url = await checkUrl(feed.rss);
     count++;
     feed.rss = url;
   }
-  if (feed.castbox) {
+  if (feed.castbox && feed.castbox !== '_') {
     const url = await checkUrl(feed.castbox);
     count++;
     feed.castbox = url;
   }
-  if (feed.deezer) {
+  if (feed.deezer && feed.deezer !== '_') {
     const url = await checkUrl(feed.deezer);
     count++;
     feed.deezer = url;
   }
-  if (feed.google) {
+  if (feed.google && feed.google !== '_') {
     const url = await checkUrl(feed.google);
     count++;
     feed.google = url;
   }
-  if (feed.itunes) {
+  if (feed.itunes && feed.itunes !== '_') {
     const url = await checkUrl(feed.itunes);
     count++;
     feed.itunes = url;
   }
-  if (feed.pocketcast) {
+  if (feed.pocketcast && feed.pocketcast !== '_') {
     const url = await checkUrl(feed.pocketcast);
     count++;
     feed.pocketcast = url;
   }
-  if (feed.soundcloud) {
+  if (feed.soundcloud && feed.soundcloud !== '_') {
     const url = await checkUrl(feed.soundcloud);
     count++;
     feed.soundcloud = url;
   }
-  if (feed.spotify) {
+  if (feed.spotify && feed.spotify !== '_') {
     const url = await checkUrl(feed.spotify);
     count++;
     feed.spotify = url;
