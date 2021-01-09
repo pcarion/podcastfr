@@ -1,4 +1,4 @@
-name: "Check PR for new podcast addition"
+name: "Check PR for podcast update"
 on:
   pull_request:
     branches: [main]
@@ -24,18 +24,8 @@ jobs:
       - run: npm install
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GH_PAT }}
-      - run: npm run pr
+      - run: npm run ghapr
         env:
           GH_PAT: ${{ secrets.GH_PAT }}
       - run: echo $PODCAST_FILES
-      - name: Commit changes
-        uses: EndBug/add-and-commit@v6
-        with:
-          add: 'podcasts/*.yaml'
-      - run: |
-          git status
-          git branch -a
-          git add content
-          git commit -m 'add content file'
-          git push
 
