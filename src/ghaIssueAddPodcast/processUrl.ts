@@ -85,6 +85,9 @@ export default async function processUrl(urlCandidate: string, issueNumber: numb
     }
   } catch (err) {
     console.log(`Error processing: url=${urlCandidate} issueNumber=${issueNumber}:`, err);
+    if (err.stack) {
+      console.log(err.stack);
+    }
     throw err;
   }
 }
