@@ -33,6 +33,7 @@ async function checkInputUrl(input: string): Promise<ProcessUrlResult> {
       };
     }
     const actualUrl = await checkUrl(urlCandidate);
+    console.log('@@@ actualUrl:', actualUrl);
     if (!actualUrl) {
       return {
         url: urlCandidate,
@@ -63,6 +64,7 @@ async function checkInputUrl(input: string): Promise<ProcessUrlResult> {
 export default async function processUrl(urlCandidate: string, issueNumber: number): Promise<void> {
   try {
     const info = await checkInputUrl(urlCandidate);
+    console.log('@@@@ info:', info);
     if (!info.isValid) {
       throw new Error(`invalid URL: ${urlCandidate}`);
     }

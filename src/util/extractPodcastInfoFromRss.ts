@@ -134,6 +134,7 @@ function infoFromFeed(feed: any, rssUrl: string): Podcast {
 }
 
 export default async function extractPodcastInfoFromRss(rssUrl: string): Promise<Podcast> {
+  console.log(`@@@ extractPodcastInfoFromRss: ${rssUrl} typeof:${typeof rssUrl}`);
   return new Promise((resolve, reject) => {
     axios
       .get(rssUrl)
