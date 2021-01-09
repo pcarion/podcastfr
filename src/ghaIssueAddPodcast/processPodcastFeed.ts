@@ -31,7 +31,7 @@ async function processPodcastItunesUrl(itunesUrl: string): Promise<Podcast> {
   return processPodcastRssUrl(url);
 }
 
-export default async function processPodcastUrl(feed: Feed, issueNumber: number): Promise<void> {
+export default async function processPodcastFeed(feed: Feed, issueNumber: number): Promise<void> {
   let info: Podcast | undefined;
   if (feed.rss) {
     info = await processPodcastRssUrl(feed.rss);
