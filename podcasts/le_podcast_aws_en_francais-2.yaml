@@ -16,7 +16,7 @@ hosts:
 
 feed:
   rss: https://stormacq.com/podcasts/feed.xml
-  itunes: _
+  itunes: https://podcasts.apple.com/be/podcast/le-podcast-aws-en-fran%C3%A7ais/id1452118442
   spotify: _
   soundcloud: _
   deezer: _
