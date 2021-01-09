@@ -35,13 +35,13 @@ export interface Host {
 }
 
 export interface Podcast {
-  contacts?: Contacts;
+  contacts: Contacts;
 
   description: string;
 
   feed: Feed;
 
-  hosts?: Host[];
+  hosts: Host[];
 
   imageUrl: string;
 

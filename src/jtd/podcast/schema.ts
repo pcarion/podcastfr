@@ -39,8 +39,6 @@ const schema: Schema = {
         },
       },
     },
-  },
-  optionalProperties: {
     hosts: {
       elements: {
         optionalProperties: {

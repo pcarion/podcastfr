@@ -4,7 +4,7 @@ import { parseString } from 'xml2js';
 import { htmlToText } from 'html-to-text';
 
 import { Podcast, Host } from '../jtd/podcast';
-import emptyFeed from './emptyFeed';
+import { emptyFeed, emptyContacts } from './empty';
 
 function parseHost(hosts: string): Host[] {
   if (!hosts || hosts.trim().length === 0) {
@@ -98,6 +98,9 @@ function infoFromRss(rss: any, rssUrl: string): Podcast {
       rss: rssUrl,
     },
     hosts: parseHost(info.author),
+    contacts: {
+      ...emptyContacts,
+    },
   };
 }
 
@@ -124,6 +127,9 @@ function infoFromFeed(feed: any, rssUrl: string): Podcast {
       rss: rssUrl,
     },
     hosts: parseHost(info.author),
+    contacts: {
+      ...emptyContacts,
+    },
   };
 }
 

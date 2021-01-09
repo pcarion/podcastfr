@@ -4,7 +4,7 @@ import checkUrl from '../util/checkUrl';
 
 import processPodcastUrl from './processPodcastUrl';
 import { Feed } from '../jtd/podcast';
-import emptyFeed from '../util/emptyFeed';
+import { emptyFeed } from '../util/empty';
 
 function checkIfValidUrl(input: string): boolean {
   let url;
