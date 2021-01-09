@@ -23,9 +23,9 @@ export default async function validate(
     const rssUrl = await getPodcastFeedUrl(podcast.feed);
     console.log('rssUrl:', rssUrl);
     if (rssUrl) {
-      podcast.feed.rss = rssUrl;
-      const info = await extractPodcastInfoFromRss(rssUrl);
-      console.log(info);
+      // podcast.feed.rss = rssUrl;
+      // const info = await extractPodcastInfoFromRss(rssUrl);
+      // console.log(info);
 
       const ix = -1; // podcasts.findIndex((p) => p.meta.fileName === fileName);
       if (ix < 0) {

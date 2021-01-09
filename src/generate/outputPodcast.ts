@@ -74,22 +74,26 @@ function spotifyLogo(lines: string[], url: string) {
 `);
 }
 
+function validUrl(url: string): boolean {
+  return !!url && url != '_';
+}
+
 export default function outputPodcast(lines: string[], podcast: Podcast): void {
   const urls = podcast.feed;
   const lineFeeds: string[] = [];
-  if (urls.rss) {
+  if (urls.rss && validUrl(urls.rss)) {
     rssLogo(lineFeeds, urls.rss);
   }
-  if (urls.itunes) {
+  if (urls.itunes && validUrl(urls.itunes)) {
     itunesLogo(lineFeeds, urls.itunes);
   }
-  if (urls.spotify) {
+  if (urls.spotify && validUrl(urls.spotify)) {
     spotifyLogo(lineFeeds, urls.spotify);
   }
-  if (urls.google) {
+  if (urls.google && validUrl(urls.google)) {
     googlePodcastsLogo(lineFeeds, urls.google);
   }
-  if (urls.deezer) {
+  if (urls.deezer && validUrl(urls.deezer)) {
     deezerLogo(lineFeeds, urls.deezer);
   }
   lines.push(`
