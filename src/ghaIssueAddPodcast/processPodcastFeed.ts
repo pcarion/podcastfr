@@ -16,6 +16,7 @@ function podcastJsonFileName(title: string, issueNumber: number): string {
 
 async function processPodcastRssUrl(rssUrl: string): Promise<Podcast> {
   const info = await extractPodcastInfoFromRss(rssUrl);
+  info.feed.rss = rssUrl;
   return info;
 }
 
@@ -28,7 +29,20 @@ async function processPodcastItunesUrl(itunesUrl: string): Promise<Podcast> {
   if (!url) {
     throw new Error(`could not retrieve rss from itunes url: ${itunesUrl}`);
   }
-  return processPodcastRssUrl(url);
+  const podcast = await processPodcastRssUrl(url);
+  podcast.feed.itunes = itunesUrl;
+  return podcast;
+}
+
+function mergeProps(object1: unknown, object2: unknown): void {
+  const o1 = object1 as Record<string, unknown>;
+  const o2 = object2 as Record<string, unknown>;
+
+  for (const prop in o1) {
+    if (o1[prop] === '_') {
+      o1[prop] = o2[prop] || '_';
+    }
+  }
 }
 
 export default async function processPodcastFeed(feed: Feed, issueNumber: number): Promise<void> {
@@ -41,12 +55,9 @@ export default async function processPodcastFeed(feed: Feed, issueNumber: number
 
   if (info) {
     const podcastFileName = podcastJsonFileName(info.title, issueNumber);
-    info.feed = {
-      ...feed,
-      ...info.feed,
-    };
+    mergeProps(info.feed, feed);
     console.log(info);
-    console.log('@@@ fileName:', podcastFileName);
+    console.log('Generating fileName:', podcastFileName);
 
     const fileName = `./podcasts/${podcastFileName}.yaml`;
     await writePodcastYamlFile(info, fileName);

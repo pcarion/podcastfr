@@ -33,7 +33,6 @@ async function run() {
       } else {
         const fileName = path.normalize(prfile.to);
         const parsedFile = path.parse(fileName);
-        console.log('@@ parsed fileName is:', parsedFile);
         if (parsedFile.dir !== 'podcasts') {
           errors.push(`You can only add files in the podcasts directory: ${fileName}`);
         } else if (parsedFile.ext !== '.yaml') {

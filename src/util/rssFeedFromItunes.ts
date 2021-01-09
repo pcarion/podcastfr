@@ -21,7 +21,6 @@ function cleanUpFeedUrl(url: string): string {
 
 export default async function rssFeedFromItunes(itunesId: string): Promise<string> {
   const url = `https://itunes.apple.com/lookup?id=${itunesId}`;
-  console.log(`@@@ rssFeedFromItunes: ${url}`);
   return new Promise((resolve, reject) => {
     axios
       .get(url)
