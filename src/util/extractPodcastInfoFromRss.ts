@@ -134,7 +134,7 @@ function infoFromFeed(feed: any, rssUrl: string): Podcast {
 }
 
 export default async function extractPodcastInfoFromRss(rssUrl: string): Promise<Podcast> {
-\  return new Promise((resolve, reject) => {
+  return new Promise((resolve, reject) => {
     axios
       .get(rssUrl)
       .then((response) => {
