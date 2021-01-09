@@ -75,25 +75,25 @@ function spotifyLogo(lines: string[], url: string) {
 }
 
 function validUrl(url: string): boolean {
-  return !!url && url != '_';
+  return url != '_';
 }
 
 export default function outputPodcast(lines: string[], podcast: Podcast): void {
   const urls = podcast.feed;
   const lineFeeds: string[] = [];
-  if (urls.rss && validUrl(urls.rss)) {
+  if (validUrl(urls.rss)) {
     rssLogo(lineFeeds, urls.rss);
   }
-  if (urls.itunes && validUrl(urls.itunes)) {
+  if (validUrl(urls.itunes)) {
     itunesLogo(lineFeeds, urls.itunes);
   }
-  if (urls.spotify && validUrl(urls.spotify)) {
+  if (validUrl(urls.spotify)) {
     spotifyLogo(lineFeeds, urls.spotify);
   }
-  if (urls.google && validUrl(urls.google)) {
+  if (validUrl(urls.google)) {
     googlePodcastsLogo(lineFeeds, urls.google);
   }
-  if (urls.deezer && validUrl(urls.deezer)) {
+  if (validUrl(urls.deezer)) {
     deezerLogo(lineFeeds, urls.deezer);
   }
   lines.push(`

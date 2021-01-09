@@ -12,7 +12,7 @@ const schema: Schema = {
       type: 'string',
     },
     feed: {
-      optionalProperties: {
+      properties: {
         rss: {
           type: 'string',
         },
@@ -54,7 +54,7 @@ const schema: Schema = {
       },
     },
     contacts: {
-      optionalProperties: {
+      properties: {
         twitter: {
           type: 'string',
         },

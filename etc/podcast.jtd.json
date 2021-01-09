@@ -10,7 +10,7 @@
       "type": "string"
     },
     "feed": {
-      "optionalProperties": {
+      "properties": {
         "rss": {
           "type": "string"
         },
@@ -52,7 +52,7 @@
       }
     },
     "contacts": {
-      "optionalProperties": {
+      "properties": {
         "twitter": {
           "type": "string"
         },

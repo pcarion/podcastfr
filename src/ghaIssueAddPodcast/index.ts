@@ -4,6 +4,7 @@ import checkUrl from '../util/checkUrl';
 
 import processPodcastUrl from './processPodcastUrl';
 import { Feed } from '../jtd/podcast';
+import emptyFeed from '../util/emptyFeed';
 
 function checkIfValidUrl(input: string): boolean {
   let url;
@@ -87,10 +88,12 @@ async function run() {
           let feed: Feed | undefined;
           if (info.isItunesUrl) {
             feed = {
+              ...emptyFeed,
               itunes: info.url,
             };
           } else {
             feed = {
+              ...emptyFeed,
               rss: info.url,
             };
           }

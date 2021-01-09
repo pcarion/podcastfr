@@ -1,31 +1,31 @@
 export interface Contacts {
-  email?: string;
+  email: string;
 
-  googleGroup?: string;
+  googleGroup: string;
 
-  link?: string;
+  link: string;
 
-  patreon?: string;
+  patreon: string;
 
-  twitter?: string;
+  twitter: string;
 }
 
 export interface Feed {
-  castbox?: string;
+  castbox: string;
 
-  deezer?: string;
+  deezer: string;
 
-  google?: string;
+  google: string;
 
-  itunes?: string;
+  itunes: string;
 
-  pocketcast?: string;
+  pocketcast: string;
 
-  rss?: string;
+  rss: string;
 
-  soundcloud?: string;
+  soundcloud: string;
 
-  spotify?: string;
+  spotify: string;
 }
 
 export interface Host {
