@@ -16,7 +16,7 @@ hosts:
 
 feed:
   rss: https://feeds.audiomeans.fr/feed/c4a4da51-17f1-4f0b-825f-6340b48dedde.xml
-  itunes: _
+  itunes: https://podcasts.apple.com/fr/podcast/anti-brouillard/id1419098222?mt=2
   spotify: _
   soundcloud: _
   deezer: _
