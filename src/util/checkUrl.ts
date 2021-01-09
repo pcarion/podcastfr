@@ -4,9 +4,12 @@ import axios from 'axios';
 export default async function checkUrl(url: string): Promise<string> {
   console.log(`checking url: ${url} type:${typeof url}...`);
   return new Promise((resolve, reject) => {
-    axios
-      .get(url)
+    axios({
+      method: 'GET',
+      url: url,
+    })
       .then((response) => {
+        console.log('response...');
         return resolve(response.request.res.responseUrl);
       })
       .catch((err) => {
