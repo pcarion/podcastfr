@@ -33,9 +33,9 @@ async function processPodcastItunesUrl(itunesUrl: string): Promise<Podcast> {
 
 export default async function processPodcastFeed(feed: Feed, issueNumber: number): Promise<void> {
   let info: Podcast | undefined;
-  if (feed.rss) {
+  if (feed.rss !== '_') {
     info = await processPodcastRssUrl(feed.rss);
-  } else if (feed.itunes) {
+  } else if (feed.itunes !== '_') {
     info = await processPodcastItunesUrl(feed.itunes);
   }
 
