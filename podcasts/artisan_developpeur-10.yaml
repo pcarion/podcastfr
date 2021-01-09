@@ -1,5 +1,6 @@
 title: Artisan Développeur
-description: Artisan Développeur est un podcast destiné aux développeurs qui veulent bâtir une carrière épanouissante.
+description: |
+  Artisan Développeur est un podcast destiné aux développeurs qui veulent bâtir une carrière épanouissante.
 imageUrl: https://image.ausha.co/fEZgi76FYqeuWAtwB7kWpa1KJakvSjYNEWxJ03g5_1400x1400.jpeg?t=1568887731
 
 contacts:
@@ -8,3 +9,17 @@ contacts:
   twitter: _
   patreon: _
   googleGroup: _
+
+hosts:
+  - name: Benoit Gantaume
+    twitter: _
+
+feed:
+  rss: https://feed.ausha.co/BxW2S9Mex0Vb
+  itunes: https://podcasts.apple.com/fr/podcast/artisan-d%C3%A9veloppeur/id1355327935?l=en&mt=2
+  spotify: _
+  soundcloud: _
+  deezer: _
+  google: _
+  castbox: _
+  pocketcast: _
