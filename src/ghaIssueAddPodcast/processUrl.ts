@@ -61,25 +61,30 @@ async function checkInputUrl(input: string): Promise<ProcessUrlResult> {
 }
 
 export default async function processUrl(urlCandidate: string, issueNumber: number): Promise<void> {
-  const info = await checkInputUrl(urlCandidate);
-  if (!info.isValid) {
-    throw new Error(`invalid URL: ${urlCandidate}`);
-  }
-  let feed: Feed | undefined;
-  if (info.isItunesUrl) {
-    feed = {
-      ...emptyFeed,
-      itunes: info.url,
-    };
-  } else {
-    feed = {
-      ...emptyFeed,
-      rss: info.url,
-    };
-  }
-  if (feed) {
-    await processPodcastFeed(feed, issueNumber);
-  } else {
-    throw new Error(`no feed URL for ${info}`);
+  try {
+    const info = await checkInputUrl(urlCandidate);
+    if (!info.isValid) {
+      throw new Error(`invalid URL: ${urlCandidate}`);
+    }
+    let feed: Feed | undefined;
+    if (info.isItunesUrl) {
+      feed = {
+        ...emptyFeed,
+        itunes: info.url,
+      };
+    } else {
+      feed = {
+        ...emptyFeed,
+        rss: info.url,
+      };
+    }
+    if (feed) {
+      await processPodcastFeed(feed, issueNumber);
+    } else {
+      throw new Error(`no feed URL for ${info}`);
+    }
+  } catch (err) {
+    console.log(`Error processing: url=${urlCandidate} issueNumber=${issueNumber}:`, err);
+    throw err;
   }
 }
