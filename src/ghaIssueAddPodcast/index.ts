@@ -2,7 +2,8 @@ import * as core from '@actions/core';
 import { context, getOctokit } from '@actions/github';
 import checkUrl from '../util/checkUrl';
 
-import { processPodcastRssUrl, processPodcastItunesUrl } from './processPodcastUrl';
+import processPodcastUrl from './processPodcastUrl';
+import { Feed } from '../jtd/podcast';
 
 function checkIfValidUrl(input: string): boolean {
   let url;
@@ -83,10 +84,20 @@ async function run() {
           core.setFailed('title is not a URL');
         } else {
           console.log('url info:', info);
+          let feed: Feed | undefined;
           if (info.isItunesUrl) {
-            await processPodcastItunesUrl(info.url, issueNumber);
+            feed = {
+              itunes: info.url,
+            };
           } else {
-            await processPodcastRssUrl(info.url, issueNumber);
+            feed = {
+              rss: info.url,
+            };
+          }
+          if (feed) {
+            await processPodcastUrl(feed, issueNumber);
+          } else {
+            throw new Error(`no feed URL for ${info}`);
           }
         }
       }
