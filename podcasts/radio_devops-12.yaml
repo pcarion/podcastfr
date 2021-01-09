@@ -20,7 +20,7 @@ hosts:
 
 feed:
   rss: https://feeds.acast.com/public/shows/radio-devops
-  itunes: _
+  itunes: https://podcasts.apple.com/us/podcast/id1502434010?mt=2
   spotify: _
   soundcloud: _
   deezer: _
