@@ -5,7 +5,7 @@ on:
     types: [opened, edited, synchronize]
 
 jobs:
-  check_pr:
+  pr_update_podcast:
     runs-on: ubuntu-latest
     steps:
       - run: env

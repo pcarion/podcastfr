@@ -30,4 +30,7 @@ jobs:
         uses: EndBug/add-and-commit@v6
         with:
           add: 'podcasts/*.yaml'
+          push: 'true'
+          pull_strategy: '--rebase'
+          message: $ISSUE_GHA_COMMIT_MESSAGE
 

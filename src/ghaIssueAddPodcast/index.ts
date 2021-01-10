@@ -21,7 +21,10 @@ async function run() {
         console.log('title of issue:', title);
         // we have a title for the issue
         const urlCandidate = title.trim();
-        await processUrl(urlCandidate, issueNumber);
+        const result = await processUrl(urlCandidate, issueNumber);
+        // used by commit acction
+        // https://github.com/marketplace/actions/add-commit
+        core.exportVariable('ISSUE_GHA_COMMIT_MESSAGE', `new podcast: ${result.title} (${result.rss})`);
       }
     } else {
       core.setFailed('no issue data');

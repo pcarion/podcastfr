@@ -45,22 +45,23 @@ function mergeProps(object1: unknown, object2: unknown): void {
   }
 }
 
-export default async function processPodcastFeed(feed: Feed, issueNumber: number): Promise<void> {
-  let info: Podcast | undefined;
+export default async function processPodcastFeed(feed: Feed, issueNumber: number): Promise<Podcast> {
+  let podcast: Podcast | undefined;
   if (feed.rss !== '_') {
-    info = await processPodcastRssUrl(feed.rss);
+    podcast = await processPodcastRssUrl(feed.rss);
   } else if (feed.itunes !== '_') {
-    info = await processPodcastItunesUrl(feed.itunes);
+    podcast = await processPodcastItunesUrl(feed.itunes);
   }
 
-  if (info) {
-    const podcastFileName = podcastJsonFileName(info.title, issueNumber);
-    mergeProps(info.feed, feed);
-    console.log(info);
+  if (podcast) {
+    const podcastFileName = podcastJsonFileName(podcast.title, issueNumber);
+    mergeProps(podcast.feed, feed);
+    console.log(podcast);
     console.log('Generating fileName:', podcastFileName);
 
     const fileName = `./podcasts/${podcastFileName}.yaml`;
-    await writePodcastYamlFile(info, fileName);
+    await writePodcastYamlFile(podcast, fileName);
+    return podcast;
   } else {
     throw new Error(`no podcast found with feed urls: ${feed}`);
   }

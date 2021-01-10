@@ -5,7 +5,7 @@ import { emptyFeed } from '../util/empty';
 
 import processPodcastFeed from './processPodcastFeed';
 
-interface ProcessUrlResult {
+interface CheckInputUrlResult {
   url: string;
   isValid: boolean;
   isItunesUrl: boolean;
@@ -22,7 +22,7 @@ function checkIfValidUrl(input: string): boolean {
   return url.protocol === 'http:' || url.protocol === 'https:';
 }
 
-async function checkInputUrl(input: string): Promise<ProcessUrlResult> {
+async function checkInputUrl(input: string): Promise<CheckInputUrlResult> {
   const urlCandidate = input.trim();
   try {
     if (!checkIfValidUrl(urlCandidate)) {
@@ -60,7 +60,12 @@ async function checkInputUrl(input: string): Promise<ProcessUrlResult> {
   }
 }
 
-export default async function processUrl(urlCandidate: string, issueNumber: number): Promise<void> {
+interface ProcessUrlResult {
+  title: string;
+  rss: string;
+}
+
+export default async function processUrl(urlCandidate: string, issueNumber: number): Promise<ProcessUrlResult> {
   try {
     const info = await checkInputUrl(urlCandidate);
     if (!info.isValid) {
@@ -79,7 +84,11 @@ export default async function processUrl(urlCandidate: string, issueNumber: numb
       };
     }
     if (feed) {
-      await processPodcastFeed(feed, issueNumber);
+      const podcast = await processPodcastFeed(feed, issueNumber);
+      return {
+        title: podcast.title,
+        rss: podcast.feed.rss,
+      };
     } else {
       throw new Error(`no feed URL for ${info}`);
     }
