@@ -20,7 +20,15 @@ async function run() {
       throw new Error(`missing commits_url`);
     }
     const result = await octokit.request(commits_url);
-    console.log('@@@ commits_url data:', result);
+    console.log('@@@ commits_url data:', result.data);
+    const commit_url = result.data?.url;
+    if (!commit_url) {
+      throw new Error(`missing commit_url`);
+    }
+    console.log('>> commit_url:', commit_url);
+    const result2 = await octokit.request(commit_url);
+    console.log('@@@ commit_url data:', result2.data);
+
     // const files = parse(result.data);
     // console.log('files in PR:', files);
     const errors: string[] = [];
