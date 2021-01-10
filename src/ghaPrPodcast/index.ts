@@ -25,45 +25,22 @@ async function run() {
     }
     const podcastYamlFile = files[0];
     const podcast = await validateYamlFile(podcastYamlFile);
-    console.log('@@@ podcast from PR is:', JSON.stringify(podcast, null, '  '));
-    console.log('@@ owner:', JSON.stringify(context.payload.pull_request?.base?.repo?.owner, null, '  '));
-    console.log('@@ repo:', JSON.stringify(context.payload.pull_request?.base?.repo?.name, null, '  '));
-    // octokit.pulls.merge({
-
-    // })
-
-    // const commits_url = context.payload.pull_request?.commits_url;
-    // if (!commits_url) {
-    //   throw new Error(`missing commits_url`);
-    // }
-    // const result = await octokit.request(commits_url);
-    // console.log('@@@ commits_url data:', result.data);
-    // if (result.data.length !== 1) {
-    //   throw new Error(`only one file per PR is authorized`);
-    // }
-    // const commit_url = (result.data || [])[0]?.url;
-    // if (!commit_url) {
-    //   throw new Error(`missing commit_url`);
-    // }
-    // console.log('>> commit_url:', commit_url);
-    // const result2 = await octokit.request(commit_url);
-    // console.log('@@@ commit_url data:', result2.data);
-
-    // const files = parse(result.data);
-    // console.log('files in PR:', files);
-    const errors: string[] = [];
-    // //const podcastFiles: string[] = [];
-
-    // files.forEach((prfile) => {
-    //   console.log(prfile);
-    // });
-    if (errors.length > 0) {
-      console.log('Errors:', errors.join('\n'));
-      core.setFailed(errors.join('\n'));
-    } else {
-      // console.log('Podcast files:', podcastFiles);
-      // await validate('./podcasts', podcastFiles, './content/podcasts.json');
+    const owner = context.payload.pull_request?.base?.repo?.owner.login;
+    const repo = context.payload.pull_request?.base?.repo?.name;
+    const prUser = context.payload.pull_request?.user?.login || 'unknown';
+    if (!owner || !repo) {
+      throw new Error(`Error retrieving PR information`);
     }
+
+    // merging PR
+    await octokit.pulls.merge({
+      owner,
+      repo,
+      pull_number: pullRequestNumber,
+      commit_title: `update podcast: ${podcast.title}`,
+      commit_message: `merge from PR #${pullRequestNumber} by  ${prUser}`,
+    });
+    console.log('Done');
   } catch (error) {
     core.setFailed(error.message);
   }
