@@ -107,3 +107,4 @@ dist
 build
 __html__
 .DS_Store
+tmp

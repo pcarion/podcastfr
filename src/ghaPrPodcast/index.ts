@@ -15,25 +15,26 @@ async function run() {
     const octokit = getOctokit(token);
 
     console.log('context.payload.pull_request:', context.payload.pull_request);
-    const diff_url = context.payload.pull_request?.diff_url;
-    if (!diff_url) {
-      throw new Error(`missing diff_url`);
+    const commits_url = context.payload.pull_request?.commits_url;
+    if (!commits_url) {
+      throw new Error(`missing commits_url`);
     }
-    const result = await octokit.request(diff_url);
-    const files = parse(result.data);
-    console.log('files in PR:', files);
+    const result = await octokit.request(commits_url);
+    console.log('@@@ commits_url data:', result);
+    // const files = parse(result.data);
+    // console.log('files in PR:', files);
     const errors: string[] = [];
-    const podcastFiles: string[] = [];
+    // //const podcastFiles: string[] = [];
 
-    files.forEach((prfile) => {
-      console.log(prfile);
-    });
+    // files.forEach((prfile) => {
+    //   console.log(prfile);
+    // });
     if (errors.length > 0) {
       console.log('Errors:', errors.join('\n'));
       core.setFailed(errors.join('\n'));
     } else {
-      console.log('Podcast files:', podcastFiles);
-      await validate('./podcasts', podcastFiles, './content/podcasts.json');
+      // console.log('Podcast files:', podcastFiles);
+      // await validate('./podcasts', podcastFiles, './content/podcasts.json');
     }
   } catch (error) {
     core.setFailed(error.message);
