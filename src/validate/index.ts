@@ -1,12 +1,10 @@
 import fs from 'fs-extra';
-import validateYamlFile from './validateYamlFile';
+import validateYamlFile from '../util/validateYamlFile';
 import validateFeedUrls from './validateFeedUrls';
 import validateContentFile from '../generate/validateContentFile';
 
 import getPodcastDescriptionsFiles from './getPodcastDescriptionsFiles';
 import getPodcastFeedUrl from './getPodcastFeedUrl';
-import extractPodcastInfoFromRss from '../util/extractPodcastInfoFromRss';
-import { Podcast } from '../jtd/podcast';
 
 export default async function validate(
   podcastsDirectory: string,

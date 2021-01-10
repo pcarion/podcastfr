@@ -1,9 +1,7 @@
-import path from 'path';
 import * as core from '@actions/core';
 import { context, getOctokit } from '@actions/github';
 import extractFilesFromPR from './extractFilesFromPR';
-
-import validate from '../validate';
+import validateYamlFile from '../util/validateYamlFile';
 
 async function run() {
   try {
@@ -17,6 +15,13 @@ async function run() {
     console.log('context.payload.pull_request:', context.payload.pull_request);
     const files = await extractFilesFromPR(octokit, context.payload.pull_request);
     console.log('files in PR:', files);
+    if (files.length !== 1) {
+      throw new Error(`PR must change one and only one file from the podcasts directory`);
+    }
+    const podcastYamlFile = files[0];
+    const podcast = await validateYamlFile(podcastYamlFile);
+    console.log('@@@ podcast from PR is:', JSON.stringify(podcast, null, '  '));
+
     // const commits_url = context.payload.pull_request?.commits_url;
     // if (!commits_url) {
     //   throw new Error(`missing commits_url`);
