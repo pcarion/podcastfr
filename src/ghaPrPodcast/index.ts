@@ -12,7 +12,6 @@ async function run() {
     }
     const octokit = getOctokit(token);
 
-    console.log('context.payload.pull_request:', context.payload.pull_request);
     const pullRequestNumber = context.payload.pull_request?.number;
     if (!pullRequestNumber) {
       throw new Error(`could not find pull request number`);
