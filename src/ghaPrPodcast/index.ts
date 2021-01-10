@@ -21,7 +21,10 @@ async function run() {
     }
     const result = await octokit.request(commits_url);
     console.log('@@@ commits_url data:', result.data);
-    const commit_url = result.data?.url;
+    if (result.data.length !== 1) {
+      throw new Error(`only one file per PR is authorized`);
+    }
+    const commit_url = (result.data || [])[0]?.url;
     if (!commit_url) {
       throw new Error(`missing commit_url`);
     }
