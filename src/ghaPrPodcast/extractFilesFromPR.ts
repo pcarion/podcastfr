@@ -22,6 +22,11 @@ export default async function extractFilesFromPR(octokit: Octokit, payloadPullRe
     console.log('>> commit_url:', commit_url);
     const result = await octokit.request(commit_url);
     console.log('@@@ commit_url data:', result.data);
+    (result.data.files || []).forEach((f: any) => {
+      if (!files.includes(f.filename)) {
+        files.push(f.filename);
+      }
+    });
   }
 
   return files;
