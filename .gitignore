@@ -109,3 +109,4 @@ __html__
 .DS_Store
 tmp
 content/podcasts.json
+public

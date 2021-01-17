@@ -8,28 +8,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: env
-      - uses: actions/checkout@v2
-      - uses: actions/setup-node@v1
+      - name: parse issue for new podcast addition
+        uses: pcarion/podcast-directory-action@master
         with:
-          node-version: '12'
-      - name: set github identity
-        run: |
-          git config --global user.email "pcarion@gmail.com"
-          git config --global user.name "Pierre Carion"
-      - name: Authenticate with GitHub package registry
-        run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.GH_PAT }}" > ~/.npmrc
-      - run: npm install
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.GH_PAT }}
-      - run: env
-      - run: ls -alR podcasts
-      - run: npm run ghaissue
-        env:
-          GH_PAT: ${{ secrets.GH_PAT }}
-      - name: Commit changes
-        uses: EndBug/add-and-commit@v6
-        with:
-          add: 'podcasts/*.yaml'
-          push: 'true'
-          message: ${{ env.ISSUE_GHA_COMMIT_MESSAGE }}
+          podcast-yaml-directory: 'podcasts'
+          repo-token: ${{ secrets.GH_PAT }}
 

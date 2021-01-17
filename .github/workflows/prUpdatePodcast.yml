@@ -9,22 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: env
-      - uses: actions/checkout@v2
+      - name: parse PR for podcast update
+        uses: pcarion/podcast-directory-action@master
         with:
-          ref: ${{ github.head_ref }}
-      - uses: actions/setup-node@v1
-        with:
-          node-version: '12'
-      - name: set github identity
-        run: |
-          git config --global user.email "pcarion@gmail.com"
-          git config --global user.name "Pierre Carion"
-      - name: Authenticate with GitHub package registry
-        run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.GH_PAT }}" > ~/.npmrc
-      - run: npm install
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.GH_PAT }}
-      - run: npm run ghapr
-        env:
-          GH_PAT: ${{ secrets.GH_PAT }}
-
+          podcast-yaml-directory: 'podcasts'
+          repo-token: ${{ secrets.GH_PAT }}
