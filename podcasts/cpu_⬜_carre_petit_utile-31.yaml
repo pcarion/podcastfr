@@ -1,0 +1,25 @@
+title: CPU ⬜ Carré Petit Utile
+description: |
+  CPU ⬜ Carré Petit Utile : Le programme radio des gens du numérique, tous les Jeudi à 11h sur Radio FMR
+imageUrl: https://cpu.dascritch.net/themes/cpu-15/assets/cpu_logo_exagerement_gros_pour_apple.png
+
+contacts:
+  link: _
+  email: _
+  twitter: _
+  patreon: _
+  googleGroup: _
+
+hosts:
+  - name: dascritch & associés pour Radio FMR
+    twitter: _
+
+feed:
+  rss: http://feeds.feedburner.com/Cpu-Programmes
+  itunes: https://podcasts.apple.com/us/podcast/id1332622382
+  spotify: _
+  soundcloud: _
+  deezer: _
+  google: _
+  castbox: _
+  pocketcast: _
