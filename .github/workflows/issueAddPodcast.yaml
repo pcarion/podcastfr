@@ -9,7 +9,7 @@ jobs:
     steps:
       - run: env
       - name: parse issue for new podcast addition
-        uses: pcarion/podcast-directory-action
+        uses: pcarion/podcast-directory-action@v0
         with:
           podcast-yaml-directory: 'podcasts'
           repo-token: ${{ secrets.GH_PAT }}
