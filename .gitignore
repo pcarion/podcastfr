@@ -108,5 +108,5 @@ build
 __html__
 .DS_Store
 tmp
-content/podcasts.json
+# content/podcasts.json
 public

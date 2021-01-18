@@ -1,0 +1,399 @@
+[
+  {
+    "title": "Anti-brouillard",
+    "description": "Anti-brouillard c'est le podcast qui décrypte les grandes tendances du monde des nouvelles technologies en allant à la rencontre d'experts. \nBlockchain, intelligence artificielle, informatique quantique... tout le monde en parle mais ça veut dire quoi, concrètement ? \nTous les mois, un entretien avec un expert, qu'il soit entrepreneur, chercheur, philosophe, et toutes les semaines un flash d'actualités autour d'un sujet tech !\n",
+    "imageUrl": "https://static.audiomeans.fr/img/podcast/885ecc2c-0019-4c35-9bfe-45e08859e756.jpeg",
+    "contacts": {
+      "link": "https://www.anti-brouillard.fr/",
+      "email": "_",
+      "twitter": "Anti_brouillard",
+      "patreon": "_",
+      "googleGroup": "_"
+    },
+    "hosts": [
+      {
+        "name": "Fabien Roques",
+        "twitter": "_"
+      }
+    ],
+    "feed": {
+      "rss": "https://feeds.audiomeans.fr/feed/c4a4da51-17f1-4f0b-825f-6340b48dedde.xml",
+      "itunes": "https://podcasts.apple.com/fr/podcast/anti-brouillard/id1419098222?mt=2",
+      "spotify": "https://open.spotify.com/show/5ZPwitfQ7ESuWnMzxHDqyx",
+      "soundcloud": "_",
+      "deezer": "_",
+      "google": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLmF1c2hhLmNvL0IxMEVhY2xldjc5TA==",
+      "castbox": "_",
+      "pocketcast": "_"
+    },
+    "yamlDescriptionFile": "../podcasts/anti-brouillard-9.yaml"
+  },
+  {
+    "title": "Artisan Développeur",
+    "description": "Artisan Développeur est un podcast destiné aux développeurs qui veulent bâtir une carrière épanouissante.\n",
+    "imageUrl": "https://image.ausha.co/fEZgi76FYqeuWAtwB7kWpa1KJakvSjYNEWxJ03g5_1400x1400.jpeg?t=1568887731",
+    "contacts": {
+      "link": "_",
+      "email": "_",
+      "twitter": "_",
+      "patreon": "_",
+      "googleGroup": "_"
+    },
+    "hosts": [
+      {
+        "name": "Benoit Gantaume",
+        "twitter": "_"
+      }
+    ],
+    "feed": {
+      "rss": "https://feed.ausha.co/BxW2S9Mex0Vb",
+      "itunes": "https://podcasts.apple.com/fr/podcast/artisan-d%C3%A9veloppeur/id1355327935?l=en&mt=2",
+      "spotify": "_",
+      "soundcloud": "_",
+      "deezer": "_",
+      "google": "_",
+      "castbox": "_",
+      "pocketcast": "_"
+    },
+    "yamlDescriptionFile": "../podcasts/artisan_developpeur-10.yaml"
+  },
+  {
+    "title": "Big Data Hebdo",
+    "description": "Toute l'actualité du Bigdata et surtout de sa communauté francophone dans un podcast.\n",
+    "imageUrl": "https://d1bm3dmew779uf.cloudfront.net/rss/show/1952874/0b54150c5f5ae731b8d06ef9fe962891.png",
+    "contacts": {
+      "link": "https://bigdatahebdo.com/podcast/",
+      "email": "_",
+      "twitter": "_",
+      "patreon": "_",
+      "googleGroup": "_"
+    },
+    "hosts": [
+      {
+        "name": "Vincent Heuschling",
+        "twitter": "_"
+      }
+    ],
+    "feed": {
+      "rss": "https://www.bigdatahebdo.com/podcast/index.xml",
+      "itunes": "_",
+      "spotify": "_",
+      "soundcloud": "_",
+      "deezer": "_",
+      "google": "_",
+      "castbox": "_",
+      "pocketcast": "_"
+    },
+    "yamlDescriptionFile": "../podcasts/big_data_hebdo-8.yaml"
+  },
+  {
+    "title": "CPU ⬜ Carré Petit Utile",
+    "description": "CPU ⬜ Carré Petit Utile : Le programme radio des gens du numérique, tous les Jeudi à 11h sur Radio FMR\n",
+    "imageUrl": "https://cpu.dascritch.net/themes/cpu-15/assets/cpu_logo_exagerement_gros_pour_apple.png",
+    "contacts": {
+      "link": "_",
+      "email": "_",
+      "twitter": "_",
+      "patreon": "_",
+      "googleGroup": "_"
+    },
+    "hosts": [
+      {
+        "name": "dascritch & associés pour Radio FMR",
+        "twitter": "_"
+      }
+    ],
+    "feed": {
+      "rss": "http://feeds.feedburner.com/Cpu-Programmes",
+      "itunes": "https://podcasts.apple.com/us/podcast/id1332622382",
+      "spotify": "_",
+      "soundcloud": "_",
+      "deezer": "_",
+      "google": "_",
+      "castbox": "_",
+      "pocketcast": "_"
+    },
+    "yamlDescriptionFile": "../podcasts/cpu_carre_petit_utile-31.yaml"
+  },
+  {
+    "title": "DevApps",
+    "description": "DevApps - Actualité, Développement et Architecture en technologies Microsoft .NET. Présenté par Denis Voituron, Christophe Peugnet et Richard Clark, ce podcast ce veut technique et convivial.\n",
+    "imageUrl": "https://devappsfiles.blob.core.windows.net/web/medias/logo/logo1400.png",
+    "contacts": {
+      "link": "_",
+      "email": "_",
+      "twitter": "_",
+      "patreon": "_",
+      "googleGroup": "_"
+    },
+    "hosts": [
+      {
+        "name": "Voituron / Peugnet / Clark",
+        "twitter": "_"
+      }
+    ],
+    "feed": {
+      "rss": "https://devapps.be/Feed",
+      "itunes": "_",
+      "spotify": "_",
+      "soundcloud": "_",
+      "deezer": "_",
+      "google": "_",
+      "castbox": "_",
+      "pocketcast": "_"
+    },
+    "yamlDescriptionFile": "../podcasts/devapps-29.yaml"
+  },
+  {
+    "title": "Electro Monkeys",
+    "description": "Le podcast pour découvrir et comprendre les concepts et les technologies cloud natives ! Des interviews techniques hebdomadaires sur Kubernetes, les technologies cloud natives et la communauté open source.\n",
+    "imageUrl": "https://storage.buzzsprout.com/variants/k1gf0b0yd0yqkiz0qt1t2zj4smv1/8d66eb17bb7d02ca4856ab443a78f2148cafbb129f58a3c81282007c6fe24ff2.jpg",
+    "contacts": {
+      "link": "_",
+      "email": "_",
+      "twitter": "_",
+      "patreon": "_",
+      "googleGroup": "_"
+    },
+    "hosts": [
+      {
+        "name": "Stef",
+        "twitter": "_"
+      }
+    ],
+    "feed": {
+      "rss": "https://feeds.buzzsprout.com/926791.rss",
+      "itunes": "https://podcasts.apple.com/us/podcast/id1503255739",
+      "spotify": "_",
+      "soundcloud": "_",
+      "deezer": "_",
+      "google": "_",
+      "castbox": "_",
+      "pocketcast": "_"
+    },
+    "yamlDescriptionFile": "../podcasts/electro_monkeys-13.yaml"
+  },
+  {
+    "title": "La pile",
+    "description": "La pile, un podcast pour les développeurs qui aiment aller plus loins que le code.\nPrésenté par Mathieu Fosse et Jimmy Oliger.\n",
+    "imageUrl": "https://medias.podcastics.com/podcastics/podcasts/artwork/la-pile.jpeg.f4995d73aafb967c29c6e49f329bb97f.jpeg",
+    "contacts": {
+      "link": "https://www.podcastics.com/podcast/la-pile_1/",
+      "email": "_",
+      "twitter": "_",
+      "patreon": "_",
+      "googleGroup": "_"
+    },
+    "hosts": [
+      {
+        "name": "Mathieu Fosse",
+        "twitter": "_"
+      },
+      {
+        "name": "Jimmy Oliger",
+        "twitter": "_"
+      }
+    ],
+    "feed": {
+      "rss": "https://feeds.podcastics.com/podcastics/podcasts/rss/669_1f268fef7f5f774f10485dadd8388326.rss",
+      "itunes": "https://podcasts.apple.com/us/podcast/id1356565442",
+      "spotify": "_",
+      "soundcloud": "_",
+      "deezer": "_",
+      "google": "_",
+      "castbox": "_",
+      "pocketcast": "_"
+    },
+    "yamlDescriptionFile": "../podcasts/la_pile-28.yaml"
+  },
+  {
+    "title": "Le Podcast AWS en Français",
+    "description": "Nous parlons d'Amazon Web Services en français. Découvrez les nouveaux services ou fonctions, des interviews avec des partenaires ou des clients d'AWS. Découvrez des cas d'utilisation, des retours d'expérience racontés par les clients d'AWS eux-mêmes.\n",
+    "imageUrl": "https://download.stormacq.com/aws/podcast/podcast-artwork.png",
+    "contacts": {
+      "link": "_",
+      "email": "_",
+      "twitter": "_",
+      "patreon": "_",
+      "googleGroup": "_"
+    },
+    "hosts": [
+      {
+        "name": "Amazon Web Services France",
+        "twitter": "_"
+      }
+    ],
+    "feed": {
+      "rss": "https://stormacq.com/podcasts/feed.xml",
+      "itunes": "https://podcasts.apple.com/be/podcast/le-podcast-aws-en-fran%C3%A7ais/id1452118442",
+      "spotify": "_",
+      "soundcloud": "_",
+      "deezer": "_",
+      "google": "_",
+      "castbox": "_",
+      "pocketcast": "_"
+    },
+    "yamlDescriptionFile": "../podcasts/le_podcast_aws_en_francais-2.yaml"
+  },
+  {
+    "title": "Les Cast Codeurs Podcast",
+    "description": "Restez informes sur les sujets brulants de l industrie Java. \nPlongez sur un sujet precis avec l interview de l episode. \nSupportez les radotages de vos hôtes : Emmanuel Bernard (JBoss, Hibernate), Arnaud Héritier (CloudBees, Jenkins), Guillaume Laforge (Google, Groovy), Antonio Goncalves (freelance, auteur), Vincent Massol (XWiki, Maven), Audrey Neveu (Saagie, Devoxx4Kids).\n",
+    "imageUrl": "https://ssl-static.libsyn.com/p/assets/2/5/5/f/255f68ddc87cc049/logo-lescastcodeurs-1400px-white.png",
+    "contacts": {
+      "link": "_",
+      "email": "_",
+      "twitter": "_",
+      "patreon": "_",
+      "googleGroup": "_"
+    },
+    "hosts": [
+      {
+        "name": "Emmanuel Bernard",
+        "twitter": "_"
+      },
+      {
+        "name": "Guillaume Laforge",
+        "twitter": "_"
+      },
+      {
+        "name": "Vincent Massol",
+        "twitter": "_"
+      },
+      {
+        "name": "Antonio Goncalves",
+        "twitter": "_"
+      },
+      {
+        "name": "Audrey Neveu",
+        "twitter": "_"
+      }
+    ],
+    "feed": {
+      "rss": "https://lescastcodeurs.libsyn.com/rss",
+      "itunes": "https://podcasts.apple.com/podcast/id312239675",
+      "spotify": "_",
+      "soundcloud": "_",
+      "deezer": "_",
+      "google": "_",
+      "castbox": "_",
+      "pocketcast": "_"
+    },
+    "yamlDescriptionFile": "../podcasts/les_cast_codeurs_podcast-11.yaml"
+  },
+  {
+    "title": "Message à caractère informatique",
+    "description": "Message à caractère informatique est un podcast réalisé par l'équipe de Clever Cloud. Nous commentons les derniers liens de notre veille techno, postés dans notre Slack au cours de la semaine.\n",
+    "imageUrl": "https://image.ausha.co/n0QRHcaofTaeJj9LbGiT74auZpCmUPuzyp7xRgD1_1400x1400.jpeg?t=1593076814",
+    "contacts": {
+      "link": "_",
+      "email": "_",
+      "twitter": "_",
+      "patreon": "_",
+      "googleGroup": "_"
+    },
+    "hosts": [
+      {
+        "name": "Laurent Doguin",
+        "twitter": "_"
+      }
+    ],
+    "feed": {
+      "rss": "https://feed.ausha.co/yJpOltDVvJzN",
+      "itunes": "https://podcasts.apple.com/us/podcast/id1515547030",
+      "spotify": "_",
+      "soundcloud": "_",
+      "deezer": "_",
+      "google": "_",
+      "castbox": "_",
+      "pocketcast": "_"
+    },
+    "yamlDescriptionFile": "../podcasts/message_a_caractere_informatique-24.yaml"
+  },
+  {
+    "title": "Radio DevOps",
+    "description": "VOUS AVEZ L’ENVIE D’EN CONNAITRE PLUS SUR LE MOUVEMENT DEVOPS ?\nLES PROBLÉMATIQUES LIÉES AU DÉPLOIEMENT VOUS TITILLENT…\nALORS, VOUS ÊTES AU BON ENDROIT !\nRadio DevOps est la Baladodiffusion des Compagnons du DevOps [https://www.compagnons-devops.fr/].\nLe podcast en français dédié à notre mouvement.\n",
+    "imageUrl": "https://assets.pippa.io/shows/5df7c112b9e5bf6d176cbfcb/1605087665018-03e71470e98bb5ad9303958e18533f21.jpeg",
+    "contacts": {
+      "link": "_",
+      "email": "_",
+      "twitter": "_",
+      "patreon": "_",
+      "googleGroup": "_"
+    },
+    "hosts": [
+      {
+        "name": "Lydra",
+        "twitter": "_"
+      }
+    ],
+    "feed": {
+      "rss": "https://feeds.acast.com/public/shows/radio-devops",
+      "itunes": "https://podcasts.apple.com/us/podcast/id1502434010?mt=2",
+      "spotify": "_",
+      "soundcloud": "_",
+      "deezer": "_",
+      "google": "_",
+      "castbox": "_",
+      "pocketcast": "_"
+    },
+    "yamlDescriptionFile": "../podcasts/radio_devops-12.yaml"
+  },
+  {
+    "title": "s'informer sur la tech",
+    "description": "Le blog Info Tech de Cédric, c'est un retour sur des expériences et des découvertes s$ Licence d'utilisation de ce podcast : Attribution 4.0 International - https://creativecommons.org/licenses/by/4.0/\n",
+    "imageUrl": "https://info.mindcast.fr/images/itunes_image.png",
+    "contacts": {
+      "link": "_",
+      "email": "_",
+      "twitter": "_",
+      "patreon": "_",
+      "googleGroup": "_"
+    },
+    "hosts": [
+      {
+        "name": "Cédric Abonnel",
+        "twitter": "_"
+      }
+    ],
+    "feed": {
+      "rss": "https://info.mindcast.fr/feed.xml",
+      "itunes": "https://podcasts.apple.com/us/podcast/id1345098278",
+      "spotify": "_",
+      "soundcloud": "_",
+      "deezer": "_",
+      "google": "_",
+      "castbox": "_",
+      "pocketcast": "_"
+    },
+    "yamlDescriptionFile": "../podcasts/s'informer_sur_la_tech-27.yaml"
+  },
+  {
+    "title": "Visual Studio Talk Show",
+    "description": "Un podcast en français sur l'architecture et le développement logiciel. Suivez les entrevues de Mario Cardinal et Guy Barrette avec les experts de la programmation Microsoft .NET.\n",
+    "imageUrl": "https://ssl-static.libsyn.com/p/assets/2/b/9/a/2b9a4c62e9feb84c/vsts_300.png",
+    "contacts": {
+      "link": "_",
+      "email": "_",
+      "twitter": "_",
+      "patreon": "_",
+      "googleGroup": "_"
+    },
+    "hosts": [
+      {
+        "name": "Mario Cardinal et Guy Barrette",
+        "twitter": "_"
+      }
+    ],
+    "feed": {
+      "rss": "https://visualstudiotalkshow.libsyn.com/rss",
+      "itunes": "https://podcasts.apple.com/us/podcast/id673760676",
+      "spotify": "_",
+      "soundcloud": "_",
+      "deezer": "_",
+      "google": "_",
+      "castbox": "_",
+      "pocketcast": "_"
+    },
+    "yamlDescriptionFile": "../podcasts/visual_studio_talk_show-30.yaml"
+  }
+]
