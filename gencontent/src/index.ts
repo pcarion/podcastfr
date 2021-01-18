@@ -12,7 +12,7 @@ async function validate(podcastsDirectory: string, filesToValidate: string[], re
     const podcast = await validatePodcastYamlFile(fileName);
     console.log(podcast);
     await validateFeedUrls(podcast);
-      podcasts.push(podcast);
+    podcasts.push(podcast);
   }
   console.log(podcasts);
   await fs.writeJSON(resultFile, podcasts, {
