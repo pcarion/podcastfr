@@ -5,23 +5,12 @@
   "main": "build/generate/index.js",
   "scripts": {
     "lint": "eslint src/**/*.ts",
-    "clean": "rimraf dist build",
-    "dist": "npm run clean && npm run build",
-    "build": "tsc",
-    "buildcss": "postcss css/styles.css -o static/assets/css/styles.css",
     "format": "prettier --write **/*.ts",
-    "pregenerate": "npm run dist && npm run buildcss",
-    "generate": "node build/generate/index.js",
-    "preghaissue": "npm run dist",
-    "ghaissue": "node build/ghaIssueAddPodcast/index.js",
-    "preghapr": "npm run dist",
-    "ghapr": "node build/ghaPrPodcast/index.js",
-    "live": "node build/live.js",
     "format-check": "prettier --check **/*.ts",
-    "gbuild": "gatsby build",
-    "gclean": "gatsby clean",
-    "gdevelop": "GATSBY_GRAPHQL_IDE=playground gatsby develop",
-    "gserve": "gatsby serve"
+    "content": "tsc && node build/generateContentFile/main",
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "develop": "GATSBY_GRAPHQL_IDE=playground gatsby develop"
   },
   "dependencies": {
     "@actions/core": "^1.2.6",
