@@ -1,10 +1,12 @@
 import React, { FC, ReactElement } from 'react';
-import { Podcast as PodcastDescription, Feed as FeedDescription } from '../jtd/podcast';
+
+import { Feed as FeedDescription } from '../../jtd/podcast';
 
 interface FeedLogo {
   name: string;
   mkLogo: () => ReactElement;
 }
+
 const feedProviders: FeedLogo[] = [
   {
     name: 'rss',
@@ -176,11 +178,6 @@ const feedProviders: FeedLogo[] = [
   },
 ];
 
-// eslint-disable-next-line @typescript-eslint/no-empty-interface
-interface PodcastProps {
-  podcast: PodcastDescription;
-}
-
 function renderFeed(podcastFeed: FeedDescription, feed: FeedLogo): ReactElement | null {
   if (!podcastFeed[feed.name] || podcastFeed[feed.name] === '_') {
     return null;
@@ -196,32 +193,12 @@ function renderFeed(podcastFeed: FeedDescription, feed: FeedLogo): ReactElement 
     </div>
   );
 }
-const Podcast: FC<PodcastProps> = ({ podcast }): ReactElement => {
-  return (
-    <div className="col-span-1 bg-white rounded-lg shadow divide-y divide-gray-200 m-2">
-      <div className="w-full flex items-center justify-between p-6 space-x-6">
-        <img className="w-20 h-20 bg-gray-300 flex-shrink-0" src={podcast.imageUrl} alt="" />
-        <div className="flex-1">
-          <div className="flex items-center space-x-3">
-            <h3 className="text-gray-900 text-base font-medium py-2">{podcast.title}</h3>
-          </div>
-          <div className="flex items-center space-x-3">
-            <h4 className="text-gray-600 text-sm font-medium">{(podcast.hosts || []).map((h) => h.name).join(',')}</h4>
-          </div>
-          <p className="mt-1 text-gray-500 text-sm">
-            {podcast.description.split('\n').map((t) => (
-              <p>{t}</p>
-            ))}
-          </p>
-        </div>
-      </div>
-      <div>
-        <div className="-mt-px flex divide-x divide-gray-200">
-          {feedProviders.map((feed) => renderFeed(podcast.feed, feed))}
-        </div>
-      </div>
-    </div>
-  );
+
+interface FeedLogoProps {
+  feed: FeedDescription;
+}
+const FeedLogo: FC<FeedLogoProps> = ({ feed }): ReactElement => {
+  return <>{feedProviders.map((provider) => renderFeed(feed, provider))}</>;
 };
 
-export default Podcast;
+export default FeedLogo;

@@ -22,11 +22,21 @@
       "spotify": "https://open.spotify.com/show/5ZPwitfQ7ESuWnMzxHDqyx",
       "soundcloud": "_",
       "deezer": "_",
-      "google": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLmF1c2hhLmNvL0IxMEVhY2xldjc5TA==",
+      "google": "https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkLmF1c2hhLmNvL0IxMEVhY2xldjc5TA%3D%3D",
       "castbox": "_",
       "pocketcast": "_"
     },
-    "yamlDescriptionFile": "../podcasts/anti-brouillard-9.yaml"
+    "yamlDescriptionFile": "../podcasts/anti-brouillard-9.yaml",
+    "extra": {
+      "colors": {
+        "vibrant": "#57405e",
+        "darkVibrant": "#275d51",
+        "lightVibrant": "#9ed4c8",
+        "muted": "#83688f",
+        "darkMuted": "#57405e",
+        "lightMuted": "#a4c6cc"
+      }
+    }
   },
   {
     "title": "Artisan Développeur",
@@ -55,7 +65,17 @@
       "castbox": "_",
       "pocketcast": "_"
     },
-    "yamlDescriptionFile": "../podcasts/artisan_developpeur-10.yaml"
+    "yamlDescriptionFile": "../podcasts/artisan_developpeur-10.yaml",
+    "extra": {
+      "colors": {
+        "vibrant": "#3f3f3f",
+        "darkVibrant": "#424242",
+        "lightVibrant": "#bcbcbc",
+        "muted": "#848484",
+        "darkMuted": "#3f3f3f",
+        "lightMuted": "#bcbcbc"
+      }
+    }
   },
   {
     "title": "Big Data Hebdo",
@@ -84,7 +104,17 @@
       "castbox": "_",
       "pocketcast": "_"
     },
-    "yamlDescriptionFile": "../podcasts/big_data_hebdo-8.yaml"
+    "yamlDescriptionFile": "../podcasts/big_data_hebdo-8.yaml",
+    "extra": {
+      "colors": {
+        "vibrant": "#966b02",
+        "darkVibrant": "#825d02",
+        "lightVibrant": "#fcd885",
+        "muted": "#966b02",
+        "darkMuted": "#966b02",
+        "lightMuted": "#956903"
+      }
+    }
   },
   {
     "title": "CPU ⬜ Carré Petit Utile",
@@ -113,7 +143,17 @@
       "castbox": "_",
       "pocketcast": "_"
     },
-    "yamlDescriptionFile": "../podcasts/cpu_carre_petit_utile-31.yaml"
+    "yamlDescriptionFile": "../podcasts/cpu_carre_petit_utile-31.yaml",
+    "extra": {
+      "colors": {
+        "vibrant": "#5c5c4c",
+        "darkVibrant": "#025c82",
+        "lightVibrant": "#f0cc38",
+        "muted": "#87736c",
+        "darkMuted": "#5c5c4c",
+        "lightMuted": "#b4acac"
+      }
+    }
   },
   {
     "title": "DevApps",
@@ -142,7 +182,17 @@
       "castbox": "_",
       "pocketcast": "_"
     },
-    "yamlDescriptionFile": "../podcasts/devapps-29.yaml"
+    "yamlDescriptionFile": "../podcasts/devapps-29.yaml",
+    "extra": {
+      "colors": {
+        "vibrant": "#743984",
+        "darkVibrant": "#642374",
+        "lightVibrant": "#cd98e1",
+        "muted": "#845094",
+        "darkMuted": "#743984",
+        "lightMuted": "#cdbfd2"
+      }
+    }
   },
   {
     "title": "Electro Monkeys",
@@ -171,7 +221,17 @@
       "castbox": "_",
       "pocketcast": "_"
     },
-    "yamlDescriptionFile": "../podcasts/electro_monkeys-13.yaml"
+    "yamlDescriptionFile": "../podcasts/electro_monkeys-13.yaml",
+    "extra": {
+      "colors": {
+        "vibrant": "#5d452f",
+        "darkVibrant": "#9a0711",
+        "lightVibrant": "#eec33d",
+        "muted": "#956b72",
+        "darkMuted": "#5d452f",
+        "lightMuted": "#b4c4c8"
+      }
+    }
   },
   {
     "title": "La pile",
@@ -204,7 +264,17 @@
       "castbox": "_",
       "pocketcast": "_"
     },
-    "yamlDescriptionFile": "../podcasts/la_pile-28.yaml"
+    "yamlDescriptionFile": "../podcasts/la_pile-28.yaml",
+    "extra": {
+      "colors": {
+        "vibrant": "#353d42",
+        "darkVibrant": "#041280",
+        "lightVibrant": "#8997f2",
+        "muted": "#7c8484",
+        "darkMuted": "#353d42",
+        "lightMuted": "#b4b4ce"
+      }
+    }
   },
   {
     "title": "Le Podcast AWS en Français",
@@ -233,11 +303,21 @@
       "castbox": "_",
       "pocketcast": "_"
     },
-    "yamlDescriptionFile": "../podcasts/le_podcast_aws_en_francais-2.yaml"
+    "yamlDescriptionFile": "../podcasts/le_podcast_aws_en_francais-2.yaml",
+    "extra": {
+      "colors": {
+        "vibrant": "#385c7c",
+        "darkVibrant": "#345c84",
+        "lightVibrant": "#fdcb7b",
+        "muted": "#6484a4",
+        "darkMuted": "#385c7c",
+        "lightMuted": "#94acc4"
+      }
+    }
   },
   {
     "title": "Les Cast Codeurs Podcast",
-    "description": "Restez informes sur les sujets brulants de l industrie Java. \nPlongez sur un sujet precis avec l interview de l episode. \nSupportez les radotages de vos hôtes : Emmanuel Bernard (JBoss, Hibernate), Arnaud Héritier (CloudBees, Jenkins), Guillaume Laforge (Google, Groovy), Antonio Goncalves (freelance, auteur), Vincent Massol (XWiki, Maven), Audrey Neveu (Saagie, Devoxx4Kids).\n",
+    "description": "Restez informes sur les sujets brulants de l industrie Java.\nPlongez sur un sujet precis avec l interview de l episode.\nSupportez les radotages de vos hôtes : Emmanuel Bernard (JBoss, Hibernate), Arnaud Héritier (CloudBees, Jenkins), Guillaume Laforge (Google, Groovy), Antonio Goncalves (freelance, auteur), Vincent Massol (XWiki, Maven), Audrey Neveu (Saagie, Devoxx4Kids).\n",
     "imageUrl": "https://ssl-static.libsyn.com/p/assets/2/5/5/f/255f68ddc87cc049/logo-lescastcodeurs-1400px-white.png",
     "contacts": {
       "link": "_",
@@ -249,23 +329,23 @@
     "hosts": [
       {
         "name": "Emmanuel Bernard",
-        "twitter": "_"
+        "twitter": "emmanuelbernard"
       },
       {
         "name": "Guillaume Laforge",
-        "twitter": "_"
+        "twitter": "glaforge"
       },
       {
         "name": "Vincent Massol",
-        "twitter": "_"
+        "twitter": "vmassol"
       },
       {
         "name": "Antonio Goncalves",
-        "twitter": "_"
+        "twitter": "agoncal"
       },
       {
         "name": "Audrey Neveu",
-        "twitter": "_"
+        "twitter": "Audrey_Neveu"
       }
     ],
     "feed": {
@@ -278,7 +358,17 @@
       "castbox": "_",
       "pocketcast": "_"
     },
-    "yamlDescriptionFile": "../podcasts/les_cast_codeurs_podcast-11.yaml"
+    "yamlDescriptionFile": "../podcasts/les_cast_codeurs_podcast-11.yaml",
+    "extra": {
+      "colors": {
+        "vibrant": "#644434",
+        "darkVibrant": "#502c0f",
+        "lightVibrant": "#d7be9f",
+        "muted": "#ac8454",
+        "darkMuted": "#644434",
+        "lightMuted": "#c1a588"
+      }
+    }
   },
   {
     "title": "Message à caractère informatique",
@@ -307,7 +397,17 @@
       "castbox": "_",
       "pocketcast": "_"
     },
-    "yamlDescriptionFile": "../podcasts/message_a_caractere_informatique-24.yaml"
+    "yamlDescriptionFile": "../podcasts/message_a_caractere_informatique-24.yaml",
+    "extra": {
+      "colors": {
+        "vibrant": "#2b3446",
+        "darkVibrant": "#682540",
+        "lightVibrant": "#fcbc7c",
+        "muted": "#9c646c",
+        "darkMuted": "#2b3446",
+        "lightMuted": "#c8a8c2"
+      }
+    }
   },
   {
     "title": "Radio DevOps",
@@ -336,7 +436,17 @@
       "castbox": "_",
       "pocketcast": "_"
     },
-    "yamlDescriptionFile": "../podcasts/radio_devops-12.yaml"
+    "yamlDescriptionFile": "../podcasts/radio_devops-12.yaml",
+    "extra": {
+      "colors": {
+        "vibrant": "#2c3444",
+        "darkVibrant": "#805904",
+        "lightVibrant": "#eac15c",
+        "muted": "#9c8455",
+        "darkMuted": "#2c3444",
+        "lightMuted": "#876511"
+      }
+    }
   },
   {
     "title": "s'informer sur la tech",
@@ -365,7 +475,17 @@
       "castbox": "_",
       "pocketcast": "_"
     },
-    "yamlDescriptionFile": "../podcasts/s'informer_sur_la_tech-27.yaml"
+    "yamlDescriptionFile": "../podcasts/s'informer_sur_la_tech-27.yaml",
+    "extra": {
+      "colors": {
+        "vibrant": "#970101",
+        "darkVibrant": "#830101",
+        "lightVibrant": "#fc7c7c",
+        "muted": "#970101",
+        "darkMuted": "#970101",
+        "lightMuted": "#950303"
+      }
+    }
   },
   {
     "title": "Visual Studio Talk Show",
@@ -394,6 +514,16 @@
       "castbox": "_",
       "pocketcast": "_"
     },
-    "yamlDescriptionFile": "../podcasts/visual_studio_talk_show-30.yaml"
+    "yamlDescriptionFile": "../podcasts/visual_studio_talk_show-30.yaml",
+    "extra": {
+      "colors": {
+        "vibrant": "#282a46",
+        "darkVibrant": "#044484",
+        "lightVibrant": "#dcb09b",
+        "muted": "#a56d50",
+        "darkMuted": "#282a46",
+        "lightMuted": "#b0bcd5"
+      }
+    }
   }
 ]
