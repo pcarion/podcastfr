@@ -17,7 +17,8 @@
     "fs-extra": "^9.0.1",
     "js-yaml": "^3.14.1",
     "jtd": "0.0.9",
-    "node-vibrant": "^3.2.1-alpha.1"
+    "node-vibrant": "^3.2.1-alpha.1",
+    "rss-parser": "^3.10.0"
   },
   "devDependencies": {
     "@types/axios": "^0.14.0",

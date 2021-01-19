@@ -9,8 +9,13 @@ export interface LogoColors {
   lightMuted: string | null;
 }
 
+export interface EpisodeDate {
+  publishingDate: string;
+}
+
 export interface PodcastExtra extends Podcast {
   extra: {
     colors: LogoColors;
+    episodes: EpisodeDate[];
   };
 }

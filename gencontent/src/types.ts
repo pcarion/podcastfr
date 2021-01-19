@@ -10,5 +10,8 @@ export interface PodcastExtra extends Podcast {
       darkMuted: string | null;
       lightMuted: string | null;
     };
+    episodes: {
+      publishingDate: string;
+    }[];
   };
 }

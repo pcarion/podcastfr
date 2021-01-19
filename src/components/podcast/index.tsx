@@ -7,8 +7,10 @@ import { PodcastExtra } from '../../types';
 import Palette from './palette';
 import FeedLogo from './feedLogo';
 import Hosts from './hosts';
+import CalendarHeatMap from './calendarHeatMap';
 
 const renderPalette = false;
+const renderCalendarHeatMap = true;
 
 // eslint-disable-next-line @typescript-eslint/no-empty-interface
 interface PodcastProps {
@@ -58,6 +60,7 @@ const Podcast: FC<PodcastProps> = ({ podcast }): ReactElement => {
         </div>
       </div>
       {renderPalette && <Palette colors={podcast.extra.colors} />}
+      {renderCalendarHeatMap && <CalendarHeatMap episodes={podcast.extra.episodes} />}
     </div>
   );
 };
