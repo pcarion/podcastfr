@@ -3,7 +3,7 @@ module.exports = {
     title: 'Podcasts Tech en Français',
     description: 'Vous pouvez ajouter votre podcast gratuitement sur https://github.com/pcarion/podcastfr',
     addText: 'Ajouter un podcast',
-    addLink: 'https://github.com/pcarion/podcastfr',
+    addLink: 'https://github.com/pcarion/podcastfr#readme',
   },
   plugins: [
     'gatsby-plugin-postcss',
