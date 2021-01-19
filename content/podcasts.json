@@ -26,7 +26,7 @@
       "castbox": "_",
       "pocketcast": "_"
     },
-    "yamlDescriptionFile": "../podcasts/anti-brouillard-9.yaml",
+    "yamlDescriptionFile": "podcasts/anti-brouillard-9.yaml",
     "extra": {
       "colors": {
         "vibrant": "#57405e",
@@ -409,7 +409,7 @@
       "castbox": "_",
       "pocketcast": "_"
     },
-    "yamlDescriptionFile": "../podcasts/artisan_developpeur-10.yaml",
+    "yamlDescriptionFile": "podcasts/artisan_developpeur-10.yaml",
     "extra": {
       "colors": {
         "vibrant": "#3f3f3f",
@@ -1263,7 +1263,7 @@
       "castbox": "_",
       "pocketcast": "_"
     },
-    "yamlDescriptionFile": "../podcasts/big_data_hebdo-8.yaml",
+    "yamlDescriptionFile": "podcasts/big_data_hebdo-8.yaml",
     "extra": {
       "colors": {
         "vibrant": "#966b02",
@@ -1274,6 +1274,9 @@
         "lightMuted": "#956903"
       },
       "episodes": [
+        {
+          "publishingDate": "2021-01-15"
+        },
         {
           "publishingDate": "2020-12-18"
         },
@@ -1652,7 +1655,7 @@
       "castbox": "_",
       "pocketcast": "_"
     },
-    "yamlDescriptionFile": "../podcasts/cpu_carre_petit_utile-31.yaml",
+    "yamlDescriptionFile": "podcasts/cpu_carre_petit_utile-31.yaml",
     "extra": {
       "colors": {
         "vibrant": "#5c5c4c",
@@ -1993,7 +1996,7 @@
       "castbox": "_",
       "pocketcast": "_"
     },
-    "yamlDescriptionFile": "../podcasts/electro_monkeys-13.yaml",
+    "yamlDescriptionFile": "podcasts/electro_monkeys-13.yaml",
     "extra": {
       "colors": {
         "vibrant": "#5d452f",
@@ -2224,7 +2227,7 @@
       "castbox": "_",
       "pocketcast": "_"
     },
-    "yamlDescriptionFile": "../podcasts/la_pile-28.yaml",
+    "yamlDescriptionFile": "podcasts/la_pile-28.yaml",
     "extra": {
       "colors": {
         "vibrant": "#353d42",
@@ -2304,7 +2307,7 @@
       "castbox": "_",
       "pocketcast": "_"
     },
-    "yamlDescriptionFile": "../podcasts/le_podcast_aws_en_francais-2.yaml",
+    "yamlDescriptionFile": "podcasts/le_podcast_aws_en_francais-2.yaml",
     "extra": {
       "colors": {
         "vibrant": "#385c7c",
@@ -2484,7 +2487,7 @@
       "castbox": "_",
       "pocketcast": "_"
     },
-    "yamlDescriptionFile": "../podcasts/les_cast_codeurs_podcast-11.yaml",
+    "yamlDescriptionFile": "podcasts/les_cast_codeurs_podcast-11.yaml",
     "extra": {
       "colors": {
         "vibrant": "#644434",
@@ -3266,7 +3269,7 @@
       "castbox": "_",
       "pocketcast": "_"
     },
-    "yamlDescriptionFile": "../podcasts/message_a_caractere_informatique-24.yaml",
+    "yamlDescriptionFile": "podcasts/message_a_caractere_informatique-24.yaml",
     "extra": {
       "colors": {
         "vibrant": "#2b3446",
@@ -3391,7 +3394,7 @@
       "castbox": "_",
       "pocketcast": "_"
     },
-    "yamlDescriptionFile": "../podcasts/radio_devops-12.yaml",
+    "yamlDescriptionFile": "podcasts/radio_devops-12.yaml",
     "extra": {
       "colors": {
         "vibrant": "#2c3444",
@@ -3561,7 +3564,7 @@
       "castbox": "_",
       "pocketcast": "_"
     },
-    "yamlDescriptionFile": "../podcasts/s'informer_sur_la_tech-27.yaml",
+    "yamlDescriptionFile": "podcasts/s'informer_sur_la_tech-27.yaml",
     "extra": {
       "colors": {
         "vibrant": "#970101",
@@ -3743,7 +3746,7 @@
       "castbox": "_",
       "pocketcast": "_"
     },
-    "yamlDescriptionFile": "../podcasts/visual_studio_talk_show-30.yaml",
+    "yamlDescriptionFile": "podcasts/visual_studio_talk_show-30.yaml",
     "extra": {
       "colors": {
         "vibrant": "#282a46",

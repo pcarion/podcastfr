@@ -284,7 +284,15 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 var _1 = __importDefault(__nccwpck_require__(1667));
-_1.default('../content/podcasts.json', '../podcasts')
+if (process.argv.length !== 4) {
+    console.log("Usage: " + process.argv[0] + " " + process.argv[1] + " <podcasts.json file> <podcasts directory>");
+    process.exit(1);
+}
+var contentFile = process.argv[2];
+var podcastsDirectory = process.argv[3];
+console.log("- contentFile: " + contentFile);
+console.log("- podcastsDirectory: " + podcastsDirectory);
+_1.default(contentFile, podcastsDirectory)
     .then(function () {
     console.log('DONE');
 })

@@ -11,6 +11,7 @@
     "dist": "npm run clean && tsc",
     "prebuild": "npm run dist",
     "build": "node build/main.js",
+    "prepackage": "npm run dist",
     "package": "ncc build build/main.js -o dist --source-map --license licenses.txt"
   },
   "dependencies": {

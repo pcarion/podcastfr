@@ -7,7 +7,7 @@
     "lint": "eslint src/**/*.ts",
     "format": "prettier --write **/*.ts",
     "format-check": "prettier --check **/*.ts",
-    "content": "tsc && node build/generateContentFile/main",
+    "prebuild": "node gencontent/dist/index.js content/podcasts.json podcasts",
     "build": "gatsby build",
     "clean": "gatsby clean",
     "develop": "GATSBY_GRAPHQL_IDE=playground gatsby develop"

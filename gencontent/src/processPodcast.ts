@@ -63,7 +63,7 @@ export default async function processPodcast(podcast: Podcast): Promise<PodcastE
         return resolve(result);
       })
       .catch((err) => {
-        console.log(`podcast: ${podcast.feed.rss}`)
+        console.log(`podcast: ${podcast.feed.rss}`);
         console.log(err);
         return reject(err);
       });
