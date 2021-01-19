@@ -1,10 +1,12 @@
 title: AXOPEN
 description: |
-  Axopen, c’est des podcasts tous les mois sur le développement et les nouvelles technologies. Partage d'expériences, tips, nouveautés, frameworks, best practices… Tout cela, réalisé par des techos passionnés qui défendent leurs idées ! Certifié sans langue de bois et toujours dans la bonne humeur :)
+  Axopen, c’est des podcasts tous les mois sur le développement et les nouvelles technologies. 
+  Partage d'expériences, tips, nouveautés, frameworks, best practices… 
+  Tout cela, réalisé par des techos passionnés qui défendent leurs idées ! Certifié sans langue de bois et toujours dans la bonne humeur :)
 imageUrl: http://i1.sndcdn.com/avatars-000469737138-5vvi6p-original.jpg
 
 contacts:
-  link: _
+  link: https://www.axopen.com
   email: _
   twitter: _
   patreon: _
@@ -17,8 +19,8 @@ hosts:
 feed:
   rss: http://feeds.soundcloud.com/users/soundcloud:users:454908405/sounds.rss
   itunes: https://podcasts.apple.com/us/podcast/id1404304980
-  spotify: _
-  soundcloud: _
+  spotify: https://open.spotify.com/show/1DSrnkBhdl3NUIxwddnMed
+  soundcloud: https://soundcloud.com/axopen
   deezer: _
   google: _
   castbox: _
