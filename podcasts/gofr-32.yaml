@@ -1,0 +1,25 @@
+title: GoFr
+description: |
+  Podcast by Arnaud ASSAD
+imageUrl: http://i1.sndcdn.com/avatars-000522388500-74nsg5-original.jpg
+
+contacts:
+  link: _
+  email: _
+  twitter: _
+  patreon: _
+  googleGroup: _
+
+hosts:
+  - name: Arnaud ASSAD
+    twitter: _
+
+feed:
+  rss: http://feeds.soundcloud.com/users/soundcloud:users:503020458/sounds.rss
+  itunes: https://podcasts.apple.com/us/podcast/id1439678547
+  spotify: _
+  soundcloud: _
+  deezer: _
+  google: _
+  castbox: _
+  pocketcast: _
