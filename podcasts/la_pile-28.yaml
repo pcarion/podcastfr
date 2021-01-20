@@ -13,9 +13,9 @@ contacts:
 
 hosts:
   - name: Mathieu Fosse
-    twitter: _
+    twitter: pointcom
   - name: Jimmy Oliger
-    twitter: _
+    twitter: _oliger
 
 feed:
   rss: https://feeds.podcastics.com/podcastics/podcasts/rss/669_1f268fef7f5f774f10485dadd8388326.rss
