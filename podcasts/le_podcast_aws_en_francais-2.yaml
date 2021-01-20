@@ -1,25 +1,26 @@
 title: Le Podcast AWS en Français
 description: |
-  Nous parlons d'Amazon Web Services en français. Découvrez les nouveaux services ou fonctions, des interviews avec des partenaires ou des clients d'AWS. Découvrez des cas d'utilisation, des retours d'expérience racontés par les clients d'AWS eux-mêmes.
+  Nous parlons d'Amazon Web Services en français. Découvrez les nouveaux services ou fonctions, des interviews avec des partenaires ou des clients d'AWS. 
+  Découvrez des cas d'utilisation, des retours d'expérience racontés par les clients d'AWS eux-mêmes.
 imageUrl: https://download.stormacq.com/aws/podcast/podcast-artwork.png
 
 contacts:
-  link: _
+  link: https://www.stormacq.com/podcasts/index.html
   email: _
   twitter: _
   patreon: _
   googleGroup: _
 
 hosts:
-  - name: Amazon Web Services France
-    twitter: _
+  - name: Sébastien Stormacq
+    twitter: sebsto
 
 feed:
   rss: https://stormacq.com/podcasts/feed.xml
   itunes: https://podcasts.apple.com/be/podcast/le-podcast-aws-en-fran%C3%A7ais/id1452118442
-  spotify: _
+  spotify: https://open.spotify.com/show/3umN5VMtFF433w1pTILetT?si=J4rzc0-zTH-h0dtZyHqCqg
   soundcloud: _
-  deezer: _
-  google: _
+  deezer: https://www.deezer.com/en/show/340152
+  google: https://podcasts.google.com/?feed=aHR0cHM6Ly93d3cuc3Rvcm1hY3EuY29tL3BvZGNhc3RzL2ZlZWQueG1s
   castbox: _
   pocketcast: _
