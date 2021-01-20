@@ -19,9 +19,9 @@ Si il y a un problème avec votre soumission, l'issue sera commentée et restera
 # Comment mofifier un podcast existant?
 Si vous voulez corriger ou ajouter des informations pour un podcast déjà existant:
 * trouvez le fichier yaml du podcast dans le répertoire `podcasts`
-* ouvrez et modifier ce fichier, en respectant le ficjhier yaml
-* ne détruizez pas d'entrées dans le fichier yaml. Une entrée vide a pour valeur le caractère `'_'`
-* créer une pull request avec vos mofifications
+* ouvrez et modifier ce fichier, en respectant le format du fichier yaml
+* ne détruizez pas de propritétés dans le fichier yaml. Une entrée vide a pour valeur le caractère `'_'`
+* soumettez une pull request avec vos mofifications
 
 Cette pull request va être automatiquement traitée par une github action et le site sera regénéré avec vos modifications.
 
