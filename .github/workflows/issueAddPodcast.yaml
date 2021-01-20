@@ -7,11 +7,9 @@ jobs:
   issue_add_podcast:
     runs-on: ubuntu-latest
     steps:
-      - run: env
       - name: parse issue for new podcast addition
-        uses: pcarion/podcast-directory-action@v0.1
+        uses: pcarion/podcast-directory-action@v0.3
         with:
           podcast-yaml-directory: 'podcasts'
           repo-token: ${{ secrets.GH_PAT }}
-      - run: env
 
