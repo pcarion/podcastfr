@@ -14,4 +14,3 @@ jobs:
         with:
           podcast-yaml-directory: 'podcasts'
           repo-token: ${{ secrets.GH_PAT }}
-
