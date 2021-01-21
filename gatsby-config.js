@@ -16,5 +16,14 @@ module.exports = {
         allExtensions: true, // defaults to false
       },
     },
+    {
+      resolve: 'gatsby-plugin-matomo',
+      options: {
+        siteId: '1',
+        matomoUrl: 'https://www.cistula.com/',
+        siteUrl: 'https://www.podcastfr.com/',
+        disableCookies: true,
+      },
+    },
   ],
 };
