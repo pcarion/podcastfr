@@ -1,0 +1,231 @@
+{
+  "title": "Electro Monkeys",
+  "description": "Le podcast pour découvrir et comprendre les concepts et les technologies cloud natives ! Des interviews techniques hebdomadaires sur Kubernetes, les technologies cloud natives et la communauté open source.\n",
+  "imageUrl": "https://storage.buzzsprout.com/variants/k1gf0b0yd0yqkiz0qt1t2zj4smv1/8d66eb17bb7d02ca4856ab443a78f2148cafbb129f58a3c81282007c6fe24ff2.jpg",
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "hosts": [
+    {
+      "name": "Stef",
+      "twitter": "_"
+    }
+  ],
+  "feed": {
+    "rss": "https://feeds.buzzsprout.com/926791.rss",
+    "itunes": "https://podcasts.apple.com/us/podcast/id1503255739",
+    "spotify": "_",
+    "soundcloud": "_",
+    "deezer": "_",
+    "google": "_",
+    "castbox": "_",
+    "pocketcast": "_"
+  },
+  "pid": "pvply7e",
+  "yamlDescriptionFile": "podcasts/electro_monkeys-13.yaml",
+  "extra": {
+    "colors": {
+      "vibrant": null,
+      "darkVibrant": null,
+      "lightVibrant": null,
+      "muted": null,
+      "darkMuted": null,
+      "lightMuted": null
+    },
+    "episodes": [
+      {
+        "publishingDate": "2021-01-19"
+      },
+      {
+        "publishingDate": "2021-01-12"
+      },
+      {
+        "publishingDate": "2021-01-05"
+      },
+      {
+        "publishingDate": "2020-12-29"
+      },
+      {
+        "publishingDate": "2020-12-22"
+      },
+      {
+        "publishingDate": "2020-12-15"
+      },
+      {
+        "publishingDate": "2020-12-08"
+      },
+      {
+        "publishingDate": "2020-12-01"
+      },
+      {
+        "publishingDate": "2020-11-24"
+      },
+      {
+        "publishingDate": "2020-11-17"
+      },
+      {
+        "publishingDate": "2020-11-10"
+      },
+      {
+        "publishingDate": "2020-11-03"
+      },
+      {
+        "publishingDate": "2020-10-27"
+      },
+      {
+        "publishingDate": "2020-10-20"
+      },
+      {
+        "publishingDate": "2020-10-13"
+      },
+      {
+        "publishingDate": "2020-10-06"
+      },
+      {
+        "publishingDate": "2020-09-29"
+      },
+      {
+        "publishingDate": "2020-09-22"
+      },
+      {
+        "publishingDate": "2020-09-15"
+      },
+      {
+        "publishingDate": "2020-09-08"
+      },
+      {
+        "publishingDate": "2020-09-01"
+      },
+      {
+        "publishingDate": "2020-08-25"
+      },
+      {
+        "publishingDate": "2020-08-21"
+      },
+      {
+        "publishingDate": "2020-08-18"
+      },
+      {
+        "publishingDate": "2020-08-14"
+      },
+      {
+        "publishingDate": "2020-08-11"
+      },
+      {
+        "publishingDate": "2020-08-07"
+      },
+      {
+        "publishingDate": "2020-08-04"
+      },
+      {
+        "publishingDate": "2020-08-02"
+      },
+      {
+        "publishingDate": "2020-07-31"
+      },
+      {
+        "publishingDate": "2020-07-28"
+      },
+      {
+        "publishingDate": "2020-07-24"
+      },
+      {
+        "publishingDate": "2020-07-21"
+      },
+      {
+        "publishingDate": "2020-07-17"
+      },
+      {
+        "publishingDate": "2020-07-14"
+      },
+      {
+        "publishingDate": "2020-07-10"
+      },
+      {
+        "publishingDate": "2020-07-07"
+      },
+      {
+        "publishingDate": "2020-07-03"
+      },
+      {
+        "publishingDate": "2020-06-30"
+      },
+      {
+        "publishingDate": "2020-06-26"
+      },
+      {
+        "publishingDate": "2020-06-23"
+      },
+      {
+        "publishingDate": "2020-06-19"
+      },
+      {
+        "publishingDate": "2020-06-16"
+      },
+      {
+        "publishingDate": "2020-06-12"
+      },
+      {
+        "publishingDate": "2020-06-09"
+      },
+      {
+        "publishingDate": "2020-06-05"
+      },
+      {
+        "publishingDate": "2020-06-02"
+      },
+      {
+        "publishingDate": "2020-05-29"
+      },
+      {
+        "publishingDate": "2020-05-26"
+      },
+      {
+        "publishingDate": "2020-05-22"
+      },
+      {
+        "publishingDate": "2020-05-19"
+      },
+      {
+        "publishingDate": "2020-05-15"
+      },
+      {
+        "publishingDate": "2020-05-12"
+      },
+      {
+        "publishingDate": "2020-05-08"
+      },
+      {
+        "publishingDate": "2020-05-05"
+      },
+      {
+        "publishingDate": "2020-04-30"
+      },
+      {
+        "publishingDate": "2020-04-28"
+      },
+      {
+        "publishingDate": "2020-04-23"
+      },
+      {
+        "publishingDate": "2020-04-21"
+      },
+      {
+        "publishingDate": "2020-04-14"
+      },
+      {
+        "publishingDate": "2020-04-07"
+      },
+      {
+        "publishingDate": "2020-03-31"
+      },
+      {
+        "publishingDate": "2020-03-17"
+      }
+    ]
+  }
+}

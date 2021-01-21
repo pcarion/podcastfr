@@ -1,0 +1,165 @@
+{
+  "title": "Le Podcast AWS en Français",
+  "description": "Nous parlons d'Amazon Web Services en français. Découvrez les nouveaux services ou fonctions, des interviews avec des partenaires ou des clients d'AWS.\nDécouvrez des cas d'utilisation, des retours d'expérience racontés par les clients d'AWS eux-mêmes.\n",
+  "imageUrl": "https://download.stormacq.com/aws/podcast/podcast-artwork.png",
+  "contacts": {
+    "link": "https://www.stormacq.com/podcasts/index.html",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "hosts": [
+    {
+      "name": "Sébastien Stormacq",
+      "twitter": "sebsto"
+    }
+  ],
+  "feed": {
+    "rss": "https://stormacq.com/podcasts/feed.xml",
+    "itunes": "https://podcasts.apple.com/be/podcast/le-podcast-aws-en-fran%C3%A7ais/id1452118442",
+    "spotify": "https://open.spotify.com/show/3umN5VMtFF433w1pTILetT?si=J4rzc0-zTH-h0dtZyHqCqg",
+    "soundcloud": "_",
+    "deezer": "https://www.deezer.com/en/show/340152",
+    "google": "https://podcasts.google.com/?feed=aHR0cHM6Ly93d3cuc3Rvcm1hY3EuY29tL3BvZGNhc3RzL2ZlZWQueG1s",
+    "castbox": "_",
+    "pocketcast": "_"
+  },
+  "pid": "pwjyvjo",
+  "yamlDescriptionFile": "podcasts/le_podcast_aws_en_francais-2.yaml",
+  "extra": {
+    "colors": {
+      "vibrant": "#385c7c",
+      "darkVibrant": "#345c84",
+      "lightVibrant": "#fdcb7b",
+      "muted": "#6484a4",
+      "darkMuted": "#385c7c",
+      "lightMuted": "#94acc4"
+    },
+    "episodes": [
+      {
+        "publishingDate": "2021-01-07"
+      },
+      {
+        "publishingDate": "2020-12-16"
+      },
+      {
+        "publishingDate": "2020-12-10"
+      },
+      {
+        "publishingDate": "2020-12-03"
+      },
+      {
+        "publishingDate": "2020-11-26"
+      },
+      {
+        "publishingDate": "2020-11-19"
+      },
+      {
+        "publishingDate": "2020-11-05"
+      },
+      {
+        "publishingDate": "2020-10-22"
+      },
+      {
+        "publishingDate": "2020-09-30"
+      },
+      {
+        "publishingDate": "2020-07-04"
+      },
+      {
+        "publishingDate": "2020-06-18"
+      },
+      {
+        "publishingDate": "2020-06-11"
+      },
+      {
+        "publishingDate": "2020-06-05"
+      },
+      {
+        "publishingDate": "2020-05-25"
+      },
+      {
+        "publishingDate": "2020-05-14"
+      },
+      {
+        "publishingDate": "2020-04-30"
+      },
+      {
+        "publishingDate": "2020-04-24"
+      },
+      {
+        "publishingDate": "2020-04-16"
+      },
+      {
+        "publishingDate": "2020-04-10"
+      },
+      {
+        "publishingDate": "2020-04-05"
+      },
+      {
+        "publishingDate": "2020-03-27"
+      },
+      {
+        "publishingDate": "2020-03-20"
+      },
+      {
+        "publishingDate": "2020-03-16"
+      },
+      {
+        "publishingDate": "2020-02-26"
+      },
+      {
+        "publishingDate": "2020-02-12"
+      },
+      {
+        "publishingDate": "2019-12-19"
+      },
+      {
+        "publishingDate": "2019-12-16"
+      },
+      {
+        "publishingDate": "2019-12-06"
+      },
+      {
+        "publishingDate": "2019-12-05"
+      },
+      {
+        "publishingDate": "2019-12-04"
+      },
+      {
+        "publishingDate": "2019-12-03"
+      },
+      {
+        "publishingDate": "2019-11-27"
+      },
+      {
+        "publishingDate": "2019-10-13"
+      },
+      {
+        "publishingDate": "2019-10-02"
+      },
+      {
+        "publishingDate": "2019-08-28"
+      },
+      {
+        "publishingDate": "2019-07-02"
+      },
+      {
+        "publishingDate": "2019-06-06"
+      },
+      {
+        "publishingDate": "2019-05-14"
+      },
+      {
+        "publishingDate": "2019-04-08"
+      },
+      {
+        "publishingDate": "2019-03-04"
+      },
+      {
+        "publishingDate": "2019-02-08"
+      }
+    ]
+  }
+}

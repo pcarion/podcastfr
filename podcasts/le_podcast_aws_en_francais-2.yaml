@@ -1,6 +1,6 @@
 title: Le Podcast AWS en Français
 description: |
-  Nous parlons d'Amazon Web Services en français. Découvrez les nouveaux services ou fonctions, des interviews avec des partenaires ou des clients d'AWS. 
+  Nous parlons d'Amazon Web Services en français. Découvrez les nouveaux services ou fonctions, des interviews avec des partenaires ou des clients d'AWS.
   Découvrez des cas d'utilisation, des retours d'expérience racontés par les clients d'AWS eux-mêmes.
 imageUrl: https://download.stormacq.com/aws/podcast/podcast-artwork.png
 
@@ -24,3 +24,5 @@ feed:
   google: https://podcasts.google.com/?feed=aHR0cHM6Ly93d3cuc3Rvcm1hY3EuY29tL3BvZGNhc3RzL2ZlZWQueG1s
   castbox: _
   pocketcast: _
+
+pid: pwjyvjo # do not change

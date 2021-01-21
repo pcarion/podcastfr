@@ -45,6 +45,8 @@ export interface Podcast {
 
   imageUrl: string;
 
+  pid: string;
+
   title: string;
 
   yamlDescriptionFile?: string;

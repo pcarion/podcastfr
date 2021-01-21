@@ -131,12 +131,13 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 var fs_extra_1 = __importDefault(__nccwpck_require__(5630));
+var path_1 = __importDefault(__nccwpck_require__(5622));
 var validatePodcastYamlFile_1 = __importDefault(__nccwpck_require__(4979));
 var processPodcast_1 = __importDefault(__nccwpck_require__(1482));
 var getPodcastDescriptionsFiles_1 = __importDefault(__nccwpck_require__(5831));
-function validate(podcastsDirectory, filesToValidate, resultFile) {
+function validate(podcastsDirectory, filesToValidate, contentDirectory) {
     return __awaiter(this, void 0, void 0, function () {
-        var files, podcasts, _i, files_1, fileName, podcast, podcastExtra;
+        var files, podcasts, _i, files_1, fileName, podcast, podcastExtra, podcastYamlFileName, resultFile;
         return __generator(this, function (_a) {
             switch (_a.label) {
                 case 0: return [4 /*yield*/, getPodcastDescriptionsFiles_1.default(podcastsDirectory, filesToValidate)];
@@ -146,7 +147,7 @@ function validate(podcastsDirectory, filesToValidate, resultFile) {
                     _i = 0, files_1 = files;
                     _a.label = 2;
                 case 2:
-                    if (!(_i < files_1.length)) return [3 /*break*/, 6];
+                    if (!(_i < files_1.length)) return [3 /*break*/, 7];
                     fileName = files_1[_i];
                     return [4 /*yield*/, validatePodcastYamlFile_1.default(fileName)];
                 case 3:
@@ -155,17 +156,24 @@ function validate(podcastsDirectory, filesToValidate, resultFile) {
                     return [4 /*yield*/, processPodcast_1.default(podcast)];
                 case 4:
                     podcastExtra = _a.sent();
-                    podcasts.push(podcastExtra);
-                    _a.label = 5;
+                    podcastYamlFileName = path_1.default.join(contentDirectory, podcast.pid + ".yaml");
+                    return [4 /*yield*/, fs_extra_1.default.writeJSON(podcastYamlFileName, podcastExtra, {
+                            spaces: 2,
+                        })];
                 case 5:
+                    _a.sent();
+                    podcasts.push(podcastExtra);
+                    _a.label = 6;
+                case 6:
                     _i++;
                     return [3 /*break*/, 2];
-                case 6:
+                case 7:
                     console.log(podcasts);
+                    resultFile = path_1.default.join(contentDirectory, 'podcasts.json');
                     return [4 /*yield*/, fs_extra_1.default.writeJSON(resultFile, podcasts, {
                             spaces: 2,
                         })];
-                case 7:
+                case 8:
                     _a.sent();
                     return [2 /*return*/];
             }
@@ -174,10 +182,10 @@ function validate(podcastsDirectory, filesToValidate, resultFile) {
 }
 // const podcastsDirectory = './podcasts';
 var filesToValidte = [];
-function generateContentFile(contentFile, podcastsDirectory) {
+function generateContentFile(contentDirectory, podcastsDirectory) {
     return __awaiter(this, void 0, void 0, function () {
         return __generator(this, function (_a) {
-            return [2 /*return*/, validate(podcastsDirectory, filesToValidte, contentFile)];
+            return [2 /*return*/, validate(podcastsDirectory, filesToValidte, contentDirectory)];
         });
     });
 }
@@ -201,6 +209,9 @@ var schema = {
             type: 'string',
         },
         imageUrl: {
+            type: 'string',
+        },
+        pid: {
             type: 'string',
         },
         feed: {
@@ -285,14 +296,14 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 var _1 = __importDefault(__nccwpck_require__(1667));
 if (process.argv.length !== 4) {
-    console.log("Usage: " + process.argv[0] + " " + process.argv[1] + " <podcasts.json file> <podcasts directory>");
+    console.log("Usage: " + process.argv[0] + " " + process.argv[1] + " <content generation directory> <podcasts directory>");
     process.exit(1);
 }
-var contentFile = process.argv[2];
+var contentDirectory = process.argv[2];
 var podcastsDirectory = process.argv[3];
-console.log("- contentFile: " + contentFile);
+console.log("- contentDirectory: " + contentDirectory);
 console.log("- podcastsDirectory: " + podcastsDirectory);
-_1.default(contentFile, podcastsDirectory)
+_1.default(contentDirectory, podcastsDirectory)
     .then(function () {
     console.log('DONE');
 })

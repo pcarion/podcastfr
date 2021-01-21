@@ -1,0 +1,186 @@
+{
+  "title": "s'informer sur la tech",
+  "description": "Le blog Info Tech de Cédric, c'est un retour sur des expériences et des découvertes s$ Licence d'utilisation de ce podcast : Attribution 4.0 International - https://creativecommons.org/licenses/by/4.0/\n",
+  "imageUrl": "https://info.mindcast.fr/images/itunes_image.png",
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "hosts": [
+    {
+      "name": "Cédric Abonnel",
+      "twitter": "_"
+    }
+  ],
+  "feed": {
+    "rss": "https://info.mindcast.fr/feed.xml",
+    "itunes": "https://podcasts.apple.com/us/podcast/id1345098278",
+    "spotify": "_",
+    "soundcloud": "_",
+    "deezer": "_",
+    "google": "_",
+    "castbox": "_",
+    "pocketcast": "_"
+  },
+  "pid": "p1j0rej",
+  "yamlDescriptionFile": "podcasts/s_informer_sur_la_tech-27.yaml",
+  "extra": {
+    "colors": {
+      "vibrant": null,
+      "darkVibrant": null,
+      "lightVibrant": null,
+      "muted": null,
+      "darkMuted": null,
+      "lightMuted": null
+    },
+    "episodes": [
+      {
+        "publishingDate": "2021-01-21"
+      },
+      {
+        "publishingDate": "2021-01-13"
+      },
+      {
+        "publishingDate": "2021-01-09"
+      },
+      {
+        "publishingDate": "2020-12-19"
+      },
+      {
+        "publishingDate": "2020-12-13"
+      },
+      {
+        "publishingDate": "2020-12-07"
+      },
+      {
+        "publishingDate": "2020-11-28"
+      },
+      {
+        "publishingDate": "2020-08-07"
+      },
+      {
+        "publishingDate": "2020-07-20"
+      },
+      {
+        "publishingDate": "2020-07-09"
+      },
+      {
+        "publishingDate": "2020-06-25"
+      },
+      {
+        "publishingDate": "2020-06-22"
+      },
+      {
+        "publishingDate": "2020-06-04"
+      },
+      {
+        "publishingDate": "2020-05-31"
+      },
+      {
+        "publishingDate": "2020-05-30"
+      },
+      {
+        "publishingDate": "2020-05-12"
+      },
+      {
+        "publishingDate": "2020-05-11"
+      },
+      {
+        "publishingDate": "2020-05-10"
+      },
+      {
+        "publishingDate": "2020-03-07"
+      },
+      {
+        "publishingDate": "2020-03-07"
+      },
+      {
+        "publishingDate": "2020-01-30"
+      },
+      {
+        "publishingDate": "2019-11-29"
+      },
+      {
+        "publishingDate": "2019-10-15"
+      },
+      {
+        "publishingDate": "2019-09-29"
+      },
+      {
+        "publishingDate": "2019-09-26"
+      },
+      {
+        "publishingDate": "2019-09-26"
+      },
+      {
+        "publishingDate": "2019-09-24"
+      },
+      {
+        "publishingDate": "2019-09-15"
+      },
+      {
+        "publishingDate": "2019-09-14"
+      },
+      {
+        "publishingDate": "2019-09-13"
+      },
+      {
+        "publishingDate": "2019-06-20"
+      },
+      {
+        "publishingDate": "2019-06-03"
+      },
+      {
+        "publishingDate": "2019-03-30"
+      },
+      {
+        "publishingDate": "2019-03-04"
+      },
+      {
+        "publishingDate": "2019-03-03"
+      },
+      {
+        "publishingDate": "2019-02-01"
+      },
+      {
+        "publishingDate": "2018-12-09"
+      },
+      {
+        "publishingDate": "2018-11-25"
+      },
+      {
+        "publishingDate": "2018-11-22"
+      },
+      {
+        "publishingDate": "2018-11-21"
+      },
+      {
+        "publishingDate": "2018-10-31"
+      },
+      {
+        "publishingDate": "2018-03-28"
+      },
+      {
+        "publishingDate": "2018-03-26"
+      },
+      {
+        "publishingDate": "2018-03-25"
+      },
+      {
+        "publishingDate": "2018-03-25"
+      },
+      {
+        "publishingDate": "2018-03-16"
+      },
+      {
+        "publishingDate": "2018-03-13"
+      },
+      {
+        "publishingDate": "2018-02-10"
+      }
+    ]
+  }
+}

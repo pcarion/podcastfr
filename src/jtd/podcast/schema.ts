@@ -11,6 +11,9 @@ const schema: Schema = {
     imageUrl: {
       type: 'string',
     },
+    pid: {
+      type: 'string',
+    },
     feed: {
       properties: {
         rss: {

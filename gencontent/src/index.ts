@@ -1,4 +1,5 @@
 import fs from 'fs-extra';
+import path from 'path';
 import validatePodcastYamlFile from './validatePodcastYamlFile';
 import validateFeedUrls from './validateFeedUrls';
 import processPodcast from './processPodcast';
@@ -7,7 +8,7 @@ import { PodcastExtra } from './types';
 
 import getPodcastDescriptionsFiles from './getPodcastDescriptionsFiles';
 
-async function validate(podcastsDirectory: string, filesToValidate: string[], resultFile: string): Promise<void> {
+async function validate(podcastsDirectory: string, filesToValidate: string[], contentDirectory: string): Promise<void> {
   const files = await getPodcastDescriptionsFiles(podcastsDirectory, filesToValidate);
   const podcasts: PodcastExtra[] = [];
   for (const fileName of files) {
@@ -15,9 +16,14 @@ async function validate(podcastsDirectory: string, filesToValidate: string[], re
     console.log(podcast);
     // await validateFeedUrls(podcast);
     const podcastExtra = await processPodcast(podcast);
+    const podcastYamlFileName = path.join(contentDirectory, `${podcast.pid}.yaml`);
+    await fs.writeJSON(podcastYamlFileName, podcastExtra, {
+      spaces: 2,
+    });
     podcasts.push(podcastExtra);
   }
   console.log(podcasts);
+  const resultFile = path.join(contentDirectory, 'podcasts.json');
   await fs.writeJSON(resultFile, podcasts, {
     spaces: 2,
   });
@@ -26,6 +32,6 @@ async function validate(podcastsDirectory: string, filesToValidate: string[], re
 // const podcastsDirectory = './podcasts';
 const filesToValidte: string[] = [];
 
-export default async function generateContentFile(contentFile: string, podcastsDirectory: string): Promise<void> {
-  return validate(podcastsDirectory, filesToValidte, contentFile);
+export default async function generateContentFile(contentDirectory: string, podcastsDirectory: string): Promise<void> {
+  return validate(podcastsDirectory, filesToValidte, contentDirectory);
 }

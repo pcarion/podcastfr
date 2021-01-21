@@ -1,0 +1,342 @@
+{
+  "title": "Visual Studio Talk Show",
+  "description": "Un podcast en français sur l'architecture et le développement logiciel. Suivez les entrevues de Mario Cardinal et Guy Barrette avec les experts de la programmation Microsoft .NET.\n",
+  "imageUrl": "https://ssl-static.libsyn.com/p/assets/2/b/9/a/2b9a4c62e9feb84c/vsts_300.png",
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "hosts": [
+    {
+      "name": "Mario Cardinal et Guy Barrette",
+      "twitter": "_"
+    }
+  ],
+  "feed": {
+    "rss": "https://visualstudiotalkshow.libsyn.com/rss",
+    "itunes": "https://podcasts.apple.com/us/podcast/id673760676",
+    "spotify": "_",
+    "soundcloud": "_",
+    "deezer": "_",
+    "google": "_",
+    "castbox": "_",
+    "pocketcast": "_"
+  },
+  "pid": "pypggop",
+  "yamlDescriptionFile": "podcasts/visual_studio_talk_show-30.yaml",
+  "extra": {
+    "colors": {
+      "vibrant": "#282a46",
+      "darkVibrant": "#044484",
+      "lightVibrant": "#dcb09b",
+      "muted": "#a56d50",
+      "darkMuted": "#282a46",
+      "lightMuted": "#b0bcd5"
+    },
+    "episodes": [
+      {
+        "publishingDate": "2021-01-07"
+      },
+      {
+        "publishingDate": "2020-12-01"
+      },
+      {
+        "publishingDate": "2020-11-02"
+      },
+      {
+        "publishingDate": "2020-10-02"
+      },
+      {
+        "publishingDate": "2020-09-01"
+      },
+      {
+        "publishingDate": "2020-08-03"
+      },
+      {
+        "publishingDate": "2020-07-06"
+      },
+      {
+        "publishingDate": "2020-06-08"
+      },
+      {
+        "publishingDate": "2020-05-04"
+      },
+      {
+        "publishingDate": "2020-04-19"
+      },
+      {
+        "publishingDate": "2020-03-03"
+      },
+      {
+        "publishingDate": "2020-02-13"
+      },
+      {
+        "publishingDate": "2020-01-08"
+      },
+      {
+        "publishingDate": "2019-12-04"
+      },
+      {
+        "publishingDate": "2019-11-03"
+      },
+      {
+        "publishingDate": "2019-10-15"
+      },
+      {
+        "publishingDate": "2019-09-14"
+      },
+      {
+        "publishingDate": "2019-08-01"
+      },
+      {
+        "publishingDate": "2019-07-05"
+      },
+      {
+        "publishingDate": "2019-06-05"
+      },
+      {
+        "publishingDate": "2019-05-05"
+      },
+      {
+        "publishingDate": "2019-03-31"
+      },
+      {
+        "publishingDate": "2019-03-03"
+      },
+      {
+        "publishingDate": "2019-02-09"
+      },
+      {
+        "publishingDate": "2019-01-05"
+      },
+      {
+        "publishingDate": "2018-12-08"
+      },
+      {
+        "publishingDate": "2018-10-25"
+      },
+      {
+        "publishingDate": "2018-10-05"
+      },
+      {
+        "publishingDate": "2018-09-04"
+      },
+      {
+        "publishingDate": "2018-08-11"
+      },
+      {
+        "publishingDate": "2018-07-12"
+      },
+      {
+        "publishingDate": "2018-06-03"
+      },
+      {
+        "publishingDate": "2018-05-13"
+      },
+      {
+        "publishingDate": "2018-04-26"
+      },
+      {
+        "publishingDate": "2018-03-25"
+      },
+      {
+        "publishingDate": "2018-02-25"
+      },
+      {
+        "publishingDate": "2018-01-28"
+      },
+      {
+        "publishingDate": "2017-12-14"
+      },
+      {
+        "publishingDate": "2017-11-19"
+      },
+      {
+        "publishingDate": "2017-10-18"
+      },
+      {
+        "publishingDate": "2017-09-21"
+      },
+      {
+        "publishingDate": "2017-08-07"
+      },
+      {
+        "publishingDate": "2017-07-14"
+      },
+      {
+        "publishingDate": "2017-06-16"
+      },
+      {
+        "publishingDate": "2017-05-07"
+      },
+      {
+        "publishingDate": "2017-04-22"
+      },
+      {
+        "publishingDate": "2017-03-11"
+      },
+      {
+        "publishingDate": "2017-02-13"
+      },
+      {
+        "publishingDate": "2017-01-15"
+      },
+      {
+        "publishingDate": "2016-12-23"
+      },
+      {
+        "publishingDate": "2016-11-17"
+      },
+      {
+        "publishingDate": "2016-10-26"
+      },
+      {
+        "publishingDate": "2016-09-26"
+      },
+      {
+        "publishingDate": "2016-08-05"
+      },
+      {
+        "publishingDate": "2016-07-13"
+      },
+      {
+        "publishingDate": "2016-06-02"
+      },
+      {
+        "publishingDate": "2016-05-14"
+      },
+      {
+        "publishingDate": "2016-04-23"
+      },
+      {
+        "publishingDate": "2016-03-05"
+      },
+      {
+        "publishingDate": "2016-02-10"
+      },
+      {
+        "publishingDate": "2016-01-26"
+      },
+      {
+        "publishingDate": "2015-12-15"
+      },
+      {
+        "publishingDate": "2015-11-14"
+      },
+      {
+        "publishingDate": "2015-10-25"
+      },
+      {
+        "publishingDate": "2015-09-19"
+      },
+      {
+        "publishingDate": "2015-08-12"
+      },
+      {
+        "publishingDate": "2015-07-05"
+      },
+      {
+        "publishingDate": "2015-06-21"
+      },
+      {
+        "publishingDate": "2015-05-06"
+      },
+      {
+        "publishingDate": "2015-04-10"
+      },
+      {
+        "publishingDate": "2015-03-03"
+      },
+      {
+        "publishingDate": "2015-01-30"
+      },
+      {
+        "publishingDate": "2015-01-06"
+      },
+      {
+        "publishingDate": "2014-12-04"
+      },
+      {
+        "publishingDate": "2014-11-09"
+      },
+      {
+        "publishingDate": "2014-10-22"
+      },
+      {
+        "publishingDate": "2014-09-11"
+      },
+      {
+        "publishingDate": "2014-08-16"
+      },
+      {
+        "publishingDate": "2014-07-24"
+      },
+      {
+        "publishingDate": "2014-06-08"
+      },
+      {
+        "publishingDate": "2014-05-25"
+      },
+      {
+        "publishingDate": "2014-04-19"
+      },
+      {
+        "publishingDate": "2014-03-22"
+      },
+      {
+        "publishingDate": "2014-02-24"
+      },
+      {
+        "publishingDate": "2014-01-21"
+      },
+      {
+        "publishingDate": "2013-12-20"
+      },
+      {
+        "publishingDate": "2013-11-11"
+      },
+      {
+        "publishingDate": "2013-10-20"
+      },
+      {
+        "publishingDate": "2013-09-26"
+      },
+      {
+        "publishingDate": "2013-08-26"
+      },
+      {
+        "publishingDate": "2013-07-14"
+      },
+      {
+        "publishingDate": "2013-06-02"
+      },
+      {
+        "publishingDate": "2013-05-07"
+      },
+      {
+        "publishingDate": "2013-04-08"
+      },
+      {
+        "publishingDate": "2013-03-19"
+      },
+      {
+        "publishingDate": "2013-02-01"
+      },
+      {
+        "publishingDate": "2013-01-20"
+      },
+      {
+        "publishingDate": "2012-12-09"
+      },
+      {
+        "publishingDate": "2012-11-04"
+      },
+      {
+        "publishingDate": "2012-10-08"
+      }
+    ]
+  }
+}

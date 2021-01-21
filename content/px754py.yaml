@@ -1,0 +1,174 @@
+{
+  "title": "Radio DevOps",
+  "description": "VOUS AVEZ L’ENVIE D’EN CONNAITRE PLUS SUR LE MOUVEMENT DEVOPS ?\nLES PROBLÉMATIQUES LIÉES AU DÉPLOIEMENT VOUS TITILLENT…\nALORS, VOUS ÊTES AU BON ENDROIT !\nRadio DevOps est la Baladodiffusion des Compagnons du DevOps [https://www.compagnons-devops.fr/].\nLe podcast en français dédié à notre mouvement.\n",
+  "imageUrl": "https://assets.pippa.io/shows/5df7c112b9e5bf6d176cbfcb/1605087665018-03e71470e98bb5ad9303958e18533f21.jpeg",
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "hosts": [
+    {
+      "name": "Lydra",
+      "twitter": "_"
+    }
+  ],
+  "feed": {
+    "rss": "https://feeds.acast.com/public/shows/radio-devops",
+    "itunes": "https://podcasts.apple.com/us/podcast/id1502434010?mt=2",
+    "spotify": "_",
+    "soundcloud": "_",
+    "deezer": "_",
+    "google": "_",
+    "castbox": "_",
+    "pocketcast": "_"
+  },
+  "pid": "px754py",
+  "yamlDescriptionFile": "podcasts/radio_devops-12.yaml",
+  "extra": {
+    "colors": {
+      "vibrant": "#2c3444",
+      "darkVibrant": "#805904",
+      "lightVibrant": "#eac15c",
+      "muted": "#9c8455",
+      "darkMuted": "#2c3444",
+      "lightMuted": "#876511"
+    },
+    "episodes": [
+      {
+        "publishingDate": "2021-01-20"
+      },
+      {
+        "publishingDate": "2021-01-13"
+      },
+      {
+        "publishingDate": "2020-12-23"
+      },
+      {
+        "publishingDate": "2020-12-16"
+      },
+      {
+        "publishingDate": "2020-12-09"
+      },
+      {
+        "publishingDate": "2020-12-02"
+      },
+      {
+        "publishingDate": "2020-11-25"
+      },
+      {
+        "publishingDate": "2020-11-18"
+      },
+      {
+        "publishingDate": "2020-11-11"
+      },
+      {
+        "publishingDate": "2020-11-04"
+      },
+      {
+        "publishingDate": "2020-10-28"
+      },
+      {
+        "publishingDate": "2020-10-21"
+      },
+      {
+        "publishingDate": "2020-10-14"
+      },
+      {
+        "publishingDate": "2020-10-07"
+      },
+      {
+        "publishingDate": "2020-09-30"
+      },
+      {
+        "publishingDate": "2020-09-23"
+      },
+      {
+        "publishingDate": "2020-09-16"
+      },
+      {
+        "publishingDate": "2020-09-09"
+      },
+      {
+        "publishingDate": "2020-09-02"
+      },
+      {
+        "publishingDate": "2020-08-26"
+      },
+      {
+        "publishingDate": "2020-08-19"
+      },
+      {
+        "publishingDate": "2020-08-12"
+      },
+      {
+        "publishingDate": "2020-08-04"
+      },
+      {
+        "publishingDate": "2020-07-28"
+      },
+      {
+        "publishingDate": "2020-07-14"
+      },
+      {
+        "publishingDate": "2020-06-30"
+      },
+      {
+        "publishingDate": "2020-06-23"
+      },
+      {
+        "publishingDate": "2020-06-16"
+      },
+      {
+        "publishingDate": "2020-06-09"
+      },
+      {
+        "publishingDate": "2020-05-26"
+      },
+      {
+        "publishingDate": "2020-05-19"
+      },
+      {
+        "publishingDate": "2020-05-05"
+      },
+      {
+        "publishingDate": "2020-04-28"
+      },
+      {
+        "publishingDate": "2020-04-21"
+      },
+      {
+        "publishingDate": "2020-04-14"
+      },
+      {
+        "publishingDate": "2020-03-31"
+      },
+      {
+        "publishingDate": "2020-03-24"
+      },
+      {
+        "publishingDate": "2020-03-17"
+      },
+      {
+        "publishingDate": "2020-03-10"
+      },
+      {
+        "publishingDate": "2020-02-28"
+      },
+      {
+        "publishingDate": "2020-02-21"
+      },
+      {
+        "publishingDate": "2020-02-07"
+      },
+      {
+        "publishingDate": "2020-01-03"
+      },
+      {
+        "publishingDate": "2019-12-17"
+      }
+    ]
+  }
+}

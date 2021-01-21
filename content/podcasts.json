@@ -1,7 +1,7 @@
 [
   {
     "title": "Anti-brouillard",
-    "description": "Anti-brouillard c'est le podcast qui décrypte les grandes tendances du monde des nouvelles technologies en allant à la rencontre d'experts. \nBlockchain, intelligence artificielle, informatique quantique... tout le monde en parle mais ça veut dire quoi, concrètement ? \nTous les mois, un entretien avec un expert, qu'il soit entrepreneur, chercheur, philosophe, et toutes les semaines un flash d'actualités autour d'un sujet tech !\n",
+    "description": "Anti-brouillard c'est le podcast qui décrypte les grandes tendances du monde des nouvelles technologies en allant à la rencontre d'experts.\nBlockchain, intelligence artificielle, informatique quantique... tout le monde en parle mais ça veut dire quoi, concrètement ?\nTous les mois, un entretien avec un expert, qu'il soit entrepreneur, chercheur, philosophe, et toutes les semaines un flash d'actualités autour d'un sujet tech !\n",
     "imageUrl": "https://static.audiomeans.fr/img/podcast/885ecc2c-0019-4c35-9bfe-45e08859e756.jpeg",
     "contacts": {
       "link": "https://www.anti-brouillard.fr/",
@@ -26,6 +26,7 @@
       "castbox": "_",
       "pocketcast": "_"
     },
+    "pid": "pxj6e79",
     "yamlDescriptionFile": "podcasts/anti-brouillard-9.yaml",
     "extra": {
       "colors": {
@@ -409,6 +410,7 @@
       "castbox": "_",
       "pocketcast": "_"
     },
+    "pid": "pyj8qje",
     "yamlDescriptionFile": "podcasts/artisan_developpeur-10.yaml",
     "extra": {
       "colors": {
@@ -420,6 +422,9 @@
         "lightMuted": "#bcbcbc"
       },
       "episodes": [
+        {
+          "publishingDate": "2021-01-19"
+        },
         {
           "publishingDate": "2021-01-18"
         },
@@ -1238,7 +1243,7 @@
   },
   {
     "title": "AXOPEN",
-    "description": "Axopen, c’est des podcasts tous les mois sur le développement et les nouvelles technologies. \nPartage d'expériences, tips, nouveautés, frameworks, best practices… \nTout cela, réalisé par des techos passionnés qui défendent leurs idées ! Certifié sans langue de bois et toujours dans la bonne humeur :)\n",
+    "description": "Axopen, c’est des podcasts tous les mois sur le développement et les nouvelles technologies.\nPartage d'expériences, tips, nouveautés, frameworks, best practices…\nTout cela, réalisé par des techos passionnés qui défendent leurs idées ! Certifié sans langue de bois et toujours dans la bonne humeur :)\n",
     "imageUrl": "http://i1.sndcdn.com/avatars-000469737138-5vvi6p-original.jpg",
     "contacts": {
       "link": "https://www.axopen.com",
@@ -1263,6 +1268,7 @@
       "castbox": "_",
       "pocketcast": "_"
     },
+    "pid": "pxj6ze7",
     "yamlDescriptionFile": "podcasts/axopen-33.yaml",
     "extra": {
       "colors": {
@@ -1412,6 +1418,7 @@
       "castbox": "_",
       "pocketcast": "_"
     },
+    "pid": "plpe8p4",
     "yamlDescriptionFile": "podcasts/big_data_hebdo-8.yaml",
     "extra": {
       "colors": {
@@ -1804,6 +1811,7 @@
       "castbox": "_",
       "pocketcast": "_"
     },
+    "pid": "pdjn03p",
     "yamlDescriptionFile": "podcasts/cpu_carre_petit_utile-31.yaml",
     "extra": {
       "colors": {
@@ -2145,6 +2153,7 @@
       "castbox": "_",
       "pocketcast": "_"
     },
+    "pid": "pvply7e",
     "yamlDescriptionFile": "podcasts/electro_monkeys-13.yaml",
     "extra": {
       "colors": {
@@ -2375,6 +2384,7 @@
       "castbox": "_",
       "pocketcast": "_"
     },
+    "pid": "plpe28p",
     "yamlDescriptionFile": "podcasts/gofr-32.yaml",
     "extra": {
       "colors": {
@@ -2430,11 +2440,11 @@
     "hosts": [
       {
         "name": "Mathieu Fosse",
-        "twitter": "_"
+        "twitter": "pointcom"
       },
       {
         "name": "Jimmy Oliger",
-        "twitter": "_"
+        "twitter": "_oliger"
       }
     ],
     "feed": {
@@ -2447,6 +2457,7 @@
       "castbox": "_",
       "pocketcast": "_"
     },
+    "pid": "pnpxm57",
     "yamlDescriptionFile": "podcasts/la_pile-28.yaml",
     "extra": {
       "colors": {
@@ -2502,7 +2513,7 @@
   },
   {
     "title": "Le Podcast AWS en Français",
-    "description": "Nous parlons d'Amazon Web Services en français. Découvrez les nouveaux services ou fonctions, des interviews avec des partenaires ou des clients d'AWS. \nDécouvrez des cas d'utilisation, des retours d'expérience racontés par les clients d'AWS eux-mêmes.\n",
+    "description": "Nous parlons d'Amazon Web Services en français. Découvrez les nouveaux services ou fonctions, des interviews avec des partenaires ou des clients d'AWS.\nDécouvrez des cas d'utilisation, des retours d'expérience racontés par les clients d'AWS eux-mêmes.\n",
     "imageUrl": "https://download.stormacq.com/aws/podcast/podcast-artwork.png",
     "contacts": {
       "link": "https://www.stormacq.com/podcasts/index.html",
@@ -2527,6 +2538,7 @@
       "castbox": "_",
       "pocketcast": "_"
     },
+    "pid": "pwjyvjo",
     "yamlDescriptionFile": "podcasts/le_podcast_aws_en_francais-2.yaml",
     "extra": {
       "colors": {
@@ -2707,6 +2719,7 @@
       "castbox": "_",
       "pocketcast": "_"
     },
+    "pid": "pwjm678",
     "yamlDescriptionFile": "podcasts/les_cast_codeurs_podcast-11.yaml",
     "extra": {
       "colors": {
@@ -3489,6 +3502,7 @@
       "castbox": "_",
       "pocketcast": "_"
     },
+    "pid": "p3j9eg7",
     "yamlDescriptionFile": "podcasts/message_a_caractere_informatique-24.yaml",
     "extra": {
       "colors": {
@@ -3614,6 +3628,7 @@
       "castbox": "_",
       "pocketcast": "_"
     },
+    "pid": "px754py",
     "yamlDescriptionFile": "podcasts/radio_devops-12.yaml",
     "extra": {
       "colors": {
@@ -3625,6 +3640,9 @@
         "lightMuted": "#876511"
       },
       "episodes": [
+        {
+          "publishingDate": "2021-01-20"
+        },
         {
           "publishingDate": "2021-01-13"
         },
@@ -3784,7 +3802,8 @@
       "castbox": "_",
       "pocketcast": "_"
     },
-    "yamlDescriptionFile": "podcasts/s'informer_sur_la_tech-27.yaml",
+    "pid": "p1j0rej",
+    "yamlDescriptionFile": "podcasts/s_informer_sur_la_tech-27.yaml",
     "extra": {
       "colors": {
         "vibrant": "#970101",
@@ -3795,6 +3814,9 @@
         "lightMuted": "#950303"
       },
       "episodes": [
+        {
+          "publishingDate": "2021-01-21"
+        },
         {
           "publishingDate": "2021-01-13"
         },
@@ -3966,6 +3988,7 @@
       "castbox": "_",
       "pocketcast": "_"
     },
+    "pid": "pypggop",
     "yamlDescriptionFile": "podcasts/visual_studio_talk_show-30.yaml",
     "extra": {
       "colors": {
