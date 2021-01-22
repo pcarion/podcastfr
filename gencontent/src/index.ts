@@ -16,7 +16,7 @@ async function validate(podcastsDirectory: string, filesToValidate: string[], co
     console.log(podcast);
     // await validateFeedUrls(podcast);
     const podcastExtra = await processPodcast(podcast);
-    const podcastYamlFileName = path.join(contentDirectory, `${podcast.pid}.yaml`);
+    const podcastYamlFileName = path.join(contentDirectory, `${podcast.pid}.json`);
     await fs.writeJSON(podcastYamlFileName, podcastExtra, {
       spaces: 2,
     });

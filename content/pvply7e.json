@@ -29,12 +29,12 @@
   "yamlDescriptionFile": "podcasts/electro_monkeys-13.yaml",
   "extra": {
     "colors": {
-      "vibrant": null,
-      "darkVibrant": null,
-      "lightVibrant": null,
-      "muted": null,
-      "darkMuted": null,
-      "lightMuted": null
+      "vibrant": "#5d452f",
+      "darkVibrant": "#9a0711",
+      "lightVibrant": "#eec33d",
+      "muted": "#956b72",
+      "darkMuted": "#5d452f",
+      "lightMuted": "#b4c4c8"
     },
     "episodes": [
       {

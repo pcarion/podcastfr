@@ -29,14 +29,17 @@
   "yamlDescriptionFile": "podcasts/s_informer_sur_la_tech-27.yaml",
   "extra": {
     "colors": {
-      "vibrant": null,
-      "darkVibrant": null,
-      "lightVibrant": null,
-      "muted": null,
-      "darkMuted": null,
-      "lightMuted": null
+      "vibrant": "#970101",
+      "darkVibrant": "#830101",
+      "lightVibrant": "#fc7c7c",
+      "muted": "#970101",
+      "darkMuted": "#970101",
+      "lightMuted": "#950303"
     },
     "episodes": [
+      {
+        "publishingDate": "2021-01-21"
+      },
       {
         "publishingDate": "2021-01-21"
       },

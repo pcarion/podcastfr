@@ -33,12 +33,12 @@
   "yamlDescriptionFile": "podcasts/la_pile-28.yaml",
   "extra": {
     "colors": {
-      "vibrant": null,
-      "darkVibrant": null,
-      "lightVibrant": null,
-      "muted": null,
-      "darkMuted": null,
-      "lightMuted": null
+      "vibrant": "#353d42",
+      "darkVibrant": "#041280",
+      "lightVibrant": "#8997f2",
+      "muted": "#7c8484",
+      "darkMuted": "#353d42",
+      "lightMuted": "#b4b4ce"
     },
     "episodes": [
       {

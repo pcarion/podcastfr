@@ -29,12 +29,12 @@
   "yamlDescriptionFile": "podcasts/cpu_carre_petit_utile-31.yaml",
   "extra": {
     "colors": {
-      "vibrant": null,
-      "darkVibrant": null,
-      "lightVibrant": null,
-      "muted": null,
-      "darkMuted": null,
-      "lightMuted": null
+      "vibrant": "#5c5c4c",
+      "darkVibrant": "#025c82",
+      "lightVibrant": "#f0cc38",
+      "muted": "#87736c",
+      "darkMuted": "#5c5c4c",
+      "lightMuted": "#b4acac"
     },
     "episodes": [
       {

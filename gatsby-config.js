@@ -25,5 +25,13 @@ module.exports = {
         disableCookies: true,
       },
     },
+    `gatsby-transformer-json`,
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'podcasts',
+        path: `${__dirname}/content`,
+      },
+    },
   ],
 };

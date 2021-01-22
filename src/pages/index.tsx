@@ -2,9 +2,8 @@ import React, { ReactElement } from 'react';
 
 import Layout from '../components/layout';
 import Podcast from '../components/podcast';
-import JSONPodcasts from '../../content/podcasts.json';
 import { PodcastExtra } from '../types';
-
+import usePodcasts from '../hooks/usePodcasts';
 // reference:
 // https://stackoverflow.com/a/2450976/1985560
 
@@ -28,16 +27,19 @@ function shuffle(array: PodcastExtra[]) {
   return array;
 }
 
-export default (): ReactElement => (
-  <Layout>
-    <ul className="grid gap-6 grid-cols-1">
-      {shuffle(JSONPodcasts).map((data) => {
-        return (
-          <li>
-            <Podcast key={`${data.yamlDescriptionFile}`} podcast={data} />
-          </li>
-        );
-      })}
-    </ul>
-  </Layout>
-);
+export default (): ReactElement => {
+  const podcasts = usePodcasts();
+  return (
+    <Layout>
+      <ul className="grid gap-6 grid-cols-1">
+        {shuffle(podcasts).map((data) => {
+          return (
+            <li>
+              <Podcast key={`${data.yamlDescriptionFile}`} podcast={data} />
+            </li>
+          );
+        })}
+      </ul>
+    </Layout>
+  );
+};

@@ -156,7 +156,7 @@ function validate(podcastsDirectory, filesToValidate, contentDirectory) {
                     return [4 /*yield*/, processPodcast_1.default(podcast)];
                 case 4:
                     podcastExtra = _a.sent();
-                    podcastYamlFileName = path_1.default.join(contentDirectory, podcast.pid + ".yaml");
+                    podcastYamlFileName = path_1.default.join(contentDirectory, podcast.pid + ".json");
                     return [4 /*yield*/, fs_extra_1.default.writeJSON(podcastYamlFileName, podcastExtra, {
                             spaces: 2,
                         })];
@@ -403,37 +403,37 @@ function processPodcast(podcast) {
                                 result.extra.colors.darkMuted = ((_e = palette.DarkMuted) === null || _e === void 0 ? void 0 : _e.hex) || null;
                                 result.extra.colors.lightMuted = ((_f = palette.LightMuted) === null || _f === void 0 ? void 0 : _f.hex) || null;
                             }
+                            var parser = new rss_parser_1.default();
+                            parser
+                                .parseURL(podcast.feed.rss)
+                                .then(function (feed) {
+                                var debug = false; // podcast.title.startsWith('Visual Studio Talk Show');
+                                if (debug) {
+                                    console.log(feed);
+                                }
+                                feed.items.forEach(function (item) {
+                                    if (item.pubDate) {
+                                        var d = new Date(item.pubDate);
+                                        if (debug) {
+                                            console.log("pubDate;" + item.pubDate + ", d=" + d);
+                                        }
+                                        result.extra.episodes.push({
+                                            publishingDate: d.getFullYear() + "-" + ('' + (1 + d.getMonth())).padStart(2, '0') + "-" + ('' + d.getDate()).padStart(2, '0'),
+                                        });
+                                    }
+                                });
+                                if (debug) {
+                                    console.log(result.extra.episodes);
+                                }
+                                return resolve(result);
+                            })
+                                .catch(function (err) {
+                                console.log("podcast: " + podcast.feed.rss);
+                                console.log(err);
+                                return reject(err);
+                            });
                         });
                     }
-                    var parser = new rss_parser_1.default();
-                    parser
-                        .parseURL(podcast.feed.rss)
-                        .then(function (feed) {
-                        var debug = false; // podcast.title.startsWith('Visual Studio Talk Show');
-                        if (debug) {
-                            console.log(feed);
-                        }
-                        feed.items.forEach(function (item) {
-                            if (item.pubDate) {
-                                var d = new Date(item.pubDate);
-                                if (debug) {
-                                    console.log("pubDate;" + item.pubDate + ", d=" + d);
-                                }
-                                result.extra.episodes.push({
-                                    publishingDate: d.getFullYear() + "-" + ('' + (1 + d.getMonth())).padStart(2, '0') + "-" + ('' + d.getDate()).padStart(2, '0'),
-                                });
-                            }
-                        });
-                        if (debug) {
-                            console.log(result.extra.episodes);
-                        }
-                        return resolve(result);
-                    })
-                        .catch(function (err) {
-                        console.log("podcast: " + podcast.feed.rss);
-                        console.log(err);
-                        return reject(err);
-                    });
                 })];
         });
     });
