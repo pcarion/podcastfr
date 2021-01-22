@@ -1,0 +1,27 @@
+title: NoLimitSecu
+description: |
+  Podcast dédié à la cyber sécurité
+imageUrl: http://ftp.nolimitsecu.fr/nolimitsecu-1400.jpg
+
+contacts:
+  link: _
+  email: _
+  twitter: _
+  patreon: _
+  googleGroup: _
+
+hosts:
+  - name: NoLimitSecu
+    twitter: _
+
+feed:
+  rss: https://www.nolimitsecu.fr/feed/podcast/
+  itunes: _
+  spotify: _
+  soundcloud: _
+  deezer: _
+  google: _
+  castbox: _
+  pocketcast: _
+
+pid: ljk94p # do not change
