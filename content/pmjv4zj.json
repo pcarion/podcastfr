@@ -1,7 +1,7 @@
 {
   "title": "Goood Morning Web - Le Podcast pour et par les amoureux du web on Goood Morning Web",
   "description": "Recent content in Goood Morning Web - Le Podcast pour et par les amoureux du web on Goood Morning Web\n",
-  "imageUrl": "_",
+  "imageUrl": "https://www.gooodmorningweb.fr/img/goood-morning-web.png",
   "contacts": {
     "link": "_",
     "email": "_",
@@ -29,13 +29,191 @@
   "yamlDescriptionFile": "podcasts/goood_morning_web_-_le_podcast_pour_et_par_les_amoureux_du_web_on_goood_morning_web-41.yaml",
   "extra": {
     "colors": {
-      "vibrant": null,
-      "darkVibrant": null,
-      "lightVibrant": null,
-      "muted": null,
-      "darkMuted": null,
-      "lightMuted": null
+      "vibrant": "#373535",
+      "darkVibrant": "#6a191d",
+      "lightVibrant": "#dc7c84",
+      "muted": "#827c7c",
+      "darkMuted": "#373535",
+      "lightMuted": "#d9bebd"
     },
-    "episodes": []
+    "episodes": [
+      {
+        "publishingDate": "2021-01-17"
+      },
+      {
+        "publishingDate": "2021-01-10"
+      },
+      {
+        "publishingDate": "2020-12-27"
+      },
+      {
+        "publishingDate": "2020-12-20"
+      },
+      {
+        "publishingDate": "2020-12-13"
+      },
+      {
+        "publishingDate": "2020-12-06"
+      },
+      {
+        "publishingDate": "2020-11-29"
+      },
+      {
+        "publishingDate": "2020-11-22"
+      },
+      {
+        "publishingDate": "2020-11-15"
+      },
+      {
+        "publishingDate": "2020-11-08"
+      },
+      {
+        "publishingDate": "2020-11-01"
+      },
+      {
+        "publishingDate": "2020-10-25"
+      },
+      {
+        "publishingDate": "2020-10-18"
+      },
+      {
+        "publishingDate": "2020-10-11"
+      },
+      {
+        "publishingDate": "2020-10-04"
+      },
+      {
+        "publishingDate": "2020-09-27"
+      },
+      {
+        "publishingDate": "2020-09-20"
+      },
+      {
+        "publishingDate": "2020-09-13"
+      },
+      {
+        "publishingDate": "2020-09-06"
+      },
+      {
+        "publishingDate": "2020-08-30"
+      },
+      {
+        "publishingDate": "2020-08-23"
+      },
+      {
+        "publishingDate": "2020-08-16"
+      },
+      {
+        "publishingDate": "2020-07-19"
+      },
+      {
+        "publishingDate": "2020-07-12"
+      },
+      {
+        "publishingDate": "2020-07-05"
+      },
+      {
+        "publishingDate": "2020-06-28"
+      },
+      {
+        "publishingDate": "2020-06-21"
+      },
+      {
+        "publishingDate": "2020-06-14"
+      },
+      {
+        "publishingDate": "2020-06-07"
+      },
+      {
+        "publishingDate": "2020-05-31"
+      },
+      {
+        "publishingDate": "2020-05-24"
+      },
+      {
+        "publishingDate": "2020-05-17"
+      },
+      {
+        "publishingDate": "2020-05-10"
+      },
+      {
+        "publishingDate": "2020-05-03"
+      },
+      {
+        "publishingDate": "2020-04-26"
+      },
+      {
+        "publishingDate": "2020-04-19"
+      },
+      {
+        "publishingDate": "2020-04-12"
+      },
+      {
+        "publishingDate": "2020-04-05"
+      },
+      {
+        "publishingDate": "2020-03-30"
+      },
+      {
+        "publishingDate": "2020-03-23"
+      },
+      {
+        "publishingDate": "2020-03-16"
+      },
+      {
+        "publishingDate": "2020-03-09"
+      },
+      {
+        "publishingDate": "2020-03-01"
+      },
+      {
+        "publishingDate": "2020-02-23"
+      },
+      {
+        "publishingDate": "2020-02-16"
+      },
+      {
+        "publishingDate": "2020-02-09"
+      },
+      {
+        "publishingDate": "2020-02-02"
+      },
+      {
+        "publishingDate": "2020-01-26"
+      },
+      {
+        "publishingDate": "2019-12-31"
+      },
+      {
+        "publishingDate": "2000-12-31"
+      },
+      {
+        "publishingDate": "2000-12-31"
+      },
+      {
+        "publishingDate": "2000-12-31"
+      },
+      {
+        "publishingDate": "2000-12-31"
+      },
+      {
+        "publishingDate": "2000-12-31"
+      },
+      {
+        "publishingDate": "2000-12-31"
+      },
+      {
+        "publishingDate": "2000-12-31"
+      },
+      {
+        "publishingDate": "2000-12-31"
+      },
+      {
+        "publishingDate": "2000-12-31"
+      },
+      {
+        "publishingDate": "2000-12-31"
+      }
+    ]
   }
 }
