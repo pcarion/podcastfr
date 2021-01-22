@@ -13,5 +13,5 @@ jobs:
         uses: pcarion/podcast-directory-action@v0.6
         with:
           podcast-yaml-directory: 'podcasts'
-          repo-token: ${{ secrets.GH_PAT }}
+          repo-token: "${{ secrets.GITHUB_TOKEN }}"
 
