@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: parse issue for new podcast addition
-        uses: pcarion/podcast-directory-action@v0.3
+        uses: pcarion/podcast-directory-action@v0.5
         with:
           podcast-yaml-directory: 'podcasts'
           repo-token: ${{ secrets.GH_PAT }}

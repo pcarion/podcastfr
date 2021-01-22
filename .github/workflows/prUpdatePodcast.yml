@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: parse PR for podcast update
-        uses: pcarion/podcast-directory-action@v0.3
+        uses: pcarion/podcast-directory-action@v0.5
         with:
           podcast-yaml-directory: 'podcasts'
           repo-token: ${{ secrets.GH_PAT }}
