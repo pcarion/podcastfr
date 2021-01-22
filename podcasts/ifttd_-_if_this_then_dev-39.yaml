@@ -1,0 +1,28 @@
+title: IFTTD - If This Then Dev
+description: |
+  If This Then Dev, c'est le podcast D.E.V : Différent, Extraordinaire et Visionnaire. Un podcast qui veut résoudre le problème avant de passer au dev.
+  Chaque semaine Bruno Soulez reçoit un expert pour décoder un sujet ou une tendance dans l’univers de l’innovation et des technologies en général. Sans en faire un tuto, ils parlerons d’une techno ou du quotidien des STEM. Une discussion sans boucle, sans condition, mais compilée afin d’en comprendre tous les éléments avant de commencer à dev.
+imageUrl: https://content.production.cdn.art19.com/images/47/fe/2f/88/47fe2f88-ef7b-4ac7-96cf-592d9c9e15a4/45fa4d9b2ce5fb2461449244fc600ce4a16f3f5ca90a41d0f4908c9e495c374804756b2dcba01dfba969e70964414f82822d4d81dd423966bcd29b9d78163899.jpeg
+
+contacts:
+  link: _
+  email: _
+  twitter: _
+  patreon: _
+  googleGroup: _
+
+hosts:
+  - name: Big Bang Media by CosaVostra
+    twitter: _
+
+feed:
+  rss: https://rss.art19.com/ifttd-if-this-then-dev
+  itunes: _
+  spotify: _
+  soundcloud: _
+  deezer: _
+  google: _
+  castbox: _
+  pocketcast: _
+
+pid: 8jox2j # do not change
