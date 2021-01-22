@@ -8,6 +8,8 @@ interface LayoutProps {
   // nothing for now
 }
 
+// https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/summary-card-with-large-image
+
 const Layout: FC<LayoutProps> = ({ children }): ReactElement => {
   const { title, description } = useSiteMetadata();
 
@@ -17,6 +19,12 @@ const Layout: FC<LayoutProps> = ({ children }): ReactElement => {
         <html lang="en" />
         <title>{title}</title>
         <meta name="description" content={description} />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@pcarion" />
+        <meta name="twitter:creator" content="@pcarion" />
+        <meta name="twitter:title" content="Liste de podcasts tech en français" />
+        <meta name="twitter:description" content="Découvrez de nouveaux podcasts ou ajoutez vos podcasts favoris." />
+        <meta name="twitter:image" content="https://www.podcastfr.com/assets/twitter-card.jpg" />
       </Helmet>
       <body className="bg-blue-200 font-sans">
         <div className="container mx-auto flex flex-col p-2 justify-center items-center max-w-full md:max-w-prose">
