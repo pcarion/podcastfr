@@ -1,0 +1,27 @@
+title: Putain de code !
+description: |
+  Podcast by Putain de code !
+imageUrl: http://i1.sndcdn.com/avatars-000340437178-m55it1-original.jpg
+
+contacts:
+  link: _
+  email: _
+  twitter: _
+  patreon: _
+  googleGroup: _
+
+hosts:
+  - name: Putain de code !
+    twitter: _
+
+feed:
+  rss: http://feeds.soundcloud.com/users/soundcloud:users:273901232/sounds.rss
+  itunes: https://podcasts.apple.com/fr/podcast/putain-de-code/id1185311825
+  spotify: _
+  soundcloud: _
+  deezer: _
+  google: _
+  castbox: _
+  pocketcast: _
+
+pid: 2prxmp # do not change
