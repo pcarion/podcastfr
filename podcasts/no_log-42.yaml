@@ -1,0 +1,28 @@
+title: NO LOG
+description: |
+  NO LOG est un Podcast natif francophone, pour plonger dans les coulisses du cybermonde.
+  Le monde cyber peut sembler obscur, mais NO LOG vous emmène au-delà des machines, des logiciels et des algorithmes, car le cyber est fait d’humains, d’histoires et d’engagements citoyens.
+imageUrl: https://assets.pippa.io/shows/5fb64f222168d75055c38951/1605783678412-6dca764f07691ad7086669825ddc8a33.jpeg
+
+contacts:
+  link: _
+  email: _
+  twitter: _
+  patreon: _
+  googleGroup: _
+
+hosts:
+  - name: Véronique Loquet
+    twitter: _
+
+feed:
+  rss: https://feeds.acast.com/public/shows/no-log
+  itunes: _
+  spotify: _
+  soundcloud: _
+  deezer: _
+  google: _
+  castbox: _
+  pocketcast: _
+
+pid: yj3xkj # do not change
