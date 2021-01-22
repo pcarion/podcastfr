@@ -1,12 +1,16 @@
 title: Refactor
 description: |
-  🇫🇷 🤔 Refactor Podcast, c'est quoi ?  C'est une plongée dans l'univers des artisans du web, qui façonnent nos interfaces de demain. C'est une parole donnée aux développeuses et développeurs de tous horizons.  Découvrez leurs parcours, leurs expériences, leur vision des métiers autour du développement et de la Tech en général. Professionnels en poste, Etudiants en école d'informatique, En recherche d'emploi, Passionnés par la Tech... 🚀 ...Refactor vous donne les clés pour réfléchir à l'évolution de votre carrière et vous ouvrir à de nouveaux horizons professionnels ou personnels.  ---------------------------------------  🇬🇧 🤔 What is Refactor Podcast?  It is a dive into the world of web craftsmen, who shape our future interfaces. It's an invitation addressed to developers of all types and from all walks of life.  Discover their backgrounds, their experiences, their vision of development and tech in general. Professionals in position, Students studying computer science, Looking for a job, Passionate about tech... 🚀 ...Refactor gives you the keys to reflect on your career development and open up new professional or personal horizons.
+  🇫🇷 🤔 Refactor Podcast, c'est quoi ?  C'est une plongée dans l'univers des artisans du web, qui façonnent nos interfaces de demain. 
+  C'est une parole donnée aux développeuses et développeurs de tous horizons.  
+  Découvrez leurs parcours, leurs expériences, leur vision des métiers autour du développement et de la Tech en général. 
+  Professionnels en poste, Etudiants en école d'informatique, En recherche d'emploi, Passionnés par la Tech... 🚀 
+  ...Refactor vous donne les clés pour réfléchir à l'évolution de votre carrière et vous ouvrir à de nouveaux horizons professionnels ou personnels.
 imageUrl: https://image.ausha.co/UP52wFgo5kXGJPNnB57hRafhv5ZJWK3Z0NHy9wDi_1400x1400.jpeg?t=1593765615
 
 contacts:
-  link: _
+  link: https://podcast.ausha.co/refactor
   email: _
-  twitter: _
+  twitter: Flint_company
   patreon: _
   googleGroup: _
 
@@ -17,7 +21,7 @@ hosts:
 feed:
   rss: https://feed.ausha.co/Bxl0aUqKGn7Q
   itunes: _
-  spotify: _
+  spotify: https://open.spotify.com/show/1Ie0DjllUlXMUFQVDfqvRz
   soundcloud: _
   deezer: _
   google: _
