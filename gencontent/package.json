@@ -8,11 +8,10 @@
     "format": "prettier --write **/*.ts",
     "format-check": "prettier --check **/*.ts",
     "clean": "rimraf dist build",
-    "dist": "npm run clean && tsc",
     "prebuild": "npm run dist",
     "build": "node build/main.js",
-    "prepackage": "npm run dist",
-    "package": "ncc build build/main.js -o dist --source-map --license licenses.txt"
+    "predist": "npm run clean && tsc",
+    "dist": "ncc build build/main.js -o dist --source-map --license licenses.txt"
   },
   "dependencies": {
     "axios": "^0.21.1",

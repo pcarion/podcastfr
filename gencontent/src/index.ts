@@ -7,26 +7,30 @@ import { Podcast } from './jtd/podcast';
 import { PodcastExtra } from './types';
 
 import getPodcastDescriptionsFiles from './getPodcastDescriptionsFiles';
+import validatePodcastYaml from './validatePodcastYamlFile';
 
 async function validate(podcastsDirectory: string, filesToValidate: string[], contentDirectory: string): Promise<void> {
-  const files = await getPodcastDescriptionsFiles(podcastsDirectory, filesToValidate);
-  const podcasts: PodcastExtra[] = [];
-  for (const fileName of files) {
-    const podcast = await validatePodcastYamlFile(fileName);
-    console.log(podcast);
-    // await validateFeedUrls(podcast);
-    const podcastExtra = await processPodcast(podcast);
-    const podcastYamlFileName = path.join(contentDirectory, `${podcast.pid}.json`);
-    await fs.writeJSON(podcastYamlFileName, podcastExtra, {
-      spaces: 2,
-    });
-    podcasts.push(podcastExtra);
+  try {
+    const files = await getPodcastDescriptionsFiles(podcastsDirectory, filesToValidate);
+    console.log(`[${files.length}] files are: \n${files.join('\n')}\n`);
+    for (const fileName of files) {
+      console.log(`\n# processing: ${fileName}`);
+      const podcast = await validatePodcastYamlFile(fileName);
+      console.log(`# from: ${fileName} ${podcast.title} - ${podcast.pid}`);
+      // await validateFeedUrls(podcast);
+      const podcastExtra = await processPodcast(podcast);
+      const podcastYamlFileName = path.join(contentDirectory, `${podcastExtra.pid}.json`);
+      console.log(`# write ${podcastExtra.title} - ${podcastExtra.pid} to: ${podcastYamlFileName}`);
+      await fs.writeJSON(podcastYamlFileName, podcastExtra, {
+        spaces: 2,
+      });
+    }
+    console.log('\n-- done processing files\n');
+  } catch (err) {
+    console.log(`\n\n### error processing files; ${err}`);
+    console.log(err);
+    throw err;
   }
-  console.log(podcasts);
-  const resultFile = path.join(contentDirectory, 'podcasts.json');
-  await fs.writeJSON(resultFile, podcasts, {
-    spaces: 2,
-  });
 }
 
 // const podcastsDirectory = './podcasts';

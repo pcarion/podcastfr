@@ -35,7 +35,7 @@ function validateJdtSchema(content: unknown): Podcast {
 export default async function validatePodcastYaml(fileName: string): Promise<Podcast> {
   try {
     const doc = await loadYamlFile(fileName);
-    console.log(`@@@@ doc for ${fileName} is:`, doc);
+    // console.log(`@@@@ doc for ${fileName} is:`, doc);
     const podcast = validateJdtSchema(doc);
     podcast.yamlDescriptionFile = fileName;
     return podcast;

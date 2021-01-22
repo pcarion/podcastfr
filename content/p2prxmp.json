@@ -1,0 +1,90 @@
+{
+  "title": "Putain de code !",
+  "description": "Podcast by Putain de code !\n",
+  "imageUrl": "http://i1.sndcdn.com/avatars-000340437178-m55it1-original.jpg",
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "hosts": [
+    {
+      "name": "Putain de code !",
+      "twitter": "_"
+    }
+  ],
+  "feed": {
+    "rss": "http://feeds.soundcloud.com/users/soundcloud:users:273901232/sounds.rss",
+    "itunes": "https://podcasts.apple.com/fr/podcast/putain-de-code/id1185311825",
+    "spotify": "_",
+    "soundcloud": "_",
+    "deezer": "_",
+    "google": "_",
+    "castbox": "_",
+    "pocketcast": "_"
+  },
+  "pid": "p2prxmp",
+  "yamlDescriptionFile": "podcasts/putain_de_code_!-40.yaml",
+  "extra": {
+    "colors": {
+      "vibrant": "#930512",
+      "darkVibrant": "#cc0719",
+      "lightVibrant": "#e4849c",
+      "muted": "#90081b",
+      "darkMuted": "#930512",
+      "lightMuted": "#7d1b34"
+    },
+    "episodes": [
+      {
+        "publishingDate": "2020-12-30"
+      },
+      {
+        "publishingDate": "2020-05-11"
+      },
+      {
+        "publishingDate": "2019-06-12"
+      },
+      {
+        "publishingDate": "2019-04-07"
+      },
+      {
+        "publishingDate": "2019-03-01"
+      },
+      {
+        "publishingDate": "2018-12-12"
+      },
+      {
+        "publishingDate": "2018-04-10"
+      },
+      {
+        "publishingDate": "2018-02-01"
+      },
+      {
+        "publishingDate": "2017-11-23"
+      },
+      {
+        "publishingDate": "2017-10-24"
+      },
+      {
+        "publishingDate": "2017-06-26"
+      },
+      {
+        "publishingDate": "2017-05-02"
+      },
+      {
+        "publishingDate": "2017-03-21"
+      },
+      {
+        "publishingDate": "2017-02-15"
+      },
+      {
+        "publishingDate": "2017-01-11"
+      },
+      {
+        "publishingDate": "2016-12-11"
+      }
+    ]
+  }
+}

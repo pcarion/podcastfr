@@ -1,0 +1,41 @@
+{
+  "title": "Goood Morning Web - Le Podcast pour et par les amoureux du web on Goood Morning Web",
+  "description": "Recent content in Goood Morning Web - Le Podcast pour et par les amoureux du web on Goood Morning Web\n",
+  "imageUrl": "_",
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "hosts": [
+    {
+      "name": "_",
+      "twitter": "_"
+    }
+  ],
+  "feed": {
+    "rss": "https://www.gooodmorningweb.fr/index.xml",
+    "itunes": "_",
+    "spotify": "_",
+    "soundcloud": "_",
+    "deezer": "_",
+    "google": "_",
+    "castbox": "_",
+    "pocketcast": "_"
+  },
+  "pid": "pmjv4zj",
+  "yamlDescriptionFile": "podcasts/goood_morning_web_-_le_podcast_pour_et_par_les_amoureux_du_web_on_goood_morning_web-41.yaml",
+  "extra": {
+    "colors": {
+      "vibrant": null,
+      "darkVibrant": null,
+      "lightVibrant": null,
+      "muted": null,
+      "darkMuted": null,
+      "lightMuted": null
+    },
+    "episodes": []
+  }
+}

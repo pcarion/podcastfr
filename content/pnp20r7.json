@@ -1,0 +1,60 @@
+{
+  "title": "Le code a changé",
+  "description": "En quoi les technologies changent quelque chose à nos vies ? C'est ce qui justifie le titre de cette série : \"Le code a changé\". Parce que c'est autour de cette question du changement que tout va tourner pendant ces 20 épisodes\n",
+  "imageUrl": "https://cdn.radiofrance.fr/s3/cruiser-production/2020/02/7cc50005-d8bf-469d-9400-b516c92a4214/1400x1400_rf_omm_0000024370_ite.jpg",
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "hosts": [
+    {
+      "name": "France Inter",
+      "twitter": "_"
+    }
+  ],
+  "feed": {
+    "rss": "http://radiofrance-podcast.net/podcast09/rss_20856.xml",
+    "itunes": "_",
+    "spotify": "_",
+    "soundcloud": "_",
+    "deezer": "_",
+    "google": "_",
+    "castbox": "_",
+    "pocketcast": "_"
+  },
+  "pid": "pnp20r7",
+  "yamlDescriptionFile": "podcasts/le_code_a_change-44.yaml",
+  "extra": {
+    "colors": {
+      "vibrant": "#5e2f46",
+      "darkVibrant": "#044453",
+      "lightVibrant": "#a1f6f3",
+      "muted": "#649cac",
+      "darkMuted": "#5e2f46",
+      "lightMuted": "#d1b7a6"
+    },
+    "episodes": [
+      {
+        "publishingDate": "2020-12-21"
+      },
+      {
+        "publishingDate": "2020-12-07"
+      },
+      {
+        "publishingDate": "2020-11-22"
+      },
+      {
+        "publishingDate": "2020-11-09"
+      },
+      {
+        "publishingDate": "2020-10-25"
+      },
+      {
+        "publishingDate": "2020-02-06"
+      }
+    ]
+  }
+}

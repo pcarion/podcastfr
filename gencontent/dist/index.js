@@ -137,45 +137,48 @@ var processPodcast_1 = __importDefault(__nccwpck_require__(1482));
 var getPodcastDescriptionsFiles_1 = __importDefault(__nccwpck_require__(5831));
 function validate(podcastsDirectory, filesToValidate, contentDirectory) {
     return __awaiter(this, void 0, void 0, function () {
-        var files, podcasts, _i, files_1, fileName, podcast, podcastExtra, podcastYamlFileName, resultFile;
+        var files, _i, files_1, fileName, podcast, podcastExtra, podcastYamlFileName, err_1;
         return __generator(this, function (_a) {
             switch (_a.label) {
-                case 0: return [4 /*yield*/, getPodcastDescriptionsFiles_1.default(podcastsDirectory, filesToValidate)];
+                case 0:
+                    _a.trys.push([0, 8, , 9]);
+                    return [4 /*yield*/, getPodcastDescriptionsFiles_1.default(podcastsDirectory, filesToValidate)];
                 case 1:
                     files = _a.sent();
-                    podcasts = [];
+                    console.log("[" + files.length + "] files are: \n" + files.join('\n') + "\n");
                     _i = 0, files_1 = files;
                     _a.label = 2;
                 case 2:
                     if (!(_i < files_1.length)) return [3 /*break*/, 7];
                     fileName = files_1[_i];
+                    console.log("\n# processing: " + fileName);
                     return [4 /*yield*/, validatePodcastYamlFile_1.default(fileName)];
                 case 3:
                     podcast = _a.sent();
-                    console.log(podcast);
+                    console.log("# from: " + fileName + " " + podcast.title + " - " + podcast.pid);
                     return [4 /*yield*/, processPodcast_1.default(podcast)];
                 case 4:
                     podcastExtra = _a.sent();
-                    podcastYamlFileName = path_1.default.join(contentDirectory, podcast.pid + ".json");
+                    podcastYamlFileName = path_1.default.join(contentDirectory, podcastExtra.pid + ".json");
+                    console.log("# write " + podcastExtra.title + " - " + podcastExtra.pid + " to: " + podcastYamlFileName);
                     return [4 /*yield*/, fs_extra_1.default.writeJSON(podcastYamlFileName, podcastExtra, {
                             spaces: 2,
                         })];
                 case 5:
                     _a.sent();
-                    podcasts.push(podcastExtra);
                     _a.label = 6;
                 case 6:
                     _i++;
                     return [3 /*break*/, 2];
                 case 7:
-                    console.log(podcasts);
-                    resultFile = path_1.default.join(contentDirectory, 'podcasts.json');
-                    return [4 /*yield*/, fs_extra_1.default.writeJSON(resultFile, podcasts, {
-                            spaces: 2,
-                        })];
+                    console.log('\n-- done processing files\n');
+                    return [3 /*break*/, 9];
                 case 8:
-                    _a.sent();
-                    return [2 /*return*/];
+                    err_1 = _a.sent();
+                    console.log("\n\n### error processing files; " + err_1);
+                    console.log(err_1);
+                    throw err_1;
+                case 9: return [2 /*return*/];
             }
         });
     });
@@ -394,7 +397,8 @@ function processPodcast(podcast) {
                             if (err) {
                                 return reject(err);
                             }
-                            console.log(palette);
+                            console.log("# palette retrieved for " + podcast.imageUrl + " - " + !!palette);
+                            // console.log(palette);
                             if (palette) {
                                 result.extra.colors.vibrant = ((_a = palette.DarkMuted) === null || _a === void 0 ? void 0 : _a.hex) || null;
                                 result.extra.colors.darkVibrant = ((_b = palette.DarkVibrant) === null || _b === void 0 ? void 0 : _b.hex) || null;
@@ -433,6 +437,9 @@ function processPodcast(podcast) {
                                 return reject(err);
                             });
                         });
+                    }
+                    else {
+                        return resolve(result);
                     }
                 })];
         });
@@ -529,7 +536,6 @@ function validatePodcastYaml(fileName) {
                     return [4 /*yield*/, loadYamlFile(fileName)];
                 case 1:
                     doc = _a.sent();
-                    console.log("@@@@ doc for " + fileName + " is:", doc);
                     podcast = validateJdtSchema(doc);
                     podcast.yamlDescriptionFile = fileName;
                     return [2 /*return*/, podcast];

@@ -25,7 +25,8 @@ export default async function processPodcast(podcast: Podcast): Promise<PodcastE
         if (err) {
           return reject(err);
         }
-        console.log(palette);
+        console.log(`# palette retrieved for ${podcast.imageUrl} - ${!!palette}`);
+        // console.log(palette);
         if (palette) {
           result.extra.colors.vibrant = palette.DarkMuted?.hex || null;
           result.extra.colors.darkVibrant = palette.DarkVibrant?.hex || null;
@@ -66,6 +67,8 @@ export default async function processPodcast(podcast: Podcast): Promise<PodcastE
             return reject(err);
           });
       });
+    } else {
+      return resolve(result);
     }
   });
 }
