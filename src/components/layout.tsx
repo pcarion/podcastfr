@@ -9,6 +9,7 @@ interface LayoutProps {
 }
 
 // https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/summary-card-with-large-image
+// https://cards-dev.twitter.com/validator
 
 const Layout: FC<LayoutProps> = ({ children }): ReactElement => {
   const { title, description } = useSiteMetadata();
