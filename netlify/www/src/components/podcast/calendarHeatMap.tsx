@@ -14,7 +14,6 @@ function episodeDateValues(episodes: EpisodeDate[]) {
     date: e.publishingDate,
     count: 1,
   }));
-  console.log(r);
   return r;
 }
 

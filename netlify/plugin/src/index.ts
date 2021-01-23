@@ -1,3 +1,5 @@
+import { generateContentFiles } from './generateContentFiles';
+
 interface NetlifyUtils {
   cache: {
     restore: (path: string, options?: Partial<{ cwd: string }>) => Promise<boolean>;
@@ -32,6 +34,11 @@ module.exports = {
     console.log('>netlify>plugin>input>podcastsJsonDirectory>', inputs.podcastsJsonDirectory);
     await utils.run.command(`ls -l ${inputs.podcastsJsonDirectory}`);
     console.log('>netlify>plugin>input>constants>', JSON.stringify(constants));
+
+    await generateContentFiles({
+      inputYamlDirectory: inputs.podcastsYamlDirectory,
+      outputJsonDirectory: inputs.podcastsJsonDirectory,
+    });
   },
   async onSuccess() {
     console.log('>netlify>plugin>onSuccess');

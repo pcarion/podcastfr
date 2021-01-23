@@ -33,7 +33,6 @@ const Podcast: FC<PodcastProps> = ({ podcast }): ReactElement => {
     h3TextColor = 'text-grey-900';
     h4TextColor = 'text-grey-800';
   }
-  console.log(`@@@ headerColor=${headerColor}, contrastedColor=${contrastedColor}, bgHostColor=${bgHostColor}`);
   return (
     <div className="col-span-1 bg-white rounded-lg shadow divide-y divide-gray-200 m-2">
       <div className="w-full flex items-center justify-between p-2 space-x-3" style={{ backgroundColor: headerColor }}>

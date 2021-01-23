@@ -34,8 +34,13 @@ async function validate(podcastsDirectory: string, filesToValidate: string[], co
 }
 
 // const podcastsDirectory = './podcasts';
-const filesToValidte: string[] = [];
+const filesToValidate: string[] = [];
 
-export async function generateContentFile(contentDirectory: string, podcastsDirectory: string): Promise<void> {
-  return validate(podcastsDirectory, filesToValidte, contentDirectory);
+interface GenerateContentFilesrgs {
+  inputYamlDirectory: string;
+  outputJsonDirectory: string;
+}
+
+export async function generateContentFiles(args: GenerateContentFilesrgs): Promise<void> {
+  return validate(args.inputYamlDirectory, filesToValidate, args.outputJsonDirectory);
 }
