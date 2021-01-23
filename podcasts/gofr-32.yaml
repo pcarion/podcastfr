@@ -1,23 +1,23 @@
 title: GoFr
 description: |
   Podcast by Arnaud ASSAD
-imageUrl: http://i1.sndcdn.com/avatars-000522388500-74nsg5-original.jpg
+imageUrl: https://i.scdn.co/image/a0d74f120c36de5d2df724724923cf1b4ad98443
 
 contacts:
-  link: _
+  link: https://gofr.fm/
   email: _
-  twitter: _
+  twitter: GofrP
   patreon: _
   googleGroup: _
 
 hosts:
   - name: Arnaud ASSAD
-    twitter: _
+    twitter: aassad
 
 feed:
   rss: http://feeds.soundcloud.com/users/soundcloud:users:503020458/sounds.rss
   itunes: https://podcasts.apple.com/us/podcast/id1439678547
-  spotify: _
+  spotify: https://open.spotify.com/show/4t2AK63fRAtc7MNjXo0qUx
   soundcloud: _
   deezer: _
   google: _

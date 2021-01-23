@@ -14,7 +14,7 @@ const Footer: FC<FooterProps> = ({}): ReactElement => {
       <div className="flex items-start space-x-5">
         <div className="pt-1.5">
           <h3 className="text-sm font-thin text-gray-900">
-            Site généré: {buildTime} - sha: {commitRef}
+            Version: {commitRef} at {buildTime}
           </h3>
         </div>
       </div>
