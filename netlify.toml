@@ -16,11 +16,8 @@ publish = "public/"
 command = "npm run build"
 
 [[plugins]]
-package = "/netlify/plugin"
-
-[[plugins]]
-package = "netlify-plugin-replace-images-with-kittens"
+package = "../plugin"
 
   [plugins.inputs]
-  podcastsYamlDirectory = "podcasts"
-  podcastsJsonDirectory = "netlify/www/content/podcasts"
+  podcastsYamlDirectory = "../../podcasts"
+  podcastsJsonDirectory = "content/podcasts"

@@ -7,7 +7,6 @@
     "lint": "eslint src/**/*.ts",
     "format": "prettier --write **/*.ts",
     "format-check": "prettier --check **/*.ts",
-    "prebuild": "node gencontent/dist/index.js content/podcasts podcasts",
     "build": "GATSBY_COMMIT_REF=${COMMIT_REF} gatsby build",
     "clean": "gatsby clean",
     "home": "echo $HOME",
