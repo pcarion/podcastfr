@@ -5,19 +5,19 @@ description: |
 imageUrl: https://assets.pippa.io/shows/5fb64f222168d75055c38951/1605783678412-6dca764f07691ad7086669825ddc8a33.jpeg
 
 contacts:
-  link: _
+  link: https://feeds.acast.com/public/shows/no-log
   email: _
-  twitter: _
+  twitter: nologpodcast
   patreon: _
   googleGroup: _
 
 hosts:
   - name: Véronique Loquet
-    twitter: _
+    twitter: vloquet
 
 feed:
   rss: https://feeds.acast.com/public/shows/no-log
-  itunes: _
+  itunes: https://podcasts.apple.com/us/podcast/id1541382557
   spotify: _
   soundcloud: _
   deezer: _
