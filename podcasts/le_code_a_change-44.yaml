@@ -4,9 +4,9 @@ description: |
 imageUrl: https://cdn.radiofrance.fr/s3/cruiser-production/2020/02/7cc50005-d8bf-469d-9400-b516c92a4214/1400x1400_rf_omm_0000024370_ite.jpg
 
 contacts:
-  link: _
+  link: https://www.franceinter.fr/emissions/le-code-a-change
   email: _
-  twitter: _
+  twitter: franceinter
   patreon: _
   googleGroup: _
 
@@ -16,7 +16,7 @@ hosts:
 
 feed:
   rss: http://radiofrance-podcast.net/podcast09/rss_20856.xml
-  itunes: _
+  itunes: https://podcasts.apple.com/us/podcast/le-code-a-chang%C3%A9/id1498344139
   spotify: _
   soundcloud: _
   deezer: _
