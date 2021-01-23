@@ -261,6 +261,10 @@ module.exports = {
                     case 2:
                         _b.sent();
                         console.log('>netlify>plugin>input>constants>', JSON.stringify(constants));
+                        console.log('>utils.git.createdFiles>', utils.git.createdFiles);
+                        console.log('>utils.git.deletedFiles>', utils.git.deletedFiles);
+                        console.log('>utils.git.modifiedFiles>', utils.git.modifiedFiles);
+                        console.log('>utils.git.commits>', utils.git.commits);
                         return [4 /*yield*/, generateContentFiles_1.generateContentFiles({
                                 inputYamlDirectory: inputs.podcastsYamlDirectory,
                                 outputJsonDirectory: inputs.podcastsJsonDirectory,
