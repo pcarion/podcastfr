@@ -1,0 +1,56 @@
+content:
+  - type: code
+    date: 2021/01/17
+    text: |
+      * lancement initial
+
+  - type: podcast
+    date: 2021/01/22
+    submitter: SylvainCoudert
+    podcastId: 52
+
+  - type: podcast
+    date: 2021/01/22
+    submitter: SylvainCoudert
+    podcastId: 53
+
+  - type: podcast
+    date: 2021/01/22
+    submitter: slecache
+    podcastId: 45
+
+  - type: podcast
+    date: 2021/01/22
+    submitter: slecache
+    podcastId: 44
+
+  - type: podcast
+    date: 2021/01/22
+    submitter: slecache
+    podcastId: 43
+
+  - type: podcast
+    date: 2021/01/22
+    submitter: slecache
+    podcastId: 42
+
+  - type: podcast
+    date: 2021/01/22
+    submitter: slecache
+    podcastId: 41
+
+  - type: podcast
+    date: 2021/01/22
+    submitter: slecache
+    podcastId: 40
+
+  - type: podcast
+    date: 2021/01/22
+    submitter: slecache
+    podcastId: 39
+
+  - type: code
+    date: 2021/01/22
+    text: |
+      * ajout du lien sur le site web
+      * ajout heure et date de génération du ite en bas de page

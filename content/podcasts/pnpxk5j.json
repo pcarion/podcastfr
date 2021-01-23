@@ -1,0 +1,102 @@
+{
+  "title": "PunkinDev",
+  "description": "Bienvenue sur le podcast Punkin dev. \nVous trouverez ici des récits de la vie de dev, des retours d'expérience sur certaines pratiques ou technos, sur la vie de Freelance, et des réflexions généralement en lien avec les métiers du développement logiciel. \nVous pouvez me retrouver sur linkedIn https://www.linkedin.com/in/sylvain-coudert-b802a477/ sur twitter https://twitter.com/sylv_coud (https://twitter.com/sylv_coud) ou sur mon blog : https://punkindev.fr/ (https://punkindev.fr/)\n",
+  "imageUrl": "https://image.ausha.co/a2YbiYKxDr0eFDeLbDQ01HwHb1b4hS1xBC8GgZZj_1400x1400.jpeg?t=1598948641",
+  "contacts": {
+    "link": "https://punkindev.fr/",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "hosts": [
+    {
+      "name": "Sylvain Coudert",
+      "twitter": "sylv_coud"
+    }
+  ],
+  "feed": {
+    "rss": "https://feed.ausha.co/BDVYOij2WP05",
+    "itunes": "https://podcasts.apple.com/us/podcast/punkindev/id1530004686?uo=4",
+    "spotify": "https://open.spotify.com/show/0kncF9ImGNCvOc0j2y7x8B",
+    "soundcloud": "_",
+    "deezer": "https://www.deezer.com/show/1693942",
+    "google": "https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkLmF1c2hhLmNvL0JEVllPaWoyV1AwNQ==",
+    "castbox": "https://castbox.fm/channel/id3289552?utm_campaign=ex_share_ch&utm_medium=exlink",
+    "pocketcast": "https://pca.st/iz6fd4pv"
+  },
+  "pid": "pnpxk5j",
+  "yamlDescriptionFile": "podcasts/punkindev-52.yaml",
+  "extra": {
+    "colors": {
+      "vibrant": "#744e3e",
+      "darkVibrant": "#2b6b0e",
+      "lightVibrant": "#e1c097",
+      "muted": "#ae977b",
+      "darkMuted": "#744e3e",
+      "lightMuted": "#b1bfb3"
+    },
+    "episodes": [
+      {
+        "publishingDate": "2021-01-18"
+      },
+      {
+        "publishingDate": "2021-01-11"
+      },
+      {
+        "publishingDate": "2021-01-04"
+      },
+      {
+        "publishingDate": "2020-12-14"
+      },
+      {
+        "publishingDate": "2020-12-07"
+      },
+      {
+        "publishingDate": "2020-11-30"
+      },
+      {
+        "publishingDate": "2020-11-23"
+      },
+      {
+        "publishingDate": "2020-11-16"
+      },
+      {
+        "publishingDate": "2020-11-09"
+      },
+      {
+        "publishingDate": "2020-11-02"
+      },
+      {
+        "publishingDate": "2020-10-26"
+      },
+      {
+        "publishingDate": "2020-10-20"
+      },
+      {
+        "publishingDate": "2020-10-12"
+      },
+      {
+        "publishingDate": "2020-10-05"
+      },
+      {
+        "publishingDate": "2020-09-28"
+      },
+      {
+        "publishingDate": "2020-09-21"
+      },
+      {
+        "publishingDate": "2020-09-14"
+      },
+      {
+        "publishingDate": "2020-09-07"
+      },
+      {
+        "publishingDate": "2020-08-02"
+      },
+      {
+        "publishingDate": "2020-08-01"
+      }
+    ]
+  }
+}

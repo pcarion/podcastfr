@@ -1,9 +1,9 @@
 {
   "title": "NoLimitSecu",
   "description": "Podcast dédié à la cyber sécurité\n",
-  "imageUrl": "http://ftp.nolimitsecu.fr/nolimitsecu-1400.jpg",
+  "imageUrl": "https://e-cdns-images.dzcdn.net/images/talk/2f9efa66abae96c0f3096030c6458dca/528x528-000000-80-0-0.jpg",
   "contacts": {
-    "link": "_",
+    "link": "https://www.nolimitsecu.fr/",
     "email": "_",
     "twitter": "_",
     "patreon": "_",
@@ -17,11 +17,11 @@
   ],
   "feed": {
     "rss": "https://www.nolimitsecu.fr/feed/podcast/",
-    "itunes": "_",
+    "itunes": "https://itunes.apple.com/fr/podcast/no-limit-secu-podcast-feed/id897083950?mt=2",
     "spotify": "_",
     "soundcloud": "_",
     "deezer": "_",
-    "google": "_",
+    "google": "https://subscribeonandroid.com/www.nolimitsecu.fr/feed/podcast/",
     "castbox": "_",
     "pocketcast": "_"
   },
@@ -29,12 +29,12 @@
   "yamlDescriptionFile": "podcasts/nolimitsecu-43.yaml",
   "extra": {
     "colors": {
-      "vibrant": "#3c3c3c",
-      "darkVibrant": "#7f0404",
-      "lightVibrant": "#fc847c",
-      "muted": "#907c7c",
-      "darkMuted": "#3c3c3c",
-      "lightMuted": "#b7b7b7"
+      "vibrant": "#352020",
+      "darkVibrant": "#780505",
+      "lightVibrant": "#f78484",
+      "muted": "#858484",
+      "darkMuted": "#352020",
+      "lightMuted": "#c89c9c"
     },
     "episodes": [
       {

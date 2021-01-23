@@ -5,6 +5,7 @@ interface UseSiteMetaDataResult {
   description: string;
   addText: string;
   addLink: string;
+  buildTime: string;
 }
 
 export default function useSiteMetadata(): UseSiteMetaDataResult {
@@ -17,9 +18,13 @@ export default function useSiteMetadata(): UseSiteMetaDataResult {
           addText
           addLink
         }
+        buildTime
       }
     }
   `);
 
-  return data.site.siteMetadata;
+  return {
+    ...data.site.siteMetadata,
+    buildTime: data.site.buildTime,
+  };
 }

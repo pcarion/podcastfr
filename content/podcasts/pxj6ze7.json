@@ -1,7 +1,7 @@
 {
   "title": "AXOPEN",
   "description": "Axopen, c’est des podcasts tous les mois sur le développement et les nouvelles technologies.\nPartage d'expériences, tips, nouveautés, frameworks, best practices…\nTout cela, réalisé par des techos passionnés qui défendent leurs idées ! Certifié sans langue de bois et toujours dans la bonne humeur :)\n",
-  "imageUrl": "http://i1.sndcdn.com/avatars-000469737138-5vvi6p-original.jpg",
+  "imageUrl": "https://i1.sndcdn.com/avatars-000469737138-5vvi6p-t500x500.jpg",
   "contacts": {
     "link": "https://www.axopen.com",
     "email": "_",
@@ -29,12 +29,12 @@
   "yamlDescriptionFile": "podcasts/axopen-33.yaml",
   "extra": {
     "colors": {
-      "vibrant": "#680395",
-      "darkVibrant": "#8304bb",
-      "lightVibrant": "#aa95d5",
-      "muted": "#046394",
-      "darkMuted": "#680395",
-      "lightMuted": "#ede6f3"
+      "vibrant": "#690395",
+      "darkVibrant": "#8404bc",
+      "lightVibrant": "#b99edb",
+      "muted": "#0c548c",
+      "darkMuted": "#690395",
+      "lightMuted": "#cdbddc"
     },
     "episodes": [
       {

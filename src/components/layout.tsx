@@ -2,6 +2,7 @@ import React, { FC, ReactElement } from 'react';
 import Helmet from 'react-helmet';
 import useSiteMetadata from '../hooks/useSiteMetadata';
 import Header from './header';
+import Footer from './footer';
 
 // eslint-disable-next-line @typescript-eslint/no-empty-interface
 interface LayoutProps {
@@ -31,6 +32,7 @@ const Layout: FC<LayoutProps> = ({ children }): ReactElement => {
         <div className="container mx-auto flex flex-col p-2 justify-center items-center max-w-full md:max-w-prose">
           <Header />
           {children}
+          <Footer />
         </div>
       </body>
     </>
