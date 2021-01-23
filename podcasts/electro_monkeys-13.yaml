@@ -1,26 +1,27 @@
 title: Electro Monkeys
 description: |
-  Le podcast pour découvrir et comprendre les concepts et les technologies cloud natives ! Des interviews techniques hebdomadaires sur Kubernetes, les technologies cloud natives et la communauté open source.
+  Le podcast pour découvrir et comprendre les concepts et les technologies cloud natives! 
+  Des interviews techniques hebdomadaires sur Kubernetes, les technologies cloud natives et la communauté open source.
 imageUrl: https://storage.buzzsprout.com/variants/k1gf0b0yd0yqkiz0qt1t2zj4smv1/8d66eb17bb7d02ca4856ab443a78f2148cafbb129f58a3c81282007c6fe24ff2.jpg
 
 contacts:
-  link: _
+  link: https://podcast.electro-monkeys.fr/
   email: _
-  twitter: _
+  twitter: k8Monkeys
   patreon: _
   googleGroup: _
 
 hosts:
   - name: Stef
-    twitter: _
+    twitter: Saphoooo
 
 feed:
   rss: https://feeds.buzzsprout.com/926791.rss
   itunes: https://podcasts.apple.com/us/podcast/id1503255739
-  spotify: _
+  spotify: https://open.spotify.com/show/3P9JtwxgNJktyemtinMcLe
   soundcloud: _
-  deezer: _
-  google: _
+  deezer: https://www.deezer.com/show/1076762
+  google: https://podcasts.google.com/?feed=aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS85MjY3OTEucnNz
   castbox: _
   pocketcast: _
 
