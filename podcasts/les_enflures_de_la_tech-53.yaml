@@ -1,26 +1,29 @@
 title: Les enflures de la tech
 description: |
-  En marge du SunnyTech 2019, j'ai eu la chance de rencontrer Shirley (https://twitter.com/ShirleyAlmCh) et nous avons évoqué notre passion commune pour la chanson à texte couplée à un sens de l'humour parfois discutable! Ce qui n'était alors qu'un délire avec quelques textes commence aujourd'hui à prendre forme avec ces enregistrements!   Les bandes sons instrumentales sont la propriété de Tency Music (www.tencymusic.fr (http://www.tencymusic.fr/) & www.version-karaoke.fr (http://www.version-karaoke.fr/)) J'enregistre toutes les parties voix avec un Shure SM7B, Preamp  TritonAudi FetHead, Focusrite Scarlett 2i2, sous Cakewalk by BandLab.
+  En marge du SunnyTech 2019, j'ai eu la chance de rencontrer Shirley (https://twitter.com/ShirleyAlmCh) et nous avons évoqué notre passion commune pour la chanson à texte couplée à un sens de l'humour parfois discutable! 
+  Ce qui n'était alors qu'un délire avec quelques textes commence aujourd'hui à prendre forme avec ces enregistrements!   
+  Les bandes sons instrumentales sont la propriété de Tency Music (www.tencymusic.fr (http://www.tencymusic.fr/) & www.version-karaoke.fr (http://www.version-karaoke.fr/)) 
+  J'enregistre toutes les parties voix avec un Shure SM7B, Preamp  TritonAudi FetHead, Focusrite Scarlett 2i2, sous Cakewalk by BandLab.
 imageUrl: https://image.ausha.co/mCZLuqsdgtNaX3U42e8z9hedFMIAPrKy2tmz2xni_1400x1400.jpeg?t=1606650680
 
 contacts:
-  link: _
+  link: https://podcast.ausha.co/les-enflures-de-la-tech
   email: _
   twitter: _
   patreon: _
   googleGroup: _
 
 hosts:
-  - name: Les enflures de la tech
-    twitter: _
+  - name: Sylvain Coudert
+    twitter: sylv_coud
 
 feed:
-  rss: https://feed.ausha.co/BnJeLCJa57vR
+  rss: https://feed.ausha.co/BnJeLCJa57vR 
   itunes: _
-  spotify: _
+  spotify: https://open.spotify.com/show/3gbD2wLiDCHsqt4MDw1XNj
   soundcloud: _
-  deezer: _
-  google: _
+  deezer: https://www.deezer.com/show/2030052
+  google: https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkLmF1c2hhLmNvL0JuSmVMQ0phNTd2Ug==
   castbox: _
   pocketcast: _
 
