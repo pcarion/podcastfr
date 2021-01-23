@@ -16,7 +16,7 @@ publish = "public/"
 command = "npm run build"
 
 [[plugins]]
-package = "/plugin"
+package = "/netlify/plugin"
 
 [[plugins]]
 package = "netlify-plugin-replace-images-with-kittens"
