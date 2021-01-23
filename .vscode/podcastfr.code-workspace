@@ -15,9 +15,7 @@
 	],
 	"settings": {
 		"files.exclude": {
-			"www": true,
-			"plugin": true,
-			"podcasts": true,
+			"netlify": true,
 		},
 		"workbench.colorCustomizations": {
 			"activityBar.activeBackground": "#ef7853",

@@ -6,18 +6,18 @@ imageUrl: https://d1bm3dmew779uf.cloudfront.net/rss/show/1952874/0b54150c5f5ae73
 contacts:
   link: https://bigdatahebdo.com/podcast/
   email: _
-  twitter: _
+  twitter: bigdatahebdo
   patreon: _
   googleGroup: _
 
 hosts:
   - name: Vincent Heuschling
-    twitter: _
+    twitter: vhe74qq
 
 feed:
   rss: https://www.bigdatahebdo.com/podcast/index.xml
-  itunes: _
-  spotify: _
+  itunes: https://podcasts.apple.com/us/podcast/id886262012
+  spotify: https://open.spotify.com/show/3PLOHtH7AAbRsUJiyeaON8
   soundcloud: _
   deezer: _
   google: _
