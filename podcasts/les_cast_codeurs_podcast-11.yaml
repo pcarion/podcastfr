@@ -6,11 +6,11 @@ description: |
 imageUrl: https://ssl-static.libsyn.com/p/assets/2/5/5/f/255f68ddc87cc049/logo-lescastcodeurs-1400px-white.png
 
 contacts:
-  link: _
+  link: https://lescastcodeurs.com/
   email: _
-  twitter: _
-  patreon: _
-  googleGroup: _
+  twitter: lescastcodeurs
+  patreon: https://www.patreon.com/LesCastCodeurs
+  googleGroup: https://groups.google.com/group/lescastcodeurs
 
 hosts:
   - name: Emmanuel Bernard
