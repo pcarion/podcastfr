@@ -1,4 +1,4 @@
-import generateContentFile from '.';
+import { generateContentFile } from './plugin';
 
 if (process.argv.length !== 4) {
   console.log(`Usage: ${process.argv[0]} ${process.argv[1]} <content generation directory> <podcasts directory>`);

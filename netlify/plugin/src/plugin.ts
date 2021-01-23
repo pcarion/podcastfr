@@ -36,6 +36,6 @@ async function validate(podcastsDirectory: string, filesToValidate: string[], co
 // const podcastsDirectory = './podcasts';
 const filesToValidte: string[] = [];
 
-export default async function generateContentFile(contentDirectory: string, podcastsDirectory: string): Promise<void> {
+export async function generateContentFile(contentDirectory: string, podcastsDirectory: string): Promise<void> {
   return validate(podcastsDirectory, filesToValidte, contentDirectory);
 }

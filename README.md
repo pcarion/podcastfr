@@ -34,7 +34,3 @@ Si il y a un problème avec votre soumission, la pull request sera commentée et
 - les icônes du drapeau français sont sur [2600 Flag Icon Set](https://www.gosquared.com/resources/flag-icons/)
 - image pour la twitter card: Photo by [Марьян Блан | @marjanblan](https://unsplash.com/@marjan_blan?utm_source=unsplash) on [Unsplash](https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 
-# Todos
-- [ ] add Facebook link
-- [ ] add instagram link
-- [ ] add spreaker link

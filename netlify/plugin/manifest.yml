@@ -1,0 +1,6 @@
+name: 'netlify-plugin-podcastfr'
+inputs:
+  - name: podcastsYamlDirectory
+    description: directory containing podcasts yaml files
+  - name: podcastsJsonDirectory
+    description: directory containing podcasts yaml files

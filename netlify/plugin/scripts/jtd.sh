@@ -18,5 +18,6 @@ processJtd() {
 }
 
 processJtd ./etc/podcast.jtd.json ./src/jtd/podcast
-processJtd ./etc/podcast.jtd.json ../src/jtd/podcast
+processJtd ./etc/podcast.jtd.json ../www/src/jtd/podcast
+cp ./etc/podcast.jtd.json ../../podcast-directory-action/etc
 

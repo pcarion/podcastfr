@@ -2,16 +2,14 @@
   "name": "podcastfrgencontent",
   "version": "1.0.0",
   "description": "Liste de podcasts techniques en français.",
-  "main": "build/index.js",
+  "main": "dist/index.js",
   "scripts": {
     "lint": "eslint src/**/*.ts",
     "format": "prettier --write **/*.ts",
     "format-check": "prettier --check **/*.ts",
     "clean": "rimraf dist build",
-    "prebuild": "npm run dist",
-    "build": "node build/main.js",
     "predist": "npm run clean && tsc",
-    "dist": "ncc build build/main.js -o dist --source-map --license licenses.txt"
+    "dist": "ncc build build/index.js -o dist --source-map --license licenses.txt"
   },
   "dependencies": {
     "axios": "^0.21.1",
@@ -22,7 +20,9 @@
     "rss-parser": "^3.10.0"
   },
   "devDependencies": {
+    "@netlify/build": "^8.1.0",
     "@types/axios": "^0.14.0",
+    "@types/fs-extra": "^9.0.6",
     "@types/js-yaml": "^3.12.5",
     "@types/node": "^14.14.17",
     "@typescript-eslint/eslint-plugin": "^4.11.1",
