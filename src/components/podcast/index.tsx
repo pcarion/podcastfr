@@ -56,7 +56,7 @@ const Podcast: FC<PodcastProps> = ({ podcast }): ReactElement => {
       </div>
       <div>
         <div className="-mt-px flex divide-x divide-gray-200">
-          <FeedLogo feed={podcast.feed} />
+          <FeedLogo feed={podcast.feed} webUrl={podcast.contacts.link} />
         </div>
       </div>
       {renderPalette && <Palette colors={podcast.extra.colors} />}

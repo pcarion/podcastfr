@@ -9,6 +9,28 @@ interface FeedLogo {
 
 const feedProviders: FeedLogo[] = [
   {
+    name: 'web',
+    mkLogo: () => (
+      <>
+        <svg
+          className="w-5 h-5 text-gray-400"
+          version="1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 48 48"
+          enable-background="new 0 0 48 48"
+        >
+          <g fill="#1976D2">
+            <path d="M38,13h-3c-5.5,0-10,4.5-10,10s4.5,10,10,10h3c5.5,0,10-4.5,10-10S43.5,13,38,13z M38,29h-3 c-3.3,0-6-2.7-6-6s2.7-6,6-6h3c3.3,0,6,2.7,6,6S41.3,29,38,29z" />
+            <path d="M13,13h-3C4.5,13,0,17.5,0,23s4.5,10,10,10h3c5.5,0,10-4.5,10-10S18.5,13,13,13z M13,29h-3 c-3.3,0-6-2.7-6-6s2.7-6,6-6h3c3.3,0,6,2.7,6,6S16.3,29,13,29z" />
+          </g>
+          <path fill="#42A5F5" d="M33,21H15c-1.1,0-2,0.9-2,2s0.9,2,2,2h18c1.1,0,2-0.9,2-2S34.1,21,33,21z" />
+        </svg>
+
+        <span>Web</span>
+      </>
+    ),
+  },
+  {
     name: 'rss',
     mkLogo: () => (
       <>
@@ -178,14 +200,14 @@ const feedProviders: FeedLogo[] = [
   },
 ];
 
-function renderFeed(podcastFeed: FeedDescription, feed: FeedLogo): ReactElement | null {
-  if (!podcastFeed[feed.name] || podcastFeed[feed.name] === '_') {
+function renderFeed(url: string, feed: FeedLogo): ReactElement | null {
+  if (!url || url === '_') {
     return null;
   }
   return (
     <div className="w-0 flex-1 flex">
       <a
-        href={podcastFeed[feed.name]}
+        href={url}
         className="relative -mr-px w-0 flex-col flex-1 inline-flex items-center justify-center py-4 text-sm text-gray-700 font-medium border border-transparent rounded-bl-lg hover:text-gray-500"
       >
         {feed.mkLogo()}
@@ -196,9 +218,15 @@ function renderFeed(podcastFeed: FeedDescription, feed: FeedLogo): ReactElement 
 
 interface FeedLogoProps {
   feed: FeedDescription;
+  webUrl: string;
 }
-const FeedLogo: FC<FeedLogoProps> = ({ feed }): ReactElement => {
-  return <>{feedProviders.map((provider) => renderFeed(feed, provider))}</>;
+const FeedLogo: FC<FeedLogoProps> = ({ feed, webUrl }): ReactElement => {
+  const allFeeds: Record<string, string> = {
+    ...feed,
+  };
+  // we add the web url
+  allFeeds['web'] = webUrl;
+  return <>{feedProviders.map((provider) => renderFeed(allFeeds[provider.name], provider))}</>;
 };
 
 export default FeedLogo;
