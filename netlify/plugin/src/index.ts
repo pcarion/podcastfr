@@ -8,6 +8,14 @@ interface NetlifyUtils {
   run: {
     command: (args: string) => Promise<void>;
   };
+  git: {
+    fileMatch: () => void;
+    modifiedFiles: string[];
+    createdFiles: string[];
+    deletedFiles: string[];
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    commits: any[];
+  };
 }
 
 interface NetlifyInputs {
@@ -34,6 +42,10 @@ module.exports = {
     console.log('>netlify>plugin>input>podcastsJsonDirectory>', inputs.podcastsJsonDirectory);
     await utils.run.command(`ls -l ${inputs.podcastsJsonDirectory}`);
     console.log('>netlify>plugin>input>constants>', JSON.stringify(constants));
+    console.log('>utils.git.createdFiles>', utils.git.createdFiles);
+    console.log('>utils.git.deletedFiles>', utils.git.deletedFiles);
+    console.log('>utils.git.modifiedFiles>', utils.git.modifiedFiles);
+    console.log('>utils.git.commits>', utils.git.commits);
 
     await generateContentFiles({
       inputYamlDirectory: inputs.podcastsYamlDirectory,
