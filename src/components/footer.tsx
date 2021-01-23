@@ -7,13 +7,15 @@ interface FooterProps {
 }
 
 const Footer: FC<FooterProps> = ({}): ReactElement => {
-  const { buildTime } = useSiteMetadata();
+  const { buildTime, commitRef } = useSiteMetadata();
 
   return (
     <div className="md:flex md:items-center md:justify-between md:space-x-5 my-4">
       <div className="flex items-start space-x-5">
         <div className="pt-1.5">
-          <h3 className="text-sm font-thin text-gray-900">Site généré: {buildTime}</h3>
+          <h3 className="text-sm font-thin text-gray-900">
+            Site généré: {buildTime} - sha: {commitRef}
+          </h3>
         </div>
       </div>
     </div>

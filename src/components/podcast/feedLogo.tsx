@@ -150,7 +150,7 @@ const feedProviders: FeedLogo[] = [
             />
           </g>
         </svg>
-        <span>Google Podcasts</span>
+        <span>Google</span>
       </>
     ),
   },

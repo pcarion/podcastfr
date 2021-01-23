@@ -53,4 +53,4 @@ content:
     date: 2021/01/22
     text: |
       * ajout du lien sur le site web
-      * ajout heure et date de génération du ite en bas de page
+      * ajout heure et date de génération du site et sha1 du oommit en bas de page

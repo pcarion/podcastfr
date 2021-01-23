@@ -6,6 +6,7 @@ interface UseSiteMetaDataResult {
   addText: string;
   addLink: string;
   buildTime: string;
+  commitRef: string;
 }
 
 export default function useSiteMetadata(): UseSiteMetaDataResult {
@@ -26,5 +27,6 @@ export default function useSiteMetadata(): UseSiteMetaDataResult {
   return {
     ...data.site.siteMetadata,
     buildTime: data.site.buildTime,
+    commitRef: process.env.GATSBY_COMMIT_REF,
   };
 }
