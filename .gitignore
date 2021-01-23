@@ -109,3 +109,5 @@ __html__
 tmp
 # content/podcasts.json
 public
+
+bin

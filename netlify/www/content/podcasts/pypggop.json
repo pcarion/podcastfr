@@ -26,7 +26,7 @@
     "pocketcast": "_"
   },
   "pid": "pypggop",
-  "yamlDescriptionFile": "podcasts/visual_studio_talk_show-30.yaml",
+  "yamlDescriptionFile": "visual_studio_talk_show-30.yaml",
   "extra": {
     "colors": {
       "vibrant": "#282a46",

@@ -1,5 +1,6 @@
 import yaml from 'js-yaml';
 import fs from 'fs-extra';
+import path from 'path';
 import { validate as validateAgainsJtdSchema } from 'jtd';
 import schema from './jtd/podcast/schema';
 import { Podcast } from './jtd/podcast';
@@ -37,7 +38,7 @@ export default async function validatePodcastYaml(fileName: string): Promise<Pod
     const doc = await loadYamlFile(fileName);
     // console.log(`@@@@ doc for ${fileName} is:`, doc);
     const podcast = validateJdtSchema(doc);
-    podcast.yamlDescriptionFile = fileName;
+    podcast.yamlDescriptionFile = path.basename(fileName);
     return podcast;
   } catch (err) {
     console.log(err);

@@ -1,11 +1,11 @@
 {
   "title": "Putain de code !",
   "description": "Podcast by Putain de code !\n",
-  "imageUrl": "http://i1.sndcdn.com/avatars-000340437178-m55it1-original.jpg",
+  "imageUrl": "https://pbs.twimg.com/profile_images/912653503516102656/_XH9CSj5_400x400.jpg",
   "contacts": {
-    "link": "_",
+    "link": "https://putaindecode.io/podcasts/",
     "email": "_",
-    "twitter": "_",
+    "twitter": "PutainDeCode",
     "patreon": "_",
     "googleGroup": "_"
   },
@@ -19,22 +19,22 @@
     "rss": "http://feeds.soundcloud.com/users/soundcloud:users:273901232/sounds.rss",
     "itunes": "https://podcasts.apple.com/fr/podcast/putain-de-code/id1185311825",
     "spotify": "_",
-    "soundcloud": "_",
+    "soundcloud": "https://soundcloud.com/putaindecode",
     "deezer": "_",
     "google": "_",
     "castbox": "_",
     "pocketcast": "_"
   },
   "pid": "p2prxmp",
-  "yamlDescriptionFile": "podcasts/putain_de_code_!-40.yaml",
+  "yamlDescriptionFile": "putain_de_code_!-40.yaml",
   "extra": {
     "colors": {
-      "vibrant": "#930512",
-      "darkVibrant": "#cc0719",
-      "lightVibrant": "#e4849c",
-      "muted": "#90081b",
-      "darkMuted": "#930512",
-      "lightMuted": "#7d1b34"
+      "vibrant": "#940411",
+      "darkVibrant": "#cc0618",
+      "lightVibrant": "#e5909c",
+      "muted": "#90081a",
+      "darkMuted": "#940411",
+      "lightMuted": "#7b1d2a"
     },
     "episodes": [
       {

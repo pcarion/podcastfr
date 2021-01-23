@@ -556,6 +556,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 var js_yaml_1 = __importDefault(__nccwpck_require__(1917));
 var fs_extra_1 = __importDefault(__nccwpck_require__(5630));
+var path_1 = __importDefault(__nccwpck_require__(5622));
 var jtd_1 = __nccwpck_require__(6677);
 var schema_1 = __importDefault(__nccwpck_require__(6343));
 function loadYamlFile(fileName) {
@@ -596,7 +597,7 @@ function validatePodcastYaml(fileName) {
                 case 1:
                     doc = _a.sent();
                     podcast = validateJdtSchema(doc);
-                    podcast.yamlDescriptionFile = fileName;
+                    podcast.yamlDescriptionFile = path_1.default.basename(fileName);
                     return [2 /*return*/, podcast];
                 case 2:
                     err_1 = _a.sent();

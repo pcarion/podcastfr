@@ -5,20 +5,20 @@
   "contacts": {
     "link": "https://bigdatahebdo.com/podcast/",
     "email": "_",
-    "twitter": "_",
+    "twitter": "bigdatahebdo",
     "patreon": "_",
     "googleGroup": "_"
   },
   "hosts": [
     {
       "name": "Vincent Heuschling",
-      "twitter": "_"
+      "twitter": "vhe74qq"
     }
   ],
   "feed": {
     "rss": "https://www.bigdatahebdo.com/podcast/index.xml",
-    "itunes": "_",
-    "spotify": "_",
+    "itunes": "https://podcasts.apple.com/us/podcast/id886262012",
+    "spotify": "https://open.spotify.com/show/3PLOHtH7AAbRsUJiyeaON8",
     "soundcloud": "_",
     "deezer": "_",
     "google": "_",
@@ -26,7 +26,7 @@
     "pocketcast": "_"
   },
   "pid": "plpe8p4",
-  "yamlDescriptionFile": "podcasts/big_data_hebdo-8.yaml",
+  "yamlDescriptionFile": "big_data_hebdo-8.yaml",
   "extra": {
     "colors": {
       "vibrant": "#966b02",
