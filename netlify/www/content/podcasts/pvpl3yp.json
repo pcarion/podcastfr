@@ -1,29 +1,29 @@
 {
   "title": "Le rendez-vous Tech",
-  "description": "L'actu Tech - Internet - Gadgets\nLe rendez-vous Tech, c’est LE podcast consacré au monde de la technologie. Un podcast pour tous, compréhensible, intéressant et distrayant.\nA chaque épisode, nous traitons des nouveautés et de l’actualité du net, des gadgets et de la technologie en général. Nous parlons des nouveautés techniques, des mouvements du marché et de l’évolution de l’industrie, toujours du point de vue des utilisateurs éclairés que nous sommes... et toujours dans la bonne humeur !\n",
+  "description": "L'actu Tech - Internet - Gadgets\nLe rendez-vous Tech, c’est LE podcast consacré au monde de la technologie. Un podcast pour tous, compréhensible, intéressant et distrayant.\nA chaque épisode, nous traitons des nouveautés et de l’actualité du net, des gadgets et de la technologie en général. \nNous parlons des nouveautés techniques, des mouvements du marché et de l’évolution de l’industrie, toujours du point de vue des utilisateurs éclairés que nous sommes... et toujours dans la bonne humeur !\n",
   "imageUrl": "https://thumborcdn.acast.com/6mMW1JKVXsGnPelNKwE-1bOHtww=/1500x1500/https://mediacdn.acast.com/assets/b9e1260d-4777-4c20-bd86-88cf343c8ece/-k6ncm8ii-rdv_tech_2017_1400.png",
   "contacts": {
-    "link": "_",
+    "link": "https://frenchspin.fr/category/le-rdv-tech/",
     "email": "_",
     "twitter": "_",
-    "patreon": "_",
+    "patreon": "http://patreon.com/RDVTech",
     "googleGroup": "_"
   },
   "hosts": [
     {
-      "name": "frenchspin",
-      "twitter": "_"
+      "name": "Patrick Beja",
+      "twitter": "notpatrick"
     }
   ],
   "feed": {
     "rss": "http://feeds2.feedburner.com/lerendezvoustech",
     "itunes": "https://podcasts.apple.com/fr/podcast/le-rendez-vous-tech/id303492600?mt=2",
-    "spotify": "_",
+    "spotify": "https://open.spotify.com/show/390w6Ac9c2pLxCPyIjRWb4",
     "soundcloud": "_",
     "deezer": "_",
-    "google": "_",
+    "google": "https://podcasts.google.com/feed/aHR0cDovL2ZlZWRzMi5mZWVkYnVybmVyLmNvbS9sZXJlbmRlenZvdXN0ZWNo",
     "castbox": "_",
-    "pocketcast": "_"
+    "pocketcast": "https://pca.st/itunes/303492600"
   },
   "pid": "pvpl3yp",
   "yamlDescriptionFile": "le_rendez-vous_tech-37.yaml",
@@ -80,7 +80,7 @@
         "publishingDate": "2020-10-20"
       },
       {
-        "publishingDate": "2020-10-15"
+        "publishingDate": "2020-10-16"
       },
       {
         "publishingDate": "2020-10-13"
@@ -245,7 +245,7 @@
         "publishingDate": "2019-11-26"
       },
       {
-        "publishingDate": "2019-11-18"
+        "publishingDate": "2019-11-19"
       },
       {
         "publishingDate": "2019-11-12"
@@ -260,7 +260,7 @@
         "publishingDate": "2019-10-22"
       },
       {
-        "publishingDate": "2019-10-14"
+        "publishingDate": "2019-10-15"
       },
       {
         "publishingDate": "2019-10-08"
@@ -299,7 +299,7 @@
         "publishingDate": "2019-07-23"
       },
       {
-        "publishingDate": "2019-07-15"
+        "publishingDate": "2019-07-16"
       },
       {
         "publishingDate": "2019-07-09"
@@ -311,7 +311,7 @@
         "publishingDate": "2019-06-25"
       },
       {
-        "publishingDate": "2019-06-17"
+        "publishingDate": "2019-06-18"
       },
       {
         "publishingDate": "2019-06-11"
@@ -401,7 +401,7 @@
         "publishingDate": "2018-11-26"
       },
       {
-        "publishingDate": "2018-11-19"
+        "publishingDate": "2018-11-20"
       },
       {
         "publishingDate": "2018-11-13"
@@ -449,13 +449,13 @@
         "publishingDate": "2018-08-06"
       },
       {
-        "publishingDate": "2018-07-29"
+        "publishingDate": "2018-07-30"
       },
       {
         "publishingDate": "2018-07-24"
       },
       {
-        "publishingDate": "2018-07-16"
+        "publishingDate": "2018-07-17"
       },
       {
         "publishingDate": "2018-07-09"
@@ -476,13 +476,13 @@
         "publishingDate": "2018-06-05"
       },
       {
-        "publishingDate": "2018-05-28"
+        "publishingDate": "2018-05-29"
       },
       {
         "publishingDate": "2018-05-22"
       },
       {
-        "publishingDate": "2018-05-14"
+        "publishingDate": "2018-05-15"
       },
       {
         "publishingDate": "2018-05-07"
