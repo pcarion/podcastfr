@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: parse issue for new podcast addition
-        uses: pcarion/podcast-directory-action@v0.8
+        uses: pcarion/podcast-directory-action@v0.9
         with:
           podcast-yaml-directory: 'podcasts'
           podcast-json-directory: 'netlify/www/content/podcasts'
