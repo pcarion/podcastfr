@@ -252,13 +252,19 @@ module.exports = {
                 switch (_b.label) {
                     case 0:
                         console.log('>netlify>plugin>onPreBuild');
+                        return [4 /*yield*/, generateContentFiles_1.generateContentFiles({
+                                inputYamlDirectory: inputs.podcastsYamlDirectory,
+                                outputJsonDirectory: inputs.podcastsJsonDirectory,
+                            })];
+                    case 1:
+                        _b.sent();
                         console.log('>netlify>plugin>input>podcastsYamlDirectory>', inputs.podcastsYamlDirectory);
                         return [4 /*yield*/, utils.run.command("ls -l " + inputs.podcastsYamlDirectory)];
-                    case 1:
+                    case 2:
                         _b.sent();
                         console.log('>netlify>plugin>input>podcastsJsonDirectory>', inputs.podcastsJsonDirectory);
                         return [4 /*yield*/, utils.run.command("ls -l " + inputs.podcastsJsonDirectory)];
-                    case 2:
+                    case 3:
                         _b.sent();
                         console.log('>netlify>plugin>input>constants>', JSON.stringify(constants));
                         console.log('>utils.git.createdFiles>', utils.git.createdFiles);
@@ -266,12 +272,6 @@ module.exports = {
                         console.log('>utils.git.modifiedFiles>', utils.git.modifiedFiles);
                         console.log('>utils.git.commits>', utils.git.commits);
                         console.log('>process.env>', JSON.stringify(process.env));
-                        return [4 /*yield*/, generateContentFiles_1.generateContentFiles({
-                                inputYamlDirectory: inputs.podcastsYamlDirectory,
-                                outputJsonDirectory: inputs.podcastsJsonDirectory,
-                            })];
-                    case 3:
-                        _b.sent();
                         return [2 /*return*/];
                 }
             });

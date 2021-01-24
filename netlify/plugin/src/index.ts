@@ -37,6 +37,10 @@ module.exports = {
   // eslint-disable-next-line @typescript-eslint/no-unused-vars
   async onPreBuild({ constants, utils, inputs }: NetlifyOpts) {
     console.log('>netlify>plugin>onPreBuild');
+    await generateContentFiles({
+      inputYamlDirectory: inputs.podcastsYamlDirectory,
+      outputJsonDirectory: inputs.podcastsJsonDirectory,
+    });
     console.log('>netlify>plugin>input>podcastsYamlDirectory>', inputs.podcastsYamlDirectory);
     await utils.run.command(`ls -l ${inputs.podcastsYamlDirectory}`);
     console.log('>netlify>plugin>input>podcastsJsonDirectory>', inputs.podcastsJsonDirectory);
@@ -47,11 +51,6 @@ module.exports = {
     console.log('>utils.git.modifiedFiles>', utils.git.modifiedFiles);
     console.log('>utils.git.commits>', utils.git.commits);
     console.log('>process.env>', JSON.stringify(process.env));
-
-    await generateContentFiles({
-      inputYamlDirectory: inputs.podcastsYamlDirectory,
-      outputJsonDirectory: inputs.podcastsJsonDirectory,
-    });
   },
   async onSuccess() {
     console.log('>netlify>plugin>onSuccess');
