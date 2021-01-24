@@ -1,0 +1,27 @@
+title: Dev'Obs
+description: |
+  DevObs Le magazine et observatoire du DevOps
+imageUrl: https://images.transistor.fm/file/transistor/images/show/8439/full_1584107341-artwork.jpg
+
+contacts:
+  link: _
+  email: _
+  twitter: _
+  patreon: _
+  googleGroup: _
+
+hosts:
+  - name: p7t
+    twitter: _
+
+feed:
+  rss: https://feeds.transistor.fm/devobs
+  itunes: https://podcasts.apple.com/us/podcast/id1359662119
+  spotify: _
+  soundcloud: _
+  deezer: _
+  google: _
+  castbox: _
+  pocketcast: _
+
+pid: pljdo17 # do not change
