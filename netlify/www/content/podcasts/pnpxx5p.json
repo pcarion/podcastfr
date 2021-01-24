@@ -1,0 +1,155 @@
+{
+  "title": "Café Craft",
+  "description": "Dans Café Craft, nous explorons les nouvelles organisations, les nouvelles technologies qui les permettent, et nous intéressons au développement personnel nécessaire dans ce rapport au travail qui est en mouvement. Organisations horizontales, artisanat dans l'entreprise, agilité, devops... Avec ces nouvelles manières de travailler, l'engagement personnel doit aussi évoluer. Que faire de notre autonomie ? Que devient la frontière perso/pro ? Autant de questions qui se posent dans les systèmes humains mis en places pour construire de la Tech. Prenons un café et posons nous pour réfléchir ensemble. Passons du chaos à la prévention, retrouvons la maîtrise de notre travail et le plaisir qui va avec. Je suis Thomas Wickham, et je vais interviewer des experts pour quadriller ce sujet par tous les angles. Un lundi matin sur deux, un nouveau sujet audio à écouter sur le site, ou via votre application de podcast favorite (je recommande Podcast.app sous iOS, Podcast Addict (https://play.google.com/store/apps/details?id=com.bambuna.podcastaddict&hl=fr) sous Android).",
+  "imageUrl": "https://assets.fireside.fm/file/fireside-images/podcasts/images/0/0ecc8b0c-4ccb-4785-abd9-78c19f1f12e7/cover.jpg?v=1",
+  "pid": "pnpxx5p",
+  "feed": {
+    "rss": "https://feeds.fireside.fm/cafe-craft/rss",
+    "itunes": "https://podcasts.apple.com/us/podcast/id1294016248",
+    "spotify": "_",
+    "soundcloud": "_",
+    "deezer": "_",
+    "google": "_",
+    "castbox": "_",
+    "pocketcast": "_"
+  },
+  "hosts": [
+    {
+      "name": "Thomas WICKHAM"
+    }
+  ],
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "yamlDescriptionFile": "cafe_craft-76.yaml",
+  "extra": {
+    "colors": {
+      "vibrant": "#613f2e",
+      "darkVibrant": "#6c3425",
+      "lightVibrant": "#dda99c",
+      "muted": "#7c7c7c",
+      "darkMuted": "#613f2e",
+      "lightMuted": "#c4aca4"
+    },
+    "episodes": [
+      {
+        "publishingDate": "2019-05-13"
+      },
+      {
+        "publishingDate": "2019-05-12"
+      },
+      {
+        "publishingDate": "2019-04-28"
+      },
+      {
+        "publishingDate": "2019-04-01"
+      },
+      {
+        "publishingDate": "2019-03-31"
+      },
+      {
+        "publishingDate": "2019-03-25"
+      },
+      {
+        "publishingDate": "2019-03-25"
+      },
+      {
+        "publishingDate": "2018-06-24"
+      },
+      {
+        "publishingDate": "2018-06-22"
+      },
+      {
+        "publishingDate": "2018-06-17"
+      },
+      {
+        "publishingDate": "2018-06-10"
+      },
+      {
+        "publishingDate": "2018-06-02"
+      },
+      {
+        "publishingDate": "2018-04-11"
+      },
+      {
+        "publishingDate": "2018-03-25"
+      },
+      {
+        "publishingDate": "2018-03-18"
+      },
+      {
+        "publishingDate": "2018-03-11"
+      },
+      {
+        "publishingDate": "2018-03-04"
+      },
+      {
+        "publishingDate": "2018-02-25"
+      },
+      {
+        "publishingDate": "2018-02-18"
+      },
+      {
+        "publishingDate": "2018-02-04"
+      },
+      {
+        "publishingDate": "2018-01-21"
+      },
+      {
+        "publishingDate": "2018-01-14"
+      },
+      {
+        "publishingDate": "2018-01-07"
+      },
+      {
+        "publishingDate": "2017-12-31"
+      },
+      {
+        "publishingDate": "2017-12-24"
+      },
+      {
+        "publishingDate": "2017-12-17"
+      },
+      {
+        "publishingDate": "2017-12-10"
+      },
+      {
+        "publishingDate": "2017-12-03"
+      },
+      {
+        "publishingDate": "2017-11-26"
+      },
+      {
+        "publishingDate": "2017-11-19"
+      },
+      {
+        "publishingDate": "2017-11-12"
+      },
+      {
+        "publishingDate": "2017-11-05"
+      },
+      {
+        "publishingDate": "2017-10-29"
+      },
+      {
+        "publishingDate": "2017-10-22"
+      },
+      {
+        "publishingDate": "2017-10-15"
+      },
+      {
+        "publishingDate": "2017-10-07"
+      },
+      {
+        "publishingDate": "2017-10-07"
+      },
+      {
+        "publishingDate": "2017-10-07"
+      }
+    ]
+  }
+}
