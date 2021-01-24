@@ -1,10 +1,11 @@
 title: Tech-off - Les Echos
 description: |
-  Rencontrez les figures de la French Tech à travers une série d’entretiens intimistes réalisés au petit déjeuner à leur domicile. Guillaume Bregeras, journaliste en charge des start-up aux Echos, sort de l’actualité l’espace d’un moment pour explorer les zones méconnues de leur parcours, ce qui les inspire, les pousse à innover et prendre des risques face aux acteurs économiques établis.
+  Rencontrez les figures de la French Tech à travers une série d’entretiens intimistes réalisés au petit déjeuner à leur domicile. 
+  Guillaume Bregeras, journaliste en charge des start-up aux Echos, sort de l’actualité l’espace d’un moment pour explorer les zones méconnues de leur parcours, ce qui les inspire, les pousse à innover et prendre des risques face aux acteurs économiques établis.
 imageUrl: https://thumborcdn.acast.com/6Oc_QlF4jYmA34QUTkvgEQey_mk=/1500x1500/https://acast-media.s3.eu-west-1.amazonaws.com/assets/40489ff3-d67b-5c00-9908-2430e3cc26db/show-cover.jpg
 
 contacts:
-  link: _
+  link: writeComment
   email: _
   twitter: _
   patreon: _
@@ -12,13 +13,13 @@ contacts:
 
 hosts:
   - name: Les Echos
-    twitter: _
+    twitter: LesEchos
 
 feed:
   rss: https://rss.acast.com/tech-off-les-echos
   itunes: https://podcasts.apple.com/fr/podcast/tech-off-les-echos/id1340227916
-  spotify: _
-  soundcloud: _
+  spotify: https://open.spotify.com/show/5ZdVWjo3QIdEOpGdcb8HPP
+  soundcloud: https://soundcloud.com/techoff-lesechos
   deezer: _
   google: _
   castbox: _
