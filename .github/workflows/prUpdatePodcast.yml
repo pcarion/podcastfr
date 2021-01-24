@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: parse PR for podcast update
-        uses: pcarion/podcast-directory-action@v0.13
+        uses: pcarion/podcast-directory-action@v0.14
         with:
           podcast-yaml-directory: 'podcasts'
           podcast-json-directory: 'netlify/www/content/podcasts'
