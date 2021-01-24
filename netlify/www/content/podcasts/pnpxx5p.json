@@ -1,30 +1,31 @@
 {
   "title": "Café Craft",
-  "description": "Dans Café Craft, nous explorons les nouvelles organisations, les nouvelles technologies qui les permettent, et nous intéressons au développement personnel nécessaire dans ce rapport au travail qui est en mouvement. Organisations horizontales, artisanat dans l'entreprise, agilité, devops... Avec ces nouvelles manières de travailler, l'engagement personnel doit aussi évoluer. Que faire de notre autonomie ? Que devient la frontière perso/pro ? Autant de questions qui se posent dans les systèmes humains mis en places pour construire de la Tech. Prenons un café et posons nous pour réfléchir ensemble. Passons du chaos à la prévention, retrouvons la maîtrise de notre travail et le plaisir qui va avec. Je suis Thomas Wickham, et je vais interviewer des experts pour quadriller ce sujet par tous les angles. Un lundi matin sur deux, un nouveau sujet audio à écouter sur le site, ou via votre application de podcast favorite (je recommande Podcast.app sous iOS, Podcast Addict (https://play.google.com/store/apps/details?id=com.bambuna.podcastaddict&hl=fr) sous Android).",
+  "description": "Dans Café Craft, nous explorons les nouvelles organisations, les nouvelles technologies qui les permettent, et nous intéressons au développement personnel nécessaire dans ce rapport au travail qui est en mouvement. \nOrganisations horizontales, artisanat dans l'entreprise, agilité, devops... \nAvec ces nouvelles manières de travailler, l'engagement personnel doit aussi évoluer. Que faire de notre autonomie ? Que devient la frontière perso/pro ? Autant de questions qui se posent dans les systèmes humains mis en places pour construire de la Tech. \nPrenons un café et posons nous pour réfléchir ensemble. Passons du chaos à la prévention, retrouvons la maîtrise de notre travail et le plaisir qui va avec. Je suis Thomas Wickham, et je vais interviewer des experts pour quadriller ce sujet par tous les angles. \nUn lundi matin sur deux, un nouveau sujet audio à écouter sur le site, ou via votre application de podcast favorite.\n",
   "imageUrl": "https://assets.fireside.fm/file/fireside-images/podcasts/images/0/0ecc8b0c-4ccb-4785-abd9-78c19f1f12e7/cover.jpg?v=1",
-  "pid": "pnpxx5p",
+  "contacts": {
+    "link": "https://www.cafe-craft.fr/",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "hosts": [
+    {
+      "name": "Thomas Wickham",
+      "twitter": "radiothomas_"
+    }
+  ],
   "feed": {
     "rss": "https://feeds.fireside.fm/cafe-craft/rss",
     "itunes": "https://podcasts.apple.com/us/podcast/id1294016248",
-    "spotify": "_",
+    "spotify": "https://open.spotify.com/show/4GDcFuaa3x6cdb8i89h8b9",
     "soundcloud": "_",
     "deezer": "_",
     "google": "_",
     "castbox": "_",
     "pocketcast": "_"
   },
-  "hosts": [
-    {
-      "name": "Thomas WICKHAM"
-    }
-  ],
-  "contacts": {
-    "link": "_",
-    "email": "_",
-    "twitter": "_",
-    "patreon": "_",
-    "googleGroup": "_"
-  },
+  "pid": "pnpxx5p",
   "yamlDescriptionFile": "cafe_craft-76.yaml",
   "extra": {
     "colors": {
