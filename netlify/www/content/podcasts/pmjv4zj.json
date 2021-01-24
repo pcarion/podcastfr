@@ -3,24 +3,60 @@
   "description": "Recent content in Goood Morning Web - Le Podcast pour et par les amoureux du web on Goood Morning Web\n",
   "imageUrl": "https://www.gooodmorningweb.fr/img/goood-morning-web.png",
   "contacts": {
-    "link": "_",
+    "link": "https://www.gooodmorningweb.fr/",
     "email": "_",
-    "twitter": "_",
+    "twitter": "https://twitter.com/GooodMorningWeb",
     "patreon": "_",
     "googleGroup": "_"
   },
   "hosts": [
     {
-      "name": "_",
+      "name": "Alban Jamesse",
       "twitter": "_"
+    },
+    {
+      "name": "Bertrand Demarcq",
+      "twitter": "bdm"
+    },
+    {
+      "name": "Cyrièle Piancastelli",
+      "twitter": "cyro"
+    },
+    {
+      "name": "François Ziserman",
+      "twitter": "Ziserman"
+    },
+    {
+      "name": "Hervé Bourdon",
+      "twitter": "hervebourdon"
+    },
+    {
+      "name": "Jérôme Neuvéglise",
+      "twitter": "jne"
+    },
+    {
+      "name": "Mathilde Le Rouzic",
+      "twitter": "mathilde"
+    },
+    {
+      "name": "Olivier Martineau",
+      "twitter": "omartineau"
+    },
+    {
+      "name": "René Cotton",
+      "twitter": "_"
+    },
+    {
+      "name": "Sophie Gironi",
+      "twitter": "sophiegironi"
     }
   ],
   "feed": {
     "rss": "https://www.gooodmorningweb.fr/index.xml",
     "itunes": "_",
-    "spotify": "_",
-    "soundcloud": "_",
-    "deezer": "_",
+    "spotify": "https://open.spotify.com/show/3lrU5tJRtZlFrMooY6pjH1?si=5ezifhQIQxCpm5usOrMyag",
+    "soundcloud": "https://soundcloud.com/goood-morning-web",
+    "deezer": "https://www.deezer.com/show/1033422",
     "google": "_",
     "castbox": "_",
     "pocketcast": "_"

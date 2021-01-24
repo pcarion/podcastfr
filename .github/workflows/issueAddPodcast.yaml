@@ -7,10 +7,10 @@ jobs:
   issue_add_podcast:
     runs-on: ubuntu-latest
     steps:
-      - run: env
       - name: parse issue for new podcast addition
-        uses: pcarion/podcast-directory-action@v0.6
+        uses: pcarion/podcast-directory-action@v0.7
         with:
           podcast-yaml-directory: 'podcasts'
+          podcast-json-directory: 'netlify/www/content/podcasts'
           repo-token: ${{ secrets.GH_PAT }}
 
