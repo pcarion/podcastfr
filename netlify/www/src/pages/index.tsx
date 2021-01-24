@@ -23,7 +23,7 @@ function shuffle(array: PodcastExtra[]) {
     array[currentIndex] = array[randomIndex];
     array[randomIndex] = temporaryValue;
   }
-
+  console.log('@@@ reshuffle podcasts');
   return array;
 }
 

@@ -46,6 +46,7 @@ module.exports = {
     console.log('>utils.git.deletedFiles>', utils.git.deletedFiles);
     console.log('>utils.git.modifiedFiles>', utils.git.modifiedFiles);
     console.log('>utils.git.commits>', utils.git.commits);
+    console.log('>process.env>', JSON.stringify(process.env));
 
     await generateContentFiles({
       inputYamlDirectory: inputs.podcastsYamlDirectory,
