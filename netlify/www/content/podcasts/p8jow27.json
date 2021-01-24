@@ -1,30 +1,31 @@
 {
   "title": "radio DSI",
-  "description": "Radio DSI (radiodsi.com (https://radiodsi.com/)) est la première plateforme de podcast française exclusivement consacrée à la DSI, et aux DSI et décideurs IT. En publiant les témoignages de DSI, de RSSI, de CDO, de CTO, d'experts, ainsi que de fournisseurs sur leur vision et leur actualité, Radio DSI répond aux attentes des acteurs de l'informatique et des IT de pouvoir communiquer sous une forme moderne et appréciée, le podcast. Dans une démarche cross-media, Radio DSI accompagne les autres médias du groupe HBT en leur permettant de disposer du format podcast diffusé sur les plateformes iTunes, Spotify, SoundCloud et d'autre encore. Retrouvez-nous également sur les réseaux sociaux, @radioDSI (https://twitter.com/radioDSI).",
+  "description": "Radio DSI est la première plateforme de podcast française exclusivement consacrée à la DSI, et aux DSI et décideurs IT. \nEn publiant les témoignages de DSI, de RSSI, de CDO, de CTO, d'experts, ainsi que de fournisseurs sur leur vision et leur actualité, Radio DSI répond aux attentes des acteurs de l'informatique et des IT de pouvoir communiquer sous une forme moderne et appréciée, le podcast. \nDans une démarche cross-media, Radio DSI accompagne les autres médias du groupe HBT en leu (https://twitter.com/radioDSI).\n",
   "imageUrl": "https://image.ausha.co/STQI18NvE929GI5kUnlLKajCHJNTuzsbGBjm7AEp_1400x1400.jpeg?t=1580488788",
-  "pid": "p8jow27",
+  "contacts": {
+    "link": "https://radiodsi.com/",
+    "email": "_",
+    "twitter": "radioDSI",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "hosts": [
+    {
+      "name": "radio DSI",
+      "twitter": "radioDSI"
+    }
+  ],
   "feed": {
     "rss": "https://feed.ausha.co/BNz5kSr3z5QB",
     "itunes": "https://podcasts.apple.com/us/podcast/id1456770062",
-    "spotify": "_",
-    "soundcloud": "_",
+    "spotify": "https://open.spotify.com/show/5ZYMu2aDO54NYr4kXfLgc2",
+    "soundcloud": "https://soundcloud.com/radio-dsi",
     "deezer": "_",
     "google": "_",
     "castbox": "_",
     "pocketcast": "_"
   },
-  "hosts": [
-    {
-      "name": "radio DSI"
-    }
-  ],
-  "contacts": {
-    "link": "_",
-    "email": "_",
-    "twitter": "_",
-    "patreon": "_",
-    "googleGroup": "_"
-  },
+  "pid": "p8jow27",
   "yamlDescriptionFile": "radio_dsi-63.yaml",
   "extra": {
     "colors": {
