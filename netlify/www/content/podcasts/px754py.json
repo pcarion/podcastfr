@@ -3,9 +3,9 @@
   "description": "VOUS AVEZ L’ENVIE D’EN CONNAITRE PLUS SUR LE MOUVEMENT DEVOPS ?\nLES PROBLÉMATIQUES LIÉES AU DÉPLOIEMENT VOUS TITILLENT…\nALORS, VOUS ÊTES AU BON ENDROIT !\nRadio DevOps est la Baladodiffusion des Compagnons du DevOps [https://www.compagnons-devops.fr/].\nLe podcast en français dédié à notre mouvement.\n",
   "imageUrl": "https://assets.pippa.io/shows/5df7c112b9e5bf6d176cbfcb/1605087665018-03e71470e98bb5ad9303958e18533f21.jpeg",
   "contacts": {
-    "link": "_",
+    "link": "https://feeds.acast.com/public/shows/radio-devops",
     "email": "_",
-    "twitter": "_",
+    "twitter": "art_devops",
     "patreon": "_",
     "googleGroup": "_"
   },
@@ -38,37 +38,37 @@
     },
     "episodes": [
       {
-        "publishingDate": "2021-01-20"
+        "publishingDate": "2021-01-21"
       },
       {
-        "publishingDate": "2021-01-13"
+        "publishingDate": "2021-01-14"
       },
       {
-        "publishingDate": "2020-12-23"
+        "publishingDate": "2020-12-24"
       },
       {
-        "publishingDate": "2020-12-16"
+        "publishingDate": "2020-12-17"
       },
       {
-        "publishingDate": "2020-12-09"
+        "publishingDate": "2020-12-10"
       },
       {
-        "publishingDate": "2020-12-02"
+        "publishingDate": "2020-12-03"
       },
       {
-        "publishingDate": "2020-11-25"
+        "publishingDate": "2020-11-26"
       },
       {
-        "publishingDate": "2020-11-18"
+        "publishingDate": "2020-11-19"
       },
       {
-        "publishingDate": "2020-11-11"
+        "publishingDate": "2020-11-12"
       },
       {
-        "publishingDate": "2020-11-04"
+        "publishingDate": "2020-11-05"
       },
       {
-        "publishingDate": "2020-10-28"
+        "publishingDate": "2020-10-29"
       },
       {
         "publishingDate": "2020-10-21"
@@ -146,13 +146,13 @@
         "publishingDate": "2020-03-31"
       },
       {
-        "publishingDate": "2020-03-24"
+        "publishingDate": "2020-03-25"
       },
       {
-        "publishingDate": "2020-03-17"
+        "publishingDate": "2020-03-18"
       },
       {
-        "publishingDate": "2020-03-10"
+        "publishingDate": "2020-03-11"
       },
       {
         "publishingDate": "2020-02-28"
