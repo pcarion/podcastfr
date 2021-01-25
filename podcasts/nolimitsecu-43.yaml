@@ -1,25 +1,25 @@
 title: NoLimitSecu
 description: |
-  Podcast dédié à la cyber sécurité
+  Podcast francophone hebdomadaire dédié à la cyber sécurité
 imageUrl: https://e-cdns-images.dzcdn.net/images/talk/2f9efa66abae96c0f3096030c6458dca/528x528-000000-80-0-0.jpg
 
 contacts:
   link: https://www.nolimitsecu.fr/
-  email: _
-  twitter: _
+  email: nolimitsecu@nolimitsecu.fr
+  twitter: https://twitter.com/nolimitsecu
   patreon: _
   googleGroup: _
 
 hosts:
   - name: NoLimitSecu
-    twitter: _
+    twitter: https://twitter.com/nolimitsecu
 
 feed:
   rss: https://www.nolimitsecu.fr/feed/podcast/
   itunes: https://itunes.apple.com/fr/podcast/no-limit-secu-podcast-feed/id897083950?mt=2
-  spotify: _
+  spotify: https://open.spotify.com/show/25OSac4B0QLqisXfg4hmyX
   soundcloud: _
-  deezer: _
+  deezer: https://www.deezer.com/fr/show/8831
   google: https://subscribeonandroid.com/www.nolimitsecu.fr/feed/podcast/
   castbox: _
   pocketcast: _
