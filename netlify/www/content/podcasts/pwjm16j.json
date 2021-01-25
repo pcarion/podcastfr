@@ -1,0 +1,74 @@
+{
+  "title": "Les Nouveaux Artisans",
+  "description": "Bienvenue sur Les Nouveaux Artisans, le podcast des mordu(e)s du digital. Je m'appelle Edouard Poirson, je suis développeur et co-fondateur de l'agence Belle Epoque. Dans ce podcast, j'invite des développeurs, des designers, des entrepreneurs... en bref toutes celles et ceux qui façonnent le web. A travers les épisodes, vous découvrirez des parcours, des projets, des expériences qui je l'espère vous passionnerons autant qu'ils m'ont passionné. Si vous souhaitez échanger sur les épisodes ou simplement faire connaissance, je suis à votre écoute surTwitter via les profils @edouardpoirson et @_belle_epoque",
+  "imageUrl": "https://assets.pippa.io/shows/5c0d44edf2332a327f7a7b54/1545396943998-9743f6d8330b1bd8f0c7fe3fa9623703.jpeg",
+  "pid": "pwjm16j",
+  "feed": {
+    "rss": "https://feed.pippa.io/public/shows/5c0d44edf2332a327f7a7b54",
+    "itunes": "https://podcasts.apple.com/us/podcast/id1447046356",
+    "spotify": "_",
+    "soundcloud": "_",
+    "deezer": "_",
+    "google": "_",
+    "castbox": "_",
+    "pocketcast": "_"
+  },
+  "hosts": [
+    {
+      "name": "Edouard Poirson"
+    }
+  ],
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "yamlDescriptionFile": "les_nouveaux_artisans-83.yaml",
+  "extra": {
+    "colors": {
+      "vibrant": "#344c44",
+      "darkVibrant": "#5b4028",
+      "lightVibrant": "#d1ac74",
+      "muted": "#a27259",
+      "darkMuted": "#344c44",
+      "lightMuted": "#c0c9af"
+    },
+    "episodes": [
+      {
+        "publishingDate": "2019-03-07"
+      },
+      {
+        "publishingDate": "2019-02-21"
+      },
+      {
+        "publishingDate": "2019-02-13"
+      },
+      {
+        "publishingDate": "2019-02-06"
+      },
+      {
+        "publishingDate": "2019-01-30"
+      },
+      {
+        "publishingDate": "2019-01-23"
+      },
+      {
+        "publishingDate": "2019-01-09"
+      },
+      {
+        "publishingDate": "2019-01-02"
+      },
+      {
+        "publishingDate": "2018-12-27"
+      },
+      {
+        "publishingDate": "2018-12-21"
+      },
+      {
+        "publishingDate": "2018-12-16"
+      }
+    ]
+  }
+}
