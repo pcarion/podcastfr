@@ -1,26 +1,30 @@
 title: Visual Studio Talk Show
 description: |
-  Un podcast en français sur l'architecture et le développement logiciel. Suivez les entrevues de Mario Cardinal et Guy Barrette avec les experts de la programmation Microsoft .NET.
+  Un podcast en français sur l'architecture et le développement logiciel. 
+  Suivez les entrevues de Mario Cardinal et Guy Barrette avec les experts de la programmation Microsoft .NET.
 imageUrl: https://ssl-static.libsyn.com/p/assets/2/b/9/a/2b9a4c62e9feb84c/vsts_300.png
 
 contacts:
-  link: _
+  link: https://visualstudiotalkshow.libsyn.com/
   email: _
-  twitter: _
+  twitter: VSTalkShow
   patreon: _
   googleGroup: _
 
 hosts:
-  - name: Mario Cardinal et Guy Barrette
-    twitter: _
+  - name: Mario Cardinal
+    twitter: mario_cardinal
+  - name: Guy Barrette
+    twitter: GuyBarrette
+
 
 feed:
   rss: https://visualstudiotalkshow.libsyn.com/rss
   itunes: https://podcasts.apple.com/us/podcast/id673760676
   spotify: _
   soundcloud: _
-  deezer: _
-  google: _
+  deezer: https://www.deezer.com/show/3329
+  google: https://podcasts.google.com/feed/aHR0cHM6Ly92aXN1YWxzdHVkaW90YWxrc2hvdy5saWJzeW4uY29tL3Jzcw
   castbox: _
   pocketcast: _
 
