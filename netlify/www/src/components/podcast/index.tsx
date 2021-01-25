@@ -42,7 +42,7 @@ const Podcast: FC<PodcastProps> = ({ podcast }): ReactElement => {
             <h3 className={`${h3TextColor} text-2xl font-light py-3`}>{podcast.title}</h3>
           </div>
           <div className="flex mr-1" style={{ backgroundColor: bgHostColor }}>
-            <Hosts hosts={podcast.hosts} textColor={h4TextColor} />
+            <Hosts hosts={podcast.hosts} textColor={h4TextColor} bgColor={headerColor} />
           </div>
         </div>
       </div>
