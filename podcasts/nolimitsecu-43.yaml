@@ -6,13 +6,13 @@ imageUrl: https://www.nolimitsecu.fr/wp-content/uploads/2014/07/NolimitSecu-1400
 contacts:
   link: https://www.nolimitsecu.fr/
   email: nolimitsecu@nolimitsecu.fr
-  twitter: https://twitter.com/nolimitsecu
+  twitter: nolimitsecu
   patreon: _
   googleGroup: _
 
 hosts:
   - name: NoLimitSecu
-    twitter: https://twitter.com/nolimitsecu
+    twitter: nolimitsecu
 
 feed:
   rss: https://www.nolimitsecu.fr/feed/podcast/
