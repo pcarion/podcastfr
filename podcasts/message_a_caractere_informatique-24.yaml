@@ -1,10 +1,11 @@
 title: Message à caractère informatique
 description: |
-  Message à caractère informatique est un podcast réalisé par l'équipe de Clever Cloud. Nous commentons les derniers liens de notre veille techno, postés dans notre Slack au cours de la semaine.
+  Message à caractère informatique est un podcast réalisé par l'équipe de Clever Cloud. 
+  Nous commentons les derniers liens de notre veille techno, postés dans notre Slack au cours de la semaine.
 imageUrl: https://image.ausha.co/n0QRHcaofTaeJj9LbGiT74auZpCmUPuzyp7xRgD1_1400x1400.jpeg?t=1593076814
 
 contacts:
-  link: _
+  link: https://www.clever-cloud.com/fr/podcast/
   email: _
   twitter: _
   patreon: _
@@ -12,16 +13,16 @@ contacts:
 
 hosts:
   - name: Laurent Doguin
-    twitter: _
+    twitter: ldoguin
 
 feed:
   rss: https://feed.ausha.co/yJpOltDVvJzN
   itunes: https://podcasts.apple.com/us/podcast/id1515547030
-  spotify: _
-  soundcloud: _
+  spotify: https://open.spotify.com/show/42LjM2Dn4ecaUaWe4AqipP
+  soundcloud: https://soundcloud.com/user-691348601/tracks
   deezer: _
   google: _
   castbox: _
-  pocketcast: _
+  pocketcast: https://pca.st/up1h94mb
 
 pid: p3j9eg7 # do not change
