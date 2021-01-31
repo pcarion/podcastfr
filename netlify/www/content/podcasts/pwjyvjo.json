@@ -26,7 +26,7 @@
     "pocketcast": "_"
   },
   "pid": "pwjyvjo",
-  "yamlDescriptionFile": "le_podcast_aws_en_francais-2.yaml",
+  "yamlDescriptionFile": "podcasts/le_podcast_aws_en_francais-2.yaml",
   "extra": {
     "colors": {
       "vibrant": "#385c7c",
@@ -41,46 +41,46 @@
         "publishingDate": "2021-01-21"
       },
       {
-        "publishingDate": "2021-01-07"
+        "publishingDate": "2021-01-08"
       },
       {
-        "publishingDate": "2020-12-16"
+        "publishingDate": "2020-12-17"
       },
       {
-        "publishingDate": "2020-12-10"
+        "publishingDate": "2020-12-11"
       },
       {
         "publishingDate": "2020-12-03"
       },
       {
-        "publishingDate": "2020-11-26"
+        "publishingDate": "2020-11-27"
       },
       {
-        "publishingDate": "2020-11-19"
+        "publishingDate": "2020-11-20"
       },
       {
-        "publishingDate": "2020-11-05"
+        "publishingDate": "2020-11-06"
       },
       {
-        "publishingDate": "2020-10-22"
+        "publishingDate": "2020-10-23"
       },
       {
         "publishingDate": "2020-09-30"
       },
       {
-        "publishingDate": "2020-07-04"
+        "publishingDate": "2020-07-05"
       },
       {
-        "publishingDate": "2020-06-18"
+        "publishingDate": "2020-06-19"
       },
       {
-        "publishingDate": "2020-06-11"
+        "publishingDate": "2020-06-12"
       },
       {
         "publishingDate": "2020-06-05"
       },
       {
-        "publishingDate": "2020-05-25"
+        "publishingDate": "2020-05-26"
       },
       {
         "publishingDate": "2020-05-14"
@@ -110,13 +110,13 @@
         "publishingDate": "2020-03-16"
       },
       {
-        "publishingDate": "2020-02-26"
+        "publishingDate": "2020-02-27"
       },
       {
-        "publishingDate": "2020-02-12"
+        "publishingDate": "2020-02-13"
       },
       {
-        "publishingDate": "2019-12-19"
+        "publishingDate": "2019-12-20"
       },
       {
         "publishingDate": "2019-12-16"
@@ -134,22 +134,22 @@
         "publishingDate": "2019-12-03"
       },
       {
-        "publishingDate": "2019-11-27"
+        "publishingDate": "2019-11-28"
       },
       {
-        "publishingDate": "2019-10-13"
+        "publishingDate": "2019-10-14"
       },
       {
-        "publishingDate": "2019-10-02"
+        "publishingDate": "2019-10-03"
       },
       {
-        "publishingDate": "2019-08-28"
+        "publishingDate": "2019-08-29"
       },
       {
-        "publishingDate": "2019-07-02"
+        "publishingDate": "2019-07-03"
       },
       {
-        "publishingDate": "2019-06-06"
+        "publishingDate": "2019-06-07"
       },
       {
         "publishingDate": "2019-05-14"

@@ -26,7 +26,7 @@
     "pocketcast": "_"
   },
   "pid": "pdjn03p",
-  "yamlDescriptionFile": "cpu_carre_petit_utile-31.yaml",
+  "yamlDescriptionFile": "podcasts/cpu_carre_petit_utile-31.yaml",
   "extra": {
     "colors": {
       "vibrant": "#5c5c4c",
@@ -37,6 +37,9 @@
       "lightMuted": "#b4acac"
     },
     "episodes": [
+      {
+        "publishingDate": "2021-01-28"
+      },
       {
         "publishingDate": "2020-12-17"
       },
@@ -333,9 +336,6 @@
       },
       {
         "publishingDate": "2017-06-15"
-      },
-      {
-        "publishingDate": "2017-06-08"
       }
     ]
   }

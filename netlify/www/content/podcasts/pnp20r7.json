@@ -26,7 +26,7 @@
     "pocketcast": "_"
   },
   "pid": "pnp20r7",
-  "yamlDescriptionFile": "le_code_a_change-44.yaml",
+  "yamlDescriptionFile": "podcasts/le_code_a_change-44.yaml",
   "extra": {
     "colors": {
       "vibrant": "#5e2f46",
@@ -41,16 +41,16 @@
         "publishingDate": "2020-12-21"
       },
       {
-        "publishingDate": "2020-12-07"
+        "publishingDate": "2020-12-08"
       },
       {
-        "publishingDate": "2020-11-22"
+        "publishingDate": "2020-11-23"
       },
       {
         "publishingDate": "2020-11-09"
       },
       {
-        "publishingDate": "2020-10-25"
+        "publishingDate": "2020-10-26"
       },
       {
         "publishingDate": "2020-02-06"

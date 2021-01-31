@@ -26,7 +26,7 @@
     "pocketcast": "_"
   },
   "pid": "pljde1p",
-  "yamlDescriptionFile": "tech-off_-_les_echos-38.yaml",
+  "yamlDescriptionFile": "podcasts/tech-off_-_les_echos-38.yaml",
   "extra": {
     "colors": {
       "vibrant": "#43361d",
@@ -101,13 +101,13 @@
         "publishingDate": "2018-03-15"
       },
       {
-        "publishingDate": "2018-02-28"
+        "publishingDate": "2018-03-01"
       },
       {
-        "publishingDate": "2018-02-14"
+        "publishingDate": "2018-02-15"
       },
       {
-        "publishingDate": "2018-01-30"
+        "publishingDate": "2018-01-31"
       }
     ]
   }

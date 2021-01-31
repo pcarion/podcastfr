@@ -26,7 +26,7 @@
     "pocketcast": "_"
   },
   "pid": "pxj41oj",
-  "yamlDescriptionFile": "les_enflures_de_la_tech-53.yaml",
+  "yamlDescriptionFile": "podcasts/les_enflures_de_la_tech-53.yaml",
   "extra": {
     "colors": {
       "vibrant": "#873c75",
@@ -44,16 +44,16 @@
         "publishingDate": "2020-12-11"
       },
       {
-        "publishingDate": "2020-12-10"
+        "publishingDate": "2020-12-11"
       },
       {
-        "publishingDate": "2020-12-03"
+        "publishingDate": "2020-12-04"
       },
       {
         "publishingDate": "2020-12-01"
       },
       {
-        "publishingDate": "2020-11-30"
+        "publishingDate": "2020-12-01"
       },
       {
         "publishingDate": "2020-11-29"

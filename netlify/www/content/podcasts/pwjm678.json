@@ -42,7 +42,7 @@
     "pocketcast": "_"
   },
   "pid": "pwjm678",
-  "yamlDescriptionFile": "les_cast_codeurs_podcast-11.yaml",
+  "yamlDescriptionFile": "podcasts/les_cast_codeurs_podcast-11.yaml",
   "extra": {
     "colors": {
       "vibrant": "#644434",
@@ -69,7 +69,7 @@
         "publishingDate": "2020-12-04"
       },
       {
-        "publishingDate": "2020-11-16"
+        "publishingDate": "2020-11-17"
       },
       {
         "publishingDate": "2020-11-02"
@@ -120,7 +120,7 @@
         "publishingDate": "2020-03-09"
       },
       {
-        "publishingDate": "2020-02-24"
+        "publishingDate": "2020-02-25"
       },
       {
         "publishingDate": "2020-02-06"
@@ -180,7 +180,7 @@
         "publishingDate": "2019-03-12"
       },
       {
-        "publishingDate": "2019-02-20"
+        "publishingDate": "2019-02-21"
       },
       {
         "publishingDate": "2019-02-10"
@@ -234,7 +234,7 @@
         "publishingDate": "2018-04-30"
       },
       {
-        "publishingDate": "2018-04-15"
+        "publishingDate": "2018-04-16"
       },
       {
         "publishingDate": "2018-04-03"
@@ -243,7 +243,7 @@
         "publishingDate": "2018-03-19"
       },
       {
-        "publishingDate": "2018-03-05"
+        "publishingDate": "2018-03-06"
       },
       {
         "publishingDate": "2018-02-01"
@@ -321,7 +321,7 @@
         "publishingDate": "2016-12-19"
       },
       {
-        "publishingDate": "2016-12-01"
+        "publishingDate": "2016-12-02"
       },
       {
         "publishingDate": "2016-11-14"
@@ -339,7 +339,7 @@
         "publishingDate": "2016-09-05"
       },
       {
-        "publishingDate": "2016-07-26"
+        "publishingDate": "2016-07-27"
       },
       {
         "publishingDate": "2016-07-18"
@@ -375,7 +375,7 @@
         "publishingDate": "2016-02-16"
       },
       {
-        "publishingDate": "2016-02-01"
+        "publishingDate": "2016-02-02"
       },
       {
         "publishingDate": "2016-01-10"
@@ -396,7 +396,7 @@
         "publishingDate": "2015-10-19"
       },
       {
-        "publishingDate": "2015-09-27"
+        "publishingDate": "2015-09-28"
       },
       {
         "publishingDate": "2015-09-15"
@@ -417,7 +417,7 @@
         "publishingDate": "2015-06-24"
       },
       {
-        "publishingDate": "2015-06-12"
+        "publishingDate": "2015-06-13"
       },
       {
         "publishingDate": "2015-05-25"
@@ -444,7 +444,7 @@
         "publishingDate": "2015-02-15"
       },
       {
-        "publishingDate": "2015-01-28"
+        "publishingDate": "2015-01-29"
       },
       {
         "publishingDate": "2015-01-16"
@@ -528,13 +528,13 @@
         "publishingDate": "2013-11-11"
       },
       {
-        "publishingDate": "2013-10-20"
+        "publishingDate": "2013-10-21"
       },
       {
         "publishingDate": "2013-10-07"
       },
       {
-        "publishingDate": "2013-09-19"
+        "publishingDate": "2013-09-20"
       },
       {
         "publishingDate": "2013-09-04"
@@ -633,7 +633,7 @@
         "publishingDate": "2012-03-13"
       },
       {
-        "publishingDate": "2012-02-29"
+        "publishingDate": "2012-03-01"
       },
       {
         "publishingDate": "2012-02-12"
@@ -780,7 +780,7 @@
         "publishingDate": "2009-06-21"
       },
       {
-        "publishingDate": "2009-06-08"
+        "publishingDate": "2009-06-09"
       },
       {
         "publishingDate": "2009-05-25"
@@ -792,7 +792,7 @@
         "publishingDate": "2009-04-27"
       },
       {
-        "publishingDate": "2009-04-11"
+        "publishingDate": "2009-04-12"
       }
     ]
   }

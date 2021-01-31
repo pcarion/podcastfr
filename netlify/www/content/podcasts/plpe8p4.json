@@ -26,7 +26,7 @@
     "pocketcast": "_"
   },
   "pid": "plpe8p4",
-  "yamlDescriptionFile": "big_data_hebdo-8.yaml",
+  "yamlDescriptionFile": "podcasts/big_data_hebdo-8.yaml",
   "extra": {
     "colors": {
       "vibrant": "#966b02",
@@ -80,7 +80,7 @@
         "publishingDate": "2020-07-15"
       },
       {
-        "publishingDate": "2020-07-01"
+        "publishingDate": "2020-07-02"
       },
       {
         "publishingDate": "2020-06-21"
@@ -155,7 +155,7 @@
         "publishingDate": "2019-07-15"
       },
       {
-        "publishingDate": "2019-07-01"
+        "publishingDate": "2019-07-02"
       },
       {
         "publishingDate": "2019-06-22"
@@ -176,7 +176,7 @@
         "publishingDate": "2019-04-13"
       },
       {
-        "publishingDate": "2019-04-07"
+        "publishingDate": "2019-04-08"
       },
       {
         "publishingDate": "2019-03-17"
@@ -230,7 +230,7 @@
         "publishingDate": "2018-01-13"
       },
       {
-        "publishingDate": "2017-12-14"
+        "publishingDate": "2017-12-15"
       },
       {
         "publishingDate": "2017-11-18"
@@ -272,13 +272,13 @@
         "publishingDate": "2017-03-25"
       },
       {
-        "publishingDate": "2017-03-02"
+        "publishingDate": "2017-03-03"
       },
       {
         "publishingDate": "2017-01-28"
       },
       {
-        "publishingDate": "2017-01-15"
+        "publishingDate": "2017-01-16"
       },
       {
         "publishingDate": "2016-12-08"

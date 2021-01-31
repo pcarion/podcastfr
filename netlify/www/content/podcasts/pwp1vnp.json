@@ -26,7 +26,7 @@
     "pocketcast": "_"
   },
   "pid": "pwp1vnp",
-  "yamlDescriptionFile": "refactor-45.yaml",
+  "yamlDescriptionFile": "podcasts/refactor-45.yaml",
   "extra": {
     "colors": {
       "vibrant": "#3e3268",
@@ -47,7 +47,7 @@
         "publishingDate": "2020-12-08"
       },
       {
-        "publishingDate": "2020-12-02"
+        "publishingDate": "2020-12-03"
       },
       {
         "publishingDate": "2020-11-24"
@@ -98,7 +98,7 @@
         "publishingDate": "2020-05-24"
       },
       {
-        "publishingDate": "2020-05-23"
+        "publishingDate": "2020-05-24"
       },
       {
         "publishingDate": "2020-05-17"

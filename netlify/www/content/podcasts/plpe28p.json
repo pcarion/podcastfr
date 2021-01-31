@@ -26,7 +26,7 @@
     "pocketcast": "_"
   },
   "pid": "plpe28p",
-  "yamlDescriptionFile": "gofr-32.yaml",
+  "yamlDescriptionFile": "podcasts/gofr-32.yaml",
   "extra": {
     "colors": {
       "vibrant": "#404c54",
@@ -37,6 +37,9 @@
       "lightMuted": "#cca4b4"
     },
     "episodes": [
+      {
+        "publishingDate": "2021-01-30"
+      },
       {
         "publishingDate": "2020-08-25"
       },
@@ -50,7 +53,7 @@
         "publishingDate": "2019-05-07"
       },
       {
-        "publishingDate": "2019-02-03"
+        "publishingDate": "2019-02-04"
       },
       {
         "publishingDate": "2018-12-05"
@@ -59,10 +62,10 @@
         "publishingDate": "2018-10-28"
       },
       {
-        "publishingDate": "2018-10-10"
+        "publishingDate": "2018-10-11"
       },
       {
-        "publishingDate": "2018-09-12"
+        "publishingDate": "2018-09-13"
       }
     ]
   }

@@ -1,9 +1,9 @@
 {
   "title": "Message à caractère informatique",
-  "description": "Message à caractère informatique est un podcast réalisé par l'équipe de Clever Cloud. Nous commentons les derniers liens de notre veille techno, postés dans notre Slack au cours de la semaine.\n",
+  "description": "Message à caractère informatique est un podcast réalisé par l'équipe de Clever Cloud. \nNous commentons les derniers liens de notre veille techno, postés dans notre Slack au cours de la semaine.\n",
   "imageUrl": "https://image.ausha.co/n0QRHcaofTaeJj9LbGiT74auZpCmUPuzyp7xRgD1_1400x1400.jpeg?t=1593076814",
   "contacts": {
-    "link": "_",
+    "link": "https://www.clever-cloud.com/fr/podcast/",
     "email": "_",
     "twitter": "_",
     "patreon": "_",
@@ -12,21 +12,21 @@
   "hosts": [
     {
       "name": "Laurent Doguin",
-      "twitter": "_"
+      "twitter": "ldoguin"
     }
   ],
   "feed": {
     "rss": "https://feed.ausha.co/yJpOltDVvJzN",
     "itunes": "https://podcasts.apple.com/us/podcast/id1515547030",
-    "spotify": "_",
-    "soundcloud": "_",
+    "spotify": "https://open.spotify.com/show/42LjM2Dn4ecaUaWe4AqipP",
+    "soundcloud": "https://soundcloud.com/user-691348601/tracks",
     "deezer": "_",
     "google": "_",
     "castbox": "_",
-    "pocketcast": "_"
+    "pocketcast": "https://pca.st/up1h94mb"
   },
   "pid": "p3j9eg7",
-  "yamlDescriptionFile": "message_a_caractere_informatique-24.yaml",
+  "yamlDescriptionFile": "podcasts/message_a_caractere_informatique-24.yaml",
   "extra": {
     "colors": {
       "vibrant": "#2b3446",
@@ -38,13 +38,16 @@
     },
     "episodes": [
       {
+        "publishingDate": "2021-01-27"
+      },
+      {
         "publishingDate": "2021-01-22"
       },
       {
         "publishingDate": "2021-01-13"
       },
       {
-        "publishingDate": "2021-01-07"
+        "publishingDate": "2021-01-08"
       },
       {
         "publishingDate": "2020-12-11"
@@ -86,7 +89,7 @@
         "publishingDate": "2020-08-31"
       },
       {
-        "publishingDate": "2020-08-21"
+        "publishingDate": "2020-08-22"
       },
       {
         "publishingDate": "2020-08-13"

@@ -1,42 +1,45 @@
 {
   "title": "NoLimitSecu",
-  "description": "Podcast dédié à la cyber sécurité\n",
-  "imageUrl": "https://e-cdns-images.dzcdn.net/images/talk/2f9efa66abae96c0f3096030c6458dca/528x528-000000-80-0-0.jpg",
+  "description": "Podcast francophone hebdomadaire dédié à la cyber sécurité\n",
+  "imageUrl": "https://www.nolimitsecu.fr/wp-content/uploads/2014/07/NolimitSecu-1400.png",
   "contacts": {
     "link": "https://www.nolimitsecu.fr/",
-    "email": "_",
-    "twitter": "_",
+    "email": "nolimitsecu@nolimitsecu.fr",
+    "twitter": "nolimitsecu",
     "patreon": "_",
     "googleGroup": "_"
   },
   "hosts": [
     {
       "name": "NoLimitSecu",
-      "twitter": "_"
+      "twitter": "nolimitsecu"
     }
   ],
   "feed": {
     "rss": "https://www.nolimitsecu.fr/feed/podcast/",
     "itunes": "https://itunes.apple.com/fr/podcast/no-limit-secu-podcast-feed/id897083950?mt=2",
-    "spotify": "_",
+    "spotify": "https://open.spotify.com/show/25OSac4B0QLqisXfg4hmyX",
     "soundcloud": "_",
-    "deezer": "_",
+    "deezer": "https://www.deezer.com/fr/show/8831",
     "google": "https://subscribeonandroid.com/www.nolimitsecu.fr/feed/podcast/",
     "castbox": "_",
     "pocketcast": "_"
   },
   "pid": "pljk94p",
-  "yamlDescriptionFile": "nolimitsecu-43.yaml",
+  "yamlDescriptionFile": "podcasts/nolimitsecu-43.yaml",
   "extra": {
     "colors": {
-      "vibrant": "#352020",
-      "darkVibrant": "#780505",
-      "lightVibrant": "#f78484",
-      "muted": "#858484",
-      "darkMuted": "#352020",
-      "lightMuted": "#c89c9c"
+      "vibrant": "#341c1c",
+      "darkVibrant": "#780404",
+      "lightVibrant": "#fc8484",
+      "muted": "#847c7c",
+      "darkMuted": "#341c1c",
+      "lightMuted": "#c0acac"
     },
     "episodes": [
+      {
+        "publishingDate": "2021-01-24"
+      },
       {
         "publishingDate": "2021-01-17"
       },
@@ -104,7 +107,7 @@
         "publishingDate": "2020-08-16"
       },
       {
-        "publishingDate": "2020-08-09"
+        "publishingDate": "2020-08-10"
       },
       {
         "publishingDate": "2020-08-02"
@@ -146,7 +149,7 @@
         "publishingDate": "2020-05-10"
       },
       {
-        "publishingDate": "2020-05-03"
+        "publishingDate": "2020-05-04"
       },
       {
         "publishingDate": "2020-04-26"
@@ -221,7 +224,7 @@
         "publishingDate": "2019-11-11"
       },
       {
-        "publishingDate": "2019-11-03"
+        "publishingDate": "2019-11-04"
       },
       {
         "publishingDate": "2019-10-27"
@@ -242,7 +245,7 @@
         "publishingDate": "2019-09-22"
       },
       {
-        "publishingDate": "2019-09-15"
+        "publishingDate": "2019-09-16"
       },
       {
         "publishingDate": "2019-09-08"
@@ -263,7 +266,7 @@
         "publishingDate": "2019-08-18"
       },
       {
-        "publishingDate": "2019-08-14"
+        "publishingDate": "2019-08-15"
       },
       {
         "publishingDate": "2019-08-11"
@@ -284,7 +287,7 @@
         "publishingDate": "2019-07-21"
       },
       {
-        "publishingDate": "2019-07-14"
+        "publishingDate": "2019-07-15"
       },
       {
         "publishingDate": "2019-07-07"
@@ -365,7 +368,7 @@
         "publishingDate": "2018-12-23"
       },
       {
-        "publishingDate": "2018-12-16"
+        "publishingDate": "2018-12-17"
       },
       {
         "publishingDate": "2018-12-09"
@@ -422,7 +425,7 @@
         "publishingDate": "2018-07-15"
       },
       {
-        "publishingDate": "2018-07-08"
+        "publishingDate": "2018-07-09"
       },
       {
         "publishingDate": "2018-07-01"
@@ -521,7 +524,7 @@
         "publishingDate": "2017-11-12"
       },
       {
-        "publishingDate": "2017-11-05"
+        "publishingDate": "2017-11-06"
       },
       {
         "publishingDate": "2017-10-29"
@@ -560,7 +563,7 @@
         "publishingDate": "2017-07-23"
       },
       {
-        "publishingDate": "2017-07-16"
+        "publishingDate": "2017-07-17"
       },
       {
         "publishingDate": "2017-07-09"
@@ -596,7 +599,7 @@
         "publishingDate": "2017-05-08"
       },
       {
-        "publishingDate": "2017-05-01"
+        "publishingDate": "2017-05-02"
       },
       {
         "publishingDate": "2017-04-23"
@@ -647,7 +650,7 @@
         "publishingDate": "2017-01-29"
       },
       {
-        "publishingDate": "2017-01-19"
+        "publishingDate": "2017-01-20"
       },
       {
         "publishingDate": "2017-01-15"
@@ -803,7 +806,7 @@
         "publishingDate": "2016-01-24"
       },
       {
-        "publishingDate": "2016-01-16"
+        "publishingDate": "2016-01-17"
       },
       {
         "publishingDate": "2016-01-10"
@@ -857,7 +860,7 @@
         "publishingDate": "2015-09-25"
       },
       {
-        "publishingDate": "2015-09-20"
+        "publishingDate": "2015-09-21"
       },
       {
         "publishingDate": "2015-09-13"
@@ -914,7 +917,7 @@
         "publishingDate": "2015-05-31"
       },
       {
-        "publishingDate": "2015-05-24"
+        "publishingDate": "2015-05-25"
       },
       {
         "publishingDate": "2015-05-17"
@@ -933,9 +936,6 @@
       },
       {
         "publishingDate": "2015-04-12"
-      },
-      {
-        "publishingDate": "2015-04-06"
       }
     ]
   }

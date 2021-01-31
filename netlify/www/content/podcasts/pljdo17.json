@@ -1,0 +1,102 @@
+{
+  "title": "Dev'Obs",
+  "description": "DevObs Le magazine et observatoire du DevOps\n",
+  "imageUrl": "https://images.transistor.fm/file/transistor/images/show/8439/full_1584107341-artwork.jpg",
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "hosts": [
+    {
+      "name": "p7t",
+      "twitter": "_"
+    }
+  ],
+  "feed": {
+    "rss": "https://feeds.transistor.fm/devobs",
+    "itunes": "https://podcasts.apple.com/us/podcast/id1359662119",
+    "spotify": "_",
+    "soundcloud": "_",
+    "deezer": "_",
+    "google": "_",
+    "castbox": "_",
+    "pocketcast": "_"
+  },
+  "pid": "pljdo17",
+  "yamlDescriptionFile": "podcasts/dev'obs-62.yaml",
+  "extra": {
+    "colors": {
+      "vibrant": "#4c4c4c",
+      "darkVibrant": "#21632b",
+      "lightVibrant": "#abe3b4",
+      "muted": "#7c7c7c",
+      "darkMuted": "#4c4c4c",
+      "lightMuted": "#c4e5c3"
+    },
+    "episodes": [
+      {
+        "publishingDate": "2021-01-26"
+      },
+      {
+        "publishingDate": "2021-01-15"
+      },
+      {
+        "publishingDate": "2020-05-26"
+      },
+      {
+        "publishingDate": "2020-05-11"
+      },
+      {
+        "publishingDate": "2020-01-28"
+      },
+      {
+        "publishingDate": "2019-05-05"
+      },
+      {
+        "publishingDate": "2019-02-22"
+      },
+      {
+        "publishingDate": "2018-11-06"
+      },
+      {
+        "publishingDate": "2018-10-15"
+      },
+      {
+        "publishingDate": "2018-09-11"
+      },
+      {
+        "publishingDate": "2018-08-01"
+      },
+      {
+        "publishingDate": "2018-06-11"
+      },
+      {
+        "publishingDate": "2018-03-29"
+      },
+      {
+        "publishingDate": "2018-02-09"
+      },
+      {
+        "publishingDate": "2018-01-18"
+      },
+      {
+        "publishingDate": "2017-12-21"
+      },
+      {
+        "publishingDate": "2017-11-21"
+      },
+      {
+        "publishingDate": "2017-11-07"
+      },
+      {
+        "publishingDate": "2017-11-02"
+      },
+      {
+        "publishingDate": "2017-10-13"
+      }
+    ]
+  }
+}

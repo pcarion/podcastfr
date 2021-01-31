@@ -26,7 +26,7 @@
     "pocketcast": "_"
   },
   "pid": "pvply7e",
-  "yamlDescriptionFile": "electro_monkeys-13.yaml",
+  "yamlDescriptionFile": "podcasts/electro_monkeys-13.yaml",
   "extra": {
     "colors": {
       "vibrant": "#5d452f",
@@ -37,6 +37,9 @@
       "lightMuted": "#b4c4c8"
     },
     "episodes": [
+      {
+        "publishingDate": "2021-01-26"
+      },
       {
         "publishingDate": "2021-01-19"
       },

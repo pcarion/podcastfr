@@ -26,7 +26,7 @@
     "pocketcast": "_"
   },
   "pid": "px754py",
-  "yamlDescriptionFile": "radio_devops-12.yaml",
+  "yamlDescriptionFile": "podcasts/radio_devops-12.yaml",
   "extra": {
     "colors": {
       "vibrant": "#2c3444",

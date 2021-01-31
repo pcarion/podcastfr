@@ -30,7 +30,7 @@
     "pocketcast": "_"
   },
   "pid": "pnpxm57",
-  "yamlDescriptionFile": "la_pile-28.yaml",
+  "yamlDescriptionFile": "podcasts/la_pile-28.yaml",
   "extra": {
     "colors": {
       "vibrant": "#353d42",
@@ -54,7 +54,7 @@
         "publishingDate": "2019-11-05"
       },
       {
-        "publishingDate": "2019-10-30"
+        "publishingDate": "2019-10-31"
       },
       {
         "publishingDate": "2018-11-08"
