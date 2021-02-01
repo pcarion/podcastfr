@@ -1,0 +1,3 @@
+config:
+  podcastYamlDirectory: podcasts
+  podcastJsonDirectory: netlify/www/content/podcasts

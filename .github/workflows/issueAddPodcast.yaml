@@ -1,16 +1,13 @@
 name: "Issue to add a podcast"
 on:
-  issues:
-    types: [opened, edited]
-
+  schedule:
+    - cron: "15 0 * * *"
 jobs:
   issue_add_podcast:
     runs-on: ubuntu-latest
     steps:
       - name: parse issue for new podcast addition
-        uses: pcarion/awesome-podcasts-bot@v0.1
+        uses: pcarion/awesome-podcasts-bot@v0.2
         with:
-          podcast-yaml-directory: 'podcasts'
-          podcast-json-directory: 'netlify/www/content/podcasts'
           repo-token: ${{ secrets.GH_PAT }}
 
