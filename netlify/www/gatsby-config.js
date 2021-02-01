@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Podcasts Tech en Français',
-    description: 'Vous pouvez ajouter votre podcast gratuitement sur https://github.com/pcarion/podcastfr',
+    title: 'Podcasts Techniques en Français',
+    description: 'Vous pouvez ajouter votre podcast favori gratuitement sur ',
     addText: 'Ajouter un podcast',
     addLink: 'https://github.com/pcarion/podcastfr#readme',
   },

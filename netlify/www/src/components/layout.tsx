@@ -6,13 +6,14 @@ import Footer from './footer';
 
 // eslint-disable-next-line @typescript-eslint/no-empty-interface
 interface LayoutProps {
-  // nothing for now
+  noPodcasts: number;
+  noEpisodes: number;
 }
 
 // https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/summary-card-with-large-image
 // https://cards-dev.twitter.com/validator
 
-const Layout: FC<LayoutProps> = ({ children }): ReactElement => {
+const Layout: FC<LayoutProps> = ({ noPodcasts, noEpisodes, children }): ReactElement => {
   const { title, description } = useSiteMetadata();
 
   return (
@@ -30,7 +31,7 @@ const Layout: FC<LayoutProps> = ({ children }): ReactElement => {
       </Helmet>
       <body className="bg-blue-200 font-sans">
         <div className="container mx-auto flex flex-col p-2 justify-center items-center max-w-full md:max-w-prose">
-          <Header />
+          <Header noPodcasts={noPodcasts} noEpisodes={noEpisodes} />
           {children}
           <Footer />
         </div>
