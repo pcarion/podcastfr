@@ -26,7 +26,7 @@
     "pocketcast": "_"
   },
   "pid": "plpe28p",
-  "yamlDescriptionFile": "podcasts/gofr-32.yaml",
+  "yamlDescriptionFile": "gofr-32.yaml",
   "extra": {
     "colors": {
       "vibrant": "#404c54",
