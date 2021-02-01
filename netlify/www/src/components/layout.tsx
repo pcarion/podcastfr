@@ -30,7 +30,7 @@ const Layout: FC<LayoutProps> = ({ noPodcasts, noEpisodes, children }): ReactEle
         <meta name="twitter:image" content="https://www.podcastfr.com/assets/twitter-card.jpg" />
       </Helmet>
       <body className="bg-blue-200 font-sans">
-        <div className="container mx-auto flex flex-col p-2 justify-center items-center max-w-prose">
+        <div className="container wd-full mx-auto flex flex-col p-2 justify-center items-center md:max-w-prose">
           <Header noPodcasts={noPodcasts} noEpisodes={noEpisodes} />
           {children}
           <Footer />

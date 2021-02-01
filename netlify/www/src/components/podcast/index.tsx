@@ -34,7 +34,7 @@ const Podcast: FC<PodcastProps> = ({ podcast }): ReactElement => {
     h4TextColor = 'text-grey-800';
   }
   return (
-    <div id={podcast.pid} className="col-span-1 bg-white rounded-lg shadow divide-y divide-gray-200 m-2">
+    <div id={podcast.pid} className=" bg-white rounded-lg shadow divide-y divide-gray-200">
       <div className="w-full flex items-center justify-between p-2 space-x-3" style={{ backgroundColor: headerColor }}>
         <img className="w-32 h-32 bg-gray-300 flex-shrink-0" src={podcast.imageUrl} alt="" />
         <div className="flex-1 flex-col">
