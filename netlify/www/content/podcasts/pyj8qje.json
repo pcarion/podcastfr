@@ -3,7 +3,7 @@
   "description": "Artisan Développeur est un podcast destiné aux développeurs qui veulent bâtir une carrière épanouissante.\n",
   "imageUrl": "https://image.ausha.co/fEZgi76FYqeuWAtwB7kWpa1KJakvSjYNEWxJ03g5_1400x1400.jpeg?t=1568887731",
   "contacts": {
-    "link": "_",
+    "link": "https://artisandeveloppeur.fr/podcast/",
     "email": "_",
     "twitter": "_",
     "patreon": "_",
@@ -18,8 +18,8 @@
   "feed": {
     "rss": "https://feed.ausha.co/BxW2S9Mex0Vb",
     "itunes": "https://podcasts.apple.com/fr/podcast/artisan-d%C3%A9veloppeur/id1355327935?l=en&mt=2",
-    "spotify": "_",
-    "soundcloud": "_",
+    "spotify": "https://open.spotify.com/show/2K61NjpvkL13y53tRZtUpQ?si=w-ls8bciSt6K4tKgOMH4FQ",
+    "soundcloud": "https://soundcloud.com/benoitgantaume",
     "deezer": "_",
     "google": "_",
     "castbox": "_",
