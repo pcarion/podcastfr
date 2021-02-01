@@ -1,7 +1,8 @@
 name: "Regenerate all Podcasts JSON files"
 on:
   schedule:
-    - cron: "45 0 * * *"
+    - cron: "0 1 * * *"
+
 jobs:
   regenerate_all_json:
     runs-on: ubuntu-latest
