@@ -29,7 +29,7 @@ const Layout: FC<LayoutProps> = ({ noPodcasts, noEpisodes, children }): ReactEle
         <meta name="twitter:description" content="Découvrez de nouveaux podcasts ou ajoutez vos podcasts favoris." />
         <meta name="twitter:image" content="https://www.podcastfr.com/assets/twitter-card.jpg" />
       </Helmet>
-      <body className="bg-blue-200 font-sans">
+      <body className="bg-blue-200 font-sans overflow-x-hidden">
         <div className="container w-full mx-auto flex flex-col p-2 justify-center items-center md:max-w-prose">
           <Header noPodcasts={noPodcasts} noEpisodes={noEpisodes} />
           {children}
