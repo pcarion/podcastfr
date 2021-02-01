@@ -26,10 +26,7 @@ const Header: FC<HeaderProps> = ({ noPodcasts, noEpisodes }): ReactElement => {
               <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">{title}</h2>
             </div>
           </div>
-          <p className="mt-3 text-xl  text-center text-gray-500 sm:mt-4">
-            {description}
-            <a href={addLink}>{addLink}</a>
-          </p>
+          <p className="mt-3 text-xl break-words text-center text-gray-500 sm:mt-4">{description}</p>
         </div>
         <div className="mt-10 pb-12 bg-white sm:pb-16">
           <div className="relative">
