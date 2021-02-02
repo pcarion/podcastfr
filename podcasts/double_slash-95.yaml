@@ -4,23 +4,25 @@ description: |
 imageUrl: https://slash-podcast.fr/double-slash.png
 
 contacts:
-  link: _
+  link: https://slash-podcast.fr/
   email: _
   twitter: _
   patreon: _
   googleGroup: _
 
 hosts:
-  - name: Double Slash
-    twitter: _
+  - name: Patrick faramaz
+    twitter: PatrickFaramaz
+  - name: Alex Duval
+    twitter: xlanex6
 
 feed:
   rss: https://slash-podcast.fr/podcast-rss-feed.xml
   itunes: https://podcasts.apple.com/us/podcast/double-slash/id1513703178
-  spotify: _
+  spotify: https://open.spotify.com/show/539N9WvnUguUzMWluPp2UK
   soundcloud: _
-  deezer: _
-  google: _
+  deezer: https://www.deezer.com/fr/show/1245532
+  google: https://podcasts.google.com/?feed=aHR0cHM6Ly9zbGFzaC1wb2RjYXN0LmZyL3BvZGNhc3QtcnNzLWZlZWQueG1s&ved=2ahUKEwigiuTNrNTpAhUR8hoKHTJnDIQQ4aUDegQIARAC&hl=fr
   castbox: _
   pocketcast: _
 
