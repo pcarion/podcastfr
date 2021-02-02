@@ -38,6 +38,9 @@
     },
     "episodes": [
       {
+        "publishingDate": "2021-01-31"
+      },
+      {
         "publishingDate": "2021-01-24"
       },
       {
@@ -933,9 +936,6 @@
       },
       {
         "publishingDate": "2015-04-19"
-      },
-      {
-        "publishingDate": "2015-04-12"
       }
     ]
   }

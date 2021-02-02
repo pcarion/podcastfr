@@ -1,8 +1,20 @@
 {
   "title": "Les Technos",
-  "description": "Toutes les semaines \"Les Technos\" passent en revue et commentent \"leur\" actualité technologique. Les détails et surtout les liens vers leurs sources sont disponible sur le site LesTechnos.be [https://lestechnos.be]\n----------------------------------------\nVoir Acast.com/privacy [https://acast.com/privacy] pour les informations sur la vie privée et l'opt-out.",
+  "description": "Toutes les semaines \"Les Technos\" passent en revue et commentent \"leur\" actualité technologique. Les détails et surtout les liens vers leurs sources sont disponible sur le site LesTechnos.be [https://lestechnos.be]\n----------------------------------------\nVoir Acast.com/privacy [https://acast.com/privacy] pour les informations sur la vie privée et l'opt-out.\n",
   "imageUrl": "https://assets.pippa.io/shows/5fda4d68edc4fc6b3362f440/show-cover.jpg",
-  "pid": "p8jom2p",
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "hosts": [
+    {
+      "name": "Marc Lescroart & Les Technos",
+      "twitter": "_"
+    }
+  ],
   "feed": {
     "rss": "https://feeds.acast.com/public/shows/5fda4d68edc4fc6b3362f440",
     "itunes": "https://podcasts.apple.com/us/podcast/id826607195?mt=2",
@@ -13,18 +25,7 @@
     "castbox": "_",
     "pocketcast": "_"
   },
-  "hosts": [
-    {
-      "name": "Marc Lescroart & Les Technos"
-    }
-  ],
-  "contacts": {
-    "link": "_",
-    "email": "_",
-    "twitter": "_",
-    "patreon": "_",
-    "googleGroup": "_"
-  },
+  "pid": "p8jom2p",
   "yamlDescriptionFile": "les_technos-87.yaml",
   "extra": {
     "colors": {
