@@ -1,0 +1,27 @@
+title: Double Slash
+description: |
+  Le podcast dédié aux outils et aux techniques pour le développement web moderne
+imageUrl: https://slash-podcast.fr/double-slash.png
+
+contacts:
+  link: _
+  email: _
+  twitter: _
+  patreon: _
+  googleGroup: _
+
+hosts:
+  - name: Double Slash
+    twitter: _
+
+feed:
+  rss: https://slash-podcast.fr/podcast-rss-feed.xml
+  itunes: https://podcasts.apple.com/us/podcast/double-slash/id1513703178
+  spotify: _
+  soundcloud: _
+  deezer: _
+  google: _
+  castbox: _
+  pocketcast: _
+
+pid: pvpz6d7 # do not change

@@ -1,0 +1,98 @@
+{
+  "title": "Double Slash",
+  "description": "Le podcast dédié aux outils et aux techniques pour le développement web moderne",
+  "imageUrl": "https://slash-podcast.fr/double-slash.png",
+  "pid": "pvpz6d7",
+  "feed": {
+    "rss": "https://slash-podcast.fr/podcast-rss-feed.xml",
+    "itunes": "https://podcasts.apple.com/us/podcast/double-slash/id1513703178",
+    "spotify": "_",
+    "soundcloud": "_",
+    "deezer": "_",
+    "google": "_",
+    "castbox": "_",
+    "pocketcast": "_"
+  },
+  "hosts": [
+    {
+      "name": "Double Slash"
+    }
+  ],
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "yamlDescriptionFile": "double_slash-95.yaml",
+  "extra": {
+    "colors": {
+      "vibrant": "#6c6454",
+      "darkVibrant": "#bbac25",
+      "lightVibrant": "#e4a848",
+      "muted": "#888041",
+      "darkMuted": "#6c6454",
+      "lightMuted": "#855913"
+    },
+    "episodes": [
+      {
+        "publishingDate": "2020-12-07"
+      },
+      {
+        "publishingDate": "2020-12-25"
+      },
+      {
+        "publishingDate": "2020-04-21"
+      },
+      {
+        "publishingDate": "2020-05-11"
+      },
+      {
+        "publishingDate": "2020-05-19"
+      },
+      {
+        "publishingDate": "2020-10-21"
+      },
+      {
+        "publishingDate": "2020-09-19"
+      },
+      {
+        "publishingDate": "2020-06-01"
+      },
+      {
+        "publishingDate": "2020-04-09"
+      },
+      {
+        "publishingDate": "2021-01-29"
+      },
+      {
+        "publishingDate": "2020-10-05"
+      },
+      {
+        "publishingDate": "2021-01-11"
+      },
+      {
+        "publishingDate": "2020-11-05"
+      },
+      {
+        "publishingDate": "2020-08-01"
+      },
+      {
+        "publishingDate": "2020-08-21"
+      },
+      {
+        "publishingDate": "2020-08-31"
+      },
+      {
+        "publishingDate": "2020-06-19"
+      },
+      {
+        "publishingDate": "2020-04-01"
+      },
+      {
+        "publishingDate": "2020-07-10"
+      }
+    ]
+  }
+}
