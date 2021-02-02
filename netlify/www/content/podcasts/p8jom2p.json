@@ -1,9 +1,9 @@
 {
   "title": "Les Technos",
-  "description": "Toutes les semaines \"Les Technos\" passent en revue et commentent \"leur\" actualité technologique. Les détails et surtout les liens vers leurs sources sont disponible sur le site LesTechnos.be [https://lestechnos.be]\n----------------------------------------\nVoir Acast.com/privacy [https://acast.com/privacy] pour les informations sur la vie privée et l'opt-out.\n",
+  "description": "Toutes les semaines \"Les Technos\" passent en revue et commentent \"leur\" actualité technologique. \nLes détails et surtout les liens vers leurs sources sont disponible sur le site LesTechnos.be [https://lestechnos.be]\n",
   "imageUrl": "https://assets.pippa.io/shows/5fda4d68edc4fc6b3362f440/show-cover.jpg",
   "contacts": {
-    "link": "_",
+    "link": "https://lestechnos.be/category/episodes/",
     "email": "_",
     "twitter": "_",
     "patreon": "_",
@@ -11,14 +11,18 @@
   },
   "hosts": [
     {
-      "name": "Marc Lescroart & Les Technos",
+      "name": "Marc Lescroart",
+      "twitter": "_"
+    },
+    {
+      "name": "Les Technos",
       "twitter": "_"
     }
   ],
   "feed": {
     "rss": "https://feeds.acast.com/public/shows/5fda4d68edc4fc6b3362f440",
     "itunes": "https://podcasts.apple.com/us/podcast/id826607195?mt=2",
-    "spotify": "_",
+    "spotify": "https://open.spotify.com/show/3uusGtzc5xB4wEAHpp76yA",
     "soundcloud": "_",
     "deezer": "_",
     "google": "_",
