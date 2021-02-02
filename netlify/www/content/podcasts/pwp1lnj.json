@@ -1,0 +1,392 @@
+{
+  "title": "BurgerTech",
+  "description": "BurgerTech c'est un morceau de news, une tranche de high tech et quelques dés de WTF. Gaëtan et Cédric reviennent sur l'actualité brulante et insolite de la tech, le temps d'un burger. #informatique #actualite #technologie. Épisodes audios, images, textes et liens soumis à licence CC BY 4.0 sauf mentions contraires.",
+  "imageUrl": "https://www.burgertech.fr/images/itunes_image.jpg",
+  "pid": "pwp1lnj",
+  "feed": {
+    "rss": "https://www.burgertech.fr/burgerTech.xml",
+    "itunes": "https://podcasts.apple.com/us/podcast/burgertech/id1351061264?uo=4",
+    "spotify": "_",
+    "soundcloud": "_",
+    "deezer": "_",
+    "google": "_",
+    "castbox": "_",
+    "pocketcast": "_"
+  },
+  "hosts": [
+    {
+      "name": "Burger Tech Team"
+    }
+  ],
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "yamlDescriptionFile": "burgertech-93.yaml",
+  "extra": {
+    "colors": {
+      "vibrant": "#243444",
+      "darkVibrant": "#530404",
+      "lightVibrant": "#f0b750",
+      "muted": "#6c7783",
+      "darkMuted": "#243444",
+      "lightMuted": "#acb2b8"
+    },
+    "episodes": [
+      {
+        "publishingDate": "2021-02-01"
+      },
+      {
+        "publishingDate": "2021-01-26"
+      },
+      {
+        "publishingDate": "2021-01-18"
+      },
+      {
+        "publishingDate": "2021-01-14"
+      },
+      {
+        "publishingDate": "2020-12-30"
+      },
+      {
+        "publishingDate": "2020-12-21"
+      },
+      {
+        "publishingDate": "2020-12-14"
+      },
+      {
+        "publishingDate": "2020-12-09"
+      },
+      {
+        "publishingDate": "2020-12-08"
+      },
+      {
+        "publishingDate": "2020-12-01"
+      },
+      {
+        "publishingDate": "2020-11-26"
+      },
+      {
+        "publishingDate": "2020-08-04"
+      },
+      {
+        "publishingDate": "2020-07-01"
+      },
+      {
+        "publishingDate": "2020-06-04"
+      },
+      {
+        "publishingDate": "2020-05-26"
+      },
+      {
+        "publishingDate": "2020-05-11"
+      },
+      {
+        "publishingDate": "2020-05-05"
+      },
+      {
+        "publishingDate": "2020-04-28"
+      },
+      {
+        "publishingDate": "2020-04-21"
+      },
+      {
+        "publishingDate": "2020-04-07"
+      },
+      {
+        "publishingDate": "2020-03-30"
+      },
+      {
+        "publishingDate": "2020-03-23"
+      },
+      {
+        "publishingDate": "2020-03-17"
+      },
+      {
+        "publishingDate": "2020-03-13"
+      },
+      {
+        "publishingDate": "2020-03-06"
+      },
+      {
+        "publishingDate": "2020-02-03"
+      },
+      {
+        "publishingDate": "2020-01-27"
+      },
+      {
+        "publishingDate": "2020-01-23"
+      },
+      {
+        "publishingDate": "2020-01-22"
+      },
+      {
+        "publishingDate": "2019-12-20"
+      },
+      {
+        "publishingDate": "2019-12-12"
+      },
+      {
+        "publishingDate": "2019-12-03"
+      },
+      {
+        "publishingDate": "2019-11-14"
+      },
+      {
+        "publishingDate": "2019-11-12"
+      },
+      {
+        "publishingDate": "2019-10-30"
+      },
+      {
+        "publishingDate": "2019-10-22"
+      },
+      {
+        "publishingDate": "2019-10-14"
+      },
+      {
+        "publishingDate": "2019-10-08"
+      },
+      {
+        "publishingDate": "2019-09-30"
+      },
+      {
+        "publishingDate": "2019-09-23"
+      },
+      {
+        "publishingDate": "2019-09-13"
+      },
+      {
+        "publishingDate": "2019-09-07"
+      },
+      {
+        "publishingDate": "2019-07-07"
+      },
+      {
+        "publishingDate": "2019-06-24"
+      },
+      {
+        "publishingDate": "2019-06-18"
+      },
+      {
+        "publishingDate": "2019-06-10"
+      },
+      {
+        "publishingDate": "2019-06-04"
+      },
+      {
+        "publishingDate": "2019-05-28"
+      },
+      {
+        "publishingDate": "2019-05-20"
+      },
+      {
+        "publishingDate": "2019-05-13"
+      },
+      {
+        "publishingDate": "2019-04-30"
+      },
+      {
+        "publishingDate": "2019-04-22"
+      },
+      {
+        "publishingDate": "2019-04-18"
+      },
+      {
+        "publishingDate": "2019-04-01"
+      },
+      {
+        "publishingDate": "2019-03-25"
+      },
+      {
+        "publishingDate": "2019-03-18"
+      },
+      {
+        "publishingDate": "2019-03-11"
+      },
+      {
+        "publishingDate": "2019-03-05"
+      },
+      {
+        "publishingDate": "2019-03-04"
+      },
+      {
+        "publishingDate": "2019-02-25"
+      },
+      {
+        "publishingDate": "2019-02-03"
+      },
+      {
+        "publishingDate": "2019-01-27"
+      },
+      {
+        "publishingDate": "2019-01-20"
+      },
+      {
+        "publishingDate": "2018-12-17"
+      },
+      {
+        "publishingDate": "2018-12-13"
+      },
+      {
+        "publishingDate": "2018-12-08"
+      },
+      {
+        "publishingDate": "2018-11-26"
+      },
+      {
+        "publishingDate": "2018-11-19"
+      },
+      {
+        "publishingDate": "2018-11-12"
+      },
+      {
+        "publishingDate": "2018-10-28"
+      },
+      {
+        "publishingDate": "2018-10-23"
+      },
+      {
+        "publishingDate": "2018-10-14"
+      },
+      {
+        "publishingDate": "2018-10-10"
+      },
+      {
+        "publishingDate": "2018-10-02"
+      },
+      {
+        "publishingDate": "2018-09-25"
+      },
+      {
+        "publishingDate": "2018-09-18"
+      },
+      {
+        "publishingDate": "2018-09-10"
+      },
+      {
+        "publishingDate": "2018-09-03"
+      },
+      {
+        "publishingDate": "2018-08-27"
+      },
+      {
+        "publishingDate": "2018-08-21"
+      },
+      {
+        "publishingDate": "2018-08-14"
+      },
+      {
+        "publishingDate": "2018-08-07"
+      },
+      {
+        "publishingDate": "2018-07-31"
+      },
+      {
+        "publishingDate": "2018-07-23"
+      },
+      {
+        "publishingDate": "2018-07-17"
+      },
+      {
+        "publishingDate": "2018-07-10"
+      },
+      {
+        "publishingDate": "2018-06-27"
+      },
+      {
+        "publishingDate": "2018-06-25"
+      },
+      {
+        "publishingDate": "2018-06-19"
+      },
+      {
+        "publishingDate": "2018-06-17"
+      },
+      {
+        "publishingDate": "2018-06-13"
+      },
+      {
+        "publishingDate": "2018-06-10"
+      },
+      {
+        "publishingDate": "2018-06-04"
+      },
+      {
+        "publishingDate": "2018-05-30"
+      },
+      {
+        "publishingDate": "2018-05-28"
+      },
+      {
+        "publishingDate": "2018-05-23"
+      },
+      {
+        "publishingDate": "2018-05-21"
+      },
+      {
+        "publishingDate": "2018-05-13"
+      },
+      {
+        "publishingDate": "2018-04-30"
+      },
+      {
+        "publishingDate": "2018-04-23"
+      },
+      {
+        "publishingDate": "2018-04-18"
+      },
+      {
+        "publishingDate": "2018-04-16"
+      },
+      {
+        "publishingDate": "2018-04-10"
+      },
+      {
+        "publishingDate": "2018-04-07"
+      },
+      {
+        "publishingDate": "2018-04-04"
+      },
+      {
+        "publishingDate": "2018-03-27"
+      },
+      {
+        "publishingDate": "2018-03-26"
+      },
+      {
+        "publishingDate": "2018-03-21"
+      },
+      {
+        "publishingDate": "2018-03-19"
+      },
+      {
+        "publishingDate": "2018-03-11"
+      },
+      {
+        "publishingDate": "2018-03-07"
+      },
+      {
+        "publishingDate": "2018-03-04"
+      },
+      {
+        "publishingDate": "2018-02-26"
+      },
+      {
+        "publishingDate": "2018-02-23"
+      },
+      {
+        "publishingDate": "2018-02-20"
+      },
+      {
+        "publishingDate": "2018-02-17"
+      },
+      {
+        "publishingDate": "2018-02-14"
+      }
+    ]
+  }
+}

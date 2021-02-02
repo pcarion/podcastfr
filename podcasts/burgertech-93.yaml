@@ -1,0 +1,27 @@
+title: BurgerTech
+description: |
+  BurgerTech c'est un morceau de news, une tranche de high tech et quelques dés de WTF. Gaëtan et Cédric reviennent sur l'actualité brulante et insolite de la tech, le temps d'un burger. #informatique #actualite #technologie. Épisodes audios, images, textes et liens soumis à licence CC BY 4.0 sauf mentions contraires.
+imageUrl: https://www.burgertech.fr/images/itunes_image.jpg
+
+contacts:
+  link: _
+  email: _
+  twitter: _
+  patreon: _
+  googleGroup: _
+
+hosts:
+  - name: Burger Tech Team
+    twitter: _
+
+feed:
+  rss: https://www.burgertech.fr/burgerTech.xml
+  itunes: https://podcasts.apple.com/us/podcast/burgertech/id1351061264?uo=4
+  spotify: _
+  soundcloud: _
+  deezer: _
+  google: _
+  castbox: _
+  pocketcast: _
+
+pid: pwp1lnj # do not change
