@@ -1,10 +1,10 @@
 title: s'informer sur la tech
 description: |
-  Le blog Info Tech de Cédric, c'est un retour sur des expériences et des découvertes s$ Licence d'utilisation de ce podcast : Attribution 4.0 International - https://creativecommons.org/licenses/by/4.0/
+  C'est l'émission qui réveille la curiosité technique. Partageons nos passions, nos découvertes et nos expériences. CC BY 4.0
 imageUrl: https://info.mindcast.fr/images/itunes_image.png
 
 contacts:
-  link: _
+  link: https://abonnel.fr/podcasts/tech
   email: _
   twitter: _
   patreon: _
@@ -12,7 +12,7 @@ contacts:
 
 hosts:
   - name: Cédric Abonnel
-    twitter: _
+    twitter: cedricabonnel
 
 feed:
   rss: https://info.mindcast.fr/feed.xml
