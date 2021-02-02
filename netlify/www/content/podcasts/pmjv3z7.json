@@ -1,0 +1,266 @@
+{
+  "title": "Niptech: tech & startups",
+  "description": "Un podcast hebdomadaire de la famille Nipcast. Au programme #tech, #startups et #inspiration. Animé par @bcurdy et @syde. Plus d'info sur www.niptech.com",
+  "imageUrl": "https://niptech.com/podcast/wp-content/uploads/2020/05/niptech_logo.jpg",
+  "pid": "pmjv3z7",
+  "feed": {
+    "rss": "http://feeds.feedburner.com/niptechpodcast",
+    "itunes": "_",
+    "spotify": "_",
+    "soundcloud": "_",
+    "deezer": "_",
+    "google": "_",
+    "castbox": "_",
+    "pocketcast": "_"
+  },
+  "hosts": [
+    {
+      "name": "@bcurdy et @syde"
+    }
+  ],
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "yamlDescriptionFile": "niptech_tech_&_startups-89.yaml",
+  "extra": {
+    "colors": {
+      "vibrant": "#047494",
+      "darkVibrant": "#047494",
+      "lightVibrant": "#9ac8d4",
+      "muted": "#76b3c3",
+      "darkMuted": "#047494",
+      "lightMuted": "#acd1d4"
+    },
+    "episodes": [
+      {
+        "publishingDate": "2021-01-26"
+      },
+      {
+        "publishingDate": "2021-01-13"
+      },
+      {
+        "publishingDate": "2021-01-07"
+      },
+      {
+        "publishingDate": "2021-01-07"
+      },
+      {
+        "publishingDate": "2021-01-07"
+      },
+      {
+        "publishingDate": "2020-12-30"
+      },
+      {
+        "publishingDate": "2020-12-16"
+      },
+      {
+        "publishingDate": "2020-12-02"
+      },
+      {
+        "publishingDate": "2020-11-28"
+      },
+      {
+        "publishingDate": "2020-11-18"
+      },
+      {
+        "publishingDate": "2020-11-08"
+      },
+      {
+        "publishingDate": "2020-11-04"
+      },
+      {
+        "publishingDate": "2020-10-21"
+      },
+      {
+        "publishingDate": "2020-10-07"
+      },
+      {
+        "publishingDate": "2020-09-23"
+      },
+      {
+        "publishingDate": "2020-09-16"
+      },
+      {
+        "publishingDate": "2020-09-09"
+      },
+      {
+        "publishingDate": "2020-08-26"
+      },
+      {
+        "publishingDate": "2020-08-21"
+      },
+      {
+        "publishingDate": "2020-08-12"
+      },
+      {
+        "publishingDate": "2020-07-22"
+      },
+      {
+        "publishingDate": "2020-07-08"
+      },
+      {
+        "publishingDate": "2020-07-03"
+      },
+      {
+        "publishingDate": "2020-06-10"
+      },
+      {
+        "publishingDate": "2020-05-27"
+      },
+      {
+        "publishingDate": "2020-05-13"
+      },
+      {
+        "publishingDate": "2020-05-06"
+      },
+      {
+        "publishingDate": "2020-04-29"
+      },
+      {
+        "publishingDate": "2020-04-22"
+      },
+      {
+        "publishingDate": "2020-04-15"
+      },
+      {
+        "publishingDate": "2020-04-09"
+      },
+      {
+        "publishingDate": "2020-04-01"
+      },
+      {
+        "publishingDate": "2020-03-27"
+      },
+      {
+        "publishingDate": "2020-03-25"
+      },
+      {
+        "publishingDate": "2020-03-18"
+      },
+      {
+        "publishingDate": "2020-03-11"
+      },
+      {
+        "publishingDate": "2020-02-26"
+      },
+      {
+        "publishingDate": "2020-02-04"
+      },
+      {
+        "publishingDate": "2020-01-15"
+      },
+      {
+        "publishingDate": "2019-12-23"
+      },
+      {
+        "publishingDate": "2019-12-10"
+      },
+      {
+        "publishingDate": "2019-11-27"
+      },
+      {
+        "publishingDate": "2019-10-30"
+      },
+      {
+        "publishingDate": "2019-10-09"
+      },
+      {
+        "publishingDate": "2019-09-18"
+      },
+      {
+        "publishingDate": "2019-09-02"
+      },
+      {
+        "publishingDate": "2019-08-13"
+      },
+      {
+        "publishingDate": "2019-07-23"
+      },
+      {
+        "publishingDate": "2019-06-25"
+      },
+      {
+        "publishingDate": "2019-06-11"
+      },
+      {
+        "publishingDate": "2019-05-28"
+      },
+      {
+        "publishingDate": "2019-05-14"
+      },
+      {
+        "publishingDate": "2019-04-30"
+      },
+      {
+        "publishingDate": "2019-04-09"
+      },
+      {
+        "publishingDate": "2019-03-19"
+      },
+      {
+        "publishingDate": "2019-02-27"
+      },
+      {
+        "publishingDate": "2019-02-11"
+      },
+      {
+        "publishingDate": "2019-01-29"
+      },
+      {
+        "publishingDate": "2019-01-15"
+      },
+      {
+        "publishingDate": "2018-12-20"
+      },
+      {
+        "publishingDate": "2018-12-04"
+      },
+      {
+        "publishingDate": "2018-11-15"
+      },
+      {
+        "publishingDate": "2018-09-25"
+      },
+      {
+        "publishingDate": "2018-08-28"
+      },
+      {
+        "publishingDate": "2018-07-03"
+      },
+      {
+        "publishingDate": "2018-05-29"
+      },
+      {
+        "publishingDate": "2018-05-09"
+      },
+      {
+        "publishingDate": "2018-04-17"
+      },
+      {
+        "publishingDate": "2018-04-03"
+      },
+      {
+        "publishingDate": "2018-02-22"
+      },
+      {
+        "publishingDate": "2018-01-29"
+      },
+      {
+        "publishingDate": "2018-01-16"
+      },
+      {
+        "publishingDate": "2017-12-19"
+      },
+      {
+        "publishingDate": "2017-11-27"
+      },
+      {
+        "publishingDate": "2017-10-31"
+      }
+    ]
+  }
+}
