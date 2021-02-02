@@ -1,0 +1,27 @@
+title: Génération statique
+description: |
+  Où l'on parle de sites statiques, d'architecture découplées, d'outils, de services et d'impacts, d'amour du métier, et des projets web simples et performants. Animé par Frank Taillandier et Arnaud Ligny.
+imageUrl: https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/9623561/9623561-1605992233190-389eb266ce863.jpg
+
+contacts:
+  link: _
+  email: _
+  twitter: _
+  patreon: _
+  googleGroup: _
+
+hosts:
+  - name: Jamstatic
+    twitter: _
+
+feed:
+  rss: https://anchor.fm/s/39f4fa04/podcast/rss
+  itunes: _
+  spotify: _
+  soundcloud: _
+  deezer: _
+  google: _
+  castbox: _
+  pocketcast: _
+
+pid: p1j08e7 # do not change
