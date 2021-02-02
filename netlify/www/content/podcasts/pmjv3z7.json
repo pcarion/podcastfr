@@ -1,30 +1,35 @@
 {
   "title": "Niptech: tech & startups",
-  "description": "Un podcast hebdomadaire de la famille Nipcast. Au programme #tech, #startups et #inspiration. Animé par @bcurdy et @syde. Plus d'info sur www.niptech.com",
+  "description": "Un podcast hebdomadaire de la famille Nipcast. \nAu programme #tech, #startups et #inspiration. Animé par @bcurdy et @syde. \nPlus d'info sur www.niptech.com\n",
   "imageUrl": "https://niptech.com/podcast/wp-content/uploads/2020/05/niptech_logo.jpg",
-  "pid": "pmjv3z7",
-  "feed": {
-    "rss": "http://feeds.feedburner.com/niptechpodcast",
-    "itunes": "_",
-    "spotify": "_",
-    "soundcloud": "_",
-    "deezer": "_",
-    "google": "_",
-    "castbox": "_",
-    "pocketcast": "_"
-  },
-  "hosts": [
-    {
-      "name": "@bcurdy et @syde"
-    }
-  ],
   "contacts": {
-    "link": "_",
+    "link": "https://www.niptech.com",
     "email": "_",
     "twitter": "_",
     "patreon": "_",
     "googleGroup": "_"
   },
+  "hosts": [
+    {
+      "name": "Benoit Curdy",
+      "twitter": "bcurdy"
+    },
+    {
+      "name": "Michael",
+      "twitter": "syde"
+    }
+  ],
+  "feed": {
+    "rss": "http://feeds.feedburner.com/niptechpodcast",
+    "itunes": "https://itunes.apple.com/fr/podcast/niptech-tech-startups/id347857001",
+    "spotify": "https://open.spotify.com/show/3BwkKM1j1eZTMmBSmjBkwC",
+    "soundcloud": "https://soundcloud.com/nipcast/",
+    "deezer": "_",
+    "google": "_",
+    "castbox": "_",
+    "pocketcast": "_"
+  },
+  "pid": "pmjv3z7",
   "yamlDescriptionFile": "niptech_tech_&_startups-89.yaml",
   "extra": {
     "colors": {
