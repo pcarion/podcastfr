@@ -3,16 +3,16 @@
   "description": "DevObs Le magazine et observatoire du DevOps\n",
   "imageUrl": "https://images.transistor.fm/file/transistor/images/show/8439/full_1584107341-artwork.jpg",
   "contacts": {
-    "link": "_",
+    "link": "https://devobs.p7t.tech/",
     "email": "_",
-    "twitter": "_",
+    "twitter": "devobs_podcast",
     "patreon": "_",
     "googleGroup": "_"
   },
   "hosts": [
     {
       "name": "p7t",
-      "twitter": "_"
+      "twitter": "devobs_podcast"
     }
   ],
   "feed": {
