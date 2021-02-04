@@ -1,0 +1,98 @@
+{
+  "title": "Coder pour changer de vie",
+  "description": "Apprenez à coder avec une méthode pas à pas et changez de vie en devenant développeur informatique. Retrouvez des articles et des vidéos abordant le métier de développeur de façon simple et ludique vous permettant de choisir ce beau métier, de vous reconvertir ou bien de passer à une étape supérieure en tant que développeur informatique.",
+  "imageUrl": "https://coder-pour-changer-de-vie.com/wp-content/uploads/podcast/podcast.JPG",
+  "pid": "p1j08m7",
+  "feed": {
+    "rss": "https://coder-pour-changer-de-vie.com/feed/podcast/",
+    "itunes": "https://podcasts.apple.com/us/podcast/id1490244597",
+    "spotify": "_",
+    "soundcloud": "_",
+    "deezer": "_",
+    "google": "_",
+    "castbox": "_",
+    "pocketcast": "_"
+  },
+  "hosts": [
+    {
+      "name": "Nicolas Georgemel"
+    }
+  ],
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "yamlDescriptionFile": "coder_pour_changer_de_vie-103.yaml",
+  "extra": {
+    "colors": {
+      "vibrant": "#6a4539",
+      "darkVibrant": "#536a2b",
+      "lightVibrant": "#d4afa5",
+      "muted": "#a67d64",
+      "darkMuted": "#6a4539",
+      "lightMuted": "#abc0cc"
+    },
+    "episodes": [
+      {
+        "publishingDate": "2021-01-16"
+      },
+      {
+        "publishingDate": "2020-12-21"
+      },
+      {
+        "publishingDate": "2020-11-26"
+      },
+      {
+        "publishingDate": "2020-10-10"
+      },
+      {
+        "publishingDate": "2020-10-04"
+      },
+      {
+        "publishingDate": "2020-09-23"
+      },
+      {
+        "publishingDate": "2020-09-13"
+      },
+      {
+        "publishingDate": "2020-07-21"
+      },
+      {
+        "publishingDate": "2020-05-29"
+      },
+      {
+        "publishingDate": "2020-05-08"
+      },
+      {
+        "publishingDate": "2020-05-01"
+      },
+      {
+        "publishingDate": "2020-04-04"
+      },
+      {
+        "publishingDate": "2020-02-17"
+      },
+      {
+        "publishingDate": "2020-01-29"
+      },
+      {
+        "publishingDate": "2019-12-30"
+      },
+      {
+        "publishingDate": "2019-12-20"
+      },
+      {
+        "publishingDate": "2019-12-12"
+      },
+      {
+        "publishingDate": "2019-12-02"
+      },
+      {
+        "publishingDate": "2019-10-25"
+      }
+    ]
+  }
+}

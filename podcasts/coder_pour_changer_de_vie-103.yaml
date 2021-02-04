@@ -1,0 +1,27 @@
+title: Coder pour changer de vie
+description: |
+  Apprenez à coder avec une méthode pas à pas et changez de vie en devenant développeur informatique. Retrouvez des articles et des vidéos abordant le métier de développeur de façon simple et ludique vous permettant de choisir ce beau métier, de vous reconvertir ou bien de passer à une étape supérieure en tant que développeur informatique.
+imageUrl: https://coder-pour-changer-de-vie.com/wp-content/uploads/podcast/podcast.JPG
+
+contacts:
+  link: _
+  email: _
+  twitter: _
+  patreon: _
+  googleGroup: _
+
+hosts:
+  - name: Nicolas Georgemel
+    twitter: _
+
+feed:
+  rss: https://coder-pour-changer-de-vie.com/feed/podcast/
+  itunes: https://podcasts.apple.com/us/podcast/id1490244597
+  spotify: _
+  soundcloud: _
+  deezer: _
+  google: _
+  castbox: _
+  pocketcast: _
+
+pid: p1j08m7 # do not change
