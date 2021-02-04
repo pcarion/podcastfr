@@ -1,0 +1,164 @@
+{
+  "title": "Silicon Carne, un peu de picante dans la Tech",
+  "description": "Hola amigos, Silicon Carne c'est le nouveau show animé par Carlos Diaz 'El Gringo' qui décode l'actualité de la Silicon Valley et de la Tech.",
+  "imageUrl": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/47bd59baca0f5dde652f8e9b220ea4d2.jpg",
+  "pid": "pwjyzkp",
+  "feed": {
+    "rss": "https://www.spreaker.com/show/4121375/episodes/feed",
+    "itunes": "https://podcasts.apple.com/us/podcast/silicon-carne-un-peu-de-picante-dans-la-tech/id1485527777",
+    "spotify": "_",
+    "soundcloud": "_",
+    "deezer": "_",
+    "google": "_",
+    "castbox": "_",
+    "pocketcast": "_"
+  },
+  "hosts": [
+    {
+      "name": "Decode Media"
+    }
+  ],
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "yamlDescriptionFile": "silicon_carne_un_peu_de_picante_dans_la_tech-102.yaml",
+  "extra": {
+    "colors": {
+      "vibrant": "#595c3d",
+      "darkVibrant": "#545a1f",
+      "lightVibrant": "#d77569",
+      "muted": "#6e8093",
+      "darkMuted": "#595c3d",
+      "lightMuted": "#dacbba"
+    },
+    "episodes": [
+      {
+        "publishingDate": "2021-01-19"
+      },
+      {
+        "publishingDate": "2021-01-08"
+      },
+      {
+        "publishingDate": "2020-12-22"
+      },
+      {
+        "publishingDate": "2020-11-07"
+      },
+      {
+        "publishingDate": "2020-11-03"
+      },
+      {
+        "publishingDate": "2020-10-17"
+      },
+      {
+        "publishingDate": "2020-10-11"
+      },
+      {
+        "publishingDate": "2020-09-28"
+      },
+      {
+        "publishingDate": "2020-09-21"
+      },
+      {
+        "publishingDate": "2020-09-08"
+      },
+      {
+        "publishingDate": "2020-07-30"
+      },
+      {
+        "publishingDate": "2020-07-08"
+      },
+      {
+        "publishingDate": "2020-06-28"
+      },
+      {
+        "publishingDate": "2020-06-12"
+      },
+      {
+        "publishingDate": "2020-06-03"
+      },
+      {
+        "publishingDate": "2020-05-18"
+      },
+      {
+        "publishingDate": "2020-05-11"
+      },
+      {
+        "publishingDate": "2020-05-01"
+      },
+      {
+        "publishingDate": "2020-04-24"
+      },
+      {
+        "publishingDate": "2020-04-19"
+      },
+      {
+        "publishingDate": "2020-04-09"
+      },
+      {
+        "publishingDate": "2020-04-02"
+      },
+      {
+        "publishingDate": "2020-03-27"
+      },
+      {
+        "publishingDate": "2020-03-21"
+      },
+      {
+        "publishingDate": "2020-03-13"
+      },
+      {
+        "publishingDate": "2020-03-08"
+      },
+      {
+        "publishingDate": "2020-03-03"
+      },
+      {
+        "publishingDate": "2020-02-25"
+      },
+      {
+        "publishingDate": "2020-02-10"
+      },
+      {
+        "publishingDate": "2020-02-01"
+      },
+      {
+        "publishingDate": "2020-01-26"
+      },
+      {
+        "publishingDate": "2020-01-20"
+      },
+      {
+        "publishingDate": "2020-01-13"
+      },
+      {
+        "publishingDate": "2020-01-04"
+      },
+      {
+        "publishingDate": "2019-12-15"
+      },
+      {
+        "publishingDate": "2019-12-07"
+      },
+      {
+        "publishingDate": "2019-11-30"
+      },
+      {
+        "publishingDate": "2019-11-23"
+      },
+      {
+        "publishingDate": "2019-11-16"
+      },
+      {
+        "publishingDate": "2019-11-09"
+      },
+      {
+        "publishingDate": "2019-10-30"
+      }
+    ]
+  }
+}
