@@ -1,0 +1,62 @@
+{
+  "title": "135 Grammes",
+  "description": "Dans ce podcast on va parler histoire ! Pas de France mais de l’industrie du mobile, j’ai 10 000 histoires à vous raconter sur ce sujet qui est au coeur de votre poche, le smartphone ! Celui-ci est le coeur de tous les usages en particulier, depuis l’arrivée de l’iPhone en 2007 jusqu’à nos jours, et dont par exemple les satellites du futur s'inspirent pour fonctionner. Je vais vous proposer une sélection des meilleures histoires et archives de servicesmobiles.fr [https://www.servicesmobiles.fr/], créé en 2005 et qui est le magazine web de l’écosystème mobile. De nombreux témoignages d'entrepreneurs viendront ponctuer les histoires !",
+  "imageUrl": "https://assets.pippa.io/shows/5d6e68b1408342486f3e0f4d/1567518908741-fb24d9339253224b5b60b01479d433f4.jpeg",
+  "pid": "pdjw0lp",
+  "feed": {
+    "rss": "https://feed.pippa.io/public/shows/5d6e68b1408342486f3e0f4d",
+    "itunes": "https://podcasts.apple.com/fr/podcast/135-grammes/id1478886858",
+    "spotify": "_",
+    "soundcloud": "_",
+    "deezer": "_",
+    "google": "_",
+    "castbox": "_",
+    "pocketcast": "_"
+  },
+  "hosts": [
+    {
+      "name": "Christophe Romei"
+    }
+  ],
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "yamlDescriptionFile": "135_grammes-101.yaml",
+  "extra": {
+    "colors": {
+      "vibrant": "#4c453c",
+      "darkVibrant": "#1c3c82",
+      "lightVibrant": "#91a8d6",
+      "muted": "#4c6cac",
+      "darkMuted": "#4c453c",
+      "lightMuted": "#acbcda"
+    },
+    "episodes": [
+      {
+        "publishingDate": "2021-01-03"
+      },
+      {
+        "publishingDate": "2020-07-30"
+      },
+      {
+        "publishingDate": "2020-04-23"
+      },
+      {
+        "publishingDate": "2020-02-24"
+      },
+      {
+        "publishingDate": "2019-10-17"
+      },
+      {
+        "publishingDate": "2019-09-12"
+      },
+      {
+        "publishingDate": "2019-09-04"
+      }
+    ]
+  }
+}
