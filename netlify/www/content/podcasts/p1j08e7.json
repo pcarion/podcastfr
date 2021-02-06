@@ -40,7 +40,6 @@
       "darkMuted": "#471088",
       "lightMuted": "#a89ec3"
     },
-    "logoRepoImage": "p1j08e7.jpg",
     "episodes": [
       {
         "publishingDate": "2020-12-08"
@@ -270,6 +269,7 @@
       {
         "publishingDate": "2001-01-01"
       }
-    ]
+    ],
+    "logoRepoImage": "p1j08e7.jpg"
   }
 }

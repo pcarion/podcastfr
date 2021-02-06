@@ -1,8 +1,20 @@
 {
   "title": "Coder pour changer de vie",
-  "description": "Apprenez à coder avec une méthode pas à pas et changez de vie en devenant développeur informatique. Retrouvez des articles et des vidéos abordant le métier de développeur de façon simple et ludique vous permettant de choisir ce beau métier, de vous reconvertir ou bien de passer à une étape supérieure en tant que développeur informatique.",
+  "description": "Apprenez à coder avec une méthode pas à pas et changez de vie en devenant développeur informatique. Retrouvez des articles et des vidéos abordant le métier de développeur de façon simple et ludique vous permettant de choisir ce beau métier, de vous reconvertir ou bien de passer à une étape supérieure en tant que développeur informatique.\n",
   "imageUrl": "https://coder-pour-changer-de-vie.com/wp-content/uploads/podcast/podcast.JPG",
-  "pid": "p1j08m7",
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "hosts": [
+    {
+      "name": "Nicolas Georgemel",
+      "twitter": "_"
+    }
+  ],
   "feed": {
     "rss": "https://coder-pour-changer-de-vie.com/feed/podcast/",
     "itunes": "https://podcasts.apple.com/us/podcast/id1490244597",
@@ -13,18 +25,7 @@
     "castbox": "_",
     "pocketcast": "_"
   },
-  "hosts": [
-    {
-      "name": "Nicolas Georgemel"
-    }
-  ],
-  "contacts": {
-    "link": "_",
-    "email": "_",
-    "twitter": "_",
-    "patreon": "_",
-    "googleGroup": "_"
-  },
+  "pid": "p1j08m7",
   "yamlDescriptionFile": "coder_pour_changer_de_vie-103.yaml",
   "extra": {
     "colors": {
@@ -93,6 +94,7 @@
       {
         "publishingDate": "2019-10-25"
       }
-    ]
+    ],
+    "logoRepoImage": "p1j08m7.jpg"
   }
 }

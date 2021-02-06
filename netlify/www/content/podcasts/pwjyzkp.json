@@ -1,8 +1,20 @@
 {
   "title": "Silicon Carne, un peu de picante dans la Tech",
-  "description": "Hola amigos, Silicon Carne c'est le nouveau show animé par Carlos Diaz 'El Gringo' qui décode l'actualité de la Silicon Valley et de la Tech.",
+  "description": "Hola amigos, Silicon Carne c'est le nouveau show animé par Carlos Diaz 'El Gringo' qui décode l'actualité de la Silicon Valley et de la Tech.\n",
   "imageUrl": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/47bd59baca0f5dde652f8e9b220ea4d2.jpg",
-  "pid": "pwjyzkp",
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "hosts": [
+    {
+      "name": "Decode Media",
+      "twitter": "_"
+    }
+  ],
   "feed": {
     "rss": "https://www.spreaker.com/show/4121375/episodes/feed",
     "itunes": "https://podcasts.apple.com/us/podcast/silicon-carne-un-peu-de-picante-dans-la-tech/id1485527777",
@@ -13,18 +25,7 @@
     "castbox": "_",
     "pocketcast": "_"
   },
-  "hosts": [
-    {
-      "name": "Decode Media"
-    }
-  ],
-  "contacts": {
-    "link": "_",
-    "email": "_",
-    "twitter": "_",
-    "patreon": "_",
-    "googleGroup": "_"
-  },
+  "pid": "pwjyzkp",
   "yamlDescriptionFile": "silicon_carne_un_peu_de_picante_dans_la_tech-102.yaml",
   "extra": {
     "colors": {
@@ -36,6 +37,9 @@
       "lightMuted": "#dacbba"
     },
     "episodes": [
+      {
+        "publishingDate": "2021-02-05"
+      },
       {
         "publishingDate": "2021-01-19"
       },
@@ -159,6 +163,7 @@
       {
         "publishingDate": "2019-10-30"
       }
-    ]
+    ],
+    "logoRepoImage": "pwjyzkp.jpg"
   }
 }
