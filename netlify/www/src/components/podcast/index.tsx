@@ -37,7 +37,11 @@ const Podcast: FC<PodcastProps> = ({ podcast }): ReactElement => {
   return (
     <div id={podcast.pid} className=" bg-white rounded-lg shadow divide-y divide-gray-200">
       <div className="w-full flex items-center justify-between p-2 space-x-3" style={{ backgroundColor: headerColor }}>
-        <Img className="w-32 h-32 bg-gray-300 flex-shrink-0" fluid={podcast.extra.imageFluid} />
+        {podcast.extra.imageFluid ? (
+          <Img className="w-32 h-32 bg-gray-300 flex-shrink-0" fluid={podcast.extra.imageFluid} />
+        ) : (
+          <img className="w-32 h-32 bg-gray-300 flex-shrink-0" src={podcast.imageUrl} alt="" />
+        )}
         <div className="flex-1 flex-col">
           <div className="flex items-center space-x-3">
             <h3 className={`${h3TextColor} text-2xl font-light py-3`}>{podcast.title}</h3>
@@ -89,7 +93,7 @@ const Podcast: FC<PodcastProps> = ({ podcast }): ReactElement => {
 };
 
 /*
-        <img className="w-32 h-32 bg-gray-300 flex-shrink-0" src={podcast.imageUrl} alt="" />
+
 
 */
 export default Podcast;

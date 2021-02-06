@@ -1,4 +1,5 @@
 import { Podcast } from './jtd/podcast';
+import { FluidObject } from 'gatsby-image';
 
 export interface LogoColors {
   vibrant: string | null;
@@ -17,6 +18,6 @@ export interface PodcastExtra extends Podcast {
   extra: {
     colors: LogoColors;
     episodes: EpisodeDate[];
-    imageFluid: unknown;
+    imageFluid: FluidObject;
   };
 }
