@@ -6,6 +6,8 @@ module.exports = {
     addLink: 'https://github.com/pcarion/podcastfr#readme',
   },
   plugins: [
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     'gatsby-plugin-postcss',
     'gatsby-plugin-react-helmet',
     {

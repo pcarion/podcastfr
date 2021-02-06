@@ -2,6 +2,7 @@ import React, { FC, ReactElement } from 'react';
 // import { Podcast as PodcastDescription, Feed as FeedDescription } from '../../jtd/podcast';
 import * as fontColorContrast from 'font-color-contrast';
 import tinycolor from 'tinycolor2';
+import Img from 'gatsby-image';
 
 import { PodcastExtra } from '../../types';
 import Palette from './palette';
@@ -36,7 +37,7 @@ const Podcast: FC<PodcastProps> = ({ podcast }): ReactElement => {
   return (
     <div id={podcast.pid} className=" bg-white rounded-lg shadow divide-y divide-gray-200">
       <div className="w-full flex items-center justify-between p-2 space-x-3" style={{ backgroundColor: headerColor }}>
-        <img className="w-32 h-32 bg-gray-300 flex-shrink-0" src={podcast.imageUrl} alt="" />
+        <Img className="w-32 h-32 bg-gray-300 flex-shrink-0" fluid={podcast.extra.imageFluid} />
         <div className="flex-1 flex-col">
           <div className="flex items-center space-x-3">
             <h3 className={`${h3TextColor} text-2xl font-light py-3`}>{podcast.title}</h3>
@@ -87,4 +88,8 @@ const Podcast: FC<PodcastProps> = ({ podcast }): ReactElement => {
   );
 };
 
+/*
+        <img className="w-32 h-32 bg-gray-300 flex-shrink-0" src={podcast.imageUrl} alt="" />
+
+*/
 export default Podcast;

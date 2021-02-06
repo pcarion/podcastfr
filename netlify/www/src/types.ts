@@ -17,5 +17,6 @@ export interface PodcastExtra extends Podcast {
   extra: {
     colors: LogoColors;
     episodes: EpisodeDate[];
+    imageFluid: unknown;
   };
 }

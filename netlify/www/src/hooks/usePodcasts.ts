@@ -45,6 +45,13 @@ const usePodcasts = (): PodcastExtra[] => {
             episodes {
               publishingDate
             }
+            logoRepoImage {
+              childImageSharp {
+                fluid(maxWidth: 128) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
           }
         }
       }
@@ -90,6 +97,9 @@ const usePodcasts = (): PodcastExtra[] => {
       episodes: post.extra.episodes.map((e: EpisodeDate) => ({
         publishingDate: e.publishingDate,
       })),
+      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+      // @ts-ignore
+      imageFluid: post.extra.logoRepoImage.childImageSharp.fluid,
     },
   }));
 };
