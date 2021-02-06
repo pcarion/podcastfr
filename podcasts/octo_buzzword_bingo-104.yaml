@@ -1,10 +1,12 @@
 title: OCTO Buzzword Bingo
 description: |
-  OCTO vous présente Buzzword Bingo : sa première série de podcasts. L'objectif est simple : décoder pour vous les tendances et les enjeux du numérique, en vulgarisant ces mots et concepts souvent nébuleux quand on n'est pas spécialiste… Dans chaque épisode, un Octo décrypte en quelques minutes un buzzword (Design Thinking, agilité, OKR, Cloud, Lean, etc.) avec un discours accessible pour tout public.
+  OCTO vous présente Buzzword Bingo : sa première série de podcasts. 
+  L'objectif est simple : décoder pour vous les tendances et les enjeux du numérique, en vulgarisant ces mots et concepts souvent nébuleux quand on n'est pas spécialiste… 
+  Dans chaque épisode, un Octo décrypte en quelques minutes un buzzword (Design Thinking, agilité, OKR, Cloud, Lean, etc.) avec un discours accessible pour tout public.
 imageUrl: https://storage.buzzsprout.com/variants/zfjpcma3mpr6b8k0hn9kz2krfya2/8d66eb17bb7d02ca4856ab443a78f2148cafbb129f58a3c81282007c6fe24ff2.jpg
 
 contacts:
-  link: _
+  link: https://octobuzzwordbingo.buzzsprout.com/
   email: _
   twitter: _
   patreon: _
@@ -17,10 +19,10 @@ hosts:
 feed:
   rss: https://feeds.buzzsprout.com/1438195.rss
   itunes: https://podcasts.apple.com/us/podcast/id1537377934
-  spotify: _
+  spotify: https://open.spotify.com/show/2IzV9wgNRUp5rngFZqyKm8
   soundcloud: _
-  deezer: _
-  google: _
+  deezer: https://www.deezer.com/show/1899322
+  google: https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5idXp6c3Byb3V0LmNvbS8xNDM4MTk1LnJzcw==
   castbox: _
   pocketcast: _
 
