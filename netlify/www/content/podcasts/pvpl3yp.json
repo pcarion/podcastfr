@@ -1,7 +1,7 @@
 {
   "title": "Le rendez-vous Tech",
   "description": "L'actu Tech - Internet - Gadgets\nLe rendez-vous Tech, c’est LE podcast consacré au monde de la technologie. Un podcast pour tous, compréhensible, intéressant et distrayant.\nA chaque épisode, nous traitons des nouveautés et de l’actualité du net, des gadgets et de la technologie en général. \nNous parlons des nouveautés techniques, des mouvements du marché et de l’évolution de l’industrie, toujours du point de vue des utilisateurs éclairés que nous sommes... et toujours dans la bonne humeur !\n",
-  "imageUrl": "https://thumborcdn.acast.com/6mMW1JKVXsGnPelNKwE-1bOHtww=/1500x1500/https://mediacdn.acast.com/assets/b9e1260d-4777-4c20-bd86-88cf343c8ece/-k6ncm8ii-rdv_tech_2017_1400.png",
+  "imageUrl": "https://static.pocketcasts.com/discover/images/400/badc7ff0-2f36-012e-0b40-00163e1b201c.jpg",
   "contacts": {
     "link": "https://frenchspin.fr/category/le-rdv-tech/",
     "email": "_",
@@ -29,12 +29,12 @@
   "yamlDescriptionFile": "le_rendez-vous_tech-37.yaml",
   "extra": {
     "colors": {
-      "vibrant": "#502836",
-      "darkVibrant": "#9d0c3c",
+      "vibrant": "#343434",
+      "darkVibrant": "#9c043c",
       "lightVibrant": "#ec84ac",
-      "muted": "#848484",
-      "darkMuted": "#502836",
-      "lightMuted": "#bcbcbc"
+      "muted": "#794256",
+      "darkMuted": "#343434",
+      "lightMuted": "#969696"
     },
     "episodes": [
       {
