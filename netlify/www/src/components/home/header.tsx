@@ -15,20 +15,13 @@ const Header: FC<HeaderProps> = ({ noPodcasts, noEpisodes }): ReactElement => {
       <div className="bg-gray-50 pt-12 sm:pt-16">
         <div className="mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex items-start space-x-5 mx-auto text-center">
-            <div className="flex-shrink-0">
-              <div className="relative">
-                <img className="h-16 w-16 rounded-full" src="/assets/images/FR.png" alt="" />
-                <span className="absolute inset-0 shadow-inner rounded-full" aria-hidden="true"></span>
-              </div>
-            </div>
-
             <div>
               <h2 className="text-3xl font-extrabold text-gray-900 sm:text-4xl">{title}</h2>
             </div>
           </div>
           <p className="mt-3 text-xl break-words text-center text-gray-500 sm:mt-4">{description}</p>
         </div>
-        <div className="mt-10 pb-12 bg-white sm:pb-16">
+        <div className="mt-10 pb-3 bg-white sm:pb-16">
           <div className="relative">
             <div className="absolute inset-0 h-1/2 bg-gray-50"></div>
             <div className="relative mx-auto px-4 sm:px-6 lg:px-8">

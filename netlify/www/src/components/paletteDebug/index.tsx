@@ -1,5 +1,5 @@
 import React, { FC, ReactElement } from 'react';
-import { LogoColors } from '../types';
+import { LogoColors } from '../../types';
 
 // eslint-disable-next-line @typescript-eslint/no-empty-interface
 interface PaletteProps {

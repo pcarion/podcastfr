@@ -2,12 +2,12 @@ import React, { FC, ReactElement } from 'react';
 
 import { Feed as FeedDescription } from '../../jtd/podcast';
 
-interface FeedLogo {
+interface PodcastFeeds {
   name: string;
   mkLogo: () => ReactElement;
 }
 
-const feedProviders: FeedLogo[] = [
+const feedProviders: PodcastFeeds[] = [
   {
     name: 'web',
     mkLogo: () => (
@@ -200,7 +200,7 @@ const feedProviders: FeedLogo[] = [
   },
 ];
 
-function renderFeed(url: string, feed: FeedLogo): ReactElement | null {
+function renderFeed(url: string, feed: PodcastFeeds): ReactElement | null {
   if (!url || url === '_') {
     return null;
   }
@@ -220,7 +220,7 @@ interface FeedLogoProps {
   feed: FeedDescription;
   webUrl: string;
 }
-const FeedLogo: FC<FeedLogoProps> = ({ feed, webUrl }): ReactElement => {
+const PodcastFeeds: FC<FeedLogoProps> = ({ feed, webUrl }): ReactElement => {
   const allFeeds: Record<string, string> = {
     ...feed,
   };
@@ -229,4 +229,4 @@ const FeedLogo: FC<FeedLogoProps> = ({ feed, webUrl }): ReactElement => {
   return <>{feedProviders.map((provider) => renderFeed(allFeeds[provider.name], provider))}</>;
 };
 
-export default FeedLogo;
+export default PodcastFeeds;

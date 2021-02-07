@@ -31,6 +31,5 @@ Si il y a un problème avec votre soumission, la pull request sera commentée et
 
 - [awesome uses](https://github.com/wesbos/awesome-uses) par Wes Bos
 - Les logos des différents podcast providers ont été downloadés depuis [World Vectore Logo](https://worldvectorlogo.com/)
-- les icônes du drapeau français sont sur [2600 Flag Icon Set](https://www.gosquared.com/resources/flag-icons/)
 - image pour la twitter card: Photo by [Марьян Блан | @marjanblan](https://unsplash.com/@marjan_blan?utm_source=unsplash) on [Unsplash](https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 

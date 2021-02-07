@@ -1,16 +1,11 @@
 import React, { ReactElement } from 'react';
 import { graphql } from 'gatsby';
-import Layout from '../../components/single/layout';
+import Single from '../../components/single';
 
-import Podcast from '../../components/podcast';
-
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export default function PodcastPage(props: any): ReactElement {
   const data = props.data.podcasts;
-  return (
-    <Layout>
-      <Podcast key={`${data.yamlDescriptionFile}`} podcast={data} />
-    </Layout>
-  );
+  return <Single podcast={data} />;
 }
 // This is the page query that connects the data to the actual component. Here you can query for any and all fields
 // you need access to within your code. Again, since Gatsby always queries for `id` in the collection, you can use that
