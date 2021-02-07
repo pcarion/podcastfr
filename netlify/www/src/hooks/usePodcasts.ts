@@ -5,7 +5,7 @@ import { PodcastExtra, EpisodeDate } from '../types';
 const usePodcasts = (): PodcastExtra[] => {
   const data = useStaticQuery(graphql`
     query {
-      allPodcastsJson {
+      allPodcasts {
         nodes {
           title
           description
@@ -58,7 +58,7 @@ const usePodcasts = (): PodcastExtra[] => {
     }
   `);
 
-  return data.allPodcastsJson.nodes.map((post: PodcastExtra) => ({
+  return data.allPodcasts.nodes.map((post: PodcastExtra) => ({
     title: post.title,
     description: post.description,
     imageUrl: post.imageUrl,

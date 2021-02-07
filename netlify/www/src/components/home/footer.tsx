@@ -1,5 +1,5 @@
 import React, { FC, ReactElement } from 'react';
-import useSiteMetadata from '../hooks/useSiteMetadata';
+import useSiteMetadata from '../../hooks/useSiteMetadata';
 
 // eslint-disable-next-line @typescript-eslint/no-empty-interface
 interface FooterProps {

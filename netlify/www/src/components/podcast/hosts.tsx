@@ -62,7 +62,7 @@ interface HostsProps {
 
 const Hosts: FC<HostsProps> = ({ hosts, textColor, bgColor }): ReactElement => {
   return (
-    <div className={`w-full grid grid-cols-3 gap-2 ${textColor} text-sm font-medium p-3`}>
+    <div className={`w-full grid md:grid-cols-3 grid-cols-1 gap-2 ${textColor} text-sm font-medium p-3`}>
       {(hosts || []).map((h) => (
         <Host name={h.name} twitter={h.twitter} bgColor={bgColor} />
       ))}

@@ -1,6 +1,6 @@
 import React, { ReactElement } from 'react';
 
-import Layout from '../components/layout';
+import Layout from '../components/home/layout';
 import Podcast from '../components/podcast';
 import usePodcasts from '../hooks/usePodcasts';
 import { PodcastExtra } from '../types';
