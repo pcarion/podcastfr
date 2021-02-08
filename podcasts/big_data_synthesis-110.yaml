@@ -1,0 +1,27 @@
+title: Big Data Synthesis
+description: |
+  Big Data architecte indépendant. Je travaille dans le Big Data depuis 2012.
+imageUrl: http://i1.sndcdn.com/avatars-000680290013-bqyomc-original.jpg
+
+contacts:
+  link: _
+  email: _
+  twitter: _
+  patreon: _
+  googleGroup: _
+
+hosts:
+  - name: Benoit Petitpas
+    twitter: _
+
+feed:
+  rss: http://feeds.soundcloud.com/users/soundcloud:users:690655262/sounds.rss
+  itunes: https://podcasts.apple.com/us/podcast/id1477903109
+  spotify: _
+  soundcloud: _
+  deezer: _
+  google: _
+  castbox: _
+  pocketcast: _
+
+pid: pyj8137 # do not change

@@ -1,0 +1,81 @@
+{
+  "title": "Big Data Synthesis",
+  "description": "Big Data architecte indépendant. Je travaille dans le Big Data depuis 2012.",
+  "imageUrl": "http://i1.sndcdn.com/avatars-000680290013-bqyomc-original.jpg",
+  "pid": "pyj8137",
+  "feed": {
+    "rss": "http://feeds.soundcloud.com/users/soundcloud:users:690655262/sounds.rss",
+    "itunes": "https://podcasts.apple.com/us/podcast/id1477903109",
+    "spotify": "_",
+    "soundcloud": "_",
+    "deezer": "_",
+    "google": "_",
+    "castbox": "_",
+    "pocketcast": "_"
+  },
+  "hosts": [
+    {
+      "name": "Benoit Petitpas"
+    }
+  ],
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "yamlDescriptionFile": "big_data_synthesis-110.yaml",
+  "extra": {
+    "colors": {
+      "vibrant": "#3f3e1c",
+      "darkVibrant": "#063582",
+      "lightVibrant": "#7db1f8",
+      "muted": "#969602",
+      "darkMuted": "#3f3e1c",
+      "lightMuted": "#e2e8de"
+    },
+    "episodes": [
+      {
+        "publishingDate": "2020-02-18"
+      },
+      {
+        "publishingDate": "2020-01-18"
+      },
+      {
+        "publishingDate": "2019-11-19"
+      },
+      {
+        "publishingDate": "2019-11-11"
+      },
+      {
+        "publishingDate": "2019-10-13"
+      },
+      {
+        "publishingDate": "2019-10-13"
+      },
+      {
+        "publishingDate": "2019-10-13"
+      },
+      {
+        "publishingDate": "2019-09-22"
+      },
+      {
+        "publishingDate": "2019-09-22"
+      },
+      {
+        "publishingDate": "2019-09-10"
+      },
+      {
+        "publishingDate": "2019-09-10"
+      },
+      {
+        "publishingDate": "2019-09-02"
+      },
+      {
+        "publishingDate": "2019-08-26"
+      }
+    ],
+    "logoRepoImage": "pyj8137.png"
+  }
+}
