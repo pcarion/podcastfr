@@ -14,7 +14,7 @@ interface PodcastProps {
 const Podcast: FC<PodcastProps> = ({ podcast }): ReactElement => {
   return (
     <div className=" bg-white rounded-lg shadow divide-y divide-gray-200">
-      <PodcastHeader podcast={podcast} />
+      <PodcastHeader podcast={podcast} link={`/podcasts/${podcast.pid}`} />
       <div className="-mt-px flex divide-x divide-gray-200">
         <PodcastFeeds feed={podcast.feed} webUrl={podcast.contacts.link} />
       </div>

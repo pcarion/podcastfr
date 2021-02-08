@@ -2,6 +2,7 @@ import React, { FC, ReactElement } from 'react';
 // import { Podcast as PodcastDescription, Feed as FeedDescription } from '../../jtd/podcast';
 import * as fontColorContrast from 'font-color-contrast';
 import tinycolor from 'tinycolor2';
+import { Link } from 'gatsby';
 import Img from 'gatsby-image';
 
 import { PodcastExtra } from '../../types';
@@ -10,9 +11,10 @@ import Hosts from './hosts';
 // eslint-disable-next-line @typescript-eslint/no-empty-interface
 interface PodcastHeaderProps {
   podcast: PodcastExtra;
+  link: string;
 }
 
-const PodcastHeader: FC<PodcastHeaderProps> = ({ podcast }): ReactElement => {
+const PodcastHeader: FC<PodcastHeaderProps> = ({ podcast, link }): ReactElement => {
   const headerColor = podcast.extra.colors.darkMuted; // lightVibrant;
   const tinyHeaderColr = tinycolor(headerColor);
   const bgHostColor = tinyHeaderColr.lighten(5).toHexString();
@@ -29,8 +31,11 @@ const PodcastHeader: FC<PodcastHeaderProps> = ({ podcast }): ReactElement => {
     h4TextColor = 'text-grey-800';
   }
   return (
-    <>
-      <div className="w-full flex items-center justify-between p-2 space-x-3" style={{ backgroundColor: headerColor }}>
+    <Link to={link}>
+      <div
+        className="rounded-lg rounded-b-none w-full flex items-center justify-between p-2 space-x-3"
+        style={{ backgroundColor: headerColor }}
+      >
         {podcast.extra.imageFluid ? (
           <Img className="w-32 h-32 bg-gray-300 flex-shrink-0" fluid={podcast.extra.imageFluid} />
         ) : (
@@ -45,14 +50,14 @@ const PodcastHeader: FC<PodcastHeaderProps> = ({ podcast }): ReactElement => {
           </div>
         </div>
       </div>
-      <div className="w-full flex items-center justify-between bg-white p-6 space-x-6">
+      <div className="w-full  bg-white p-6">
         <p className="mt-1 text-gray-500 text-sm">
           {podcast.description.split('\n').map((t) => (
             <p>{t}</p>
           ))}
         </p>
       </div>
-    </>
+    </Link>
   );
 };
 

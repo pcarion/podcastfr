@@ -1,6 +1,8 @@
 import React, { FC, ReactElement } from 'react';
 import Layout from './layout';
-import Podcast from '../../components/podcastHeader';
+import PodcastHeader from '../../components/podcastHeader';
+import CalendarHeatMap from '../../components/calendarHeatMap';
+import AppLink from './appLink';
 
 import { PodcastExtra } from '../../types';
 
@@ -12,7 +14,11 @@ interface SingleProps {
 const SinglePodcastPage: FC<SingleProps> = ({ podcast }): ReactElement => {
   return (
     <Layout podcast={podcast}>
-      <Podcast podcast={podcast} />
+      <div className=" bg-white rounded-lg shadow divide-y divide-gray-200">
+        <PodcastHeader podcast={podcast} link="/" />
+        <CalendarHeatMap episodes={podcast.extra.episodes} />
+        <AppLink feeds={podcast.feed} />
+      </div>
     </Layout>
   );
 };
