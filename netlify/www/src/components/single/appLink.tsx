@@ -3,7 +3,24 @@ import { Feed } from '../../jtd/podcast';
 
 // eslint-disable-next-line @typescript-eslint/no-empty-interface
 interface AppLinkProps {
+  title: string;
   feeds: Feed;
+}
+
+function extractItunesId(itunesUrl: string): string | null {
+  const path = new URL(itunesUrl).pathname;
+  if (!path) {
+    return null;
+  }
+  const parts = path.split('/');
+  if (!parts || parts.length < 2) {
+    return null;
+  }
+  const lastPart = parts[parts.length - 1];
+  if (lastPart.startsWith('id')) {
+    return lastPart.substring(2);
+  }
+  return lastPart;
 }
 
 function mkOvercastUrl(url: string) {
@@ -13,11 +30,15 @@ function mkOvercastUrl(url: string) {
   return `overcast://x-callback-url/add?url=${url}`;
 }
 
-function mkApplePodcastsUrl(url: string) {
+function mkApplePodcastsUrl(title: string, url: string) {
   if (!url || url.length < 5) {
     return null;
   }
-  return `podcast://${url}`;
+  const itunesId = extractItunesId(url);
+  if (!itunesId) {
+    return null;
+  }
+  return `podcasts://podcasts.apple.com/us/podcast/${encodeURI(title)}/id${itunesId}`;
 }
 
 function renderLink(name: string, url: string, imagePath: string): ReactElement {
@@ -38,12 +59,12 @@ function renderLink(name: string, url: string, imagePath: string): ReactElement 
   );
 }
 
-const AppLink: FC<AppLinkProps> = ({ feeds }): ReactElement => {
+const AppLink: FC<AppLinkProps> = ({ title, feeds }): ReactElement => {
   return (
     <div className="p-4">
       <ul className="mt-3 grid grid-cols-1 gap-5 sm:gap-6">
         {renderLink('Spotify', feeds.spotify, '/assets/logos/spotify.svg')}
-        {renderLink('Apple Podcasts', mkApplePodcastsUrl(feeds.itunes), '/assets/logos/apple-podcast.svg')}
+        {renderLink('Apple Podcasts', mkApplePodcastsUrl(title, feeds.itunes), '/assets/logos/apple-podcast.svg')}
         {renderLink('Overcast', mkOvercastUrl(feeds.rss), '/assets/logos/overcast.svg')}
       </ul>
     </div>

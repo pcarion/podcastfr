@@ -17,7 +17,7 @@ const SinglePodcastPage: FC<SingleProps> = ({ podcast }): ReactElement => {
       <div className=" bg-white rounded-lg shadow divide-y divide-gray-200">
         <PodcastHeader podcast={podcast} link="/" />
         <CalendarHeatMap episodes={podcast.extra.episodes} />
-        <AppLink feeds={podcast.feed} />
+        <AppLink title={podcast.title} feeds={podcast.feed} />
       </div>
     </Layout>
   );
