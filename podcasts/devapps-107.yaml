@@ -16,7 +16,7 @@ hosts:
     twitter: _
 
 feed:
-  rss: https://devapps.be/Feed
+  rss: https://devapps.ms/feed
   itunes: _
   spotify: https://open.spotify.com/show/2Ewh6Cj8O0RR8ifKdumiAD
   soundcloud: _
