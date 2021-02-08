@@ -7,14 +7,14 @@ interface AppLinkProps {
 }
 
 function mkOvercastUrl(url: string) {
-  if (url.length < 5) {
+  if (!url || url.length < 5) {
     return null;
   }
   return `overcast://x-callback-url/add?url=${url}`;
 }
 
 function mkApplePodcastsUrl(url: string) {
-  if (url.length < 5) {
+  if (!url || url.length < 5) {
     return null;
   }
   return `podcast://${url}`;
