@@ -26,15 +26,12 @@ function extractItunesId(itunesUrl: string): string | null {
   return lastPart;
 }
 
-function mkOvercastUrl(url: string, itunesId: string) {
+function mkOvercastUrl(url: string) {
   if (!url || url.length < 5) {
     return null;
   }
-  if (!itunesId) {
-    return null;
-  }
-  return `https://overcast.fm/itunes${itunesId}`;
-  // return `overcast://x-callback-url/add?url=${url}`;
+  // return `https://overcast.fm/itunes${itunesId}`;
+  return `overcast://x-callback-url/add?url=${url}`;
 }
 
 function mkApplePodcastsUrl(title: string, itunesId: string) {
@@ -49,6 +46,23 @@ function mkCastroUrl(itunesId: string) {
     return null;
   }
   return `https://castro.fm/itunes/${itunesId}`;
+}
+
+function mkDeezerUrl(url: string) {
+  if (!url || url.length < 5) {
+    return null;
+  }
+  const path = new URL(url).pathname;
+  if (!path) {
+    return null;
+  }
+  const parts = path.split('/');
+  if (!parts || parts.length < 2) {
+    return null;
+  }
+  const lastPart = parts[parts.length - 1];
+
+  return `https://www.deezer.com/open_app?page=show%2F${lastPart}&source=MF_Show`;
 }
 
 function renderLink(name: string, url: string, imagePath: string): ReactElement {
@@ -77,8 +91,9 @@ const AppLink: FC<AppLinkProps> = ({ title, feeds }): ReactElement => {
       <ul className="mt-3 grid grid-cols-1 gap-5 sm:gap-6">
         {renderLink('Spotify', feeds.spotify, '/assets/logos/spotify.svg')}
         {renderLink('Apple Podcasts', mkApplePodcastsUrl(title, itunesId), '/assets/logos/apple-podcast.svg')}
-        {renderLink('Overcast', mkOvercastUrl(feeds.rss, itunesId), '/assets/logos/overcast.svg')}
+        {renderLink('Overcast', mkOvercastUrl(feeds.rss), '/assets/logos/overcast.svg')}
         {renderLink('Castro', mkCastroUrl(itunesId), '/assets/logos/castro.svg')}
+        {renderLink('Deezer', mkDeezerUrl(feeds.deezer), '/assets/logos/deezer.svg')}
       </ul>
     </div>
   );
