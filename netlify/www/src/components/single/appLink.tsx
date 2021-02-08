@@ -21,7 +21,7 @@ function mkApplePodcastsUrl(url: string) {
 }
 
 function renderLink(name: string, url: string, imagePath: string): ReactElement {
-  if (url.length < 5) {
+  if (!url || url.length < 5) {
     return null;
   }
   return (
