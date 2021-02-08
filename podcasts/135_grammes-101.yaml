@@ -1,12 +1,15 @@
 title: 135 Grammes
 description: |
-  Dans ce podcast on va parler histoire ! Pas de France mais de l’industrie du mobile, j’ai 10 000 histoires à vous raconter sur ce sujet qui est au coeur de votre poche, le smartphone ! Celui-ci est le coeur de tous les usages en particulier, depuis l’arrivée de l’iPhone en 2007 jusqu’à nos jours, et dont par exemple les satellites du futur s'inspirent pour fonctionner. Je vais vous proposer une sélection des meilleures histoires et archives de servicesmobiles.fr [https://www.servicesmobiles.fr/], créé en 2005 et qui est le magazine web de l’écosystème mobile. De nombreux témoignages d'entrepreneurs viendront ponctuer les histoires !
+  Dans ce podcast on va parler histoire ! Pas de France mais de l’industrie du mobile, j’ai 10 000 histoires à vous raconter sur ce sujet qui est au coeur de votre poche, le smartphone ! 
+  Celui-ci est le coeur de tous les usages en particulier, depuis l’arrivée de l’iPhone en 2007 jusqu’à nos jours, et dont par exemple les satellites du futur s'inspirent pour fonctionner. 
+  Je vais vous proposer une sélection des meilleures histoires et archives de servicesmobiles.fr [https://www.servicesmobiles.fr/], créé en 2005 et qui est le magazine web de l’écosystème mobile. 
+  De nombreux témoignages d'entrepreneurs viendront ponctuer les histoires !
 imageUrl: https://assets.pippa.io/shows/5d6e68b1408342486f3e0f4d/1567518908741-fb24d9339253224b5b60b01479d433f4.jpeg
 
 contacts:
-  link: _
+  link: https://shows.acast.com/135-grammes
   email: _
-  twitter: _
+  twitter: 135grammes
   patreon: _
   googleGroup: _
 
@@ -17,10 +20,10 @@ hosts:
 feed:
   rss: https://feed.pippa.io/public/shows/5d6e68b1408342486f3e0f4d
   itunes: https://podcasts.apple.com/fr/podcast/135-grammes/id1478886858
-  spotify: _
+  spotify: https://open.spotify.com/show/2udvUp2tm8uko6I21aLsPJ
   soundcloud: _
-  deezer: _
-  google: _
+  deezer: https://www.deezer.com/en/show/496572
+  google: https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkcy5hY2FzdC5jb20vcHVibGljL3Nob3dzLzEzNS1ncmFtbWVz
   castbox: _
   pocketcast: _
 
