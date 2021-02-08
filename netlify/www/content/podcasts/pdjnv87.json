@@ -1,30 +1,31 @@
 {
   "title": "DevApps",
-  "description": "DevApps - Actualité, Développement et Architecture en technologies Microsoft .NET. Présenté par Denis Voituron, Christophe Peugnet et Richard Clark, ce podcast ce veut technique et convivial.",
+  "description": "DevApps - Actualité, Développement et Architecture en technologies Microsoft .NET. \nPrésenté par Denis Voituron, Christophe Peugnet et Richard Clark, ce podcast ce veut technique et convivial.\n",
   "imageUrl": "https://devappsfiles.blob.core.windows.net/web/medias/logo/logo1400.png",
-  "pid": "pdjnv87",
-  "feed": {
-    "rss": "https://devapps.be/Feed",
-    "itunes": "_",
-    "spotify": "_",
-    "soundcloud": "_",
-    "deezer": "_",
-    "google": "_",
-    "castbox": "_",
-    "pocketcast": "_"
-  },
-  "hosts": [
-    {
-      "name": "Voituron / Peugnet / Clark"
-    }
-  ],
   "contacts": {
-    "link": "_",
+    "link": "https://devapps.be/",
     "email": "_",
     "twitter": "_",
     "patreon": "_",
     "googleGroup": "_"
   },
+  "hosts": [
+    {
+      "name": "Voituron / Peugnet / Clark",
+      "twitter": "_"
+    }
+  ],
+  "feed": {
+    "rss": "https://devapps.be/Feed",
+    "itunes": "_",
+    "spotify": "https://open.spotify.com/show/2Ewh6Cj8O0RR8ifKdumiAD",
+    "soundcloud": "_",
+    "deezer": "_",
+    "google": "https://podcasts.google.com/feed/aHR0cDovL3d3dy5kZXZhcHBzLmJlL0ZlZWQ",
+    "castbox": "_",
+    "pocketcast": "_"
+  },
+  "pid": "pdjnv87",
   "yamlDescriptionFile": "devapps-107.yaml",
   "extra": {
     "colors": {
