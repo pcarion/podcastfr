@@ -10,6 +10,13 @@ function mkOvercastUrl(url: string) {
   if (url.length < 5) {
     return null;
   }
+  return `podcast://${url}`;
+}
+
+function mkApplePodcastsUrl(url: string) {
+  if (url.length < 5) {
+    return null;
+  }
   return `overcast://x-callback-url/add?url=${url}`;
 }
 
@@ -36,6 +43,7 @@ const AppLink: FC<AppLinkProps> = ({ feeds }): ReactElement => {
     <div className="p-4">
       <ul className="mt-3 grid grid-cols-1 gap-5 sm:gap-6">
         {renderLink('Spotify', feeds.spotify, '/assets/logos/spotify.svg')}
+        {renderLink('Apple Podcasts', mkApplePodcastsUrl(feeds.rss), '/assets/logos/apple-podcast.svg')}
         {renderLink('Overcast', mkOvercastUrl(feeds.rss), '/assets/logos/overcast.svg')}
       </ul>
     </div>
