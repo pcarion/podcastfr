@@ -1,8 +1,20 @@
 {
   "title": "Big Data Synthesis",
-  "description": "Big Data architecte indépendant. Je travaille dans le Big Data depuis 2012.",
+  "description": "Big Data architecte indépendant. Je travaille dans le Big Data depuis 2012.\n",
   "imageUrl": "http://i1.sndcdn.com/avatars-000680290013-bqyomc-original.jpg",
-  "pid": "pyj8137",
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "hosts": [
+    {
+      "name": "Benoit Petitpas",
+      "twitter": "_"
+    }
+  ],
   "feed": {
     "rss": "http://feeds.soundcloud.com/users/soundcloud:users:690655262/sounds.rss",
     "itunes": "https://podcasts.apple.com/us/podcast/id1477903109",
@@ -13,18 +25,7 @@
     "castbox": "_",
     "pocketcast": "_"
   },
-  "hosts": [
-    {
-      "name": "Benoit Petitpas"
-    }
-  ],
-  "contacts": {
-    "link": "_",
-    "email": "_",
-    "twitter": "_",
-    "patreon": "_",
-    "googleGroup": "_"
-  },
+  "pid": "pyj8137",
   "yamlDescriptionFile": "big_data_synthesis-110.yaml",
   "extra": {
     "colors": {
