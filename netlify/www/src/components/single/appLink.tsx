@@ -41,7 +41,7 @@ function mkApplePodcastsUrl(title: string, itunesId: string) {
   return `podcasts://podcasts.apple.com/us/podcast/${encodeURI(title)}/id${itunesId}`;
 }
 
-function mkGooglePodcastsUrl(url: string) {
+function mkLink(url: string) {
   if (!url || url.length < 5) {
     return null;
   }
@@ -56,7 +56,6 @@ function mkCastroUrl(itunesId: string) {
 }
 
 function mkDeezerUrl(url: string) {
-  console.log('@@@ deezer:', url);
   if (!url || url.length < 5) {
     return null;
   }
@@ -65,7 +64,6 @@ function mkDeezerUrl(url: string) {
     return null;
   }
   const parts = path.split('/');
-  console.log('@@@ deezer>parts>', parts);
   if (!parts || parts.length < 2) {
     return null;
   }
@@ -73,7 +71,7 @@ function mkDeezerUrl(url: string) {
   return `https://www.deezer.com/open_app?page=show%2F${lastPart}&source=MF_Show`;
 }
 
-function renderLink(name: string, url: string, imagePath: string): ReactElement {
+function renderLink(name: string, url: string, imagePath: string, isOpenWith = true): ReactElement {
   if (!url || url.length < 5) {
     return null;
   }
@@ -83,7 +81,7 @@ function renderLink(name: string, url: string, imagePath: string): ReactElement 
         <img src={imagePath} className="w-16 h-16 flex-shrink-0 flex items-center justify-center rounded-l-md p-2" />
         <div className="flex-1 flex items-center justify-between  border-gray-200 rounded-r-md truncate">
           <div className="flex-1 px-4 py-2 text-sm truncate text-gray-900 font-thin hover:text-gray-600">
-            Open with <span className="font-semibold">{name}</span>
+            {isOpenWith ? 'Open with' : ''} <span className="font-semibold">{name}</span>
           </div>
         </div>
       </a>
@@ -96,9 +94,9 @@ function renderIosLinks({ title, feeds }): ReactElement {
 
   return (
     <ul className="mt-3 grid grid-cols-1 gap-5 sm:gap-6">
-      {renderLink('Spotify', feeds.spotify, '/assets/logos/spotify.svg')}
+      {renderLink('Spotify', mkLink(feeds.spotify), '/assets/logos/spotify.svg')}
       {renderLink('Apple Podcasts', mkApplePodcastsUrl(title, itunesId), '/assets/logos/apple-podcast.svg')}
-      {renderLink('Google Podcasts', mkGooglePodcastsUrl(feeds.google), '/assets/logos/google-podcasts.svg')}
+      {renderLink('Google Podcasts', mkLink(feeds.google), '/assets/logos/google-podcasts.svg')}
       {renderLink('Overcast', mkOvercastUrl(feeds.rss), '/assets/logos/overcast.svg')}
       {renderLink('Castro', mkCastroUrl(itunesId), '/assets/logos/castro.svg')}
       {renderLink('Deezer', mkDeezerUrl(feeds.deezer), '/assets/logos/deezer.svg')}
@@ -111,8 +109,8 @@ function renderAndroidLinks({ title, feeds }): ReactElement {
 
   return (
     <ul className="mt-3 grid grid-cols-1 gap-5 sm:gap-6">
-      {renderLink('Spotify', feeds.spotify, '/assets/logos/spotify.svg')}
-      {renderLink('Google Podcasts', mkGooglePodcastsUrl(feeds.google), '/assets/logos/google-podcasts.svg')}
+      {renderLink('Spotify', mkLink(feeds.spotify), '/assets/logos/spotify.svg')}
+      {renderLink('Google Podcasts', mkLink(feeds.google), '/assets/logos/google-podcasts.svg')}
       {renderLink('Overcast', mkOvercastUrl(feeds.rss), '/assets/logos/overcast.svg')}
       {renderLink('Castro', mkCastroUrl(itunesId), '/assets/logos/castro.svg')}
       {renderLink('Deezer', mkDeezerUrl(feeds.deezer), '/assets/logos/deezer.svg')}
@@ -125,9 +123,10 @@ function renderDesktopLinks({ title, feeds }): ReactElement {
 
   return (
     <ul className="mt-3 grid grid-cols-1 gap-5 sm:gap-6">
-      {renderLink('Spotify', feeds.spotify, '/assets/logos/spotify.svg')}
+      {renderLink('Spotify', mkLink(feeds.spotify), '/assets/logos/spotify.svg')}
       {renderLink('Apple Podcasts', mkApplePodcastsUrl(title, itunesId), '/assets/logos/apple-podcast.svg')}
-      {renderLink('Google Podcasts', mkGooglePodcastsUrl(feeds.google), '/assets/logos/google-podcasts.svg')}
+      {renderLink('Google Podcasts', mkLink(feeds.google), '/assets/logos/google-podcasts.svg')}
+      {renderLink('RSS', mkLink(feeds.rss), '/assets/logos/rss.svg', false)}
     </ul>
   );
 }
