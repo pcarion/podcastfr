@@ -1,0 +1,72 @@
+{
+  "title": "GoFr",
+  "description": "Podcast by Arnaud ASSAD",
+  "imageUrl": "https://i1.sndcdn.com/avatars-000522388500-74nsg5-original.jpg",
+  "pid": "px75vqp",
+  "feed": {
+    "rss": "https://feeds.soundcloud.com/users/soundcloud:users:503020458/sounds.rss",
+    "itunes": "_",
+    "spotify": "_",
+    "soundcloud": "_",
+    "deezer": "_",
+    "google": "_",
+    "castbox": "_",
+    "pocketcast": "_"
+  },
+  "hosts": [
+    {
+      "name": "Arnaud ASSAD"
+    }
+  ],
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "yamlDescriptionFile": "gofr-112.yaml",
+  "extra": {
+    "colors": {
+      "vibrant": "#393b5b",
+      "darkVibrant": "#44949c",
+      "lightVibrant": "#e4c08f",
+      "muted": "#5f97a2",
+      "darkMuted": "#393b5b",
+      "lightMuted": "#c9b7bd"
+    },
+    "episodes": [
+      {
+        "publishingDate": "2021-01-30"
+      },
+      {
+        "publishingDate": "2020-08-25"
+      },
+      {
+        "publishingDate": "2020-02-22"
+      },
+      {
+        "publishingDate": "2019-06-21"
+      },
+      {
+        "publishingDate": "2019-05-07"
+      },
+      {
+        "publishingDate": "2019-02-04"
+      },
+      {
+        "publishingDate": "2018-12-05"
+      },
+      {
+        "publishingDate": "2018-10-28"
+      },
+      {
+        "publishingDate": "2018-10-11"
+      },
+      {
+        "publishingDate": "2018-09-13"
+      }
+    ],
+    "logoRepoImage": "px75vqp.png"
+  }
+}
