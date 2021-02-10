@@ -50,7 +50,7 @@ const PodcastHeader: FC<PodcastHeaderProps> = ({ podcast, link }): ReactElement 
           </div>
         </div>
       </div>
-      <div className="w-full  bg-white p-6">
+      <div className="w-full  bg-white p-6 hover:bg-gray-100">
         <p className="mt-1 text-gray-500 text-sm">
           {podcast.description.split('\n').map((t) => (
             <p>{t}</p>

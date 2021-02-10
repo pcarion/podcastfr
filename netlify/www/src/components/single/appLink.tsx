@@ -131,8 +131,9 @@ function renderDesktopLinks({ title, feeds }): ReactElement {
   );
 }
 
-const Tabs = ({ color, title, feeds }) => {
+const Tabs = ({ title, feeds }) => {
   const [openTab, setOpenTab] = React.useState(1);
+  const color = 'blue';
   return (
     <>
       <div className="flex flex-wrap">
@@ -214,7 +215,7 @@ const Tabs = ({ color, title, feeds }) => {
 const AppLink: FC<AppLinkProps> = ({ title, feeds }): ReactElement => {
   return (
     <div className="p-4">
-      <Tabs color="blue" title={title} feeds={feeds} />
+      <Tabs title={title} feeds={feeds} />
     </div>
   );
 };
