@@ -38,6 +38,9 @@
     },
     "episodes": [
       {
+        "publishingDate": "2021-02-09"
+      },
+      {
         "publishingDate": "2021-02-02"
       },
       {
@@ -633,9 +636,6 @@
       },
       {
         "publishingDate": "2016-11-14"
-      },
-      {
-        "publishingDate": "2016-10-28"
       }
     ],
     "logoRepoImage": "pvpl3yp.png"
