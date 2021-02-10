@@ -133,7 +133,6 @@ function renderDesktopLinks({ title, feeds }): ReactElement {
 
 const Tabs = ({ title, feeds }) => {
   const [openTab, setOpenTab] = React.useState(1);
-  const color = 'blue';
   return (
     <>
       <div className="flex flex-wrap">
@@ -143,7 +142,7 @@ const Tabs = ({ title, feeds }) => {
               <a
                 className={
                   'text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal ' +
-                  (openTab === 1 ? 'text-white bg-' + color + '-600' : 'text-' + color + '-600 bg-white')
+                  (openTab === 1 ? 'text-white bg-blue-600' : 'text-blue-600 bg-white')
                 }
                 onClick={(e) => {
                   e.preventDefault();
@@ -160,7 +159,7 @@ const Tabs = ({ title, feeds }) => {
               <a
                 className={
                   'text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal ' +
-                  (openTab === 2 ? 'text-white bg-' + color + '-600' : 'text-' + color + '-600 bg-white')
+                  (openTab === 2 ? 'text-white bg-blue-600' : 'text-blue-600 bg-white')
                 }
                 onClick={(e) => {
                   e.preventDefault();
@@ -177,7 +176,7 @@ const Tabs = ({ title, feeds }) => {
               <a
                 className={
                   'text-xs font-bold uppercase px-5 py-3 shadow-lg rounded block leading-normal ' +
-                  (openTab === 3 ? 'text-white bg-' + color + '-600' : 'text-' + color + '-600 bg-white')
+                  (openTab === 3 ? 'text-white bg-blue-600' : 'text-blue-600 bg-white')
                 }
                 onClick={(e) => {
                   e.preventDefault();
@@ -195,12 +194,21 @@ const Tabs = ({ title, feeds }) => {
             <div className="px-4 py-5 flex-auto">
               <div className="tab-content tab-space">
                 <div className={openTab === 1 ? 'block' : 'hidden'} id="link1">
+                  <p className="text-sm font-extralight bg-red-100">
+                    Travail en cours... certains liens ne fonctionnent pas
+                  </p>
                   {renderIosLinks({ title, feeds })}
                 </div>
                 <div className={openTab === 2 ? 'block' : 'hidden'} id="link2">
+                  <p className="text-sm font-extralight bg-red-100">
+                    Travail en cours... certains liens ne fonctionnent pas
+                  </p>
                   {renderAndroidLinks({ title, feeds })}
                 </div>
                 <div className={openTab === 3 ? 'block' : 'hidden'} id="link3">
+                  <p className="text-sm font-extralight bg-red-100">
+                    Travail en cours... certains liens ne fonctionnent pas
+                  </p>
                   {renderDesktopLinks({ title, feeds })}
                 </div>
               </div>
