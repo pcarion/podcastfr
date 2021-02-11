@@ -4,7 +4,7 @@ import PodcastHeader from '../../components/podcastHeader';
 import CalendarHeatMap from '../../components/calendarHeatMap';
 import AppLink from './appLink';
 import PodcastWebLink from './podcastWebLink';
-import HomePageLink from './HomePageLink';
+import HomePageLink from './homePageLink';
 
 import { PodcastExtra } from '../../types';
 
