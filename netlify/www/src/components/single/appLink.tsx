@@ -89,7 +89,11 @@ function renderLink(name: string, url: string, imagePath: string, isOpenWith = t
   );
 }
 
-function renderIosLinks({ title, feeds }): ReactElement {
+interface RenderPlatformLinks {
+  title: string;
+  feeds: Feed;
+}
+function renderIosLinks({ title, feeds }: RenderPlatformLinks): ReactElement {
   const itunesId = extractItunesId(feeds.itunes);
 
   return (
@@ -104,7 +108,7 @@ function renderIosLinks({ title, feeds }): ReactElement {
   );
 }
 
-function renderAndroidLinks({ title, feeds }): ReactElement {
+function renderAndroidLinks({ feeds }: RenderPlatformLinks): ReactElement {
   const itunesId = extractItunesId(feeds.itunes);
 
   return (
@@ -118,7 +122,7 @@ function renderAndroidLinks({ title, feeds }): ReactElement {
   );
 }
 
-function renderDesktopLinks({ title, feeds }): ReactElement {
+function renderDesktopLinks({ title, feeds }: RenderPlatformLinks): ReactElement {
   const itunesId = extractItunesId(feeds.itunes);
 
   return (
@@ -126,6 +130,8 @@ function renderDesktopLinks({ title, feeds }): ReactElement {
       {renderLink('Spotify', mkLink(feeds.spotify), '/assets/logos/spotify.svg')}
       {renderLink('Apple Podcasts', mkApplePodcastsUrl(title, itunesId), '/assets/logos/apple-podcast.svg')}
       {renderLink('Google Podcasts', mkLink(feeds.google), '/assets/logos/google-podcasts.svg')}
+      {renderLink('Souncloud', mkLink(feeds.soundcloud), '/assets/logos/soundcloud.svg')}
+      {renderLink('Deezer', mkLink(feeds.deezer), '/assets/logos/deezer.svg')}
       {renderLink('RSS', mkLink(feeds.rss), '/assets/logos/rss.svg', false)}
     </ul>
   );
@@ -194,9 +200,6 @@ const Tabs = ({ title, feeds }) => {
             <div className="px-4 py-5 flex-auto">
               <div className="tab-content tab-space">
                 <div className={openTab === 1 ? 'block' : 'hidden'} id="link1">
-                  <p className="text-sm font-extralight bg-red-100">
-                    Travail en cours... certains liens ne fonctionnent pas
-                  </p>
                   {renderIosLinks({ title, feeds })}
                 </div>
                 <div className={openTab === 2 ? 'block' : 'hidden'} id="link2">
@@ -206,9 +209,6 @@ const Tabs = ({ title, feeds }) => {
                   {renderAndroidLinks({ title, feeds })}
                 </div>
                 <div className={openTab === 3 ? 'block' : 'hidden'} id="link3">
-                  <p className="text-sm font-extralight bg-red-100">
-                    Travail en cours... certains liens ne fonctionnent pas
-                  </p>
                   {renderDesktopLinks({ title, feeds })}
                 </div>
               </div>
