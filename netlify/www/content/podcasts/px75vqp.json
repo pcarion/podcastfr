@@ -1,8 +1,20 @@
 {
   "title": "GoFr",
-  "description": "Podcast by Arnaud ASSAD",
+  "description": "Podcast by Arnaud ASSAD\n",
   "imageUrl": "https://i1.sndcdn.com/avatars-000522388500-74nsg5-original.jpg",
-  "pid": "px75vqp",
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "hosts": [
+    {
+      "name": "Arnaud ASSAD",
+      "twitter": "_"
+    }
+  ],
   "feed": {
     "rss": "https://feeds.soundcloud.com/users/soundcloud:users:503020458/sounds.rss",
     "itunes": "_",
@@ -13,18 +25,7 @@
     "castbox": "_",
     "pocketcast": "_"
   },
-  "hosts": [
-    {
-      "name": "Arnaud ASSAD"
-    }
-  ],
-  "contacts": {
-    "link": "_",
-    "email": "_",
-    "twitter": "_",
-    "patreon": "_",
-    "googleGroup": "_"
-  },
+  "pid": "px75vqp",
   "yamlDescriptionFile": "gofr-112.yaml",
   "extra": {
     "colors": {
