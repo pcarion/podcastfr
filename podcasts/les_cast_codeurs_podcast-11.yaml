@@ -27,7 +27,7 @@ hosts:
 feed:
   rss: https://lescastcodeurs.libsyn.com/rss
   itunes: https://podcasts.apple.com/podcast/id312239675
-  spotify: _
+  spotify: https://open.spotify.com/show/4AzKsN4N0Y0cIbCzKCz2Ph
   soundcloud: _
   deezer: _
   google: _
