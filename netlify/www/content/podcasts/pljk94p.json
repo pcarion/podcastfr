@@ -38,6 +38,9 @@
     },
     "episodes": [
       {
+        "publishingDate": "2021-02-14"
+      },
+      {
         "publishingDate": "2021-02-07"
       },
       {
@@ -933,9 +936,6 @@
       },
       {
         "publishingDate": "2015-05-03"
-      },
-      {
-        "publishingDate": "2015-04-24"
       }
     ],
     "logoRepoImage": "pljk94p.png"
