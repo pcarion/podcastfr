@@ -29,13 +29,87 @@
   "yamlDescriptionFile": "punkindev-52.yaml",
   "extra": {
     "colors": {
-      "vibrant": null,
-      "darkVibrant": null,
-      "lightVibrant": null,
-      "muted": null,
-      "darkMuted": null,
-      "lightMuted": null
+      "vibrant": "#744e3e",
+      "darkVibrant": "#2b6b0e",
+      "lightVibrant": "#e1c097",
+      "muted": "#ae977b",
+      "darkMuted": "#744e3e",
+      "lightMuted": "#b1bfb3"
     },
-    "episodes": []
+    "episodes": [
+      {
+        "publishingDate": "2021-02-16"
+      },
+      {
+        "publishingDate": "2021-02-09"
+      },
+      {
+        "publishingDate": "2021-02-02"
+      },
+      {
+        "publishingDate": "2021-01-26"
+      },
+      {
+        "publishingDate": "2021-01-19"
+      },
+      {
+        "publishingDate": "2021-01-12"
+      },
+      {
+        "publishingDate": "2021-01-05"
+      },
+      {
+        "publishingDate": "2020-12-15"
+      },
+      {
+        "publishingDate": "2020-12-08"
+      },
+      {
+        "publishingDate": "2020-12-01"
+      },
+      {
+        "publishingDate": "2020-11-24"
+      },
+      {
+        "publishingDate": "2020-11-17"
+      },
+      {
+        "publishingDate": "2020-11-10"
+      },
+      {
+        "publishingDate": "2020-11-03"
+      },
+      {
+        "publishingDate": "2020-10-27"
+      },
+      {
+        "publishingDate": "2020-10-20"
+      },
+      {
+        "publishingDate": "2020-10-13"
+      },
+      {
+        "publishingDate": "2020-10-06"
+      },
+      {
+        "publishingDate": "2020-09-29"
+      },
+      {
+        "publishingDate": "2020-09-22"
+      },
+      {
+        "publishingDate": "2020-09-15"
+      },
+      {
+        "publishingDate": "2020-09-08"
+      },
+      {
+        "publishingDate": "2020-08-02"
+      },
+      {
+        "publishingDate": "2020-08-01"
+      }
+    ],
+    "logoRepoImage": "pnpxk5j.png"
   }
 }
