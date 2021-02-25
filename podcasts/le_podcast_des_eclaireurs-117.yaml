@@ -1,6 +1,7 @@
 title: Le podcast des Éclaireurs
 description: |
-  Chaque semaine, les Eclaireurs du Numérique décryptent les secrets cachés d'Internet. Avec Damien Douani, Fabrice Epelboin et Bertrand Lenotre.
+  Chaque semaine, les Eclaireurs du Numérique décryptent les secrets cachés d'Internet. 
+  Avec Damien Douani, Fabrice Epelboin et Bertrand Lenotre.
 imageUrl: https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/1472363/1472363-1575710769253-2feb2ab5e3f2.jpg
 
 contacts:
@@ -17,10 +18,10 @@ hosts:
 feed:
   rss: https://anchor.fm/s/95f3c4c/podcast/rss
   itunes: https://podcasts.apple.com/fr/podcast/le-podcast-des-%C3%A9claireurs/id1454434748
-  spotify: _
+  spotify: https://open.spotify.com/show/4Vtil5oYn7cxHbefD7EjIl
   soundcloud: _
   deezer: _
-  google: _
+  google: https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy85NWYzYzRjL3BvZGNhc3QvcnNz
   castbox: _
   pocketcast: _
 
