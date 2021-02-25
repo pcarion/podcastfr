@@ -1,23 +1,7 @@
 {
   "title": "Le podcast des Éclaireurs",
-  "description": "Chaque semaine, les Eclaireurs du Numérique décryptent les secrets cachés d'Internet. Avec Damien Douani, Fabrice Epelboin et Bertrand Lenotre.",
+  "description": "Chaque semaine, les Eclaireurs du Numérique décryptent les secrets cachés d'Internet. \nAvec Damien Douani, Fabrice Epelboin et Bertrand Lenotre.\n",
   "imageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/1472363/1472363-1575710769253-2feb2ab5e3f2.jpg",
-  "pid": "pmjvyqj",
-  "feed": {
-    "rss": "https://anchor.fm/s/95f3c4c/podcast/rss",
-    "itunes": "https://podcasts.apple.com/fr/podcast/le-podcast-des-%C3%A9claireurs/id1454434748",
-    "spotify": "_",
-    "soundcloud": "_",
-    "deezer": "_",
-    "google": "_",
-    "castbox": "_",
-    "pocketcast": "_"
-  },
-  "hosts": [
-    {
-      "name": "Les Eclaireurs du Numérique"
-    }
-  ],
   "contacts": {
     "link": "_",
     "email": "_",
@@ -25,6 +9,23 @@
     "patreon": "_",
     "googleGroup": "_"
   },
+  "hosts": [
+    {
+      "name": "Les Eclaireurs du Numérique",
+      "twitter": "_"
+    }
+  ],
+  "feed": {
+    "rss": "https://anchor.fm/s/95f3c4c/podcast/rss",
+    "itunes": "https://podcasts.apple.com/fr/podcast/le-podcast-des-%C3%A9claireurs/id1454434748",
+    "spotify": "https://open.spotify.com/show/4Vtil5oYn7cxHbefD7EjIl",
+    "soundcloud": "_",
+    "deezer": "_",
+    "google": "https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy85NWYzYzRjL3BvZGNhc3QvcnNz",
+    "castbox": "_",
+    "pocketcast": "_"
+  },
+  "pid": "pmjvyqj",
   "yamlDescriptionFile": "le_podcast_des_eclaireurs-117.yaml",
   "extra": {
     "colors": {
@@ -252,7 +253,6 @@
       {
         "publishingDate": "2019-02-24"
       }
-    ],
-    "logoRepoImage": "pmjvyqj.png"
+    ]
   }
 }
