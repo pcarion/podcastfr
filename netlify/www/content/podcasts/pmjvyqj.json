@@ -1,0 +1,258 @@
+{
+  "title": "Le podcast des Éclaireurs",
+  "description": "Chaque semaine, les Eclaireurs du Numérique décryptent les secrets cachés d'Internet. Avec Damien Douani, Fabrice Epelboin et Bertrand Lenotre.",
+  "imageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/1472363/1472363-1575710769253-2feb2ab5e3f2.jpg",
+  "pid": "pmjvyqj",
+  "feed": {
+    "rss": "https://anchor.fm/s/95f3c4c/podcast/rss",
+    "itunes": "https://podcasts.apple.com/fr/podcast/le-podcast-des-%C3%A9claireurs/id1454434748",
+    "spotify": "_",
+    "soundcloud": "_",
+    "deezer": "_",
+    "google": "_",
+    "castbox": "_",
+    "pocketcast": "_"
+  },
+  "hosts": [
+    {
+      "name": "Les Eclaireurs du Numérique"
+    }
+  ],
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "yamlDescriptionFile": "le_podcast_des_eclaireurs-117.yaml",
+  "extra": {
+    "colors": {
+      "vibrant": "#7a281e",
+      "darkVibrant": "#69221a",
+      "lightVibrant": "#ec998f",
+      "muted": "#ab594f",
+      "darkMuted": "#7a281e",
+      "lightMuted": "#c4a6a4"
+    },
+    "episodes": [
+      {
+        "publishingDate": "2021-02-24"
+      },
+      {
+        "publishingDate": "2021-02-01"
+      },
+      {
+        "publishingDate": "2021-01-25"
+      },
+      {
+        "publishingDate": "2021-01-18"
+      },
+      {
+        "publishingDate": "2020-12-28"
+      },
+      {
+        "publishingDate": "2020-12-18"
+      },
+      {
+        "publishingDate": "2020-12-11"
+      },
+      {
+        "publishingDate": "2020-12-04"
+      },
+      {
+        "publishingDate": "2020-11-27"
+      },
+      {
+        "publishingDate": "2020-11-20"
+      },
+      {
+        "publishingDate": "2020-11-16"
+      },
+      {
+        "publishingDate": "2020-10-30"
+      },
+      {
+        "publishingDate": "2020-10-23"
+      },
+      {
+        "publishingDate": "2020-10-16"
+      },
+      {
+        "publishingDate": "2020-10-09"
+      },
+      {
+        "publishingDate": "2020-09-27"
+      },
+      {
+        "publishingDate": "2020-09-18"
+      },
+      {
+        "publishingDate": "2020-09-11"
+      },
+      {
+        "publishingDate": "2020-09-04"
+      },
+      {
+        "publishingDate": "2020-07-13"
+      },
+      {
+        "publishingDate": "2020-07-03"
+      },
+      {
+        "publishingDate": "2020-06-23"
+      },
+      {
+        "publishingDate": "2020-06-11"
+      },
+      {
+        "publishingDate": "2020-06-03"
+      },
+      {
+        "publishingDate": "2020-05-28"
+      },
+      {
+        "publishingDate": "2020-05-19"
+      },
+      {
+        "publishingDate": "2020-05-06"
+      },
+      {
+        "publishingDate": "2020-04-28"
+      },
+      {
+        "publishingDate": "2020-04-17"
+      },
+      {
+        "publishingDate": "2020-04-03"
+      },
+      {
+        "publishingDate": "2020-03-26"
+      },
+      {
+        "publishingDate": "2020-03-14"
+      },
+      {
+        "publishingDate": "2020-03-07"
+      },
+      {
+        "publishingDate": "2020-02-28"
+      },
+      {
+        "publishingDate": "2020-02-19"
+      },
+      {
+        "publishingDate": "2020-02-08"
+      },
+      {
+        "publishingDate": "2020-01-31"
+      },
+      {
+        "publishingDate": "2020-01-24"
+      },
+      {
+        "publishingDate": "2020-01-17"
+      },
+      {
+        "publishingDate": "2020-01-10"
+      },
+      {
+        "publishingDate": "2019-12-21"
+      },
+      {
+        "publishingDate": "2019-12-14"
+      },
+      {
+        "publishingDate": "2019-12-07"
+      },
+      {
+        "publishingDate": "2019-11-30"
+      },
+      {
+        "publishingDate": "2019-11-23"
+      },
+      {
+        "publishingDate": "2019-11-16"
+      },
+      {
+        "publishingDate": "2019-11-09"
+      },
+      {
+        "publishingDate": "2019-11-02"
+      },
+      {
+        "publishingDate": "2019-10-26"
+      },
+      {
+        "publishingDate": "2019-10-19"
+      },
+      {
+        "publishingDate": "2019-10-12"
+      },
+      {
+        "publishingDate": "2019-10-05"
+      },
+      {
+        "publishingDate": "2019-09-28"
+      },
+      {
+        "publishingDate": "2019-09-21"
+      },
+      {
+        "publishingDate": "2019-09-14"
+      },
+      {
+        "publishingDate": "2019-09-06"
+      },
+      {
+        "publishingDate": "2019-08-02"
+      },
+      {
+        "publishingDate": "2019-07-27"
+      },
+      {
+        "publishingDate": "2019-07-19"
+      },
+      {
+        "publishingDate": "2019-07-12"
+      },
+      {
+        "publishingDate": "2019-06-29"
+      },
+      {
+        "publishingDate": "2019-06-08"
+      },
+      {
+        "publishingDate": "2019-05-31"
+      },
+      {
+        "publishingDate": "2019-05-25"
+      },
+      {
+        "publishingDate": "2019-05-16"
+      },
+      {
+        "publishingDate": "2019-05-10"
+      },
+      {
+        "publishingDate": "2019-04-12"
+      },
+      {
+        "publishingDate": "2019-04-06"
+      },
+      {
+        "publishingDate": "2019-03-29"
+      },
+      {
+        "publishingDate": "2019-03-22"
+      },
+      {
+        "publishingDate": "2019-03-08"
+      },
+      {
+        "publishingDate": "2019-02-24"
+      }
+    ],
+    "logoRepoImage": "pmjvyqj.png"
+  }
+}
