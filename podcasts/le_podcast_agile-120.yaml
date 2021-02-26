@@ -4,7 +4,7 @@ description: |
 imageUrl: http://i1.sndcdn.com/avatars-000326758515-1aqytx-original.jpg
 
 contacts:
-  link: _
+  link: https://www.leodavesne.net/podcast/
   email: _
   twitter: _
   patreon: _
@@ -12,14 +12,14 @@ contacts:
 
 hosts:
   - name: Léo Davesne
-    twitter: _
+    twitter: leodavesne
 
 feed:
   rss: http://feeds.soundcloud.com/users/soundcloud:users:24633285/sounds.rss
   itunes: https://podcasts.apple.com/us/podcast/id1205939622
-  spotify: _
-  soundcloud: _
-  deezer: _
+  spotify: https://open.spotify.com/show/1EbkBh7EWMRJuWqLL191aU
+  soundcloud: https://soundcloud.com/leodavesne
+  deezer: https://www.deezer.com/fr/show/1430392
   google: _
   castbox: _
   pocketcast: _
