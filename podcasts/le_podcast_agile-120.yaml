@@ -1,0 +1,27 @@
+title: Le Podcast Agile
+description: |
+  Le Podcast Agile
+imageUrl: http://i1.sndcdn.com/avatars-000326758515-1aqytx-original.jpg
+
+contacts:
+  link: _
+  email: _
+  twitter: _
+  patreon: _
+  googleGroup: _
+
+hosts:
+  - name: Léo Davesne
+    twitter: _
+
+feed:
+  rss: http://feeds.soundcloud.com/users/soundcloud:users:24633285/sounds.rss
+  itunes: https://podcasts.apple.com/us/podcast/id1205939622
+  spotify: _
+  soundcloud: _
+  deezer: _
+  google: _
+  castbox: _
+  pocketcast: _
+
+pid: pnp2voj # do not change
