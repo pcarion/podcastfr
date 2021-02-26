@@ -1,8 +1,6 @@
 # [https://www.podcastfr.com/](https://www.podcastfr.com/) : La liste de podcasts techniques en français.
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/63f96c8f-2126-4f57-8dc3-4295341d40af/deploy-status)](https://app.netlify.com/sites/vigilant-hermann-fcaaec/deploys)
-
-Note: à chaque regénération du site, l'ordre des podcasts est remaniée aléatoirement.
+Note: à chaque regénération du site, les podcasts sont classés par ordre décroissant de dernière publication d'un épisode.
 
 # Comment ajouter un nouveau podcast?
 * ouvrez une [Issue](https://github.com/pcarion/podcastfr/issues) github
@@ -30,6 +28,6 @@ Si il y a un problème avec votre soumission, la pull request sera commentée et
 # Credits
 
 - [awesome uses](https://github.com/wesbos/awesome-uses) par Wes Bos
-- Les logos des différents podcast providers ont été downloadés depuis [World Vectore Logo](https://worldvectorlogo.com/)
+- Les logos des différents podcast providers ont été downloadés depuis [World Vector Logo](https://worldvectorlogo.com/)
 - image pour la twitter card: Photo by [Марьян Блан | @marjanblan](https://unsplash.com/@marjan_blan?utm_source=unsplash) on [Unsplash](https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText)
 

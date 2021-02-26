@@ -5,7 +5,7 @@ import { PodcastExtra, EpisodeDate } from '../types';
 const usePodcasts = (): PodcastExtra[] => {
   const data = useStaticQuery(graphql`
     query {
-      allPodcasts {
+      allPodcasts(sort: { fields: [extra___timestamp], order: DESC }) {
         nodes {
           title
           description
