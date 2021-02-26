@@ -28,6 +28,7 @@
   "pid": "pvply7e",
   "yamlDescriptionFile": "electro_monkeys-13.yaml",
   "extra": {
+    "timestamp": 1614121200000,
     "colors": {
       "vibrant": "#5d452f",
       "darkVibrant": "#9a0711",

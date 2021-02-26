@@ -28,6 +28,7 @@
   "pid": "pdjn03p",
   "yamlDescriptionFile": "cpu_carre_petit_utile-31.yaml",
   "extra": {
+    "timestamp": 1611828000000,
     "colors": {
       "vibrant": "#5c5c4c",
       "darkVibrant": "#025c82",

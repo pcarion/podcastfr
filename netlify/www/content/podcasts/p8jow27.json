@@ -28,6 +28,7 @@
   "pid": "p8jow27",
   "yamlDescriptionFile": "radio_dsi-63.yaml",
   "extra": {
+    "timestamp": 1598940840000,
     "colors": {
       "vibrant": "#3c3438",
       "darkVibrant": "#a32423",

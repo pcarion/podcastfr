@@ -28,6 +28,7 @@
   "pid": "plpe28p",
   "yamlDescriptionFile": "gofr-32.yaml",
   "extra": {
+    "timestamp": 1611966337000,
     "colors": {
       "vibrant": "#404c54",
       "darkVibrant": "#25565f",

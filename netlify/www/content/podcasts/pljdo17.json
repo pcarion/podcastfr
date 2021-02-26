@@ -28,6 +28,7 @@
   "pid": "pljdo17",
   "yamlDescriptionFile": "dev'obs-62.yaml",
   "extra": {
+    "timestamp": 1612274237000,
     "colors": {
       "vibrant": "#4c4c4c",
       "darkVibrant": "#21632b",
