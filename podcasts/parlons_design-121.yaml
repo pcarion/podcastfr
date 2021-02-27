@@ -1,0 +1,27 @@
+title: Parlons Design
+description: |
+  Vous souhaitez en apprendre plus sur le design web, découvrir des outils, des sujets et des façons de travailler et d’apprendre ? Alors rejoignez Parlons Design maintenant ! Une ambiance détendue et sans prise de tête pour partager notre passion chaque semaine !
+imageUrl: http://romainpenchenat.free.fr/ressources/parlons_design_logo.png
+
+contacts:
+  link: _
+  email: _
+  twitter: _
+  patreon: _
+  googleGroup: _
+
+hosts:
+  - name: Romain Penchenat
+    twitter: _
+
+feed:
+  rss: http://romainpenchenat.free.fr/podcast/rss.xml
+  itunes: https://podcasts.apple.com/us/podcast/id1286546174
+  spotify: _
+  soundcloud: _
+  deezer: _
+  google: _
+  castbox: _
+  pocketcast: _
+
+pid: pwp12v7 # do not change
