@@ -1,0 +1,379 @@
+{
+  "title": "Révolution Digitale ™",
+  "description": "** À BIENTÔT POUR LA SAISON 3 ** SEASON 3 COMING SOON ** \"Entreprendre. Changer de Vie. Etre Libre.\" Réveillez l'entrepreneur en vous ! Francois et Helene parcourent le monde digital pour raconter les histoires de celles et ceux qui accomplissent leurs rêves. Chaque Saison, des entrepreneur.e.s de tous horizons racontent leurs parcours et décrivent les étapes qui les ont conduits au succès. Venez stimuler votre esprit entrepreneurial et trouvez des idées pour vous lancer, surmonter vos peurs, améliorer votre productivité et mener une vie plus heureuse et prospère. *** Laissez-nous vos commentaires !! ***",
+  "imageUrl": "https://ssl-static.libsyn.com/p/assets/7/b/4/f/7b4f200de740605e/RD-artwork-Saison3-10-Preview.jpg",
+  "pid": "pvjqg17",
+  "feed": {
+    "rss": "https://revodigitale.libsyn.com/rss",
+    "itunes": "https://podcasts.apple.com/us/podcast/20-minutes-en-fait-40-avec-marion-vigot-mister-rye/id1321220222?i=1000493232875",
+    "spotify": "_",
+    "soundcloud": "_",
+    "deezer": "_",
+    "google": "_",
+    "castbox": "_",
+    "pocketcast": "_"
+  },
+  "hosts": [
+    {
+      "name": "Francois Paul Lambert | Helene Baron"
+    }
+  ],
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "yamlDescriptionFile": "revolution_digitale_-122.yaml",
+  "extra": {
+    "timestamp": 1601518803000,
+    "colors": {
+      "vibrant": "#592b4a",
+      "darkVibrant": "#04244c",
+      "lightVibrant": "#e54f8c",
+      "muted": "#76945e",
+      "darkMuted": "#592b4a",
+      "lightMuted": "#bfbf8e"
+    },
+    "episodes": [
+      {
+        "publishingDate": "2020-10-01"
+      },
+      {
+        "publishingDate": "2019-08-27"
+      },
+      {
+        "publishingDate": "2019-07-30"
+      },
+      {
+        "publishingDate": "2019-07-23"
+      },
+      {
+        "publishingDate": "2019-07-16"
+      },
+      {
+        "publishingDate": "2019-07-10"
+      },
+      {
+        "publishingDate": "2019-07-02"
+      },
+      {
+        "publishingDate": "2019-06-25"
+      },
+      {
+        "publishingDate": "2019-06-18"
+      },
+      {
+        "publishingDate": "2019-06-11"
+      },
+      {
+        "publishingDate": "2019-05-29"
+      },
+      {
+        "publishingDate": "2019-05-21"
+      },
+      {
+        "publishingDate": "2019-05-14"
+      },
+      {
+        "publishingDate": "2019-05-07"
+      },
+      {
+        "publishingDate": "2019-04-30"
+      },
+      {
+        "publishingDate": "2019-04-24"
+      },
+      {
+        "publishingDate": "2019-04-16"
+      },
+      {
+        "publishingDate": "2019-04-09"
+      },
+      {
+        "publishingDate": "2019-04-02"
+      },
+      {
+        "publishingDate": "2019-03-27"
+      },
+      {
+        "publishingDate": "2019-03-19"
+      },
+      {
+        "publishingDate": "2019-03-12"
+      },
+      {
+        "publishingDate": "2019-03-05"
+      },
+      {
+        "publishingDate": "2019-02-26"
+      },
+      {
+        "publishingDate": "2019-02-19"
+      },
+      {
+        "publishingDate": "2019-02-12"
+      },
+      {
+        "publishingDate": "2019-02-05"
+      },
+      {
+        "publishingDate": "2019-01-29"
+      },
+      {
+        "publishingDate": "2019-01-22"
+      },
+      {
+        "publishingDate": "2019-01-15"
+      },
+      {
+        "publishingDate": "2019-01-08"
+      },
+      {
+        "publishingDate": "2019-01-01"
+      },
+      {
+        "publishingDate": "2018-12-26"
+      },
+      {
+        "publishingDate": "2018-12-18"
+      },
+      {
+        "publishingDate": "2018-12-10"
+      },
+      {
+        "publishingDate": "2018-12-04"
+      },
+      {
+        "publishingDate": "2018-11-27"
+      },
+      {
+        "publishingDate": "2018-11-20"
+      },
+      {
+        "publishingDate": "2018-11-13"
+      },
+      {
+        "publishingDate": "2018-11-06"
+      },
+      {
+        "publishingDate": "2018-10-30"
+      },
+      {
+        "publishingDate": "2018-10-23"
+      },
+      {
+        "publishingDate": "2018-10-16"
+      },
+      {
+        "publishingDate": "2018-10-08"
+      },
+      {
+        "publishingDate": "2018-10-02"
+      },
+      {
+        "publishingDate": "2018-10-01"
+      },
+      {
+        "publishingDate": "2018-07-14"
+      },
+      {
+        "publishingDate": "2018-07-10"
+      },
+      {
+        "publishingDate": "2018-07-05"
+      },
+      {
+        "publishingDate": "2018-07-03"
+      },
+      {
+        "publishingDate": "2018-06-28"
+      },
+      {
+        "publishingDate": "2018-06-28"
+      },
+      {
+        "publishingDate": "2018-06-26"
+      },
+      {
+        "publishingDate": "2018-06-21"
+      },
+      {
+        "publishingDate": "2018-06-19"
+      },
+      {
+        "publishingDate": "2018-06-14"
+      },
+      {
+        "publishingDate": "2018-06-12"
+      },
+      {
+        "publishingDate": "2018-06-07"
+      },
+      {
+        "publishingDate": "2018-06-05"
+      },
+      {
+        "publishingDate": "2018-05-31"
+      },
+      {
+        "publishingDate": "2018-05-29"
+      },
+      {
+        "publishingDate": "2018-05-24"
+      },
+      {
+        "publishingDate": "2018-05-22"
+      },
+      {
+        "publishingDate": "2018-05-17"
+      },
+      {
+        "publishingDate": "2018-05-15"
+      },
+      {
+        "publishingDate": "2018-05-10"
+      },
+      {
+        "publishingDate": "2018-05-08"
+      },
+      {
+        "publishingDate": "2018-05-03"
+      },
+      {
+        "publishingDate": "2018-05-01"
+      },
+      {
+        "publishingDate": "2018-04-26"
+      },
+      {
+        "publishingDate": "2018-04-24"
+      },
+      {
+        "publishingDate": "2018-04-19"
+      },
+      {
+        "publishingDate": "2018-04-17"
+      },
+      {
+        "publishingDate": "2018-04-12"
+      },
+      {
+        "publishingDate": "2018-04-10"
+      },
+      {
+        "publishingDate": "2018-04-05"
+      },
+      {
+        "publishingDate": "2018-04-03"
+      },
+      {
+        "publishingDate": "2018-03-29"
+      },
+      {
+        "publishingDate": "2018-03-27"
+      },
+      {
+        "publishingDate": "2018-03-22"
+      },
+      {
+        "publishingDate": "2018-03-20"
+      },
+      {
+        "publishingDate": "2018-03-15"
+      },
+      {
+        "publishingDate": "2018-03-13"
+      },
+      {
+        "publishingDate": "2018-03-08"
+      },
+      {
+        "publishingDate": "2018-03-06"
+      },
+      {
+        "publishingDate": "2018-03-01"
+      },
+      {
+        "publishingDate": "2018-02-27"
+      },
+      {
+        "publishingDate": "2018-02-22"
+      },
+      {
+        "publishingDate": "2018-02-20"
+      },
+      {
+        "publishingDate": "2018-02-15"
+      },
+      {
+        "publishingDate": "2018-02-13"
+      },
+      {
+        "publishingDate": "2018-02-08"
+      },
+      {
+        "publishingDate": "2018-02-06"
+      },
+      {
+        "publishingDate": "2018-02-01"
+      },
+      {
+        "publishingDate": "2018-01-30"
+      },
+      {
+        "publishingDate": "2018-01-25"
+      },
+      {
+        "publishingDate": "2018-01-23"
+      },
+      {
+        "publishingDate": "2018-01-18"
+      },
+      {
+        "publishingDate": "2018-01-16"
+      },
+      {
+        "publishingDate": "2018-01-11"
+      },
+      {
+        "publishingDate": "2018-01-09"
+      },
+      {
+        "publishingDate": "2018-01-04"
+      },
+      {
+        "publishingDate": "2018-01-02"
+      },
+      {
+        "publishingDate": "2017-12-28"
+      },
+      {
+        "publishingDate": "2017-12-26"
+      },
+      {
+        "publishingDate": "2017-12-21"
+      },
+      {
+        "publishingDate": "2017-12-19"
+      },
+      {
+        "publishingDate": "2017-12-14"
+      },
+      {
+        "publishingDate": "2017-12-12"
+      },
+      {
+        "publishingDate": "2017-12-05"
+      },
+      {
+        "publishingDate": "2017-12-05"
+      },
+      {
+        "publishingDate": "2017-12-05"
+      }
+    ],
+    "logoRepoImage": "pvjqg17.png"
+  }
+}
