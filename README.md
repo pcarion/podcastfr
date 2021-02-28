@@ -1,5 +1,8 @@
 # [https://www.podcastfr.com/](https://www.podcastfr.com/) : La liste de podcasts techniques en français.
 
+[![Badges](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.podcastfr.com%2Fbadges%2Fepisodes.json&style=flat)](https://www.podcastfr.com)
+
+
 Note: à chaque regénération du site, les podcasts sont classés par ordre décroissant de dernière publication d'un épisode.
 
 # Comment ajouter un nouveau podcast?
