@@ -17,8 +17,8 @@ exports.onPostBuild = async () => {
   if (!fs.existsSync(badgePath)) fs.mkdirSync(badgePath);
 
   const nbEpisodesJsonFile = path.join('./content/meta/nbEpisodes.json');
-  const content = fs.readFileSync(nbEpisodesJsonFile);
-  const json = JSON.parse(content);
+  let content = fs.readFileSync(nbEpisodesJsonFile);
+  let json = JSON.parse(content);
   const nbEpisodes = json.nbEpisodes;
 
   const badge1 = {
