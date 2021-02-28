@@ -1,6 +1,6 @@
 # [https://www.podcastfr.com/](https://www.podcastfr.com/) : La liste de podcasts techniques en français.
 
-[![Badges](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.podcastfr.com%2Fbadges%2FnbPodcasts.json&style=flat)](https://www.podcastfr.com)
+[![Badges](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.podcastfr.com%2Fbadges%2Fpodcasts.json&style=flat)](https://www.podcastfr.com)
 [![Badges](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.podcastfr.com%2Fbadges%2Fepisodes.json&style=flat)](https://www.podcastfr.com)
 [![Badges](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.podcastfr.com%2Fbadges%2FlastUpdate.json&style=flat)](https://www.podcastfr.com)
 
