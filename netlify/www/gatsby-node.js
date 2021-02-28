@@ -29,4 +29,32 @@ exports.onPostBuild = async () => {
   };
 
   fs.writeFileSync(`${badgePath}/episodes.json`, JSON.stringify(badge1));
+
+  const nbPodcastsJsonFile = path.join('./content/meta/nbPodcasts.json');
+  content = fs.readFileSync(nbPodcastsJsonFile);
+  json = JSON.parse(content);
+  const nbPodcasts = json.nbPodcasts;
+
+  const badge2 = {
+    schemaVersion: 1,
+    label: 'podcasts',
+    message: '' + nbPodcasts,
+    color: 'brightgreen',
+  };
+
+  fs.writeFileSync(`${badgePath}/podcasts.json`, JSON.stringify(badge2));
+
+  const lastUpdateJsonFile = path.join('./content/meta/lastUpdate.json');
+  content = fs.readFileSync(lastUpdateJsonFile);
+  json = JSON.parse(content);
+  const lastUpdateDate = json.date;
+
+  const badge3 = {
+    schemaVersion: 1,
+    label: 'mise à jour',
+    message: lastUpdateDate,
+    color: 'blue',
+  };
+
+  fs.writeFileSync(`${badgePath}/lastUpdate.json`, JSON.stringify(badge3));
 };
