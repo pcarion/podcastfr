@@ -1,8 +1,20 @@
 {
   "title": "Parlons Design",
-  "description": "Vous souhaitez en apprendre plus sur le design web, découvrir des outils, des sujets et des façons de travailler et d’apprendre ? Alors rejoignez Parlons Design maintenant ! Une ambiance détendue et sans prise de tête pour partager notre passion chaque semaine !",
+  "description": "Vous souhaitez en apprendre plus sur le design web, découvrir des outils, des sujets et des façons de travailler et d’apprendre ? Alors rejoignez Parlons Design maintenant ! Une ambiance détendue et sans prise de tête pour partager notre passion chaque semaine !\n",
   "imageUrl": "http://romainpenchenat.free.fr/ressources/parlons_design_logo.png",
-  "pid": "pwp12v7",
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "hosts": [
+    {
+      "name": "Romain Penchenat",
+      "twitter": "_"
+    }
+  ],
   "feed": {
     "rss": "http://romainpenchenat.free.fr/podcast/rss.xml",
     "itunes": "https://podcasts.apple.com/us/podcast/id1286546174",
@@ -13,18 +25,7 @@
     "castbox": "_",
     "pocketcast": "_"
   },
-  "hosts": [
-    {
-      "name": "Romain Penchenat"
-    }
-  ],
-  "contacts": {
-    "link": "_",
-    "email": "_",
-    "twitter": "_",
-    "patreon": "_",
-    "googleGroup": "_"
-  },
+  "pid": "pwp12v7",
   "yamlDescriptionFile": "parlons_design-121.yaml",
   "extra": {
     "timestamp": 1614074400000,
