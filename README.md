@@ -1,9 +1,18 @@
-# [https://www.podcastfr.com/](https://www.podcastfr.com/) : La liste de podcasts techniques en français.
+<div align="center">
+    <p align="center">
+        <a href="https://www.podcastfr.com/" title="https://www.podcastfr.com/">https://www.podcastfr.com</a>
+    </p>
+</div>
+
+<p align="center">La liste de podcasts techniques en français</p>
+
+<div align="center">
 
 [![Badges](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.podcastfr.com%2Fbadges%2Fpodcasts.json&style=flat)](https://www.podcastfr.com)
 [![Badges](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.podcastfr.com%2Fbadges%2Fepisodes.json&style=flat)](https://www.podcastfr.com)
 [![Badges](https://img.shields.io/endpoint?url=https%3A%2F%2Fwww.podcastfr.com%2Fbadges%2FlastUpdate.json&style=flat)](https://www.podcastfr.com)
 
+</div>
 
 Note: à chaque regénération du site, les podcasts sont classés par ordre décroissant de dernière publication d'un épisode.
 
