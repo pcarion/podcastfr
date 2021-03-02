@@ -1,0 +1,178 @@
+{
+  "title": "Dans la Poche",
+  "description": "Productivité, Minimalisme et Nouvelles Technologies : 3 mots pour décrire les thèmes de ce podcast Créer du contenu sans s'encombrer, améliorer son quotidien en gardant l'essentiel, découvrir des nouvelles technologies pour évoluer, voici un aperçu des thématiques de ce podcast. RDV toutes les 2 semaines pour un nouvel épisode.",
+  "imageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/1355193/1355193-1552902280690-7fc8bf02a5456.jpg",
+  "pid": "pwjylk7",
+  "feed": {
+    "rss": "https://anchor.fm/s/8ac72c4/podcast/rss",
+    "itunes": "https://podcasts.apple.com/us/podcast/id1457678466",
+    "spotify": "_",
+    "soundcloud": "_",
+    "deezer": "_",
+    "google": "_",
+    "castbox": "_",
+    "pocketcast": "_"
+  },
+  "hosts": [
+    {
+      "name": "Florian Beaufreton"
+    }
+  ],
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "yamlDescriptionFile": "dans_la_poche-126.yaml",
+  "extra": {
+    "timestamp": 1614146400000,
+    "colors": {
+      "vibrant": "#28304a",
+      "darkVibrant": "#132962",
+      "lightVibrant": "#f1e599",
+      "muted": "#5c6da8",
+      "darkMuted": "#28304a",
+      "lightMuted": "#9cafca"
+    },
+    "episodes": [
+      {
+        "publishingDate": "2021-02-24"
+      },
+      {
+        "publishingDate": "2021-02-10"
+      },
+      {
+        "publishingDate": "2021-01-27"
+      },
+      {
+        "publishingDate": "2021-01-13"
+      },
+      {
+        "publishingDate": "2020-12-30"
+      },
+      {
+        "publishingDate": "2020-12-16"
+      },
+      {
+        "publishingDate": "2020-12-02"
+      },
+      {
+        "publishingDate": "2020-11-18"
+      },
+      {
+        "publishingDate": "2020-11-04"
+      },
+      {
+        "publishingDate": "2020-10-21"
+      },
+      {
+        "publishingDate": "2020-10-07"
+      },
+      {
+        "publishingDate": "2020-09-23"
+      },
+      {
+        "publishingDate": "2020-07-22"
+      },
+      {
+        "publishingDate": "2020-07-08"
+      },
+      {
+        "publishingDate": "2020-06-24"
+      },
+      {
+        "publishingDate": "2020-06-10"
+      },
+      {
+        "publishingDate": "2020-05-27"
+      },
+      {
+        "publishingDate": "2020-05-13"
+      },
+      {
+        "publishingDate": "2020-04-29"
+      },
+      {
+        "publishingDate": "2020-04-15"
+      },
+      {
+        "publishingDate": "2020-04-01"
+      },
+      {
+        "publishingDate": "2020-03-18"
+      },
+      {
+        "publishingDate": "2020-03-04"
+      },
+      {
+        "publishingDate": "2020-02-19"
+      },
+      {
+        "publishingDate": "2020-02-06"
+      },
+      {
+        "publishingDate": "2020-01-22"
+      },
+      {
+        "publishingDate": "2020-01-08"
+      },
+      {
+        "publishingDate": "2019-12-11"
+      },
+      {
+        "publishingDate": "2019-11-27"
+      },
+      {
+        "publishingDate": "2019-11-13"
+      },
+      {
+        "publishingDate": "2019-10-30"
+      },
+      {
+        "publishingDate": "2019-10-16"
+      },
+      {
+        "publishingDate": "2019-10-02"
+      },
+      {
+        "publishingDate": "2019-09-18"
+      },
+      {
+        "publishingDate": "2019-09-04"
+      },
+      {
+        "publishingDate": "2019-08-21"
+      },
+      {
+        "publishingDate": "2019-08-14"
+      },
+      {
+        "publishingDate": "2019-07-19"
+      },
+      {
+        "publishingDate": "2019-06-30"
+      },
+      {
+        "publishingDate": "2019-05-05"
+      },
+      {
+        "publishingDate": "2019-04-24"
+      },
+      {
+        "publishingDate": "2019-04-18"
+      },
+      {
+        "publishingDate": "2019-04-11"
+      },
+      {
+        "publishingDate": "2019-04-02"
+      },
+      {
+        "publishingDate": "2019-03-23"
+      }
+    ],
+    "logoRepoImage": "pwjylk7.png"
+  }
+}
