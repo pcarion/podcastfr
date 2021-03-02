@@ -28,15 +28,119 @@
   "pid": "p3j9eg7",
   "yamlDescriptionFile": "message_a_caractere_informatique-24.yaml",
   "extra": {
-    "timestamp": 0,
+    "timestamp": 1614365220000,
     "colors": {
-      "vibrant": null,
-      "darkVibrant": null,
-      "lightVibrant": null,
-      "muted": null,
-      "darkMuted": null,
-      "lightMuted": null
+      "vibrant": "#2b3446",
+      "darkVibrant": "#682540",
+      "lightVibrant": "#fcbc7c",
+      "muted": "#9c646c",
+      "darkMuted": "#2b3446",
+      "lightMuted": "#c8a8c2"
     },
-    "episodes": []
+    "episodes": [
+      {
+        "publishingDate": "2021-02-26"
+      },
+      {
+        "publishingDate": "2021-02-17"
+      },
+      {
+        "publishingDate": "2021-02-11"
+      },
+      {
+        "publishingDate": "2021-02-03"
+      },
+      {
+        "publishingDate": "2021-01-27"
+      },
+      {
+        "publishingDate": "2021-01-22"
+      },
+      {
+        "publishingDate": "2021-01-13"
+      },
+      {
+        "publishingDate": "2021-01-08"
+      },
+      {
+        "publishingDate": "2020-12-11"
+      },
+      {
+        "publishingDate": "2020-11-25"
+      },
+      {
+        "publishingDate": "2020-11-18"
+      },
+      {
+        "publishingDate": "2020-11-13"
+      },
+      {
+        "publishingDate": "2020-11-05"
+      },
+      {
+        "publishingDate": "2020-10-29"
+      },
+      {
+        "publishingDate": "2020-10-23"
+      },
+      {
+        "publishingDate": "2020-10-14"
+      },
+      {
+        "publishingDate": "2020-09-30"
+      },
+      {
+        "publishingDate": "2020-09-24"
+      },
+      {
+        "publishingDate": "2020-09-17"
+      },
+      {
+        "publishingDate": "2020-09-12"
+      },
+      {
+        "publishingDate": "2020-08-31"
+      },
+      {
+        "publishingDate": "2020-08-22"
+      },
+      {
+        "publishingDate": "2020-08-13"
+      },
+      {
+        "publishingDate": "2020-08-07"
+      },
+      {
+        "publishingDate": "2020-07-30"
+      },
+      {
+        "publishingDate": "2020-07-23"
+      },
+      {
+        "publishingDate": "2020-07-15"
+      },
+      {
+        "publishingDate": "2020-07-09"
+      },
+      {
+        "publishingDate": "2020-07-01"
+      },
+      {
+        "publishingDate": "2020-06-24"
+      },
+      {
+        "publishingDate": "2020-06-19"
+      },
+      {
+        "publishingDate": "2020-06-11"
+      },
+      {
+        "publishingDate": "2020-06-03"
+      },
+      {
+        "publishingDate": "2020-05-27"
+      }
+    ],
+    "logoRepoImage": "p3j9eg7.png"
   }
 }
