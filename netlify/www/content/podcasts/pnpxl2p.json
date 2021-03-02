@@ -1,0 +1,85 @@
+{
+  "title": "DBPod - le podcast Bases de Données",
+  "description": "Les nouveautés IT dans les Bases de donnés. On va parler d'Oracle, de PostgreSQL, des bases AWS, et plein d'autres. Bref de toutes les bases de données, on-premises ou cloud. Ce podcast est proposé par Franck Pachot, Principal Consultant et Database Evangelist à dbi-services (consulting infrastructure IT), Oracle ACE Director, Certifé Oracle OCM 12c et AWS Database Specialist. contact@pachot.net pour feedback, question, ou besoins de conseil, formation,...",
+  "imageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/5350248/5350248-1593017659268-ad94c3ba34ba8.jpg",
+  "pid": "pnpxl2p",
+  "feed": {
+    "rss": "https://anchor.fm/s/207c6b20/podcast/rss",
+    "itunes": "https://podcasts.apple.com/us/podcast/id1520397763",
+    "spotify": "_",
+    "soundcloud": "_",
+    "deezer": "_",
+    "google": "_",
+    "castbox": "_",
+    "pocketcast": "_"
+  },
+  "hosts": [
+    {
+      "name": "Franck Pachot"
+    }
+  ],
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "yamlDescriptionFile": "dbpod_le_podcast_bases_de_donnees-128.yaml",
+  "extra": {
+    "timestamp": 1612609200000,
+    "colors": {
+      "vibrant": "#4e3a34",
+      "darkVibrant": "#442512",
+      "lightVibrant": "#faeed3",
+      "muted": "#9d5c5a",
+      "darkMuted": "#4e3a34",
+      "lightMuted": "#bcb5ab"
+    },
+    "episodes": [
+      {
+        "publishingDate": "2021-02-06"
+      },
+      {
+        "publishingDate": "2020-12-18"
+      },
+      {
+        "publishingDate": "2020-12-11"
+      },
+      {
+        "publishingDate": "2020-11-03"
+      },
+      {
+        "publishingDate": "2020-10-01"
+      },
+      {
+        "publishingDate": "2020-09-14"
+      },
+      {
+        "publishingDate": "2020-08-31"
+      },
+      {
+        "publishingDate": "2020-08-17"
+      },
+      {
+        "publishingDate": "2020-08-07"
+      },
+      {
+        "publishingDate": "2020-07-15"
+      },
+      {
+        "publishingDate": "2020-07-07"
+      },
+      {
+        "publishingDate": "2020-07-04"
+      },
+      {
+        "publishingDate": "2020-07-01"
+      },
+      {
+        "publishingDate": "2020-06-25"
+      }
+    ],
+    "logoRepoImage": "pnpxl2p.png"
+  }
+}

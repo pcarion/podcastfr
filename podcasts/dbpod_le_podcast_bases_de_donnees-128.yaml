@@ -1,0 +1,27 @@
+title: DBPod - le podcast Bases de Données
+description: |
+  Les nouveautés IT dans les Bases de donnés. On va parler d'Oracle, de PostgreSQL, des bases AWS, et plein d'autres. Bref de toutes les bases de données, on-premises ou cloud. Ce podcast est proposé par Franck Pachot, Principal Consultant et Database Evangelist à dbi-services (consulting infrastructure IT), Oracle ACE Director, Certifé Oracle OCM 12c et AWS Database Specialist. contact@pachot.net pour feedback, question, ou besoins de conseil, formation,...
+imageUrl: https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/5350248/5350248-1593017659268-ad94c3ba34ba8.jpg
+
+contacts:
+  link: _
+  email: _
+  twitter: _
+  patreon: _
+  googleGroup: _
+
+hosts:
+  - name: Franck Pachot
+    twitter: _
+
+feed:
+  rss: https://anchor.fm/s/207c6b20/podcast/rss
+  itunes: https://podcasts.apple.com/us/podcast/id1520397763
+  spotify: _
+  soundcloud: _
+  deezer: _
+  google: _
+  castbox: _
+  pocketcast: _
+
+pid: pnpxl2p # do not change
