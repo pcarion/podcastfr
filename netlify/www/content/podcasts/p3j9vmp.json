@@ -1,0 +1,469 @@
+{
+  "title": "Choses à Savoir TECH",
+  "description": "Tout ce qu'il faut savoir dans le domaine de la Tech et d'Internet.",
+  "imageUrl": "https://thumborcdn.acast.com/NYvB3Z8LJvN5OU9lAHdYyky3iWs=/1500x1500/https://mediacdn.acast.com/assets/935fafd3-a806-4aeb-8256-d6ae8682e5b4/-kaxihlic-cht.jpg",
+  "pid": "p3j9vmp",
+  "feed": {
+    "rss": "https://rss.acast.com/choses-a-savoir-technologie",
+    "itunes": "https://podcasts.apple.com/us/podcast/id1516428638",
+    "spotify": "_",
+    "soundcloud": "_",
+    "deezer": "_",
+    "google": "_",
+    "castbox": "_",
+    "pocketcast": "_"
+  },
+  "hosts": [
+    {
+      "name": "Choses à Savoir"
+    }
+  ],
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "yamlDescriptionFile": "choses_a_savoir_tech-124.yaml",
+  "extra": {
+    "timestamp": 1614618000000,
+    "colors": {
+      "vibrant": "#4c4078",
+      "darkVibrant": "#042379",
+      "lightVibrant": "#eb6b94",
+      "muted": "#a14c86",
+      "darkMuted": "#4c4078",
+      "lightMuted": "#9ba2ba"
+    },
+    "episodes": [
+      {
+        "publishingDate": "2021-03-01"
+      },
+      {
+        "publishingDate": "2021-02-28"
+      },
+      {
+        "publishingDate": "2021-02-25"
+      },
+      {
+        "publishingDate": "2021-02-24"
+      },
+      {
+        "publishingDate": "2021-02-23"
+      },
+      {
+        "publishingDate": "2021-02-22"
+      },
+      {
+        "publishingDate": "2021-02-21"
+      },
+      {
+        "publishingDate": "2021-02-18"
+      },
+      {
+        "publishingDate": "2021-02-17"
+      },
+      {
+        "publishingDate": "2021-02-16"
+      },
+      {
+        "publishingDate": "2021-02-15"
+      },
+      {
+        "publishingDate": "2021-02-14"
+      },
+      {
+        "publishingDate": "2021-02-11"
+      },
+      {
+        "publishingDate": "2021-02-10"
+      },
+      {
+        "publishingDate": "2021-02-09"
+      },
+      {
+        "publishingDate": "2021-02-08"
+      },
+      {
+        "publishingDate": "2021-02-07"
+      },
+      {
+        "publishingDate": "2021-02-04"
+      },
+      {
+        "publishingDate": "2021-02-03"
+      },
+      {
+        "publishingDate": "2021-02-02"
+      },
+      {
+        "publishingDate": "2021-02-01"
+      },
+      {
+        "publishingDate": "2021-01-31"
+      },
+      {
+        "publishingDate": "2021-01-28"
+      },
+      {
+        "publishingDate": "2021-01-27"
+      },
+      {
+        "publishingDate": "2021-01-26"
+      },
+      {
+        "publishingDate": "2021-01-25"
+      },
+      {
+        "publishingDate": "2021-01-24"
+      },
+      {
+        "publishingDate": "2021-01-21"
+      },
+      {
+        "publishingDate": "2021-01-20"
+      },
+      {
+        "publishingDate": "2021-01-19"
+      },
+      {
+        "publishingDate": "2021-01-18"
+      },
+      {
+        "publishingDate": "2021-01-17"
+      },
+      {
+        "publishingDate": "2021-01-14"
+      },
+      {
+        "publishingDate": "2021-01-13"
+      },
+      {
+        "publishingDate": "2021-01-12"
+      },
+      {
+        "publishingDate": "2021-01-11"
+      },
+      {
+        "publishingDate": "2021-01-11"
+      },
+      {
+        "publishingDate": "2021-01-07"
+      },
+      {
+        "publishingDate": "2021-01-06"
+      },
+      {
+        "publishingDate": "2021-01-05"
+      },
+      {
+        "publishingDate": "2021-01-04"
+      },
+      {
+        "publishingDate": "2021-01-03"
+      },
+      {
+        "publishingDate": "2020-12-31"
+      },
+      {
+        "publishingDate": "2020-12-30"
+      },
+      {
+        "publishingDate": "2020-12-29"
+      },
+      {
+        "publishingDate": "2020-12-28"
+      },
+      {
+        "publishingDate": "2020-12-27"
+      },
+      {
+        "publishingDate": "2020-12-24"
+      },
+      {
+        "publishingDate": "2020-12-23"
+      },
+      {
+        "publishingDate": "2020-12-22"
+      },
+      {
+        "publishingDate": "2020-12-21"
+      },
+      {
+        "publishingDate": "2020-12-20"
+      },
+      {
+        "publishingDate": "2020-12-17"
+      },
+      {
+        "publishingDate": "2020-12-16"
+      },
+      {
+        "publishingDate": "2020-12-15"
+      },
+      {
+        "publishingDate": "2020-12-14"
+      },
+      {
+        "publishingDate": "2020-12-13"
+      },
+      {
+        "publishingDate": "2020-12-10"
+      },
+      {
+        "publishingDate": "2020-12-09"
+      },
+      {
+        "publishingDate": "2020-12-08"
+      },
+      {
+        "publishingDate": "2020-12-07"
+      },
+      {
+        "publishingDate": "2020-12-06"
+      },
+      {
+        "publishingDate": "2020-12-03"
+      },
+      {
+        "publishingDate": "2020-12-02"
+      },
+      {
+        "publishingDate": "2020-12-01"
+      },
+      {
+        "publishingDate": "2020-11-30"
+      },
+      {
+        "publishingDate": "2020-11-29"
+      },
+      {
+        "publishingDate": "2020-11-26"
+      },
+      {
+        "publishingDate": "2020-11-25"
+      },
+      {
+        "publishingDate": "2020-11-24"
+      },
+      {
+        "publishingDate": "2020-11-23"
+      },
+      {
+        "publishingDate": "2020-11-22"
+      },
+      {
+        "publishingDate": "2020-11-19"
+      },
+      {
+        "publishingDate": "2020-11-18"
+      },
+      {
+        "publishingDate": "2020-11-16"
+      },
+      {
+        "publishingDate": "2020-11-15"
+      },
+      {
+        "publishingDate": "2020-11-12"
+      },
+      {
+        "publishingDate": "2020-11-11"
+      },
+      {
+        "publishingDate": "2020-11-09"
+      },
+      {
+        "publishingDate": "2020-11-08"
+      },
+      {
+        "publishingDate": "2020-11-05"
+      },
+      {
+        "publishingDate": "2020-11-04"
+      },
+      {
+        "publishingDate": "2020-11-02"
+      },
+      {
+        "publishingDate": "2020-11-02"
+      },
+      {
+        "publishingDate": "2020-10-29"
+      },
+      {
+        "publishingDate": "2020-10-28"
+      },
+      {
+        "publishingDate": "2020-10-26"
+      },
+      {
+        "publishingDate": "2020-10-25"
+      },
+      {
+        "publishingDate": "2020-10-22"
+      },
+      {
+        "publishingDate": "2020-10-21"
+      },
+      {
+        "publishingDate": "2020-10-19"
+      },
+      {
+        "publishingDate": "2020-10-18"
+      },
+      {
+        "publishingDate": "2020-10-15"
+      },
+      {
+        "publishingDate": "2020-10-14"
+      },
+      {
+        "publishingDate": "2020-10-12"
+      },
+      {
+        "publishingDate": "2020-10-11"
+      },
+      {
+        "publishingDate": "2020-10-08"
+      },
+      {
+        "publishingDate": "2020-10-07"
+      },
+      {
+        "publishingDate": "2020-10-05"
+      },
+      {
+        "publishingDate": "2020-10-04"
+      },
+      {
+        "publishingDate": "2020-10-01"
+      },
+      {
+        "publishingDate": "2020-09-30"
+      },
+      {
+        "publishingDate": "2020-09-28"
+      },
+      {
+        "publishingDate": "2020-09-27"
+      },
+      {
+        "publishingDate": "2020-09-24"
+      },
+      {
+        "publishingDate": "2020-09-23"
+      },
+      {
+        "publishingDate": "2020-09-21"
+      },
+      {
+        "publishingDate": "2020-09-20"
+      },
+      {
+        "publishingDate": "2020-09-17"
+      },
+      {
+        "publishingDate": "2020-09-16"
+      },
+      {
+        "publishingDate": "2020-09-14"
+      },
+      {
+        "publishingDate": "2020-09-13"
+      },
+      {
+        "publishingDate": "2020-08-28"
+      },
+      {
+        "publishingDate": "2020-08-24"
+      },
+      {
+        "publishingDate": "2020-08-23"
+      },
+      {
+        "publishingDate": "2020-07-24"
+      },
+      {
+        "publishingDate": "2020-07-22"
+      },
+      {
+        "publishingDate": "2020-07-20"
+      },
+      {
+        "publishingDate": "2020-07-19"
+      },
+      {
+        "publishingDate": "2020-07-16"
+      },
+      {
+        "publishingDate": "2020-07-15"
+      },
+      {
+        "publishingDate": "2020-07-13"
+      },
+      {
+        "publishingDate": "2020-07-12"
+      },
+      {
+        "publishingDate": "2020-07-09"
+      },
+      {
+        "publishingDate": "2020-07-08"
+      },
+      {
+        "publishingDate": "2020-07-06"
+      },
+      {
+        "publishingDate": "2020-07-05"
+      },
+      {
+        "publishingDate": "2020-07-02"
+      },
+      {
+        "publishingDate": "2020-07-01"
+      },
+      {
+        "publishingDate": "2020-06-29"
+      },
+      {
+        "publishingDate": "2020-06-28"
+      },
+      {
+        "publishingDate": "2020-06-25"
+      },
+      {
+        "publishingDate": "2020-06-24"
+      },
+      {
+        "publishingDate": "2020-06-22"
+      },
+      {
+        "publishingDate": "2020-06-21"
+      },
+      {
+        "publishingDate": "2020-06-18"
+      },
+      {
+        "publishingDate": "2020-06-17"
+      },
+      {
+        "publishingDate": "2020-06-15"
+      },
+      {
+        "publishingDate": "2020-06-14"
+      },
+      {
+        "publishingDate": "2020-06-09"
+      },
+      {
+        "publishingDate": "2020-06-08"
+      },
+      {
+        "publishingDate": "2020-06-02"
+      }
+    ],
+    "logoRepoImage": "p3j9vmp.png"
+  }
+}

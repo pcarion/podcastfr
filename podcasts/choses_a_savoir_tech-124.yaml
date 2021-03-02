@@ -1,0 +1,27 @@
+title: Choses à Savoir TECH
+description: |
+  Tout ce qu'il faut savoir dans le domaine de la Tech et d'Internet.
+imageUrl: https://thumborcdn.acast.com/NYvB3Z8LJvN5OU9lAHdYyky3iWs=/1500x1500/https://mediacdn.acast.com/assets/935fafd3-a806-4aeb-8256-d6ae8682e5b4/-kaxihlic-cht.jpg
+
+contacts:
+  link: _
+  email: _
+  twitter: _
+  patreon: _
+  googleGroup: _
+
+hosts:
+  - name: Choses à Savoir
+    twitter: _
+
+feed:
+  rss: https://rss.acast.com/choses-a-savoir-technologie
+  itunes: https://podcasts.apple.com/us/podcast/id1516428638
+  spotify: _
+  soundcloud: _
+  deezer: _
+  google: _
+  castbox: _
+  pocketcast: _
+
+pid: p3j9vmp # do not change
