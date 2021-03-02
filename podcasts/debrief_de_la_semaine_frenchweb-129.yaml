@@ -1,0 +1,27 @@
+title: Debrief de la semaine / FrenchWeb
+description: |
+  Chaque vendredi retrouvez les acteurs de l’innovation qui échangent avec Richard Menneveux pour découvrir les nouvelles tendances et décoder les meilleures pratiques business, marketing, tech, design
+imageUrl: https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/7d630c722014e09343a0cfc3ccd704c9.jpg
+
+contacts:
+  link: _
+  email: _
+  twitter: _
+  patreon: _
+  googleGroup: _
+
+hosts:
+  - name: Decode Media
+    twitter: _
+
+feed:
+  rss: https://www.spreaker.com/show/3294363/episodes/feed
+  itunes: https://podcasts.apple.com/us/podcast/id1449687964
+  spotify: _
+  soundcloud: _
+  deezer: _
+  google: _
+  castbox: _
+  pocketcast: _
+
+pid: pxj4og7 # do not change
