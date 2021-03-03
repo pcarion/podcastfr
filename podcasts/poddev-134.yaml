@@ -1,0 +1,27 @@
+title: PodDev
+description: |
+  Chaque mois retrouvez le podcast du magazine Programmez! On parle développeur, technologie, codes, bonnes pratiques, l'actualité du dév, un peu de maker et de geek !
+imageUrl: https://image.ausha.co/aJJGjSeNClAljr9WlRbsCCkMMvuIsNF1E0q7Ezv8_1400x1400.jpeg?t=1568890977
+
+contacts:
+  link: _
+  email: _
+  twitter: _
+  patreon: _
+  googleGroup: _
+
+hosts:
+  - name: PodDev
+    twitter: _
+
+feed:
+  rss: https://feed.ausha.co/bVO8OfwOGErK
+  itunes: https://podcasts.apple.com/us/podcast/id1494455001
+  spotify: _
+  soundcloud: _
+  deezer: _
+  google: _
+  castbox: _
+  pocketcast: _
+
+pid: pyj8o3p # do not change

@@ -1,0 +1,118 @@
+{
+  "title": "PodDev",
+  "description": "Chaque mois retrouvez le podcast du magazine Programmez! On parle développeur, technologie, codes, bonnes pratiques, l'actualité du dév, un peu de maker et de geek !",
+  "imageUrl": "https://image.ausha.co/aJJGjSeNClAljr9WlRbsCCkMMvuIsNF1E0q7Ezv8_1400x1400.jpeg?t=1568890977",
+  "pid": "pyj8o3p",
+  "feed": {
+    "rss": "https://feed.ausha.co/bVO8OfwOGErK",
+    "itunes": "https://podcasts.apple.com/us/podcast/id1494455001",
+    "spotify": "_",
+    "soundcloud": "_",
+    "deezer": "_",
+    "google": "_",
+    "castbox": "_",
+    "pocketcast": "_"
+  },
+  "hosts": [
+    {
+      "name": "PodDev"
+    }
+  ],
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "yamlDescriptionFile": "poddev-134.yaml",
+  "extra": {
+    "timestamp": 1612868394000,
+    "colors": {
+      "vibrant": "#452f2d",
+      "darkVibrant": "#671c24",
+      "lightVibrant": "#f4bcab",
+      "muted": "#ad7876",
+      "darkMuted": "#452f2d",
+      "lightMuted": "#bcbcbc"
+    },
+    "episodes": [
+      {
+        "publishingDate": "2021-02-09"
+      },
+      {
+        "publishingDate": "2021-02-08"
+      },
+      {
+        "publishingDate": "2020-12-16"
+      },
+      {
+        "publishingDate": "2020-10-28"
+      },
+      {
+        "publishingDate": "2020-08-13"
+      },
+      {
+        "publishingDate": "2020-06-02"
+      },
+      {
+        "publishingDate": "2020-06-02"
+      },
+      {
+        "publishingDate": "2020-05-20"
+      },
+      {
+        "publishingDate": "2020-04-22"
+      },
+      {
+        "publishingDate": "2020-03-03"
+      },
+      {
+        "publishingDate": "2020-01-10"
+      },
+      {
+        "publishingDate": "2019-12-05"
+      },
+      {
+        "publishingDate": "2019-10-28"
+      },
+      {
+        "publishingDate": "2019-10-28"
+      },
+      {
+        "publishingDate": "2019-10-03"
+      },
+      {
+        "publishingDate": "2019-09-04"
+      },
+      {
+        "publishingDate": "2019-08-26"
+      },
+      {
+        "publishingDate": "2019-07-09"
+      },
+      {
+        "publishingDate": "2019-07-05"
+      },
+      {
+        "publishingDate": "2019-07-01"
+      },
+      {
+        "publishingDate": "2019-06-28"
+      },
+      {
+        "publishingDate": "2019-06-17"
+      },
+      {
+        "publishingDate": "2019-05-18"
+      },
+      {
+        "publishingDate": "2019-04-30"
+      },
+      {
+        "publishingDate": "2019-03-06"
+      }
+    ],
+    "logoRepoImage": "pyj8o3p.png"
+  }
+}
