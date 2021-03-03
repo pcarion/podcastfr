@@ -1,0 +1,79 @@
+{
+  "title": "Lance Toi Et Code",
+  "description": "Le podcast des développeurs qui entreprennent. Profitez des retours d'expérience d'entrepreneurs qui ont surmonté les épreuves de la création de leur start-up et qui partagent avec vous tous leurs conseils !",
+  "imageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/9624803/9624803-1607895822291-3b6afbab458d.jpg",
+  "pid": "p2prd97",
+  "feed": {
+    "rss": "https://anchor.fm/s/39f6df2c/podcast/rss",
+    "itunes": "https://podcasts.apple.com/fr/podcast/lance-toi-et-code/id1535757097",
+    "spotify": "_",
+    "soundcloud": "_",
+    "deezer": "_",
+    "google": "_",
+    "castbox": "_",
+    "pocketcast": "_"
+  },
+  "hosts": [
+    {
+      "name": "Thomas Ferry & Nicolas Laurent"
+    }
+  ],
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "yamlDescriptionFile": "lance_toi_et_code-140.yaml",
+  "extra": {
+    "timestamp": 1614637026000,
+    "colors": {
+      "vibrant": "#314763",
+      "darkVibrant": "#044cac",
+      "lightVibrant": "#fbdc5c",
+      "muted": "#a06474",
+      "darkMuted": "#314763",
+      "lightMuted": "#c5c699"
+    },
+    "episodes": [
+      {
+        "publishingDate": "2021-03-01"
+      },
+      {
+        "publishingDate": "2021-02-15"
+      },
+      {
+        "publishingDate": "2021-02-09"
+      },
+      {
+        "publishingDate": "2021-02-02"
+      },
+      {
+        "publishingDate": "2021-01-25"
+      },
+      {
+        "publishingDate": "2021-01-18"
+      },
+      {
+        "publishingDate": "2020-12-15"
+      },
+      {
+        "publishingDate": "2020-12-15"
+      },
+      {
+        "publishingDate": "2020-12-14"
+      },
+      {
+        "publishingDate": "2020-12-14"
+      },
+      {
+        "publishingDate": "2020-12-13"
+      },
+      {
+        "publishingDate": "2020-12-07"
+      }
+    ],
+    "logoRepoImage": "p2prd97.png"
+  }
+}

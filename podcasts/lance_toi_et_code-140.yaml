@@ -1,0 +1,27 @@
+title: Lance Toi Et Code
+description: |
+  Le podcast des développeurs qui entreprennent. Profitez des retours d'expérience d'entrepreneurs qui ont surmonté les épreuves de la création de leur start-up et qui partagent avec vous tous leurs conseils !
+imageUrl: https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/9624803/9624803-1607895822291-3b6afbab458d.jpg
+
+contacts:
+  link: _
+  email: _
+  twitter: _
+  patreon: _
+  googleGroup: _
+
+hosts:
+  - name: Thomas Ferry & Nicolas Laurent
+    twitter: _
+
+feed:
+  rss: https://anchor.fm/s/39f6df2c/podcast/rss
+  itunes: https://podcasts.apple.com/fr/podcast/lance-toi-et-code/id1535757097
+  spotify: _
+  soundcloud: _
+  deezer: _
+  google: _
+  castbox: _
+  pocketcast: _
+
+pid: p2prd97 # do not change
