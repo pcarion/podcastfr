@@ -1,6 +1,8 @@
 title: Les Talks du Wagon
 description: |
-  Chaque semaine, nous invitons un entrepreneur qui nous raconte son parcours, l'histoire de sa startup et nous partage ses ambitions. De leurs échecs retentissants aux coups de génie les plus incroyables, l'idée est de vous montrer l'envers du décor. Bonne écoute !
+  Chaque semaine, nous invitons un entrepreneur qui nous raconte son parcours, l'histoire de sa startup et nous partage ses ambitions. 
+  De leurs échecs retentissants aux coups de génie les plus incroyables, l'idée est de vous montrer l'envers du décor. 
+  Bonne écoute !
 imageUrl: https://assets.pippa.io/shows/5a75fc608d425f4c60737ab2/1568274999245-bcbabca2872d8b64f4a7bd854dec360f.jpeg
 
 contacts:
@@ -17,10 +19,10 @@ hosts:
 feed:
   rss: https://feeds.acast.com/public/shows/5a75fc608d425f4c60737ab2
   itunes: https://podcasts.apple.com/us/podcast/id1298074014
-  spotify: _
+  spotify: https://open.spotify.com/show/4Yegfqf73SlMuXTWztiI9S
   soundcloud: _
   deezer: _
-  google: _
+  google: https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5hY2FzdC5jb20vcHVibGljL3Nob3dzLzVhNzVmYzYwOGQ0MjVmNGM2MDczN2FiMg==
   castbox: _
   pocketcast: _
 
