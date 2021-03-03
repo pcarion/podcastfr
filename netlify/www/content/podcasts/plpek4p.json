@@ -1,0 +1,52 @@
+{
+  "title": "Hack'n Speak",
+  "description": "Bienvenue sur le podcast francophone Hack'n Speak ! Notre but est de partager la voix de nos 'hacker' à travers leurs outils / recherches.",
+  "imageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/11201062/11201062-1610393629389-b04e93ff7d159.jpg",
+  "pid": "plpek4p",
+  "feed": {
+    "rss": "https://anchor.fm/s/435c0d58/podcast/rss",
+    "itunes": "https://podcasts.apple.com/us/podcast/id1548697084",
+    "spotify": "_",
+    "soundcloud": "_",
+    "deezer": "_",
+    "google": "_",
+    "castbox": "_",
+    "pocketcast": "_"
+  },
+  "hosts": [
+    {
+      "name": "mpgn"
+    }
+  ],
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "yamlDescriptionFile": "hack_n_speak-132.yaml",
+  "extra": {
+    "timestamp": 1613392205000,
+    "colors": {
+      "vibrant": "#37444c",
+      "darkVibrant": "#314752",
+      "lightVibrant": "#acc1cd",
+      "muted": "#6a8394",
+      "darkMuted": "#37444c",
+      "lightMuted": "#a7beca"
+    },
+    "episodes": [
+      {
+        "publishingDate": "2021-02-15"
+      },
+      {
+        "publishingDate": "2021-02-15"
+      },
+      {
+        "publishingDate": "2021-01-12"
+      }
+    ],
+    "logoRepoImage": "plpek4p.png"
+  }
+}
