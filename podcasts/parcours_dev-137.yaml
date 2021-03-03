@@ -1,0 +1,27 @@
+title: Parcours Dev
+description: |
+  Découvrez le portrait de développeurs et développeuses en informatique avec qui nous discutons de leur parcours et leur vision de leur profession.
+imageUrl: https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/2083169/2083169-1564607139124-8889106e797c9.jpg
+
+contacts:
+  link: _
+  email: _
+  twitter: _
+  patreon: _
+  googleGroup: _
+
+hosts:
+  - name: Fabulous Lab
+    twitter: _
+
+feed:
+  rss: https://anchor.fm/s/d034064/podcast/rss
+  itunes: https://podcasts.apple.com/us/podcast/parcours-dev/id1475138481
+  spotify: _
+  soundcloud: _
+  deezer: _
+  google: _
+  castbox: _
+  pocketcast: _
+
+pid: pvplxlp # do not change

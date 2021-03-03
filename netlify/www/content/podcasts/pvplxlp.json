@@ -1,0 +1,61 @@
+{
+  "title": "Parcours Dev",
+  "description": "Découvrez le portrait de développeurs et développeuses en informatique avec qui nous discutons de leur parcours et leur vision de leur profession.",
+  "imageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/2083169/2083169-1564607139124-8889106e797c9.jpg",
+  "pid": "pvplxlp",
+  "feed": {
+    "rss": "https://anchor.fm/s/d034064/podcast/rss",
+    "itunes": "https://podcasts.apple.com/us/podcast/parcours-dev/id1475138481",
+    "spotify": "_",
+    "soundcloud": "_",
+    "deezer": "_",
+    "google": "_",
+    "castbox": "_",
+    "pocketcast": "_"
+  },
+  "hosts": [
+    {
+      "name": "Fabulous Lab"
+    }
+  ],
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "yamlDescriptionFile": "parcours_dev-137.yaml",
+  "extra": {
+    "timestamp": 1579164812000,
+    "colors": {
+      "vibrant": "#756c3b",
+      "darkVibrant": "#6f490a",
+      "lightVibrant": "#eae3bc",
+      "muted": "#779d53",
+      "darkMuted": "#756c3b",
+      "lightMuted": "#93beb6"
+    },
+    "episodes": [
+      {
+        "publishingDate": "2020-01-16"
+      },
+      {
+        "publishingDate": "2019-12-19"
+      },
+      {
+        "publishingDate": "2019-12-03"
+      },
+      {
+        "publishingDate": "2019-10-17"
+      },
+      {
+        "publishingDate": "2019-08-15"
+      },
+      {
+        "publishingDate": "2019-08-01"
+      }
+    ],
+    "logoRepoImage": "pvplxlp.png"
+  }
+}
