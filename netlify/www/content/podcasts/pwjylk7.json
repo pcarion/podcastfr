@@ -1,8 +1,20 @@
 {
   "title": "Dans la Poche",
-  "description": "Productivité, Minimalisme et Nouvelles Technologies : 3 mots pour décrire les thèmes de ce podcast Créer du contenu sans s'encombrer, améliorer son quotidien en gardant l'essentiel, découvrir des nouvelles technologies pour évoluer, voici un aperçu des thématiques de ce podcast. RDV toutes les 2 semaines pour un nouvel épisode.",
+  "description": "Productivité, Minimalisme et Nouvelles Technologies : 3 mots pour décrire les thèmes de ce podcast Créer du contenu sans s'encombrer, améliorer son quotidien en gardant l'essentiel, découvrir des nouvelles technologies pour évoluer, voici un aperçu des thématiques de ce podcast. RDV toutes les 2 semaines pour un nouvel épisode.\n",
   "imageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/1355193/1355193-1552902280690-7fc8bf02a5456.jpg",
-  "pid": "pwjylk7",
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "hosts": [
+    {
+      "name": "Florian Beaufreton",
+      "twitter": "_"
+    }
+  ],
   "feed": {
     "rss": "https://anchor.fm/s/8ac72c4/podcast/rss",
     "itunes": "https://podcasts.apple.com/us/podcast/id1457678466",
@@ -13,18 +25,7 @@
     "castbox": "_",
     "pocketcast": "_"
   },
-  "hosts": [
-    {
-      "name": "Florian Beaufreton"
-    }
-  ],
-  "contacts": {
-    "link": "_",
-    "email": "_",
-    "twitter": "_",
-    "patreon": "_",
-    "googleGroup": "_"
-  },
+  "pid": "pwjylk7",
   "yamlDescriptionFile": "dans_la_poche-126.yaml",
   "extra": {
     "timestamp": 1614146400000,

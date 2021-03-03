@@ -1,8 +1,20 @@
 {
   "title": "Debrief de la semaine / FrenchWeb",
-  "description": "Chaque vendredi retrouvez les acteurs de l’innovation qui échangent avec Richard Menneveux pour découvrir les nouvelles tendances et décoder les meilleures pratiques business, marketing, tech, design",
+  "description": "Chaque vendredi retrouvez les acteurs de l’innovation qui échangent avec Richard Menneveux pour découvrir les nouvelles tendances et décoder les meilleures pratiques business, marketing, tech, design\n",
   "imageUrl": "https://d3wo5wojvuv7l.cloudfront.net/t_rss_itunes_square_1400/images.spreaker.com/original/7d630c722014e09343a0cfc3ccd704c9.jpg",
-  "pid": "pxj4og7",
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "hosts": [
+    {
+      "name": "Decode Media",
+      "twitter": "_"
+    }
+  ],
   "feed": {
     "rss": "https://www.spreaker.com/show/3294363/episodes/feed",
     "itunes": "https://podcasts.apple.com/us/podcast/id1449687964",
@@ -13,18 +25,7 @@
     "castbox": "_",
     "pocketcast": "_"
   },
-  "hosts": [
-    {
-      "name": "Decode Media"
-    }
-  ],
-  "contacts": {
-    "link": "_",
-    "email": "_",
-    "twitter": "_",
-    "patreon": "_",
-    "googleGroup": "_"
-  },
+  "pid": "pxj4og7",
   "yamlDescriptionFile": "debrief_de_la_semaine_frenchweb-129.yaml",
   "extra": {
     "timestamp": 1614338006000,

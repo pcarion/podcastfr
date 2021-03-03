@@ -1,8 +1,20 @@
 {
   "title": "Le digital pour tous",
-  "description": "Et si on parlait tech et digital, mais en toute simplicité ? Dans chaque épisode de ce podcast, un sujet est décrypté pour mieux comprendre le digital, ses enjeux, ses codes, ses opportunités.",
+  "description": "Et si on parlait tech et digital, mais en toute simplicité ? Dans chaque épisode de ce podcast, un sujet est décrypté pour mieux comprendre le digital, ses enjeux, ses codes, ses opportunités.\n",
   "imageUrl": "https://image.ausha.co/mcwhg2IuFwok7vgPMoXwjuZ6x7YdD5rVMsVl6T1P_1400x1400.jpeg?t=1594301570",
-  "pid": "pdjwllp",
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "hosts": [
+    {
+      "name": "PPC",
+      "twitter": "_"
+    }
+  ],
   "feed": {
     "rss": "https://feed.ausha.co/b3qxOtjeDq0P",
     "itunes": "https://podcasts.apple.com/us/podcast/id1439013021",
@@ -13,18 +25,7 @@
     "castbox": "_",
     "pocketcast": "_"
   },
-  "hosts": [
-    {
-      "name": "PPC"
-    }
-  ],
-  "contacts": {
-    "link": "_",
-    "email": "_",
-    "twitter": "_",
-    "patreon": "_",
-    "googleGroup": "_"
-  },
+  "pid": "pdjwllp",
   "yamlDescriptionFile": "le_digital_pour_tous-125.yaml",
   "extra": {
     "timestamp": 1614667425000,
