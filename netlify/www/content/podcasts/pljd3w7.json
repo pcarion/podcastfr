@@ -1,0 +1,94 @@
+{
+  "title": "WeLoveDevs - Le Podcast",
+  "description": "Ce Podcast s'adresse aux développeurs, aux recruteurs (et aux personnes travaillant dans l'IT) qui veulent explorer de nouveaux horizons. Ce n'est pas simple de décider de sa carrière, de savoir définir l'entreprise où l'on sera heureux et pourquoi on le sera. Alors dans nos podcasts, nous vous aidons à définir ce qui sera exceptionnel pour vous. Découvrez plus d'entreprises sur https://WeLoveDevs.com",
+  "imageUrl": "https://image.ausha.co/c6RTQNgr1gaiYbxAQnj5jYzC0ikLqyRw5pRPWvBR_1400x1400.jpeg?t=1614275261",
+  "pid": "pljd3w7",
+  "feed": {
+    "rss": "https://feed.ausha.co/bVOvVt9XrWkD",
+    "itunes": "https://podcasts.apple.com/fr/podcast/welovedevs-le-podcast/id1452044617?l=en?l=en",
+    "spotify": "_",
+    "soundcloud": "_",
+    "deezer": "_",
+    "google": "_",
+    "castbox": "_",
+    "pocketcast": "_"
+  },
+  "hosts": [
+    {
+      "name": "Damien Cavailles"
+    }
+  ],
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "yamlDescriptionFile": "welovedevs_le_podcast-138.yaml",
+  "extra": {
+    "timestamp": 1614275090000,
+    "colors": {
+      "vibrant": "#74586c",
+      "darkVibrant": "#360eb3",
+      "lightVibrant": "#fc64a4",
+      "muted": "#9a8152",
+      "darkMuted": "#74586c",
+      "lightMuted": "#9d848b"
+    },
+    "episodes": [
+      {
+        "publishingDate": "2021-02-25"
+      },
+      {
+        "publishingDate": "2021-02-24"
+      },
+      {
+        "publishingDate": "2020-10-05"
+      },
+      {
+        "publishingDate": "2020-08-02"
+      },
+      {
+        "publishingDate": "2020-03-17"
+      },
+      {
+        "publishingDate": "2020-03-03"
+      },
+      {
+        "publishingDate": "2019-12-07"
+      },
+      {
+        "publishingDate": "2019-11-14"
+      },
+      {
+        "publishingDate": "2019-09-27"
+      },
+      {
+        "publishingDate": "2019-04-25"
+      },
+      {
+        "publishingDate": "2019-04-11"
+      },
+      {
+        "publishingDate": "2019-03-15"
+      },
+      {
+        "publishingDate": "2019-03-11"
+      },
+      {
+        "publishingDate": "2019-03-04"
+      },
+      {
+        "publishingDate": "2019-02-21"
+      },
+      {
+        "publishingDate": "2019-02-13"
+      },
+      {
+        "publishingDate": "2019-02-06"
+      }
+    ],
+    "logoRepoImage": "pljd3w7.png"
+  }
+}
