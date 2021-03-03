@@ -1,0 +1,27 @@
+title: DevTheory Interviews
+description: |
+  Le podcast des développeurs JavaScript ! Des discussions autour du JS avec ceux qui l’utilisent au quotidien. Développeur front ou back end, freelance ou employé, CTO ou CEO d’une entreprise avec une stack JS ? Nous allons parler avec tous ces acteurs francophones de la communauté JavaScript !
+imageUrl: https://images.transistor.fm/file/transistor/images/show/13897/full_1599031216-artwork.jpg
+
+contacts:
+  link: _
+  email: _
+  twitter: _
+  patreon: _
+  googleGroup: _
+
+hosts:
+  - name: Bryan Parasote
+    twitter: _
+
+feed:
+  rss: https://feeds.transistor.fm/devtheory-interviews
+  itunes: https://podcasts.apple.com/us/podcast/devtheory-interviews/id1530191795
+  spotify: _
+  soundcloud: _
+  deezer: _
+  google: _
+  castbox: _
+  pocketcast: _
+
+pid: pyj3257 # do not change

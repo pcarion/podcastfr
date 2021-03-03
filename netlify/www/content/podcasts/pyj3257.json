@@ -1,0 +1,61 @@
+{
+  "title": "DevTheory Interviews",
+  "description": "Le podcast des développeurs JavaScript ! Des discussions autour du JS avec ceux qui l’utilisent au quotidien. Développeur front ou back end, freelance ou employé, CTO ou CEO d’une entreprise avec une stack JS ? Nous allons parler avec tous ces acteurs francophones de la communauté JavaScript !",
+  "imageUrl": "https://images.transistor.fm/file/transistor/images/show/13897/full_1599031216-artwork.jpg",
+  "pid": "pyj3257",
+  "feed": {
+    "rss": "https://feeds.transistor.fm/devtheory-interviews",
+    "itunes": "https://podcasts.apple.com/us/podcast/devtheory-interviews/id1530191795",
+    "spotify": "_",
+    "soundcloud": "_",
+    "deezer": "_",
+    "google": "_",
+    "castbox": "_",
+    "pocketcast": "_"
+  },
+  "hosts": [
+    {
+      "name": "Bryan Parasote"
+    }
+  ],
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "yamlDescriptionFile": "devtheory_interviews-142.yaml",
+  "extra": {
+    "timestamp": 1610517600000,
+    "colors": {
+      "vibrant": "#2c2c4c",
+      "darkVibrant": "#242c4b",
+      "lightVibrant": "#f33c5c",
+      "muted": "#96021e",
+      "darkMuted": "#2c2c4c",
+      "lightMuted": "#900820"
+    },
+    "episodes": [
+      {
+        "publishingDate": "2021-01-13"
+      },
+      {
+        "publishingDate": "2020-12-02"
+      },
+      {
+        "publishingDate": "2020-11-05"
+      },
+      {
+        "publishingDate": "2020-10-07"
+      },
+      {
+        "publishingDate": "2020-09-08"
+      },
+      {
+        "publishingDate": "2020-09-02"
+      }
+    ],
+    "logoRepoImage": "pyj3257.png"
+  }
+}
