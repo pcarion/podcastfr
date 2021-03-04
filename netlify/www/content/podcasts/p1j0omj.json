@@ -1,8 +1,20 @@
 {
   "title": "Hackers : Le Podcast de Mike Codeur",
-  "description": "Podcast des Codeurs, des Freelances et des nomades digitaux",
+  "description": "Podcast des Codeurs, des Freelances et des nomades digitaux\n",
   "imageUrl": "http://i1.sndcdn.com/avatars-lLaWYw5o6zG3JBEa-cMiv0A-original.jpg",
-  "pid": "p1j0omj",
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "hosts": [
+    {
+      "name": "Mike Codeur",
+      "twitter": "_"
+    }
+  ],
   "feed": {
     "rss": "http://feeds.soundcloud.com/users/soundcloud:users:554677536/sounds.rss",
     "itunes": "https://podcasts.apple.com/us/podcast/hackers-le-podcast-de-mike-codeur/id1448622850",
@@ -13,18 +25,7 @@
     "castbox": "_",
     "pocketcast": "_"
   },
-  "hosts": [
-    {
-      "name": "Mike Codeur"
-    }
-  ],
-  "contacts": {
-    "link": "_",
-    "email": "_",
-    "twitter": "_",
-    "patreon": "_",
-    "googleGroup": "_"
-  },
+  "pid": "p1j0omj",
   "yamlDescriptionFile": "hackers_le_podcast_de_mike_codeur-151.yaml",
   "extra": {
     "timestamp": 1612685273000,

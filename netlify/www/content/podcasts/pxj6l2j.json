@@ -1,8 +1,20 @@
 {
   "title": "Human Coders Podcast",
-  "description": "Le podcast qui va à la rencontre de développeur·se·s passionné·e·s pour explorer les technologies et pratiques de développement ! Les épisodes s’adressent à des développeur·se·s débutant·e·s, étudiant·e·s, expérimenté·e·s ou autodidactes, et quelque soit leurs langages et technos de prédilection ! L’objectif de ce podcast est de permettre aux développeur·se·s de : - faire leur veille techno,  - découvrir de nouveaux langages, outils et technologies, - mais aussi de s’interroger sur des pratiques de développement, - et enfin d’être inspiré·e·s grâce aux témoignages de devs sur leur parcours !",
+  "description": "Le podcast qui va à la rencontre de développeur·se·s passionné·e·s pour explorer les technologies et pratiques de développement ! Les épisodes s’adressent à des développeur·se·s débutant·e·s, étudiant·e·s, expérimenté·e·s ou autodidactes, et quelque soit leurs langages et technos de prédilection ! L’objectif de ce podcast est de permettre aux développeur·se·s de : - faire leur veille techno,  - découvrir de nouveaux langages, outils et technologies, - mais aussi de s’interroger sur des pratiques de développement, - et enfin d’être inspiré·e·s grâce aux témoignages de devs sur leur parcours !\n",
   "imageUrl": "https://image.ausha.co/IvNkuTMR273P14YxYiWou8yXopZs5wWkxCYaOYHS_1400x1400.jpeg?t=1568894374",
-  "pid": "pxj6l2j",
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "hosts": [
+    {
+      "name": "Human Coders",
+      "twitter": "_"
+    }
+  ],
   "feed": {
     "rss": "https://feed.ausha.co/oRdd3SJ5zEdp",
     "itunes": "https://podcasts.apple.com/us/podcast/human-coders-podcast/id1479698892",
@@ -13,18 +25,7 @@
     "castbox": "_",
     "pocketcast": "_"
   },
-  "hosts": [
-    {
-      "name": "Human Coders"
-    }
-  ],
-  "contacts": {
-    "link": "_",
-    "email": "_",
-    "twitter": "_",
-    "patreon": "_",
-    "googleGroup": "_"
-  },
+  "pid": "pxj6l2j",
   "yamlDescriptionFile": "human_coders_podcast-133.yaml",
   "extra": {
     "timestamp": 1589438799000,

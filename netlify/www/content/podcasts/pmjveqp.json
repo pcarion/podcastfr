@@ -1,8 +1,20 @@
 {
   "title": "Memberchips",
-  "description": "Bienvenue sur memberchips, le podcast où on s’intéresse de très près aux business de type membership. J’interviewe des créateurs et des entrepreneurs pour décortiquer leurs projets.Si tu envisages toi aussi de créer ton membership je t’invite à télécharger le guide du débutant sur memberchips.fr, tu y trouveras toutes les informations utiles pour te lancer plus rapidement et plus efficacement.",
+  "description": "Bienvenue sur memberchips, le podcast où on s’intéresse de très près aux business de type membership. J’interviewe des créateurs et des entrepreneurs pour décortiquer leurs projets.Si tu envisages toi aussi de créer ton membership je t’invite à télécharger le guide du débutant sur memberchips.fr, tu y trouveras toutes les informations utiles pour te lancer plus rapidement et plus efficacement.\n",
   "imageUrl": "https://storage.buzzsprout.com/variants/7c61eperr3birpsotne77dl0g2u3/8d66eb17bb7d02ca4856ab443a78f2148cafbb129f58a3c81282007c6fe24ff2.jpg",
-  "pid": "pmjveqp",
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "hosts": [
+    {
+      "name": "Anthony Heukmes",
+      "twitter": "_"
+    }
+  ],
   "feed": {
     "rss": "https://feeds.buzzsprout.com/1680880.rss",
     "itunes": "https://podcasts.apple.com/us/podcast/id1552906967",
@@ -13,18 +25,7 @@
     "castbox": "_",
     "pocketcast": "_"
   },
-  "hosts": [
-    {
-      "name": "Anthony Heukmes"
-    }
-  ],
-  "contacts": {
-    "link": "_",
-    "email": "_",
-    "twitter": "_",
-    "patreon": "_",
-    "googleGroup": "_"
-  },
+  "pid": "pmjveqp",
   "yamlDescriptionFile": "memberchips-141.yaml",
   "extra": {
     "timestamp": 1613721600000,

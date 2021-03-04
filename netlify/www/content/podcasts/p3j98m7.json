@@ -1,8 +1,20 @@
 {
   "title": "echo, podcast tech / dev",
-  "description": "Le podcast au coeur de la tech",
+  "description": "Le podcast au coeur de la tech\n",
   "imageUrl": "http://i1.sndcdn.com/avatars-ZmTjeTyXPoX35LcN-drUi9Q-original.jpg",
-  "pid": "p3j98m7",
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "hosts": [
+    {
+      "name": "echo",
+      "twitter": "_"
+    }
+  ],
   "feed": {
     "rss": "http://feeds.soundcloud.com/users/soundcloud:users:452524227/sounds.rss",
     "itunes": "https://podcasts.apple.com/fr/podcast/echo-podcast-tech-dev/id1391548831",
@@ -13,18 +25,7 @@
     "castbox": "_",
     "pocketcast": "_"
   },
-  "hosts": [
-    {
-      "name": "echo"
-    }
-  ],
-  "contacts": {
-    "link": "_",
-    "email": "_",
-    "twitter": "_",
-    "patreon": "_",
-    "googleGroup": "_"
-  },
+  "pid": "p3j98m7",
   "yamlDescriptionFile": "echo_podcast_tech_dev-148.yaml",
   "extra": {
     "timestamp": 1585901436000,

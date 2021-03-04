@@ -1,8 +1,20 @@
 {
   "title": "Le Podcast Tech",
-  "description": "LE PODCAST TECH 🚀\nJ’interviewe principalement des personnes du milieu de la tech : CEO, CTO, freelances…\nChaque invité raconte son histoire, ses réussites et ses échecs.\nN'hésitez pas à visiter mon site pour plus de contenus : https://lilianalvarez.com [https://lilianalvarez.com]",
+  "description": "LE PODCAST TECH 🚀\nJ’interviewe principalement des personnes du milieu de la tech : CEO, CTO, freelances…\nChaque invité raconte son histoire, ses réussites et ses échecs.\nN'hésitez pas à visiter mon site pour plus de contenus : https://lilianalvarez.com [https://lilianalvarez.com]\n",
   "imageUrl": "https://assets.pippa.io/shows/5d0aac5ffa212a050ff1e7f1/1585172225252-9b09343a46ebe779e9348677612a96fc.jpeg",
-  "pid": "pwjykkp",
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "hosts": [
+    {
+      "name": "Lilian Alvarez",
+      "twitter": "_"
+    }
+  ],
   "feed": {
     "rss": "https://feeds.acast.com/public/shows/les-podcasts-de-lilian",
     "itunes": "_",
@@ -13,18 +25,7 @@
     "castbox": "_",
     "pocketcast": "_"
   },
-  "hosts": [
-    {
-      "name": "Lilian Alvarez"
-    }
-  ],
-  "contacts": {
-    "link": "_",
-    "email": "_",
-    "twitter": "_",
-    "patreon": "_",
-    "googleGroup": "_"
-  },
+  "pid": "pwjykkp",
   "yamlDescriptionFile": "le_podcast_tech-150.yaml",
   "extra": {
     "timestamp": 1612383951000,

@@ -1,8 +1,20 @@
 {
   "title": "PodDev",
-  "description": "Chaque mois retrouvez le podcast du magazine Programmez! On parle développeur, technologie, codes, bonnes pratiques, l'actualité du dév, un peu de maker et de geek !",
+  "description": "Chaque mois retrouvez le podcast du magazine Programmez! On parle développeur, technologie, codes, bonnes pratiques, l'actualité du dév, un peu de maker et de geek !\n",
   "imageUrl": "https://image.ausha.co/aJJGjSeNClAljr9WlRbsCCkMMvuIsNF1E0q7Ezv8_1400x1400.jpeg?t=1568890977",
-  "pid": "pyj8o3p",
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "hosts": [
+    {
+      "name": "PodDev",
+      "twitter": "_"
+    }
+  ],
   "feed": {
     "rss": "https://feed.ausha.co/bVO8OfwOGErK",
     "itunes": "https://podcasts.apple.com/us/podcast/id1494455001",
@@ -13,18 +25,7 @@
     "castbox": "_",
     "pocketcast": "_"
   },
-  "hosts": [
-    {
-      "name": "PodDev"
-    }
-  ],
-  "contacts": {
-    "link": "_",
-    "email": "_",
-    "twitter": "_",
-    "patreon": "_",
-    "googleGroup": "_"
-  },
+  "pid": "pyj8o3p",
   "yamlDescriptionFile": "poddev-134.yaml",
   "extra": {
     "timestamp": 1612868394000,

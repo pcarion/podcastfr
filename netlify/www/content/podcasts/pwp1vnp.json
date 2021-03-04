@@ -28,92 +28,15 @@
   "pid": "pwp1vnp",
   "yamlDescriptionFile": "refactor-45.yaml",
   "extra": {
-    "timestamp": 1612426005000,
+    "timestamp": 0,
     "colors": {
-      "vibrant": "#3e3268",
-      "darkVibrant": "#2c246c",
-      "lightVibrant": "#f48393",
-      "muted": "#666ba2",
-      "darkMuted": "#3e3268",
-      "lightMuted": "#9cacc4"
+      "vibrant": null,
+      "darkVibrant": null,
+      "lightVibrant": null,
+      "muted": null,
+      "darkMuted": null,
+      "lightMuted": null
     },
-    "episodes": [
-      {
-        "publishingDate": "2021-02-04"
-      },
-      {
-        "publishingDate": "2021-01-21"
-      },
-      {
-        "publishingDate": "2021-01-14"
-      },
-      {
-        "publishingDate": "2020-12-08"
-      },
-      {
-        "publishingDate": "2020-12-03"
-      },
-      {
-        "publishingDate": "2020-11-24"
-      },
-      {
-        "publishingDate": "2020-11-19"
-      },
-      {
-        "publishingDate": "2020-11-11"
-      },
-      {
-        "publishingDate": "2020-11-04"
-      },
-      {
-        "publishingDate": "2020-10-29"
-      },
-      {
-        "publishingDate": "2020-10-21"
-      },
-      {
-        "publishingDate": "2020-10-13"
-      },
-      {
-        "publishingDate": "2020-10-06"
-      },
-      {
-        "publishingDate": "2020-09-08"
-      },
-      {
-        "publishingDate": "2020-08-18"
-      },
-      {
-        "publishingDate": "2020-08-06"
-      },
-      {
-        "publishingDate": "2020-08-06"
-      },
-      {
-        "publishingDate": "2020-08-03"
-      },
-      {
-        "publishingDate": "2020-08-02"
-      },
-      {
-        "publishingDate": "2020-06-01"
-      },
-      {
-        "publishingDate": "2020-05-24"
-      },
-      {
-        "publishingDate": "2020-05-24"
-      },
-      {
-        "publishingDate": "2020-05-17"
-      },
-      {
-        "publishingDate": "2020-05-17"
-      },
-      {
-        "publishingDate": "2020-05-08"
-      }
-    ],
-    "logoRepoImage": "pwp1vnp.png"
+    "episodes": []
   }
 }

@@ -1,8 +1,20 @@
 {
   "title": "ExoStif",
-  "description": "ExoStif, le podcast pour notre blog qui se la raconte 😀 Un podcast à une voix pour traiter un sujet à la fois de manière la plus exhaustive mais toujours dans un format d'une dizaine de minutes ⏳ Nos sujets de prédilections ? Le cloud, la cybersécurité, la business intelligence, l'AMOA, l'hyperconvergence, la transformation digitale ... Pensez à laisser un commentaire et une note de 5 ⭐pour que vos amis puissent le retrouver 😎 Bonne écoute !",
+  "description": "ExoStif, le podcast pour notre blog qui se la raconte 😀 Un podcast à une voix pour traiter un sujet à la fois de manière la plus exhaustive mais toujours dans un format d'une dizaine de minutes ⏳ Nos sujets de prédilections ? Le cloud, la cybersécurité, la business intelligence, l'AMOA, l'hyperconvergence, la transformation digitale ... Pensez à laisser un commentaire et une note de 5 ⭐pour que vos amis puissent le retrouver 😎 Bonne écoute !\n",
   "imageUrl": "https://image.ausha.co/kUYUoOfNNFXYYaUE8RWJX4Ft3jszSRhj180YK7Pi_1400x1400.jpeg?t=1587705925",
-  "pid": "px75gqp",
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "hosts": [
+    {
+      "name": "ExoStif",
+      "twitter": "_"
+    }
+  ],
   "feed": {
     "rss": "https://feed.ausha.co/B1GEwSE7Y0a0",
     "itunes": "https://podcasts.apple.com/us/podcast/id1511515888",
@@ -13,18 +25,7 @@
     "castbox": "_",
     "pocketcast": "_"
   },
-  "hosts": [
-    {
-      "name": "ExoStif"
-    }
-  ],
-  "contacts": {
-    "link": "_",
-    "email": "_",
-    "twitter": "_",
-    "patreon": "_",
-    "googleGroup": "_"
-  },
+  "pid": "px75gqp",
   "yamlDescriptionFile": "exostif-136.yaml",
   "extra": {
     "timestamp": 1589192547000,

@@ -1,8 +1,20 @@
 {
   "title": "Développeur Libre",
-  "description": "Découvrez un nouveau profil inspirant chaque semaine ! A la manière d’une discussion en terrasse autour d’un café, j’interview des personnes devenues libres grâce au code. Entrepreneurs, free-lances, salariés : écoutez les histoires de ces personnes toutes les plus fascinantes les unes que les autres.",
+  "description": "Découvrez un nouveau profil inspirant chaque semaine ! A la manière d’une discussion en terrasse autour d’un café, j’interview des personnes devenues libres grâce au code. Entrepreneurs, free-lances, salariés : écoutez les histoires de ces personnes toutes les plus fascinantes les unes que les autres.\n",
   "imageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/12026625/12026625-1610829792072-dc716324cc51e.jpg",
-  "pid": "pnp2wop",
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "hosts": [
+    {
+      "name": "Quentin Cornu",
+      "twitter": "_"
+    }
+  ],
   "feed": {
     "rss": "https://anchor.fm/s/4847c2e4/podcast/rss",
     "itunes": "https://podcasts.apple.com/fr/podcast/d%C3%A9veloppeur-libre/id1549505000?l=en",
@@ -13,18 +25,7 @@
     "castbox": "_",
     "pocketcast": "_"
   },
-  "hosts": [
-    {
-      "name": "Quentin Cornu"
-    }
-  ],
-  "contacts": {
-    "link": "_",
-    "email": "_",
-    "twitter": "_",
-    "patreon": "_",
-    "googleGroup": "_"
-  },
+  "pid": "pnp2wop",
   "yamlDescriptionFile": "developpeur_libre-144.yaml",
   "extra": {
     "timestamp": 1614776225000,

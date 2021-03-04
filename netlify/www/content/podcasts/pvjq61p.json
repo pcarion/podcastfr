@@ -1,8 +1,20 @@
 {
   "title": "Dev to be curious",
-  "description": "L'émission des développeurs et développeuses curieux et curieuses de leur métier ! De la naissance d'une passion à son accomplissement !  Découvrez toutes les facettes du métier de développeur, développeuse !",
+  "description": "L'émission des développeurs et développeuses curieux et curieuses de leur métier ! De la naissance d'une passion à son accomplissement !  Découvrez toutes les facettes du métier de développeur, développeuse !\n",
   "imageUrl": "https://image.ausha.co/ZwhgzqJLR6GnEEwTMNfwcbBls1v0j8b1OwpiBITi_1400x1400.jpeg?t=1568892491",
-  "pid": "pvjq61p",
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "hosts": [
+    {
+      "name": "Evan Boissonnot",
+      "twitter": "_"
+    }
+  ],
   "feed": {
     "rss": "https://feed.ausha.co/oRdDDIxdAVrW",
     "itunes": "_",
@@ -13,18 +25,7 @@
     "castbox": "_",
     "pocketcast": "_"
   },
-  "hosts": [
-    {
-      "name": "Evan Boissonnot"
-    }
-  ],
-  "contacts": {
-    "link": "_",
-    "email": "_",
-    "twitter": "_",
-    "patreon": "_",
-    "googleGroup": "_"
-  },
+  "pid": "pvjq61p",
   "yamlDescriptionFile": "dev_to_be_curious-146.yaml",
   "extra": {
     "timestamp": 1614174287000,
