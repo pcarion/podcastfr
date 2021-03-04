@@ -1,0 +1,27 @@
+title: "Hackers : Le Podcast de Mike Codeur"
+description: |
+  Podcast des Codeurs, des Freelances et des nomades digitaux
+imageUrl: http://i1.sndcdn.com/avatars-lLaWYw5o6zG3JBEa-cMiv0A-original.jpg
+
+contacts:
+  link: _
+  email: _
+  twitter: _
+  patreon: _
+  googleGroup: _
+
+hosts:
+  - name: Mike Codeur
+    twitter: _
+
+feed:
+  rss: http://feeds.soundcloud.com/users/soundcloud:users:554677536/sounds.rss
+  itunes: https://podcasts.apple.com/us/podcast/hackers-le-podcast-de-mike-codeur/id1448622850
+  spotify: _
+  soundcloud: _
+  deezer: _
+  google: _
+  castbox: _
+  pocketcast: _
+
+pid: p1j0omj # do not change
