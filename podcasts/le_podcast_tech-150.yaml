@@ -1,0 +1,30 @@
+title: Le Podcast Tech
+description: |
+  LE PODCAST TECH 🚀
+  J’interviewe principalement des personnes du milieu de la tech : CEO, CTO, freelances…
+  Chaque invité raconte son histoire, ses réussites et ses échecs.
+  N'hésitez pas à visiter mon site pour plus de contenus : https://lilianalvarez.com [https://lilianalvarez.com]
+imageUrl: https://assets.pippa.io/shows/5d0aac5ffa212a050ff1e7f1/1585172225252-9b09343a46ebe779e9348677612a96fc.jpeg
+
+contacts:
+  link: _
+  email: _
+  twitter: _
+  patreon: _
+  googleGroup: _
+
+hosts:
+  - name: Lilian Alvarez
+    twitter: _
+
+feed:
+  rss: https://feeds.acast.com/public/shows/les-podcasts-de-lilian
+  itunes: _
+  spotify: _
+  soundcloud: _
+  deezer: _
+  google: _
+  castbox: _
+  pocketcast: _
+
+pid: pwjykkp # do not change

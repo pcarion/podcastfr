@@ -1,0 +1,121 @@
+{
+  "title": "Le Podcast Tech",
+  "description": "LE PODCAST TECH 🚀\nJ’interviewe principalement des personnes du milieu de la tech : CEO, CTO, freelances…\nChaque invité raconte son histoire, ses réussites et ses échecs.\nN'hésitez pas à visiter mon site pour plus de contenus : https://lilianalvarez.com [https://lilianalvarez.com]",
+  "imageUrl": "https://assets.pippa.io/shows/5d0aac5ffa212a050ff1e7f1/1585172225252-9b09343a46ebe779e9348677612a96fc.jpeg",
+  "pid": "pwjykkp",
+  "feed": {
+    "rss": "https://feeds.acast.com/public/shows/les-podcasts-de-lilian",
+    "itunes": "_",
+    "spotify": "_",
+    "soundcloud": "_",
+    "deezer": "_",
+    "google": "_",
+    "castbox": "_",
+    "pocketcast": "_"
+  },
+  "hosts": [
+    {
+      "name": "Lilian Alvarez"
+    }
+  ],
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "yamlDescriptionFile": "le_podcast_tech-150.yaml",
+  "extra": {
+    "timestamp": 1612383951000,
+    "colors": {
+      "vibrant": "#6d4938",
+      "darkVibrant": "#422414",
+      "lightVibrant": "#7cacf2",
+      "muted": "#a45464",
+      "darkMuted": "#6d4938",
+      "lightMuted": "#ddc7c0"
+    },
+    "episodes": [
+      {
+        "publishingDate": "2021-02-03"
+      },
+      {
+        "publishingDate": "2020-12-19"
+      },
+      {
+        "publishingDate": "2020-09-24"
+      },
+      {
+        "publishingDate": "2020-09-18"
+      },
+      {
+        "publishingDate": "2020-08-28"
+      },
+      {
+        "publishingDate": "2020-08-09"
+      },
+      {
+        "publishingDate": "2020-08-04"
+      },
+      {
+        "publishingDate": "2020-07-27"
+      },
+      {
+        "publishingDate": "2020-07-01"
+      },
+      {
+        "publishingDate": "2020-06-22"
+      },
+      {
+        "publishingDate": "2020-06-03"
+      },
+      {
+        "publishingDate": "2020-05-11"
+      },
+      {
+        "publishingDate": "2020-05-05"
+      },
+      {
+        "publishingDate": "2020-04-27"
+      },
+      {
+        "publishingDate": "2020-04-15"
+      },
+      {
+        "publishingDate": "2020-04-01"
+      },
+      {
+        "publishingDate": "2020-03-30"
+      },
+      {
+        "publishingDate": "2019-12-16"
+      },
+      {
+        "publishingDate": "2019-11-09"
+      },
+      {
+        "publishingDate": "2019-10-17"
+      },
+      {
+        "publishingDate": "2019-10-08"
+      },
+      {
+        "publishingDate": "2019-06-28"
+      },
+      {
+        "publishingDate": "2019-06-28"
+      },
+      {
+        "publishingDate": "2019-06-28"
+      },
+      {
+        "publishingDate": "2019-06-25"
+      },
+      {
+        "publishingDate": "2019-06-23"
+      }
+    ],
+    "logoRepoImage": "pwjykkp.png"
+  }
+}
