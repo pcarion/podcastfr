@@ -1,0 +1,27 @@
+title: CacaoCast
+description: |
+  Philippe Casgrain et Philippe Guitard discutent des nouvelles concernant le développement sur Mac et l'iPhone
+imageUrl: https://www.cacaocast.com/art/cacaocast_icon_1400.png
+
+contacts:
+  link: _
+  email: _
+  twitter: _
+  patreon: _
+  googleGroup: _
+
+hosts:
+  - name: Philippe Guitard et Philippe Casgrain
+    twitter: _
+
+feed:
+  rss: https://cacaocast.com/feed/cacaocast.xml
+  itunes: https://podcasts.apple.com/podcast/id305272104
+  spotify: _
+  soundcloud: _
+  deezer: _
+  google: _
+  castbox: _
+  pocketcast: _
+
+pid: pljk0np # do not change
