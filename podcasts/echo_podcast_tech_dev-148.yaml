@@ -1,0 +1,27 @@
+title: echo, podcast tech / dev
+description: |
+  Le podcast au coeur de la tech
+imageUrl: http://i1.sndcdn.com/avatars-ZmTjeTyXPoX35LcN-drUi9Q-original.jpg
+
+contacts:
+  link: _
+  email: _
+  twitter: _
+  patreon: _
+  googleGroup: _
+
+hosts:
+  - name: echo
+    twitter: _
+
+feed:
+  rss: http://feeds.soundcloud.com/users/soundcloud:users:452524227/sounds.rss
+  itunes: https://podcasts.apple.com/fr/podcast/echo-podcast-tech-dev/id1391548831
+  spotify: _
+  soundcloud: _
+  deezer: _
+  google: _
+  castbox: _
+  pocketcast: _
+
+pid: p3j98m7 # do not change
