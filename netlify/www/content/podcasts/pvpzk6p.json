@@ -1,0 +1,70 @@
+{
+  "title": "Docstring",
+  "description": "Docstring, le premier site francophone pour apprendre Python : http://bit.ly/docstring-transistor On entend parler de plus en plus du métier de développeur et de ses nombreux avantages. Mais des types de développeurs, il y en a des centaines ! Alors dans ce podcast, je parle avec des développeurs de différents milieux et différents niveaux, pour te donner une idée de ce qu'est réellement ce métier. Les avantages, les inconvénients et ce qui a donné envie à tous ces gens de se lancer dans ce domaine.",
+  "imageUrl": "https://images.transistor.fm/file/transistor/images/show/11254/full_1591116860-artwork.jpg",
+  "pid": "pvpzk6p",
+  "feed": {
+    "rss": "https://feeds.transistor.fm/docstring",
+    "itunes": "https://podcasts.apple.com/fr/podcast/docstring/id1516517493",
+    "spotify": "_",
+    "soundcloud": "_",
+    "deezer": "_",
+    "google": "_",
+    "castbox": "_",
+    "pocketcast": "_"
+  },
+  "hosts": [
+    {
+      "name": "Thibault Houdon"
+    }
+  ],
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "yamlDescriptionFile": "docstring-147.yaml",
+  "extra": {
+    "timestamp": 1614585267000,
+    "colors": {
+      "vibrant": "#24334d",
+      "darkVibrant": "#253c59",
+      "lightVibrant": "#ec8cac",
+      "muted": "#716aa1",
+      "darkMuted": "#24334d",
+      "lightMuted": "#f4ebed"
+    },
+    "episodes": [
+      {
+        "publishingDate": "2021-03-01"
+      },
+      {
+        "publishingDate": "2021-02-01"
+      },
+      {
+        "publishingDate": "2020-12-01"
+      },
+      {
+        "publishingDate": "2020-11-01"
+      },
+      {
+        "publishingDate": "2020-10-01"
+      },
+      {
+        "publishingDate": "2020-09-01"
+      },
+      {
+        "publishingDate": "2020-08-01"
+      },
+      {
+        "publishingDate": "2020-07-01"
+      },
+      {
+        "publishingDate": "2020-06-01"
+      }
+    ],
+    "logoRepoImage": "pvpzk6p.png"
+  }
+}
