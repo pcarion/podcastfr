@@ -1,0 +1,97 @@
+{
+  "title": "Le Joboscope",
+  "description": "Apparemment, on passe environ 30% de sa vie au boulot. Alors... autant exercer un métier qu’on aime !Pourtant, pas si simple de s’orienter, avant son premier emploi ou en reconversion. Quelles études choisir ? Quel métier nous plaira ? A quoi ressemble son quotidien, et quels salaire et évolution peut-on espérer ? Dans le Joboscope, l'école en ligne OpenClassrooms découvre, inspecte et décortique les métiers les plus recherchés dans le milieu du numérique. Développeur, data analyst, responsable marketing, RH... À chaque épisode, des professionnels du même métier au sein d’entreprises différentes nous invitent dans leur quotidien. On se donne rendez-vous pour une immersion sans tabous à la conquête du job idéal.  30% d’une vie, c’est beaucoup : faisons en sorte que vos choix de carrière vous donnent envie de vous lever chaque matin ! Pour en savoir plus sur OpenClassrooms : http://bit.ly/2OVBFLl Pour accéder à notre catalogue de formations : http://bit.ly/2Ow9x2x Pour découvrir les cours 100% gratuits : http://bit.ly/2Ql6JGN Conception et réalisation : Nora Leon pour OpenClassrooms. Modération : Marion Armengod.",
+  "imageUrl": "https://image.ausha.co/9DuCQljLgyM3igVtaM1wu0c60E5OwUhdrHHWFZEf_1400x1400.jpeg?t=1574948932",
+  "pid": "pdjwklj",
+  "feed": {
+    "rss": "https://feed.ausha.co/oZ0pMS90mDkN",
+    "itunes": "_",
+    "spotify": "_",
+    "soundcloud": "_",
+    "deezer": "_",
+    "google": "_",
+    "castbox": "_",
+    "pocketcast": "_"
+  },
+  "hosts": [
+    {
+      "name": "OpenClassrooms"
+    }
+  ],
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "yamlDescriptionFile": "le_joboscope-149.yaml",
+  "extra": {
+    "timestamp": 1607617486000,
+    "colors": {
+      "vibrant": "#4b4f5e",
+      "darkVibrant": "#04346c",
+      "lightVibrant": "#dcc4fb",
+      "muted": "#649c6c",
+      "darkMuted": "#4b4f5e",
+      "lightMuted": "#acd4b4"
+    },
+    "episodes": [
+      {
+        "publishingDate": "2020-12-10"
+      },
+      {
+        "publishingDate": "2020-11-27"
+      },
+      {
+        "publishingDate": "2020-11-12"
+      },
+      {
+        "publishingDate": "2020-10-29"
+      },
+      {
+        "publishingDate": "2020-05-28"
+      },
+      {
+        "publishingDate": "2020-05-16"
+      },
+      {
+        "publishingDate": "2020-04-30"
+      },
+      {
+        "publishingDate": "2020-04-16"
+      },
+      {
+        "publishingDate": "2020-04-02"
+      },
+      {
+        "publishingDate": "2020-03-19"
+      },
+      {
+        "publishingDate": "2020-03-06"
+      },
+      {
+        "publishingDate": "2020-02-20"
+      },
+      {
+        "publishingDate": "2020-02-05"
+      },
+      {
+        "publishingDate": "2020-01-23"
+      },
+      {
+        "publishingDate": "2020-01-09"
+      },
+      {
+        "publishingDate": "2019-12-19"
+      },
+      {
+        "publishingDate": "2019-12-05"
+      },
+      {
+        "publishingDate": "2019-11-28"
+      }
+    ],
+    "logoRepoImage": "pdjwklj.png"
+  }
+}
