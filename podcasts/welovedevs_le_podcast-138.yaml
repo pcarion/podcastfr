@@ -1,6 +1,9 @@
 title: WeLoveDevs - Le Podcast
 description: |
-  Ce Podcast s'adresse aux développeurs, aux recruteurs (et aux personnes travaillant dans l'IT) qui veulent explorer de nouveaux horizons. Ce n'est pas simple de décider de sa carrière, de savoir définir l'entreprise où l'on sera heureux et pourquoi on le sera. Alors dans nos podcasts, nous vous aidons à définir ce qui sera exceptionnel pour vous. Découvrez plus d'entreprises sur https://WeLoveDevs.com
+  Ce Podcast s'adresse aux développeurs, aux recruteurs (et aux personnes travaillant dans l'IT) qui veulent explorer de nouveaux horizons.
+  Ce n'est pas simple de décider de sa carrière, de savoir définir l'entreprise où l'on sera heureux et pourquoi on le sera.
+  Alors dans nos podcasts, nous vous aidons à définir ce qui sera exceptionnel pour vous.
+  Découvrez plus d'entreprises sur https://WeLoveDevs.com
 imageUrl: https://image.ausha.co/c6RTQNgr1gaiYbxAQnj5jYzC0ikLqyRw5pRPWvBR_1400x1400.jpeg?t=1614275261
 
 contacts:
@@ -17,11 +20,11 @@ hosts:
 feed:
   rss: https://feed.ausha.co/bVOvVt9XrWkD
   itunes: https://podcasts.apple.com/fr/podcast/welovedevs-le-podcast/id1452044617?l=en?l=en
-  spotify: _
+  spotify: https://open.spotify.com/show/2AOoWEcm5DwgA6rZylnzID
   soundcloud: _
-  deezer: _
-  google: _
-  castbox: _
-  pocketcast: _
+  deezer: https://www.deezer.com/show/340102
+  google: https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkLmF1c2hhLmNvL2JWT3ZWdDlYcldrRA
+  castbox: http://castbox.fm/vic/1452044617
+  pocketcast: http://pca.st/itunes/1452044617
 
 pid: pljd3w7 # do not change

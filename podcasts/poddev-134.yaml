@@ -1,6 +1,7 @@
 title: PodDev
 description: |
-  Chaque mois retrouvez le podcast du magazine Programmez! On parle développeur, technologie, codes, bonnes pratiques, l'actualité du dév, un peu de maker et de geek !
+  Chaque mois retrouvez le podcast du magazine Programmez!
+  On parle développeur, technologie, codes, bonnes pratiques, l'actualité du dév, un peu de maker et de geek !
 imageUrl: https://image.ausha.co/aJJGjSeNClAljr9WlRbsCCkMMvuIsNF1E0q7Ezv8_1400x1400.jpeg?t=1568890977
 
 contacts:
@@ -17,10 +18,10 @@ hosts:
 feed:
   rss: https://feed.ausha.co/bVO8OfwOGErK
   itunes: https://podcasts.apple.com/us/podcast/id1494455001
-  spotify: _
-  soundcloud: _
-  deezer: _
-  google: _
+  spotify: https://open.spotify.com/show/2XaHBrBL1ROLqZXrL29ZEH
+  soundcloud: https://soundcloud.com/francois-tonic
+  deezer: https://www.deezer.com/show/784592
+  google: https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkLmF1c2hhLmNvL2JWTzhPZndPR0VySw==
   castbox: _
   pocketcast: _
 
