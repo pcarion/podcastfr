@@ -1,7 +1,6 @@
 import React, { FC, ReactElement } from 'react';
 import Layout from './layout';
 import Podcast from './podcast';
-import Header from './header';
 import Footer from './footer';
 
 import { PodcastExtra } from '../../types';
@@ -17,12 +16,11 @@ interface HomePageProps {
 
 const HomePage: FC<HomePageProps> = ({ podcasts }): ReactElement => {
   return (
-    <Layout>
-      <Header noPodcasts={podcasts.length} noEpisodes={numberOfEpisodes(podcasts)} />
-      <ul className="grid gap-6 grid-cols-1">
+    <Layout noPodcasts={podcasts.length} noEpisodes={numberOfEpisodes(podcasts)}>
+      <ul className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
         {podcasts.map((data) => {
           return (
-            <li>
+            <li className="col-span-1 bg-white rounded-lg shadow divide-y divide-gray-200">
               <Podcast key={`${data.yamlDescriptionFile}`} podcast={data} />
             </li>
           );

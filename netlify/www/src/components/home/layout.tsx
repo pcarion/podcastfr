@@ -1,16 +1,19 @@
 import React, { FC, ReactElement } from 'react';
 import Helmet from 'react-helmet';
+import Header from './header';
+
 import useSiteMetadata from '../../hooks/useSiteMetadata';
 
 // eslint-disable-next-line @typescript-eslint/no-empty-interface
 interface LayoutProps {
-  //
+  noPodcasts: number;
+  noEpisodes: number;
 }
 
 // https://developer.twitter.com/en/docs/twitter-for-websites/cards/overview/summary-card-with-large-image
 // https://cards-dev.twitter.com/validator
 
-const Layout: FC<LayoutProps> = ({ children }): ReactElement => {
+const Layout: FC<LayoutProps> = ({ noPodcasts, noEpisodes, children }): ReactElement => {
   const { title, description } = useSiteMetadata();
 
   return (
@@ -27,7 +30,8 @@ const Layout: FC<LayoutProps> = ({ children }): ReactElement => {
         <meta name="twitter:image" content="https://www.podcastfr.com/assets/twitter-card.jpg" />
       </Helmet>
       <body className="bg-circuit-board-pattern bg-blue-100 font-sans bg-fixed overflow-x-hidden">
-        <div className="container w-full mx-auto flex flex-col justify-center items-center md:max-w-prose">
+        <div className="container w-full mx-auto flex flex-col justify-center items-center">
+          <Header noPodcasts={noPodcasts} noEpisodes={noEpisodes} />
           {children}
         </div>
       </body>

@@ -12,9 +12,12 @@ import Hosts from './hosts';
 interface PodcastHeaderProps {
   podcast: PodcastExtra;
   link: string;
+  withHost: boolean;
+  withDescription: boolean;
+  withBottomRounded: boolean;
 }
 
-const PodcastHeader: FC<PodcastHeaderProps> = ({ podcast, link }): ReactElement => {
+const PodcastHeader: FC<PodcastHeaderProps> = ({ podcast, link, withHost, withDescription }): ReactElement => {
   const headerColor = podcast.extra.colors.darkMuted; // lightVibrant;
   const tinyHeaderColr = tinycolor(headerColor);
   const bgHostColor = tinyHeaderColr.lighten(5).toHexString();
@@ -45,18 +48,22 @@ const PodcastHeader: FC<PodcastHeaderProps> = ({ podcast, link }): ReactElement 
           <div className="flex items-center space-x-3">
             <h3 className={`${h3TextColor} text-2xl font-light py-3`}>{podcast.title}</h3>
           </div>
-          <div className="flex mr-1" style={{ backgroundColor: bgHostColor }}>
-            <Hosts hosts={podcast.hosts} textColor={h4TextColor} bgColor={headerColor} />
-          </div>
+          {withHost && (
+            <div className="flex mr-1" style={{ backgroundColor: bgHostColor }}>
+              <Hosts hosts={podcast.hosts} textColor={h4TextColor} bgColor={headerColor} />
+            </div>
+          )}
         </div>
       </div>
-      <div className="w-full  bg-white p-6 hover:bg-gray-100">
-        <p className="mt-1 text-gray-500 text-sm">
-          {podcast.description.split('\n').map((t) => (
-            <p>{t}</p>
-          ))}
-        </p>
-      </div>
+      {withDescription && (
+        <div className="w-full  bg-white p-6 hover:bg-gray-100">
+          <p className="mt-1 text-gray-500 text-sm">
+            {podcast.description.split('\n').map((t) => (
+              <p>{t}</p>
+            ))}
+          </p>
+        </div>
+      )}
     </Link>
   );
 };
