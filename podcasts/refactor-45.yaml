@@ -1,6 +1,7 @@
 title: Refactor
 description: |
-  🇫🇷 🤔 Refactor Podcast, c'est quoi ?  C'est une plongée dans l'univers des artisans du web, qui façonnent nos interfaces de demain. 
+  🇫🇷 🤔 Refactor Podcast, c'est quoi ?  
+  C'est une plongée dans l'univers des artisans du web, qui façonnent nos interfaces de demain. 
   C'est une parole donnée aux développeuses et développeurs de tous horizons.  
   Découvrez leurs parcours, leurs expériences, leur vision des métiers autour du développement et de la Tech en général. 
   Professionnels en poste, Etudiants en école d'informatique, En recherche d'emploi, Passionnés par la Tech... 🚀 
@@ -20,7 +21,7 @@ hosts:
 
 feed:
   rss: https://feed.ausha.co/Bxl0aUqKGn7Q
-  itunes: _
+  itunes: https://podcasts.apple.com/fr/podcast/refactor/id1524026666
   spotify: https://open.spotify.com/show/1Ie0DjllUlXMUFQVDfqvRz
   soundcloud: _
   deezer: _
