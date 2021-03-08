@@ -1,0 +1,27 @@
+title: AM KAM gram
+description: |
+  Bonjour ! Bienvenue sur AM KAM gram, LE podcast dédié aux métiers de l'account management.  Je m'appelle Darina Senhaji, et je suis ravie de donner la parole à des personnes de terrain, qui chaque jour œuvrent pour satisfaire leurs clients. Dans les entreprises B2B SaaS, sous couvert d'une même mission qui est celle de nourrir la relation commerciale et de l'optimiser, je me rends compte que mes invités ont des outils et des méthodes de travail très variés. C'est CETTE richesse que je souhaite partager avec vous, ainsi que leurs anecdotes, pour le moins gratinées !  Ça vous dit ? Alors, c'est parti !
+imageUrl: https://image.ausha.co/wx8qK56vbVazW7OW2zkXz6YD8yAlKW12FwCdKF74_1400x1400.jpeg?t=1587313398
+
+contacts:
+  link: _
+  email: _
+  twitter: _
+  patreon: _
+  googleGroup: _
+
+hosts:
+  - name: Darina Senhaji
+    twitter: _
+
+feed:
+  rss: https://feed.ausha.co/yEqQOfLrP7zK
+  itunes: https://podcasts.apple.com/us/podcast/id1508895633
+  spotify: _
+  soundcloud: _
+  deezer: _
+  google: _
+  castbox: _
+  pocketcast: _
+
+pid: pypgo4j # do not change
