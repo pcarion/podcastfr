@@ -3,7 +3,7 @@
   "description": "Découvrez le portrait de développeurs et développeuses en informatique avec qui nous discutons de leur parcours et leur vision de leur profession.\n",
   "imageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/2083169/2083169-1564607139124-8889106e797c9.jpg",
   "contacts": {
-    "link": "_",
+    "link": "https://anchor.fm/parcoursdev",
     "email": "_",
     "twitter": "_",
     "patreon": "_",
@@ -18,7 +18,7 @@
   "feed": {
     "rss": "https://anchor.fm/s/d034064/podcast/rss",
     "itunes": "https://podcasts.apple.com/us/podcast/parcours-dev/id1475138481",
-    "spotify": "_",
+    "spotify": "https://open.spotify.com/show/522a2U8OWUak5eqiaaYQSQ",
     "soundcloud": "_",
     "deezer": "_",
     "google": "_",
