@@ -1,9 +1,9 @@
 {
   "title": "Lance Toi Et Code",
-  "description": "Le podcast des développeurs qui entreprennent. Profitez des retours d'expérience d'entrepreneurs qui ont surmonté les épreuves de la création de leur start-up et qui partagent avec vous tous leurs conseils !\n",
+  "description": "Le podcast des développeurs qui entreprennent. \nProfitez des retours d'expérience d'entrepreneurs qui ont surmonté les épreuves de la création de leur start-up et qui partagent avec vous tous leurs conseils !\n",
   "imageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/9624803/9624803-1607895822291-3b6afbab458d.jpg",
   "contacts": {
-    "link": "_",
+    "link": "https://lancetoietcode.fr/",
     "email": "_",
     "twitter": "_",
     "patreon": "_",
@@ -11,17 +11,21 @@
   },
   "hosts": [
     {
-      "name": "Thomas Ferry & Nicolas Laurent",
+      "name": "Thomas Ferry",
       "twitter": "_"
+    },
+    {
+      "name": "Nicolas Laurent",
+      "twitter": "theindiemaker"
     }
   ],
   "feed": {
     "rss": "https://anchor.fm/s/39f6df2c/podcast/rss",
     "itunes": "https://podcasts.apple.com/fr/podcast/lance-toi-et-code/id1535757097",
-    "spotify": "_",
+    "spotify": "https://open.spotify.com/show/3JtCeVHg8bIw64SMZChCs9",
     "soundcloud": "_",
     "deezer": "_",
-    "google": "_",
+    "google": "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8zOWY2ZGYyYy9wb2RjYXN0L3Jzcw==",
     "castbox": "_",
     "pocketcast": "_"
   },
@@ -77,7 +81,6 @@
       {
         "publishingDate": "2020-12-07"
       }
-    ],
-    "logoRepoImage": "p2prd97.png"
+    ]
   }
 }
