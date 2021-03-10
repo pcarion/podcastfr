@@ -15,7 +15,7 @@ hosts:
   - name: Thomas Ferry
     twitter: _
   - name: Nicolas Laurent
-    twitter: _
+    twitter: theindiemaker
 
 feed:
   rss: https://anchor.fm/s/39f6df2c/podcast/rss
