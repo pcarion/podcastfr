@@ -1,6 +1,6 @@
 {
   "title": "Docstring",
-  "description": "Docstring, le premier site francophone pour apprendre Python : http://bit.ly/docstring-transistor On entend parler de plus en plus du métier de développeur et de ses nombreux avantages. Mais des types de développeurs, il y en a des centaines ! Alors dans ce podcast, je parle avec des développeurs de différents milieux et différents niveaux, pour te donner une idée de ce qu'est réellement ce métier. Les avantages, les inconvénients et ce qui a donné envie à tous ces gens de se lancer dans ce domaine.\n",
+  "description": "Docstring, le premier site francophone pour apprendre Python : http://bit.ly/docstring-transistor \nOn entend parler de plus en plus du métier de développeur et de ses nombreux avantages. \nMais des types de développeurs, il y en a des centaines ! \nAlors dans ce podcast, je parle avec des développeurs de différents milieux et différents niveaux, pour te donner une idée de ce qu'est réellement ce métier. \nLes avantages, les inconvénients et ce qui a donné envie à tous ces gens de se lancer dans ce domaine.\n",
   "imageUrl": "https://images.transistor.fm/file/transistor/images/show/11254/full_1591116860-artwork.jpg",
   "contacts": {
     "link": "_",
@@ -65,7 +65,6 @@
       {
         "publishingDate": "2020-06-01"
       }
-    ],
-    "logoRepoImage": "pvpzk6p.png"
+    ]
   }
 }
