@@ -32,7 +32,7 @@
   "pid": "p1j08e7",
   "yamlDescriptionFile": "generation_statique-99.yaml",
   "extra": {
-    "timestamp": 1607385600000,
+    "timestamp": 1615298400000,
     "colors": {
       "vibrant": "#471088",
       "darkVibrant": "#340c64",
@@ -42,6 +42,9 @@
       "lightMuted": "#a89ec3"
     },
     "episodes": [
+      {
+        "publishingDate": "2021-03-09"
+      },
       {
         "publishingDate": "2020-12-08"
       },
