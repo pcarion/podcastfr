@@ -1,30 +1,31 @@
 {
   "title": "NoCode Masta : Le Podcast Sans Code",
-  "description": "Et si vous pouviez tout créer sans savoir coder ? Nous croyons qu'il n'y a plus besoin de développeur pour lancer sa startup, créer son produit et avoir ses premiers clients. Que personne ne devrait avoir à payer des sommes exorbitantes pour développer sa solution en prenant le risque que ça ne marche pas. Nous pensons que les outils et l'automatisation peuvent sauver des milliers de gens de la faillite en leur évitant de dépenser inutilement sans pour autant brider leur créativité. Qu’est-ce que le No-Code ? « À mesure que créer sur internet devient plus accessible, de plus en plus de gens deviennent des créateurs. Ce n’est plus limité aux moins d’1% d’ingénieurs capables de coder, ce qui entraîne une explosion d’idées émanant de toutes sortes de personnes… » Ryan Hoover, fondateur de Product Hunt à propos du no-code.Le no-code est avant tout une philosophie, une volonté de pouvoir créer tout et n’importe quoi, sans se limiter au code.  Pourquoi vous devez utiliser le no-code Avec toute la vague Startup Nation, de nombreux entrepreneurs ont du faire un choix : se concentrer sur leur client ou se concentrer sur leur produit, et donc l’aspect technique.Avec un taux d’échec dépassant les 90%, les coûts engendrés par le développement et donc le salariat d’un développeur a soulevé de nombreuses problématiques… Quelle technologie, quelles compétences et à quel prix ? De plus, la raréfaction des développeurs compétents sur telle ou telle technologie a amené à l’augmentation des coûts. Tout ça pourrait se résumer à une seule question : Jusqu’à combien seriez vous prêt à investir pour le développement d’un produit potentiellement non viable pour le marché ? Et Ottho dans tout ça ? Se lancer sans code est très simple, il suffit juste de savoir par où commencer : Quels outils, quels plateformes, pourquoi faire ?C’est pour ça que nous avons créer une plateforme pour centraliser les meilleurs outils mais aussi les tutos de ses outils. C’est simple, voyez-ça comme une immense notice.Nous allons de la création d’un produit, à l’automatisation de process en passant par de l’acquisition client. Les limites du no-code ? Aucune, et nous allons vous le prouver en réalisant des clones de boîtes connues comme Airbnb, Tinder, LeBonCoin. Pour vous les tutos, une seule adresse : https://app.ottho.tools (https://app.ottho.tools/?fbclid=IwAR3iC-QyeEiHJ5DZ9MShwbwm7-OLSWocxwUprO8F5fY5mD0BSf8WqAbnbLw)",
+  "description": "Et si vous pouviez tout créer sans savoir coder ? Nous croyons qu'il n'y a plus besoin de développeur pour lancer sa startup, créer son produit et avoir ses premiers clients. \nQue personne ne devrait avoir à payer des sommes exorbitantes pour développer sa solution en prenant le risque que ça ne marche pas. \nNous pensons que les outils et l'automatisation peuvent sauver des milliers de gens de la faillite en leur évitant de dépenser inutilement sans pour autant brider leur créativité. \nQu’est-ce que le No-Code ? \n« À mesure que créer sur internet devient plus accessible, de plus en plus de gens deviennent des créateurs. Ce n’est plus limité aux moins d’1% d’ingénieurs capables de coder, ce qui entraîne une explosion d’idées émanant de toutes sortes de personnes… » Ryan Hoover, fondateur de Product Hunt à propos du no-code.\nLe no-code est avant tout une philosophie, une volonté de pouvoir créer tout et n’importe quoi, sans se limiter au code.  \nPourquoi vous devez utiliser le no-code Avec toute la vague Startup Nation, de nombreux entrepreneurs ont du faire un choix : se concentrer sur leur client ou se concentrer sur leur produit, et donc l’aspect technique.\nAvec un taux d’échec dépassant les 90%, les coûts engendrés par le développement et donc le salariat d’un développeur a soulevé de nombreuses problématiques… \nQuelle technologie, quelles compétences et à quel prix ? De plus, la raréfaction des développeurs compétents sur telle ou telle technologie a amené à l’augmentation des coûts. \nTout ça pourrait se résumer à une seule question : Jusqu’à combien seriez vous prêt à investir pour le développement d’un produit potentiellement non viable pour le marché ? Et Ottho dans tout ça ? Se lancer sans code est très simple, il suffit juste de savoir par où commencer : Quels outils, quels plateformes, pourquoi faire ?\nC’est pour ça que nous avons créer une plateforme pour centraliser les meilleurs outils mais aussi les tutos de ses outils. \nC’est simple, voyez-ça comme une immense notice.\nNous allons de la création d’un produit, à l’automatisation de process en passant par de l’acquisition client. \nLes limites du no-code ? Aucune, et nous allons vous le prouver en réalisant des clones de boîtes connues comme Airbnb, Tinder, LeBonCoin. \nPour vous les tutos, une seule adresse : https://app.ottho.tools (https://app.ottho.tools/?fbclid=IwAR3iC-QyeEiHJ5DZ9MShwbwm7-OLSWocxwUprO8F5fY5mD0BSf8WqAbnbLw)\n",
   "imageUrl": "https://image.ausha.co/ZJhfeqCscf40muKO3u9Ug25EeeMjmM0Boez6pezP_1400x1400.jpeg?t=1603811692",
-  "pid": "pwjmzrp",
-  "feed": {
-    "rss": "https://feed.ausha.co/b5vLimdkP2JB",
-    "itunes": "https://podcasts.apple.com/us/podcast/nocode-masta-le-podcast-sans-code/id1434037556?uo=4",
-    "spotify": "_",
-    "soundcloud": "_",
-    "deezer": "_",
-    "google": "_",
-    "castbox": "_",
-    "pocketcast": "_"
-  },
-  "hosts": [
-    {
-      "name": "Thibo Mc Fly"
-    }
-  ],
   "contacts": {
-    "link": "_",
+    "link": "https://ottho.fr/podcast-nocode-masta",
     "email": "_",
-    "twitter": "_",
+    "twitter": "toolsottho",
     "patreon": "_",
     "googleGroup": "_"
   },
+  "hosts": [
+    {
+      "name": "Thibo Mc Fly",
+      "twitter": "_"
+    }
+  ],
+  "feed": {
+    "rss": "https://feed.ausha.co/b5vLimdkP2JB",
+    "itunes": "https://podcasts.apple.com/us/podcast/nocode-masta-le-podcast-sans-code/id1434037556?uo=4",
+    "spotify": "https://open.spotify.com/show/3o1SxiH6xMklfXPHe0erTF",
+    "soundcloud": "https://soundcloud.com/ottho-tools",
+    "deezer": "https://www.deezer.com/show/2010102",
+    "google": "https://www.google.com/podcasts?feed=aHR0cHM6Ly9mZWVkLmF1c2hhLmNvL2I1dkxpbWRrUDJKQg==",
+    "castbox": "_",
+    "pocketcast": "http://pca.st/itunes/1434037556"
+  },
+  "pid": "pwjmzrp",
   "yamlDescriptionFile": "nocode_masta_le_podcast_sans_code-159.yaml",
   "extra": {
     "timestamp": 1614639523000,
@@ -67,7 +68,6 @@
       {
         "publishingDate": "2020-02-16"
       }
-    ],
-    "logoRepoImage": "pwjmzrp.png"
+    ]
   }
 }
