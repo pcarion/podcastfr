@@ -1,9 +1,9 @@
 {
   "title": "Human Coders Podcast",
-  "description": "Le podcast qui va à la rencontre de développeur·se·s passionné·e·s pour explorer les technologies et pratiques de développement ! Les épisodes s’adressent à des développeur·se·s débutant·e·s, étudiant·e·s, expérimenté·e·s ou autodidactes, et quelque soit leurs langages et technos de prédilection ! L’objectif de ce podcast est de permettre aux développeur·se·s de : - faire leur veille techno,  - découvrir de nouveaux langages, outils et technologies, - mais aussi de s’interroger sur des pratiques de développement, - et enfin d’être inspiré·e·s grâce aux témoignages de devs sur leur parcours !\n",
+  "description": "Le podcast qui va à la rencontre de développeur·se·s passionné·e·s pour explorer les technologies et pratiques de développement ! \nLes épisodes s’adressent à des développeur·se·s débutant·e·s, étudiant·e·s, expérimenté·e·s ou autodidactes, et quelque soit leurs langages et technos de prédilection ! \nL’objectif de ce podcast est de permettre aux développeur·se·s de : - faire leur veille techno,  - découvrir de nouveaux langages, outils et technologies, - mais aussi de s’interroger sur des pratiques de développement, - et enfin d’être inspiré·e·s grâce aux témoignages de devs sur leur parcours !\n",
   "imageUrl": "https://image.ausha.co/IvNkuTMR273P14YxYiWou8yXopZs5wWkxCYaOYHS_1400x1400.jpeg?t=1568894374",
   "contacts": {
-    "link": "_",
+    "link": "https://blog.humancoders.com/podcast-human-coders/",
     "email": "_",
     "twitter": "_",
     "patreon": "_",
@@ -18,8 +18,8 @@
   "feed": {
     "rss": "https://feed.ausha.co/oRdd3SJ5zEdp",
     "itunes": "https://podcasts.apple.com/us/podcast/human-coders-podcast/id1479698892",
-    "spotify": "_",
-    "soundcloud": "_",
+    "spotify": "https://open.spotify.com/show/3tLO8LmKVl96cSp7J3INwh",
+    "soundcloud": "https://soundcloud.com/human-coders-podcast",
     "deezer": "_",
     "google": "_",
     "castbox": "_",
@@ -77,7 +77,6 @@
       {
         "publishingDate": "2019-09-10"
       }
-    ],
-    "logoRepoImage": "pxj6l2j.png"
+    ]
   }
 }
