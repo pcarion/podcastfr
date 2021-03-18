@@ -4,20 +4,20 @@ description: |
 imageUrl: https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/584733/584733-1606846880431-752b9f02a75e1.jpg
 
 contacts:
-  link: _
+  link: https://indiemakers.fr
   email: _
   twitter: _
   patreon: _
   googleGroup: _
 
 hosts:
-  - name: Martin DONADIEU
-    twitter: _
+  - name: Martin Donadieu
+    twitter: martindonadieu
 
 feed:
   rss: https://anchor.fm/s/414d1d4/podcast/rss
   itunes: https://podcasts.apple.com/fr/podcast/indie-makers/id1488437972
-  spotify: _
+  spotify: https://open.spotify.com/show/6Agf3YmcAdNx4tQMJVoRQg
   soundcloud: _
   deezer: _
   google: _
