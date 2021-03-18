@@ -1,0 +1,49 @@
+{
+  "title": "SaaS Connection",
+  "description": "Avec SaaS Connection, je pars toutes les semaines à la rencontre d'entrepreneurs et d'acteurs du monde du SaaS francophone. Mon objectif est de découvrir leurs succès, leurs échecs et qu'ils me partagent le maximum de conseils actionnables afin de faire croître mon propre SaaS. A travers toutes ces rencontres, nous parlons aussi bien de marketing, que de sales, de produit ou même de tech !",
+  "imageUrl": "https://pbcdn1.podbean.com/imglogo/image-logo/11269936/cover-2021.jpg",
+  "pid": "p2prz9j",
+  "feed": {
+    "rss": "https://feed.podbean.com/saasconnection/feed.xml",
+    "itunes": "https://podcasts.apple.com/fr/podcast/saas-connection/id1557494405",
+    "spotify": "_",
+    "soundcloud": "_",
+    "deezer": "_",
+    "google": "_",
+    "castbox": "_",
+    "pocketcast": "_"
+  },
+  "hosts": [
+    {
+      "name": "Alex Delivet"
+    }
+  ],
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "yamlDescriptionFile": "saas_connection-164.yaml",
+  "extra": {
+    "timestamp": 1615885158000,
+    "colors": {
+      "vibrant": "#3f404d",
+      "darkVibrant": "#1484bc",
+      "lightVibrant": "#8ec5e0",
+      "muted": "#a95d5c",
+      "darkMuted": "#3f404d",
+      "lightMuted": "#a7b8ce"
+    },
+    "episodes": [
+      {
+        "publishingDate": "2021-03-16"
+      },
+      {
+        "publishingDate": "2021-03-09"
+      }
+    ],
+    "logoRepoImage": "p2prz9j.png"
+  }
+}
