@@ -4,7 +4,7 @@ description: |
 imageUrl: https://pbcdn1.podbean.com/imglogo/image-logo/11269936/cover-2021.jpg
 
 contacts:
-  link: _
+  link: https://saas-connection.com/
   email: _
   twitter: _
   patreon: _
@@ -12,15 +12,15 @@ contacts:
 
 hosts:
   - name: Alex Delivet
-    twitter: _
+    twitter: alexd
 
 feed:
   rss: https://feed.podbean.com/saasconnection/feed.xml
   itunes: https://podcasts.apple.com/fr/podcast/saas-connection/id1557494405
-  spotify: _
+  spotify: https://open.spotify.com/show/2IBnPriHJRBs1W38aLCSkm
   soundcloud: _
   deezer: _
-  google: _
+  google: https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL3NhYXNjb25uZWN0aW9uL2ZlZWQueG1s
   castbox: _
   pocketcast: _
 
