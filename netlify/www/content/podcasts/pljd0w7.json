@@ -1,30 +1,31 @@
 {
   "title": "INDIE MAKERS",
-  "description": "🚀Le podcast pour lancer sa startup en indépendant J'échange avec ceux qui ont su transformer leurs idées en business florissant. Au-delà des belles histoires, nous décryptons leur histoire, leur stratégie, leurs challenges, afin de comprendre comment ils ont réussi à devenir profitables en indépendant. J’interroge différents types de Makers, des novices, des aguerris, toujours dans le but de comprendre comment ils se sont lancés et comment ils ont rendu leur projet profitable. Un épisode tous les 15 jours",
+  "description": "🚀Le podcast pour lancer sa startup en indépendant J'échange avec ceux qui ont su transformer leurs idées en business florissant. Au-delà des belles histoires, nous décryptons leur histoire, leur stratégie, leurs challenges, afin de comprendre comment ils ont réussi à devenir profitables en indépendant. J’interroge différents types de Makers, des novices, des aguerris, toujours dans le but de comprendre comment ils se sont lancés et comment ils ont rendu leur projet profitable. Un épisode tous les 15 jours\n",
   "imageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/584733/584733-1606846880431-752b9f02a75e1.jpg",
-  "pid": "pljd0w7",
+  "contacts": {
+    "link": "https://indiemakers.fr",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "hosts": [
+    {
+      "name": "Martin Donadieu",
+      "twitter": "martindonadieu"
+    }
+  ],
   "feed": {
     "rss": "https://anchor.fm/s/414d1d4/podcast/rss",
     "itunes": "https://podcasts.apple.com/fr/podcast/indie-makers/id1488437972",
-    "spotify": "_",
+    "spotify": "https://open.spotify.com/show/6Agf3YmcAdNx4tQMJVoRQg",
     "soundcloud": "_",
     "deezer": "_",
     "google": "_",
     "castbox": "_",
     "pocketcast": "_"
   },
-  "hosts": [
-    {
-      "name": "Martin DONADIEU"
-    }
-  ],
-  "contacts": {
-    "link": "_",
-    "email": "_",
-    "twitter": "_",
-    "patreon": "_",
-    "googleGroup": "_"
-  },
+  "pid": "pljd0w7",
   "yamlDescriptionFile": "indie_makers-162.yaml",
   "extra": {
     "timestamp": 1615291507000,
@@ -139,7 +140,6 @@
       {
         "publishingDate": "2019-11-19"
       }
-    ],
-    "logoRepoImage": "pljd0w7.png"
+    ]
   }
 }
