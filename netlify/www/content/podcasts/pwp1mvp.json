@@ -1,0 +1,100 @@
+{
+  "title": "The Farmspot Podcast",
+  "description": "Business chit-chat : Jeddi Mees (@antinertia) & François Majean (@Franmjn) présentent The Farmspot Podcast dans lequel ils discutent des business intéressants qu'ils découvrent.",
+  "imageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/10813492/10813492-1606065533491-26a1a6788b577.jpg",
+  "pid": "pwp1mvp",
+  "feed": {
+    "rss": "https://anchor.fm/s/410caad0/podcast/rss",
+    "itunes": "https://podcasts.apple.com/gb/podcast/the-farmspot-podcast/id1541779163",
+    "spotify": "_",
+    "soundcloud": "_",
+    "deezer": "_",
+    "google": "_",
+    "castbox": "_",
+    "pocketcast": "_"
+  },
+  "hosts": [
+    {
+      "name": "The Farmspot Podcast"
+    }
+  ],
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "yamlDescriptionFile": "the_farmspot_podcast-169.yaml",
+  "extra": {
+    "timestamp": 1616320912000,
+    "colors": {
+      "vibrant": "#36484d",
+      "darkVibrant": "#654a1d",
+      "lightVibrant": "#8c5acb",
+      "muted": "#694e96",
+      "darkMuted": "#36484d",
+      "lightMuted": "#e1d7d3"
+    },
+    "episodes": [
+      {
+        "publishingDate": "2021-03-21"
+      },
+      {
+        "publishingDate": "2021-03-15"
+      },
+      {
+        "publishingDate": "2021-03-06"
+      },
+      {
+        "publishingDate": "2021-02-28"
+      },
+      {
+        "publishingDate": "2021-02-22"
+      },
+      {
+        "publishingDate": "2021-02-20"
+      },
+      {
+        "publishingDate": "2021-02-13"
+      },
+      {
+        "publishingDate": "2021-02-04"
+      },
+      {
+        "publishingDate": "2021-01-30"
+      },
+      {
+        "publishingDate": "2021-01-22"
+      },
+      {
+        "publishingDate": "2021-01-17"
+      },
+      {
+        "publishingDate": "2021-01-10"
+      },
+      {
+        "publishingDate": "2021-01-01"
+      },
+      {
+        "publishingDate": "2020-12-27"
+      },
+      {
+        "publishingDate": "2020-12-20"
+      },
+      {
+        "publishingDate": "2020-12-13"
+      },
+      {
+        "publishingDate": "2020-12-06"
+      },
+      {
+        "publishingDate": "2020-11-29"
+      },
+      {
+        "publishingDate": "2020-11-22"
+      }
+    ],
+    "logoRepoImage": "pwp1mvp.png"
+  }
+}
