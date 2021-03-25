@@ -1,23 +1,7 @@
 {
   "title": "The Farmspot Podcast",
-  "description": "Business chit-chat : Jeddi Mees (@antinertia) & François Majean (@Franmjn) présentent The Farmspot Podcast dans lequel ils discutent des business intéressants qu'ils découvrent.",
+  "description": "Business chit-chat : Jeddi Mees  & François Majean présentent The Farmspot Podcast dans lequel ils discutent des business intéressants qu'ils découvrent.\n",
   "imageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/10813492/10813492-1606065533491-26a1a6788b577.jpg",
-  "pid": "pwp1mvp",
-  "feed": {
-    "rss": "https://anchor.fm/s/410caad0/podcast/rss",
-    "itunes": "https://podcasts.apple.com/gb/podcast/the-farmspot-podcast/id1541779163",
-    "spotify": "_",
-    "soundcloud": "_",
-    "deezer": "_",
-    "google": "_",
-    "castbox": "_",
-    "pocketcast": "_"
-  },
-  "hosts": [
-    {
-      "name": "The Farmspot Podcast"
-    }
-  ],
   "contacts": {
     "link": "_",
     "email": "_",
@@ -25,6 +9,27 @@
     "patreon": "_",
     "googleGroup": "_"
   },
+  "hosts": [
+    {
+      "name": "Jeddi Mees",
+      "twitter": "antinertia"
+    },
+    {
+      "name": "François Majean",
+      "twitter": "Franmjn"
+    }
+  ],
+  "feed": {
+    "rss": "https://anchor.fm/s/410caad0/podcast/rss",
+    "itunes": "https://podcasts.apple.com/gb/podcast/the-farmspot-podcast/id1541779163",
+    "spotify": "https://open.spotify.com/show/2WoOdLj6fyOd1Nwb8h0iFq",
+    "soundcloud": "_",
+    "deezer": "_",
+    "google": "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy80MTBjYWFkMC9wb2RjYXN0L3Jzcw==",
+    "castbox": "_",
+    "pocketcast": "_"
+  },
+  "pid": "pwp1mvp",
   "yamlDescriptionFile": "the_farmspot_podcast-169.yaml",
   "extra": {
     "timestamp": 1616320912000,
@@ -94,7 +99,6 @@
       {
         "publishingDate": "2020-11-22"
       }
-    ],
-    "logoRepoImage": "pwp1mvp.png"
+    ]
   }
 }
