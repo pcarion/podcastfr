@@ -1,6 +1,6 @@
 title: The Farmspot Podcast
 description: |
-  Business chit-chat : Jeddi Mees (@antinertia) & François Majean (@Franmjn) présentent The Farmspot Podcast dans lequel ils discutent des business intéressants qu'ils découvrent.
+  Business chit-chat : Jeddi Mees  & François Majean présentent The Farmspot Podcast dans lequel ils discutent des business intéressants qu'ils découvrent.
 imageUrl: https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/10813492/10813492-1606065533491-26a1a6788b577.jpg
 
 contacts:
@@ -11,16 +11,18 @@ contacts:
   googleGroup: _
 
 hosts:
-  - name: The Farmspot Podcast
-    twitter: _
+  - name: Jeddi Mees
+    twitter: antinertia
+  - name: François Majean
+    twitter: Franmjn
 
 feed:
   rss: https://anchor.fm/s/410caad0/podcast/rss
   itunes: https://podcasts.apple.com/gb/podcast/the-farmspot-podcast/id1541779163
-  spotify: _
+  spotify: https://open.spotify.com/show/2WoOdLj6fyOd1Nwb8h0iFq
   soundcloud: _
   deezer: _
-  google: _
+  google: https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy80MTBjYWFkMC9wb2RjYXN0L3Jzcw==
   castbox: _
   pocketcast: _
 
