@@ -1,9 +1,9 @@
 {
   "title": "Développeur Libre",
-  "description": "Découvrez un nouveau profil inspirant chaque semaine ! A la manière d’une discussion en terrasse autour d’un café, j’interview des personnes devenues libres grâce au code. Entrepreneurs, free-lances, salariés : écoutez les histoires de ces personnes toutes les plus fascinantes les unes que les autres.\n",
+  "description": "Découvrez un nouveau profil inspirant chaque semaine ! \nA la manière d’une discussion en terrasse autour d’un café, j’interview des personnes devenues libres grâce au code. \nEntrepreneurs, free-lances, salariés : écoutez les histoires de ces personnes toutes les plus fascinantes les unes que les autres.\n",
   "imageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/12026625/12026625-1610829792072-dc716324cc51e.jpg",
   "contacts": {
-    "link": "_",
+    "link": "https://anchor.fm/developpeurlibre/",
     "email": "_",
     "twitter": "_",
     "patreon": "_",
@@ -18,11 +18,11 @@
   "feed": {
     "rss": "https://anchor.fm/s/4847c2e4/podcast/rss",
     "itunes": "https://podcasts.apple.com/fr/podcast/d%C3%A9veloppeur-libre/id1549505000?l=en",
-    "spotify": "_",
+    "spotify": "https://open.spotify.com/show/4SYZ5gDqU87kTT1TWRV53s",
     "soundcloud": "_",
     "deezer": "_",
-    "google": "_",
-    "castbox": "_",
+    "google": "https://www.google.com/podcasts?feed=aHR0cHM6Ly9hbmNob3IuZm0vcy80ODQ3YzJlNC9wb2RjYXN0L3Jzcw==",
+    "castbox": "https://castbox.fm/channel/D%C3%A9veloppeur-Libre-id3730864?country=us",
     "pocketcast": "_"
   },
   "pid": "pnp2wop",
@@ -68,7 +68,6 @@
       {
         "publishingDate": "2021-01-16"
       }
-    ],
-    "logoRepoImage": "pnp2wop.png"
+    ]
   }
 }
