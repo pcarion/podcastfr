@@ -28,7 +28,7 @@
   "pid": "p3j9eg7",
   "yamlDescriptionFile": "message_a_caractere_informatique-24.yaml",
   "extra": {
-    "timestamp": 1615982130000,
+    "timestamp": 1616679963000,
     "colors": {
       "vibrant": "#2b3446",
       "darkVibrant": "#682540",
@@ -38,6 +38,9 @@
       "lightMuted": "#c8a8c2"
     },
     "episodes": [
+      {
+        "publishingDate": "2021-03-25"
+      },
       {
         "publishingDate": "2021-03-17"
       },
