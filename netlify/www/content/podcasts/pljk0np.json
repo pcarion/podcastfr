@@ -28,7 +28,7 @@
   "pid": "pljk0np",
   "yamlDescriptionFile": "cacaocast-143.yaml",
   "extra": {
-    "timestamp": 1614902400000,
+    "timestamp": 1616792400000,
     "colors": {
       "vibrant": "#5c3465",
       "darkVibrant": "#672118",
@@ -742,6 +742,9 @@
       },
       {
         "publishingDate": "2021-03-05"
+      },
+      {
+        "publishingDate": "2021-03-26"
       }
     ],
     "logoRepoImage": "pljk0np.png"
