@@ -28,7 +28,7 @@
   "pid": "pvpzk6p",
   "yamlDescriptionFile": "docstring-147.yaml",
   "extra": {
-    "timestamp": 1615805202000,
+    "timestamp": 1617258468000,
     "colors": {
       "vibrant": "#24334d",
       "darkVibrant": "#253c59",
@@ -38,6 +38,9 @@
       "lightMuted": "#f4ebed"
     },
     "episodes": [
+      {
+        "publishingDate": "2021-04-01"
+      },
       {
         "publishingDate": "2021-03-15"
       },
