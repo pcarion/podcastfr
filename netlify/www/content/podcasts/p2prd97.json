@@ -32,7 +32,7 @@
   "pid": "p2prd97",
   "yamlDescriptionFile": "lance_toi_et_code-140.yaml",
   "extra": {
-    "timestamp": 1617055805000,
+    "timestamp": 1617653651000,
     "colors": {
       "vibrant": "#314763",
       "darkVibrant": "#044cac",
@@ -42,6 +42,9 @@
       "lightMuted": "#c5c699"
     },
     "episodes": [
+      {
+        "publishingDate": "2021-04-05"
+      },
       {
         "publishingDate": "2021-03-29"
       },
