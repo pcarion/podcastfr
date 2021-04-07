@@ -1,10 +1,13 @@
 title: La Galère
 description: |
-  Start The F Up, studio d'innovation parisien, invite des entrepreneurs à raconter toutes les galères et errances de leurs débuts. Ici, on ne parle pas de levées à 10 chiffres. On parle du "grind" pour trouver son produit, son marché et ses premiers clients. On met en lumière les galères du début, la débrouille et tous ces détails qui font la différence entre le succès et l'échec d’une entreprise.
+  Start The F Up, studio d'innovation parisien, invite des entrepreneurs à raconter toutes les galères et errances de leurs débuts. 
+  Ici, on ne parle pas de levées à 10 chiffres. 
+  On parle du "grind" pour trouver son produit, son marché et ses premiers clients. 
+  On met en lumière les galères du début, la débrouille et tous ces détails qui font la différence entre le succès et l'échec d’une entreprise.
 imageUrl: https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/2483441/2483441-1573237835366-e81e5299d13f1.jpg
 
 contacts:
-  link: _
+  link: https://www.startthefup.co/podcast-la-galere/
   email: _
   twitter: _
   patreon: _
@@ -17,7 +20,7 @@ hosts:
 feed:
   rss: https://anchor.fm/s/f6604a4/podcast/rss
   itunes: https://podcasts.apple.com/us/podcast/id1486597638
-  spotify: _
+  spotify: https://open.spotify.com/show/5XrojiL4qFg2x7f72s8KKP
   soundcloud: _
   deezer: _
   google: _
