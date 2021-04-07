@@ -1,0 +1,196 @@
+{
+  "title": "La Galère",
+  "description": "Start The F Up, studio d'innovation parisien, invite des entrepreneurs à raconter toutes les galères et errances de leurs débuts. Ici, on ne parle pas de levées à 10 chiffres. On parle du \"grind\" pour trouver son produit, son marché et ses premiers clients. On met en lumière les galères du début, la débrouille et tous ces détails qui font la différence entre le succès et l'échec d’une entreprise.",
+  "imageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/2483441/2483441-1573237835366-e81e5299d13f1.jpg",
+  "pid": "pwjydkj",
+  "feed": {
+    "rss": "https://anchor.fm/s/f6604a4/podcast/rss",
+    "itunes": "https://podcasts.apple.com/us/podcast/id1486597638",
+    "spotify": "_",
+    "soundcloud": "_",
+    "deezer": "_",
+    "google": "_",
+    "castbox": "_",
+    "pocketcast": "_"
+  },
+  "hosts": [
+    {
+      "name": "Start The Fup"
+    }
+  ],
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "yamlDescriptionFile": "la_galere-174.yaml",
+  "extra": {
+    "timestamp": 1617076800000,
+    "colors": {
+      "vibrant": "#344c6b",
+      "darkVibrant": "#2c4c6d",
+      "lightVibrant": "#a3b6d5",
+      "muted": "#647494",
+      "darkMuted": "#344c6b",
+      "lightMuted": "#bcbcbc"
+    },
+    "episodes": [
+      {
+        "publishingDate": "2021-03-30"
+      },
+      {
+        "publishingDate": "2021-03-16"
+      },
+      {
+        "publishingDate": "2021-03-02"
+      },
+      {
+        "publishingDate": "2021-02-16"
+      },
+      {
+        "publishingDate": "2021-02-02"
+      },
+      {
+        "publishingDate": "2021-01-22"
+      },
+      {
+        "publishingDate": "2020-12-21"
+      },
+      {
+        "publishingDate": "2020-12-07"
+      },
+      {
+        "publishingDate": "2020-12-01"
+      },
+      {
+        "publishingDate": "2020-11-25"
+      },
+      {
+        "publishingDate": "2020-11-12"
+      },
+      {
+        "publishingDate": "2020-10-26"
+      },
+      {
+        "publishingDate": "2020-10-21"
+      },
+      {
+        "publishingDate": "2020-10-05"
+      },
+      {
+        "publishingDate": "2020-09-21"
+      },
+      {
+        "publishingDate": "2020-09-04"
+      },
+      {
+        "publishingDate": "2020-08-06"
+      },
+      {
+        "publishingDate": "2020-07-29"
+      },
+      {
+        "publishingDate": "2020-07-24"
+      },
+      {
+        "publishingDate": "2020-07-14"
+      },
+      {
+        "publishingDate": "2020-07-09"
+      },
+      {
+        "publishingDate": "2020-07-01"
+      },
+      {
+        "publishingDate": "2020-06-23"
+      },
+      {
+        "publishingDate": "2020-06-14"
+      },
+      {
+        "publishingDate": "2020-06-03"
+      },
+      {
+        "publishingDate": "2020-05-26"
+      },
+      {
+        "publishingDate": "2020-05-18"
+      },
+      {
+        "publishingDate": "2020-05-12"
+      },
+      {
+        "publishingDate": "2020-05-05"
+      },
+      {
+        "publishingDate": "2020-04-27"
+      },
+      {
+        "publishingDate": "2020-04-23"
+      },
+      {
+        "publishingDate": "2020-04-17"
+      },
+      {
+        "publishingDate": "2020-04-10"
+      },
+      {
+        "publishingDate": "2020-04-03"
+      },
+      {
+        "publishingDate": "2020-03-26"
+      },
+      {
+        "publishingDate": "2020-03-19"
+      },
+      {
+        "publishingDate": "2020-03-11"
+      },
+      {
+        "publishingDate": "2020-03-04"
+      },
+      {
+        "publishingDate": "2020-02-17"
+      },
+      {
+        "publishingDate": "2020-02-10"
+      },
+      {
+        "publishingDate": "2020-01-28"
+      },
+      {
+        "publishingDate": "2020-01-27"
+      },
+      {
+        "publishingDate": "2020-01-15"
+      },
+      {
+        "publishingDate": "2019-12-31"
+      },
+      {
+        "publishingDate": "2019-12-22"
+      },
+      {
+        "publishingDate": "2019-12-16"
+      },
+      {
+        "publishingDate": "2019-12-11"
+      },
+      {
+        "publishingDate": "2019-11-21"
+      },
+      {
+        "publishingDate": "2019-11-08"
+      },
+      {
+        "publishingDate": "2019-11-06"
+      },
+      {
+        "publishingDate": "2019-11-06"
+      }
+    ],
+    "logoRepoImage": "pwjydkj.png"
+  }
+}
