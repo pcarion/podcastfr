@@ -1,8 +1,20 @@
 {
   "title": "Tech&Co",
-  "description": "Du lundi au jeudi, de 20h à 22h, le grand live du numérique avec François Sorel entouré d'experts, de stratupers, d'investisseurs… Tech&co passe en revu toute l'actualité tech : GAFA, innovations, start-up, objets connectés, réseaux sociaux, cloud, big data... ne ratez rien !",
+  "description": "Du lundi au jeudi, de 20h à 22h, le grand live du numérique avec François Sorel entouré d'experts, de stratupers, d'investisseurs… Tech&co passe en revu toute l'actualité tech : GAFA, innovations, start-up, objets connectés, réseaux sociaux, cloud, big data... ne ratez rien !\n",
   "imageUrl": "https://frontbfmimg.streamakaci.com/images/67b249a0226d8264cbd8e665ae95a3b5.jpeg_20210112113823.jpeg",
-  "pid": "p3j94mp",
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "hosts": [
+    {
+      "name": "BFM",
+      "twitter": "_"
+    }
+  ],
   "feed": {
     "rss": "http://podcast.bfmbusiness.com/channel232/BFMchannel232.xml",
     "itunes": "https://podcasts.apple.com/us/podcast/id975125188",
@@ -13,330 +25,18 @@
     "castbox": "_",
     "pocketcast": "_"
   },
-  "hosts": [
-    {
-      "name": "BFM"
-    }
-  ],
-  "contacts": {
-    "link": "_",
-    "email": "_",
-    "twitter": "_",
-    "patreon": "_",
-    "googleGroup": "_"
-  },
+  "pid": "p3j94mp",
   "yamlDescriptionFile": "tech_co-172.yaml",
   "extra": {
-    "timestamp": 1617744037000,
+    "timestamp": 0,
     "colors": {
-      "vibrant": "#44345c",
-      "darkVibrant": "#144c6c",
-      "lightVibrant": "#d9a98e",
-      "muted": "#a87662",
-      "darkMuted": "#44345c",
-      "lightMuted": "#c7c4c6"
+      "vibrant": null,
+      "darkVibrant": null,
+      "lightVibrant": null,
+      "muted": null,
+      "darkMuted": null,
+      "lightMuted": null
     },
-    "episodes": [
-      {
-        "publishingDate": "2021-04-06"
-      },
-      {
-        "publishingDate": "2021-04-06"
-      },
-      {
-        "publishingDate": "2021-04-06"
-      },
-      {
-        "publishingDate": "2021-04-06"
-      },
-      {
-        "publishingDate": "2021-04-05"
-      },
-      {
-        "publishingDate": "2021-04-05"
-      },
-      {
-        "publishingDate": "2021-04-05"
-      },
-      {
-        "publishingDate": "2021-04-05"
-      },
-      {
-        "publishingDate": "2021-04-01"
-      },
-      {
-        "publishingDate": "2021-04-01"
-      },
-      {
-        "publishingDate": "2021-03-31"
-      },
-      {
-        "publishingDate": "2021-03-31"
-      },
-      {
-        "publishingDate": "2021-03-31"
-      },
-      {
-        "publishingDate": "2021-03-31"
-      },
-      {
-        "publishingDate": "2021-03-30"
-      },
-      {
-        "publishingDate": "2021-03-30"
-      },
-      {
-        "publishingDate": "2021-03-30"
-      },
-      {
-        "publishingDate": "2021-03-30"
-      },
-      {
-        "publishingDate": "2021-03-30"
-      },
-      {
-        "publishingDate": "2021-03-29"
-      },
-      {
-        "publishingDate": "2021-03-29"
-      },
-      {
-        "publishingDate": "2021-03-29"
-      },
-      {
-        "publishingDate": "2021-03-29"
-      },
-      {
-        "publishingDate": "2021-03-25"
-      },
-      {
-        "publishingDate": "2021-03-25"
-      },
-      {
-        "publishingDate": "2021-03-25"
-      },
-      {
-        "publishingDate": "2021-03-25"
-      },
-      {
-        "publishingDate": "2021-03-24"
-      },
-      {
-        "publishingDate": "2021-03-24"
-      },
-      {
-        "publishingDate": "2021-03-24"
-      },
-      {
-        "publishingDate": "2021-03-23"
-      },
-      {
-        "publishingDate": "2021-03-23"
-      },
-      {
-        "publishingDate": "2021-03-23"
-      },
-      {
-        "publishingDate": "2021-03-22"
-      },
-      {
-        "publishingDate": "2021-03-22"
-      },
-      {
-        "publishingDate": "2021-03-22"
-      },
-      {
-        "publishingDate": "2021-03-22"
-      },
-      {
-        "publishingDate": "2021-03-22"
-      },
-      {
-        "publishingDate": "2021-03-18"
-      },
-      {
-        "publishingDate": "2021-03-18"
-      },
-      {
-        "publishingDate": "2021-03-18"
-      },
-      {
-        "publishingDate": "2021-03-18"
-      },
-      {
-        "publishingDate": "2021-03-18"
-      },
-      {
-        "publishingDate": "2021-03-18"
-      },
-      {
-        "publishingDate": "2021-03-17"
-      },
-      {
-        "publishingDate": "2021-03-17"
-      },
-      {
-        "publishingDate": "2021-03-17"
-      },
-      {
-        "publishingDate": "2021-03-17"
-      },
-      {
-        "publishingDate": "2021-03-17"
-      },
-      {
-        "publishingDate": "2021-03-16"
-      },
-      {
-        "publishingDate": "2021-03-16"
-      },
-      {
-        "publishingDate": "2021-03-15"
-      },
-      {
-        "publishingDate": "2021-03-15"
-      },
-      {
-        "publishingDate": "2021-03-15"
-      },
-      {
-        "publishingDate": "2021-03-15"
-      },
-      {
-        "publishingDate": "2021-03-11"
-      },
-      {
-        "publishingDate": "2021-03-11"
-      },
-      {
-        "publishingDate": "2021-03-11"
-      },
-      {
-        "publishingDate": "2021-03-11"
-      },
-      {
-        "publishingDate": "2021-03-11"
-      },
-      {
-        "publishingDate": "2021-03-10"
-      },
-      {
-        "publishingDate": "2021-03-10"
-      },
-      {
-        "publishingDate": "2021-03-10"
-      },
-      {
-        "publishingDate": "2021-03-10"
-      },
-      {
-        "publishingDate": "2021-03-10"
-      },
-      {
-        "publishingDate": "2021-03-09"
-      },
-      {
-        "publishingDate": "2021-03-09"
-      },
-      {
-        "publishingDate": "2021-03-09"
-      },
-      {
-        "publishingDate": "2021-03-09"
-      },
-      {
-        "publishingDate": "2021-03-08"
-      },
-      {
-        "publishingDate": "2021-03-08"
-      },
-      {
-        "publishingDate": "2021-03-08"
-      },
-      {
-        "publishingDate": "2021-03-08"
-      },
-      {
-        "publishingDate": "2021-03-08"
-      },
-      {
-        "publishingDate": "2021-03-04"
-      },
-      {
-        "publishingDate": "2021-03-04"
-      },
-      {
-        "publishingDate": "2021-03-04"
-      },
-      {
-        "publishingDate": "2021-03-04"
-      },
-      {
-        "publishingDate": "2021-03-04"
-      },
-      {
-        "publishingDate": "2021-03-03"
-      },
-      {
-        "publishingDate": "2021-03-03"
-      },
-      {
-        "publishingDate": "2021-03-03"
-      },
-      {
-        "publishingDate": "2021-03-03"
-      },
-      {
-        "publishingDate": "2021-03-03"
-      },
-      {
-        "publishingDate": "2021-03-03"
-      },
-      {
-        "publishingDate": "2021-03-03"
-      },
-      {
-        "publishingDate": "2021-03-03"
-      },
-      {
-        "publishingDate": "2021-03-02"
-      },
-      {
-        "publishingDate": "2021-03-02"
-      },
-      {
-        "publishingDate": "2021-03-01"
-      },
-      {
-        "publishingDate": "2021-03-01"
-      },
-      {
-        "publishingDate": "2021-03-01"
-      },
-      {
-        "publishingDate": "2021-02-25"
-      },
-      {
-        "publishingDate": "2021-02-25"
-      },
-      {
-        "publishingDate": "2021-02-25"
-      },
-      {
-        "publishingDate": "2021-02-25"
-      },
-      {
-        "publishingDate": "2021-02-25"
-      },
-      {
-        "publishingDate": "2021-02-24"
-      },
-      {
-        "publishingDate": "2021-02-24"
-      },
-      {
-        "publishingDate": "2021-02-24"
-      }
-    ]
+    "episodes": []
   }
 }
