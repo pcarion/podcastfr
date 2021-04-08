@@ -1,10 +1,11 @@
 title: Tech&Co
 description: |
-  Du lundi au jeudi, de 20h à 22h, le grand live du numérique avec François Sorel entouré d'experts, de stratupers, d'investisseurs… Tech&co passe en revu toute l'actualité tech : GAFA, innovations, start-up, objets connectés, réseaux sociaux, cloud, big data... ne ratez rien !
+  Du lundi au jeudi, de 20h à 22h, le grand live du numérique avec François Sorel entouré d'experts, de stratupers, d'investisseurs… 
+  Tech&co passe en revu toute l'actualité tech : GAFA, innovations, start-up, objets connectés, réseaux sociaux, cloud, big data... ne ratez rien !
 imageUrl: https://frontbfmimg.streamakaci.com/images/67b249a0226d8264cbd8e665ae95a3b5.jpeg_20210112113823.jpeg
 
 contacts:
-  link: _
+  link: https://bfmbusiness.bfmtv.com/mediaplayer/podcast/techco
   email: _
   twitter: _
   patreon: _
@@ -17,7 +18,7 @@ hosts:
 feed:
   rss: http://podcast.bfmbusiness.com/channel232/BFMchannel232.xml
   itunes: https://podcasts.apple.com/us/podcast/id975125188
-  spotify: _
+  spotify: https://open.spotify.com/show/2b4JRmROa3ZPOE4og6aFIE
   soundcloud: _
   deezer: _
   google: _
