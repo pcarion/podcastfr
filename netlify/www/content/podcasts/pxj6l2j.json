@@ -28,7 +28,7 @@
   "pid": "pxj6l2j",
   "yamlDescriptionFile": "human_coders_podcast-133.yaml",
   "extra": {
-    "timestamp": 1616665293000,
+    "timestamp": 1617878000000,
     "colors": {
       "vibrant": "#304a30",
       "darkVibrant": "#142c1c",
@@ -38,6 +38,9 @@
       "lightMuted": "#bbbcbc"
     },
     "episodes": [
+      {
+        "publishingDate": "2021-04-08"
+      },
       {
         "publishingDate": "2021-03-25"
       },
