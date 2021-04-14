@@ -1,0 +1,27 @@
+title: La French Connection
+description: |
+  Podcast international sur la sécurité et le hacking. Nouvelles et opinions du Québec et de l’Europe!
+imageUrl: http://securite.fm/img/logo-360x360.png
+
+contacts:
+  link: _
+  email: _
+  twitter: _
+  patreon: _
+  googleGroup: _
+
+hosts:
+  - name: Hackfest Communication
+    twitter: _
+
+feed:
+  rss: https://securite.fm/episodes.mp3.rss
+  itunes: https://podcasts.apple.com/us/podcast/id1193002598
+  spotify: _
+  soundcloud: _
+  deezer: _
+  google: _
+  castbox: _
+  pocketcast: _
+
+pid: p8jo16p # do not change
