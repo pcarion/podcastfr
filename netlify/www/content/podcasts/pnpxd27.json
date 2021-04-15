@@ -1,0 +1,181 @@
+{
+  "title": "theo.café - Entrepreneuriat, No-Code et Productivité",
+  "description": "Bienvenue dans théo.café Toutes les semaines, seul ou avec des invités, je vais te parler du quotidien d'un entrepreneur. Les défis, les échecs, l'organisation, etc. Le but ? Te pousser toi aussi à créer ton projet et à passer à l'action. Au cours de ces échanges, on va parler de sujets tels que la productivité, le no-code, la vie de nomade digital, de freelance, de solopreneur. Fais toi couler un petit café, relax et déguste ces discussions intenses et passionnées. Sans amertume. Toutes les ressources sont sur https://theomarechal.com",
+  "imageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded_nologo/2404151/2404151-1614681125287-6cd516e1de7ec.jpg",
+  "pid": "pnpxd27",
+  "feed": {
+    "rss": "https://anchor.fm/s/eed07fc/podcast/rss",
+    "itunes": "https://podcasts.apple.com/us/podcast/theo-caf%C3%A9-entrepreneuriat-no-code-et-productivit%C3%A9/id1501892976",
+    "spotify": "_",
+    "soundcloud": "_",
+    "deezer": "_",
+    "google": "_",
+    "castbox": "_",
+    "pocketcast": "_"
+  },
+  "hosts": [
+    {
+      "name": "Theo Marechal"
+    }
+  ],
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "yamlDescriptionFile": "theo_cafe_entrepreneuriat_no_code_et_productivite-176.yaml",
+  "extra": {
+    "timestamp": 1615916724000,
+    "colors": {
+      "vibrant": "#5b3f2f",
+      "darkVibrant": "#b0331a",
+      "lightVibrant": "#8453fb",
+      "muted": "#8b5e9a",
+      "darkMuted": "#5b3f2f",
+      "lightMuted": "#dac5ad"
+    },
+    "episodes": [
+      {
+        "publishingDate": "2021-03-16"
+      },
+      {
+        "publishingDate": "2021-03-12"
+      },
+      {
+        "publishingDate": "2021-03-09"
+      },
+      {
+        "publishingDate": "2021-03-02"
+      },
+      {
+        "publishingDate": "2021-02-16"
+      },
+      {
+        "publishingDate": "2021-01-19"
+      },
+      {
+        "publishingDate": "2021-01-13"
+      },
+      {
+        "publishingDate": "2020-12-22"
+      },
+      {
+        "publishingDate": "2020-12-09"
+      },
+      {
+        "publishingDate": "2020-11-24"
+      },
+      {
+        "publishingDate": "2020-11-16"
+      },
+      {
+        "publishingDate": "2020-11-12"
+      },
+      {
+        "publishingDate": "2020-11-10"
+      },
+      {
+        "publishingDate": "2020-10-27"
+      },
+      {
+        "publishingDate": "2020-10-19"
+      },
+      {
+        "publishingDate": "2020-10-13"
+      },
+      {
+        "publishingDate": "2020-10-06"
+      },
+      {
+        "publishingDate": "2020-10-02"
+      },
+      {
+        "publishingDate": "2020-09-28"
+      },
+      {
+        "publishingDate": "2020-09-15"
+      },
+      {
+        "publishingDate": "2020-09-08"
+      },
+      {
+        "publishingDate": "2020-07-31"
+      },
+      {
+        "publishingDate": "2020-06-16"
+      },
+      {
+        "publishingDate": "2020-05-08"
+      },
+      {
+        "publishingDate": "2020-04-16"
+      },
+      {
+        "publishingDate": "2020-04-10"
+      },
+      {
+        "publishingDate": "2020-04-08"
+      },
+      {
+        "publishingDate": "2020-04-06"
+      },
+      {
+        "publishingDate": "2020-04-03"
+      },
+      {
+        "publishingDate": "2020-03-31"
+      },
+      {
+        "publishingDate": "2020-03-30"
+      },
+      {
+        "publishingDate": "2020-03-26"
+      },
+      {
+        "publishingDate": "2020-03-24"
+      },
+      {
+        "publishingDate": "2020-03-20"
+      },
+      {
+        "publishingDate": "2020-03-18"
+      },
+      {
+        "publishingDate": "2020-03-17"
+      },
+      {
+        "publishingDate": "2020-03-13"
+      },
+      {
+        "publishingDate": "2020-03-12"
+      },
+      {
+        "publishingDate": "2020-03-11"
+      },
+      {
+        "publishingDate": "2020-03-10"
+      },
+      {
+        "publishingDate": "2020-03-09"
+      },
+      {
+        "publishingDate": "2020-03-06"
+      },
+      {
+        "publishingDate": "2020-03-05"
+      },
+      {
+        "publishingDate": "2020-03-04"
+      },
+      {
+        "publishingDate": "2020-03-03"
+      },
+      {
+        "publishingDate": "2020-03-02"
+      }
+    ],
+    "logoRepoImage": "pnpxd27.png"
+  }
+}
