@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: regenerate all Podcasts JSON files
-        uses: pcarion/awesome-podcasts-bot@v0.27
+        uses: pcarion/awesome-podcasts-bot@v0.28
         with:
           repo-token: ${{ secrets.GH_PAT }}
 
