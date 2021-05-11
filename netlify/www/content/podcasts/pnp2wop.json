@@ -28,7 +28,7 @@
   "pid": "pnp2wop",
   "yamlDescriptionFile": "developpeur_libre-144.yaml",
   "extra": {
-    "timestamp": 1617801821000,
+    "timestamp": 1620305371000,
     "colors": {
       "vibrant": "#2c344c",
       "darkVibrant": "#601910",
@@ -38,6 +38,18 @@
       "lightMuted": "#cdada3"
     },
     "episodes": [
+      {
+        "publishingDate": "2021-05-06"
+      },
+      {
+        "publishingDate": "2021-04-29"
+      },
+      {
+        "publishingDate": "2021-04-21"
+      },
+      {
+        "publishingDate": "2021-04-14"
+      },
       {
         "publishingDate": "2021-04-07"
       },

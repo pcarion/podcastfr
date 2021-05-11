@@ -28,26 +28,15 @@
   "pid": "pmjveqp",
   "yamlDescriptionFile": "memberchips-141.yaml",
   "extra": {
-    "timestamp": 1613721600000,
+    "timestamp": 0,
     "colors": {
-      "vibrant": "#636469",
-      "darkVibrant": "#a4341b",
-      "lightVibrant": "#fcec7c",
-      "muted": "#949074",
-      "darkMuted": "#636469",
-      "lightMuted": "#d2cbb2"
+      "vibrant": null,
+      "darkVibrant": null,
+      "lightVibrant": null,
+      "muted": null,
+      "darkMuted": null,
+      "lightMuted": null
     },
-    "episodes": [
-      {
-        "publishingDate": "2021-02-19"
-      },
-      {
-        "publishingDate": "2021-02-18"
-      },
-      {
-        "publishingDate": "2021-02-09"
-      }
-    ],
-    "logoRepoImage": "pmjveqp.png"
+    "episodes": []
   }
 }

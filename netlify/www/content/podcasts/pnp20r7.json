@@ -28,7 +28,7 @@
   "pid": "pnp20r7",
   "yamlDescriptionFile": "le_code_a_change-44.yaml",
   "extra": {
-    "timestamp": 1608539400000,
+    "timestamp": 1620633600000,
     "colors": {
       "vibrant": "#5e2f46",
       "darkVibrant": "#044453",
@@ -39,19 +39,13 @@
     },
     "episodes": [
       {
-        "publishingDate": "2020-12-21"
+        "publishingDate": "2021-05-10"
       },
       {
-        "publishingDate": "2020-12-08"
+        "publishingDate": "2021-04-26"
       },
       {
-        "publishingDate": "2020-11-23"
-      },
-      {
-        "publishingDate": "2020-11-09"
-      },
-      {
-        "publishingDate": "2020-10-26"
+        "publishingDate": "2021-04-19"
       },
       {
         "publishingDate": "2020-02-06"

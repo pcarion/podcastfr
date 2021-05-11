@@ -28,7 +28,7 @@
   "pid": "pnpx52j",
   "yamlDescriptionFile": "octo_buzzword_bingo-104.yaml",
   "extra": {
-    "timestamp": 1615903200000,
+    "timestamp": 1618318800000,
     "colors": {
       "vibrant": "#958c03",
       "darkVibrant": "#817902",
@@ -38,6 +38,9 @@
       "lightMuted": "#ac92cf"
     },
     "episodes": [
+      {
+        "publishingDate": "2021-04-13"
+      },
       {
         "publishingDate": "2021-03-16"
       },

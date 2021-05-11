@@ -28,7 +28,7 @@
   "pid": "p1j0omj",
   "yamlDescriptionFile": "hackers_le_podcast_de_mike_codeur-151.yaml",
   "extra": {
-    "timestamp": 1612685273000,
+    "timestamp": 1618642794000,
     "colors": {
       "vibrant": "#3c3c3c",
       "darkVibrant": "#620405",
@@ -38,6 +38,9 @@
       "lightMuted": "#cfb4b3"
     },
     "episodes": [
+      {
+        "publishingDate": "2021-04-17"
+      },
       {
         "publishingDate": "2021-02-07"
       },

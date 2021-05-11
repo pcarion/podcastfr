@@ -1,8 +1,20 @@
 {
   "title": "La French Connection",
-  "description": "Podcast international sur la sécurité et le hacking. Nouvelles et opinions du Québec et de l’Europe!",
+  "description": "Podcast international sur la sécurité et le hacking. Nouvelles et opinions du Québec et de l’Europe!\n",
   "imageUrl": "http://securite.fm/img/logo-360x360.png",
-  "pid": "p8jo16p",
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "hosts": [
+    {
+      "name": "Hackfest Communication",
+      "twitter": "_"
+    }
+  ],
   "feed": {
     "rss": "https://securite.fm/episodes.mp3.rss",
     "itunes": "https://podcasts.apple.com/us/podcast/id1193002598",
@@ -13,21 +25,10 @@
     "castbox": "_",
     "pocketcast": "_"
   },
-  "hosts": [
-    {
-      "name": "Hackfest Communication"
-    }
-  ],
-  "contacts": {
-    "link": "_",
-    "email": "_",
-    "twitter": "_",
-    "patreon": "_",
-    "googleGroup": "_"
-  },
+  "pid": "p8jo16p",
   "yamlDescriptionFile": "la_french_connection-139.yaml",
   "extra": {
-    "timestamp": 1618027200000,
+    "timestamp": 1620532800000,
     "colors": {
       "vibrant": "#116387",
       "darkVibrant": "#0f5675",
@@ -37,6 +38,18 @@
       "lightMuted": "#902908"
     },
     "episodes": [
+      {
+        "publishingDate": "2021-05-09"
+      },
+      {
+        "publishingDate": "2021-05-07"
+      },
+      {
+        "publishingDate": "2021-04-27"
+      },
+      {
+        "publishingDate": "2021-04-15"
+      },
       {
         "publishingDate": "2021-04-10"
       },
@@ -324,19 +337,8 @@
       },
       {
         "publishingDate": "2019-01-14"
-      },
-      {
-        "publishingDate": "2019-01-14"
-      },
-      {
-        "publishingDate": "2019-01-03"
-      },
-      {
-        "publishingDate": "2018-12-30"
-      },
-      {
-        "publishingDate": "2018-12-26"
       }
-    ]
+    ],
+    "logoRepoImage": "p8jo16p.png"
   }
 }

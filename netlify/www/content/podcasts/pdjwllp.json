@@ -28,7 +28,7 @@
   "pid": "pdjwllp",
   "yamlDescriptionFile": "le_digital_pour_tous-125.yaml",
   "extra": {
-    "timestamp": 1618207200000,
+    "timestamp": 1620626400000,
     "colors": {
       "vibrant": "#483c34",
       "darkVibrant": "#571e04",
@@ -38,6 +38,66 @@
       "lightMuted": "#bcbcbc"
     },
     "episodes": [
+      {
+        "publishingDate": "2021-05-10"
+      },
+      {
+        "publishingDate": "2021-05-07"
+      },
+      {
+        "publishingDate": "2021-05-06"
+      },
+      {
+        "publishingDate": "2021-05-05"
+      },
+      {
+        "publishingDate": "2021-05-04"
+      },
+      {
+        "publishingDate": "2021-05-03"
+      },
+      {
+        "publishingDate": "2021-04-30"
+      },
+      {
+        "publishingDate": "2021-04-29"
+      },
+      {
+        "publishingDate": "2021-04-28"
+      },
+      {
+        "publishingDate": "2021-04-27"
+      },
+      {
+        "publishingDate": "2021-04-26"
+      },
+      {
+        "publishingDate": "2021-04-23"
+      },
+      {
+        "publishingDate": "2021-04-22"
+      },
+      {
+        "publishingDate": "2021-04-21"
+      },
+      {
+        "publishingDate": "2021-04-20"
+      },
+      {
+        "publishingDate": "2021-04-19"
+      },
+      {
+        "publishingDate": "2021-04-16"
+      },
+      {
+        "publishingDate": "2021-04-15"
+      },
+      {
+        "publishingDate": "2021-04-14"
+      },
+      {
+        "publishingDate": "2021-04-13"
+      },
       {
         "publishingDate": "2021-04-12"
       },

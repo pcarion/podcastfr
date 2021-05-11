@@ -28,62 +28,15 @@
   "pid": "pxj6l2j",
   "yamlDescriptionFile": "human_coders_podcast-133.yaml",
   "extra": {
-    "timestamp": 1617878000000,
+    "timestamp": 0,
     "colors": {
-      "vibrant": "#304a30",
-      "darkVibrant": "#142c1c",
-      "lightVibrant": "#63cb63",
-      "muted": "#5a9b5b",
-      "darkMuted": "#304a30",
-      "lightMuted": "#bbbcbc"
+      "vibrant": null,
+      "darkVibrant": null,
+      "lightVibrant": null,
+      "muted": null,
+      "darkMuted": null,
+      "lightMuted": null
     },
-    "episodes": [
-      {
-        "publishingDate": "2021-04-08"
-      },
-      {
-        "publishingDate": "2021-03-25"
-      },
-      {
-        "publishingDate": "2021-03-10"
-      },
-      {
-        "publishingDate": "2020-05-14"
-      },
-      {
-        "publishingDate": "2020-04-23"
-      },
-      {
-        "publishingDate": "2020-04-01"
-      },
-      {
-        "publishingDate": "2020-03-26"
-      },
-      {
-        "publishingDate": "2020-03-24"
-      },
-      {
-        "publishingDate": "2020-03-12"
-      },
-      {
-        "publishingDate": "2020-02-27"
-      },
-      {
-        "publishingDate": "2019-10-15"
-      },
-      {
-        "publishingDate": "2019-10-08"
-      },
-      {
-        "publishingDate": "2019-09-10"
-      },
-      {
-        "publishingDate": "2019-09-10"
-      },
-      {
-        "publishingDate": "2019-09-10"
-      }
-    ],
-    "logoRepoImage": "pxj6l2j.png"
+    "episodes": []
   }
 }
