@@ -28,7 +28,7 @@
   "pid": "pxj6ze7",
   "yamlDescriptionFile": "axopen-33.yaml",
   "extra": {
-    "timestamp": 1617866582000,
+    "timestamp": 1622192950000,
     "colors": {
       "vibrant": "#690395",
       "darkVibrant": "#8404bc",
@@ -38,6 +38,9 @@
       "lightMuted": "#cdbddc"
     },
     "episodes": [
+      {
+        "publishingDate": "2021-05-28"
+      },
       {
         "publishingDate": "2021-04-08"
       },
