@@ -28,15 +28,314 @@
   "pid": "p3j94mp",
   "yamlDescriptionFile": "tech_co-172.yaml",
   "extra": {
-    "timestamp": 0,
+    "timestamp": 1623102470000,
     "colors": {
-      "vibrant": null,
-      "darkVibrant": null,
-      "lightVibrant": null,
-      "muted": null,
-      "darkMuted": null,
-      "lightMuted": null
+      "vibrant": "#44345c",
+      "darkVibrant": "#144c6c",
+      "lightVibrant": "#d9a98e",
+      "muted": "#a87662",
+      "darkMuted": "#44345c",
+      "lightMuted": "#c7c4c6"
     },
-    "episodes": []
+    "episodes": [
+      {
+        "publishingDate": "2021-06-07"
+      },
+      {
+        "publishingDate": "2021-06-07"
+      },
+      {
+        "publishingDate": "2021-06-07"
+      },
+      {
+        "publishingDate": "2021-06-03"
+      },
+      {
+        "publishingDate": "2021-06-03"
+      },
+      {
+        "publishingDate": "2021-06-02"
+      },
+      {
+        "publishingDate": "2021-06-01"
+      },
+      {
+        "publishingDate": "2021-05-31"
+      },
+      {
+        "publishingDate": "2021-05-31"
+      },
+      {
+        "publishingDate": "2021-05-31"
+      },
+      {
+        "publishingDate": "2021-05-27"
+      },
+      {
+        "publishingDate": "2021-05-27"
+      },
+      {
+        "publishingDate": "2021-05-27"
+      },
+      {
+        "publishingDate": "2021-05-27"
+      },
+      {
+        "publishingDate": "2021-05-26"
+      },
+      {
+        "publishingDate": "2021-05-26"
+      },
+      {
+        "publishingDate": "2021-05-25"
+      },
+      {
+        "publishingDate": "2021-05-25"
+      },
+      {
+        "publishingDate": "2021-05-25"
+      },
+      {
+        "publishingDate": "2021-05-25"
+      },
+      {
+        "publishingDate": "2021-05-24"
+      },
+      {
+        "publishingDate": "2021-05-24"
+      },
+      {
+        "publishingDate": "2021-05-20"
+      },
+      {
+        "publishingDate": "2021-05-20"
+      },
+      {
+        "publishingDate": "2021-05-19"
+      },
+      {
+        "publishingDate": "2021-05-19"
+      },
+      {
+        "publishingDate": "2021-05-18"
+      },
+      {
+        "publishingDate": "2021-05-18"
+      },
+      {
+        "publishingDate": "2021-05-18"
+      },
+      {
+        "publishingDate": "2021-05-17"
+      },
+      {
+        "publishingDate": "2021-05-17"
+      },
+      {
+        "publishingDate": "2021-05-17"
+      },
+      {
+        "publishingDate": "2021-05-17"
+      },
+      {
+        "publishingDate": "2021-05-13"
+      },
+      {
+        "publishingDate": "2021-05-13"
+      },
+      {
+        "publishingDate": "2021-05-12"
+      },
+      {
+        "publishingDate": "2021-05-12"
+      },
+      {
+        "publishingDate": "2021-05-12"
+      },
+      {
+        "publishingDate": "2021-05-11"
+      },
+      {
+        "publishingDate": "2021-05-11"
+      },
+      {
+        "publishingDate": "2021-05-10"
+      },
+      {
+        "publishingDate": "2021-05-10"
+      },
+      {
+        "publishingDate": "2021-05-10"
+      },
+      {
+        "publishingDate": "2021-05-06"
+      },
+      {
+        "publishingDate": "2021-05-06"
+      },
+      {
+        "publishingDate": "2021-05-06"
+      },
+      {
+        "publishingDate": "2021-05-05"
+      },
+      {
+        "publishingDate": "2021-05-05"
+      },
+      {
+        "publishingDate": "2021-05-05"
+      },
+      {
+        "publishingDate": "2021-05-05"
+      },
+      {
+        "publishingDate": "2021-05-04"
+      },
+      {
+        "publishingDate": "2021-05-04"
+      },
+      {
+        "publishingDate": "2021-05-03"
+      },
+      {
+        "publishingDate": "2021-05-03"
+      },
+      {
+        "publishingDate": "2021-05-03"
+      },
+      {
+        "publishingDate": "2021-04-30"
+      },
+      {
+        "publishingDate": "2021-04-30"
+      },
+      {
+        "publishingDate": "2021-04-30"
+      },
+      {
+        "publishingDate": "2021-04-30"
+      },
+      {
+        "publishingDate": "2021-04-29"
+      },
+      {
+        "publishingDate": "2021-04-29"
+      },
+      {
+        "publishingDate": "2021-04-29"
+      },
+      {
+        "publishingDate": "2021-04-28"
+      },
+      {
+        "publishingDate": "2021-04-28"
+      },
+      {
+        "publishingDate": "2021-04-28"
+      },
+      {
+        "publishingDate": "2021-04-28"
+      },
+      {
+        "publishingDate": "2021-04-28"
+      },
+      {
+        "publishingDate": "2021-04-28"
+      },
+      {
+        "publishingDate": "2021-04-27"
+      },
+      {
+        "publishingDate": "2021-04-27"
+      },
+      {
+        "publishingDate": "2021-04-27"
+      },
+      {
+        "publishingDate": "2021-04-27"
+      },
+      {
+        "publishingDate": "2021-04-27"
+      },
+      {
+        "publishingDate": "2021-04-26"
+      },
+      {
+        "publishingDate": "2021-04-26"
+      },
+      {
+        "publishingDate": "2021-04-26"
+      },
+      {
+        "publishingDate": "2021-04-22"
+      },
+      {
+        "publishingDate": "2021-04-22"
+      },
+      {
+        "publishingDate": "2021-04-22"
+      },
+      {
+        "publishingDate": "2021-04-21"
+      },
+      {
+        "publishingDate": "2021-04-21"
+      },
+      {
+        "publishingDate": "2021-04-21"
+      },
+      {
+        "publishingDate": "2021-04-21"
+      },
+      {
+        "publishingDate": "2021-04-20"
+      },
+      {
+        "publishingDate": "2021-04-20"
+      },
+      {
+        "publishingDate": "2021-04-20"
+      },
+      {
+        "publishingDate": "2021-04-19"
+      },
+      {
+        "publishingDate": "2021-04-19"
+      },
+      {
+        "publishingDate": "2021-04-19"
+      },
+      {
+        "publishingDate": "2021-04-15"
+      },
+      {
+        "publishingDate": "2021-04-15"
+      },
+      {
+        "publishingDate": "2021-04-15"
+      },
+      {
+        "publishingDate": "2021-04-15"
+      },
+      {
+        "publishingDate": "2021-04-15"
+      },
+      {
+        "publishingDate": "2021-04-14"
+      },
+      {
+        "publishingDate": "2021-04-14"
+      },
+      {
+        "publishingDate": "2021-04-14"
+      },
+      {
+        "publishingDate": "2021-04-14"
+      },
+      {
+        "publishingDate": "2021-04-14"
+      }
+    ],
+    "logoRepoImage": "p3j94mp.png"
   }
 }

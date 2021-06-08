@@ -30,12 +30,12 @@
   "extra": {
     "timestamp": 1622998800000,
     "colors": {
-      "vibrant": "#4c4078",
+      "vibrant": "#4d4077",
       "darkVibrant": "#042379",
-      "lightVibrant": "#eb6b94",
-      "muted": "#a14c86",
-      "darkMuted": "#4c4078",
-      "lightMuted": "#9ba2ba"
+      "lightVibrant": "#f16d9c",
+      "muted": "#626993",
+      "darkMuted": "#4d4077",
+      "lightMuted": "#969db7"
     },
     "episodes": [
       {
