@@ -30,12 +30,12 @@
   "extra": {
     "timestamp": 0,
     "colors": {
-      "vibrant": null,
-      "darkVibrant": null,
-      "lightVibrant": null,
-      "muted": null,
-      "darkMuted": null,
-      "lightMuted": null
+      "vibrant": "#7a1e5a",
+      "darkVibrant": "#b42c84",
+      "lightVibrant": "#dc93bc",
+      "muted": "#762256",
+      "darkMuted": "#7a1e5a",
+      "lightMuted": "#f1ebf3"
     },
     "episodes": []
   }
