@@ -28,15 +28,50 @@
   "pid": "pxj40g7",
   "yamlDescriptionFile": "la_recette_by_urban_linker-153.yaml",
   "extra": {
-    "timestamp": 0,
+    "timestamp": 1621950346000,
     "colors": {
-      "vibrant": null,
-      "darkVibrant": null,
-      "lightVibrant": null,
-      "muted": null,
-      "darkMuted": null,
-      "lightMuted": null
+      "vibrant": "#8e3f7c",
+      "darkVibrant": "#881970",
+      "lightVibrant": "#d484c4",
+      "muted": "#b16da3",
+      "darkMuted": "#8e3f7c",
+      "lightMuted": "#ceaac7"
     },
-    "episodes": []
+    "episodes": [
+      {
+        "publishingDate": "2021-05-25"
+      },
+      {
+        "publishingDate": "2021-02-25"
+      },
+      {
+        "publishingDate": "2021-02-25"
+      },
+      {
+        "publishingDate": "2021-02-25"
+      },
+      {
+        "publishingDate": "2021-01-18"
+      },
+      {
+        "publishingDate": "2021-01-06"
+      },
+      {
+        "publishingDate": "2020-12-21"
+      },
+      {
+        "publishingDate": "2020-12-07"
+      },
+      {
+        "publishingDate": "2020-11-24"
+      },
+      {
+        "publishingDate": "2020-11-09"
+      },
+      {
+        "publishingDate": "2020-10-18"
+      }
+    ],
+    "logoRepoImage": "pxj40g7.png"
   }
 }

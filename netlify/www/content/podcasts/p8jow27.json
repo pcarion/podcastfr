@@ -28,15 +28,455 @@
   "pid": "p8jow27",
   "yamlDescriptionFile": "radio_dsi-63.yaml",
   "extra": {
-    "timestamp": 0,
+    "timestamp": 1598940840000,
     "colors": {
-      "vibrant": null,
-      "darkVibrant": null,
-      "lightVibrant": null,
-      "muted": null,
-      "darkMuted": null,
-      "lightMuted": null
+      "vibrant": "#3c3438",
+      "darkVibrant": "#a32423",
+      "lightVibrant": "#eea7a7",
+      "muted": "#a77776",
+      "darkMuted": "#3c3438",
+      "lightMuted": "#bfbcbb"
     },
-    "episodes": []
+    "episodes": [
+      {
+        "publishingDate": "2020-09-01"
+      },
+      {
+        "publishingDate": "2020-08-31"
+      },
+      {
+        "publishingDate": "2020-08-31"
+      },
+      {
+        "publishingDate": "2020-08-26"
+      },
+      {
+        "publishingDate": "2020-08-26"
+      },
+      {
+        "publishingDate": "2020-08-26"
+      },
+      {
+        "publishingDate": "2020-07-14"
+      },
+      {
+        "publishingDate": "2020-07-09"
+      },
+      {
+        "publishingDate": "2020-06-03"
+      },
+      {
+        "publishingDate": "2020-06-02"
+      },
+      {
+        "publishingDate": "2020-05-27"
+      },
+      {
+        "publishingDate": "2020-05-27"
+      },
+      {
+        "publishingDate": "2020-05-26"
+      },
+      {
+        "publishingDate": "2020-05-12"
+      },
+      {
+        "publishingDate": "2020-05-11"
+      },
+      {
+        "publishingDate": "2020-05-11"
+      },
+      {
+        "publishingDate": "2020-04-29"
+      },
+      {
+        "publishingDate": "2020-04-29"
+      },
+      {
+        "publishingDate": "2020-04-29"
+      },
+      {
+        "publishingDate": "2020-04-29"
+      },
+      {
+        "publishingDate": "2020-04-29"
+      },
+      {
+        "publishingDate": "2020-04-14"
+      },
+      {
+        "publishingDate": "2020-04-09"
+      },
+      {
+        "publishingDate": "2020-04-09"
+      },
+      {
+        "publishingDate": "2020-01-31"
+      },
+      {
+        "publishingDate": "2020-01-31"
+      },
+      {
+        "publishingDate": "2020-01-31"
+      },
+      {
+        "publishingDate": "2020-01-31"
+      },
+      {
+        "publishingDate": "2020-01-31"
+      },
+      {
+        "publishingDate": "2020-01-31"
+      },
+      {
+        "publishingDate": "2020-01-31"
+      },
+      {
+        "publishingDate": "2020-01-31"
+      },
+      {
+        "publishingDate": "2020-01-31"
+      },
+      {
+        "publishingDate": "2020-01-31"
+      },
+      {
+        "publishingDate": "2020-01-31"
+      },
+      {
+        "publishingDate": "2020-01-31"
+      },
+      {
+        "publishingDate": "2020-01-31"
+      },
+      {
+        "publishingDate": "2020-01-31"
+      },
+      {
+        "publishingDate": "2020-01-31"
+      },
+      {
+        "publishingDate": "2020-01-31"
+      },
+      {
+        "publishingDate": "2020-01-31"
+      },
+      {
+        "publishingDate": "2020-01-31"
+      },
+      {
+        "publishingDate": "2020-01-31"
+      },
+      {
+        "publishingDate": "2020-01-31"
+      },
+      {
+        "publishingDate": "2020-01-31"
+      },
+      {
+        "publishingDate": "2020-01-31"
+      },
+      {
+        "publishingDate": "2020-01-31"
+      },
+      {
+        "publishingDate": "2020-01-31"
+      },
+      {
+        "publishingDate": "2020-01-31"
+      },
+      {
+        "publishingDate": "2020-01-31"
+      },
+      {
+        "publishingDate": "2020-01-31"
+      },
+      {
+        "publishingDate": "2020-01-31"
+      },
+      {
+        "publishingDate": "2020-01-31"
+      },
+      {
+        "publishingDate": "2020-01-31"
+      },
+      {
+        "publishingDate": "2020-01-31"
+      },
+      {
+        "publishingDate": "2020-01-31"
+      },
+      {
+        "publishingDate": "2020-01-31"
+      },
+      {
+        "publishingDate": "2020-01-31"
+      },
+      {
+        "publishingDate": "2020-01-31"
+      },
+      {
+        "publishingDate": "2020-01-09"
+      },
+      {
+        "publishingDate": "2020-01-03"
+      },
+      {
+        "publishingDate": "2020-01-03"
+      },
+      {
+        "publishingDate": "2020-01-02"
+      },
+      {
+        "publishingDate": "2020-01-02"
+      },
+      {
+        "publishingDate": "2020-01-02"
+      },
+      {
+        "publishingDate": "2020-01-01"
+      },
+      {
+        "publishingDate": "2019-12-24"
+      },
+      {
+        "publishingDate": "2019-12-23"
+      },
+      {
+        "publishingDate": "2019-12-23"
+      },
+      {
+        "publishingDate": "2019-12-23"
+      },
+      {
+        "publishingDate": "2019-12-20"
+      },
+      {
+        "publishingDate": "2019-12-20"
+      },
+      {
+        "publishingDate": "2019-12-20"
+      },
+      {
+        "publishingDate": "2019-12-19"
+      },
+      {
+        "publishingDate": "2019-12-19"
+      },
+      {
+        "publishingDate": "2019-12-19"
+      },
+      {
+        "publishingDate": "2019-12-16"
+      },
+      {
+        "publishingDate": "2019-12-16"
+      },
+      {
+        "publishingDate": "2019-12-16"
+      },
+      {
+        "publishingDate": "2019-12-11"
+      },
+      {
+        "publishingDate": "2019-12-11"
+      },
+      {
+        "publishingDate": "2019-12-11"
+      },
+      {
+        "publishingDate": "2019-11-20"
+      },
+      {
+        "publishingDate": "2019-11-20"
+      },
+      {
+        "publishingDate": "2019-11-13"
+      },
+      {
+        "publishingDate": "2019-11-13"
+      },
+      {
+        "publishingDate": "2019-11-13"
+      },
+      {
+        "publishingDate": "2019-11-12"
+      },
+      {
+        "publishingDate": "2019-11-08"
+      },
+      {
+        "publishingDate": "2019-11-07"
+      },
+      {
+        "publishingDate": "2019-11-07"
+      },
+      {
+        "publishingDate": "2019-11-06"
+      },
+      {
+        "publishingDate": "2019-11-06"
+      },
+      {
+        "publishingDate": "2019-11-04"
+      },
+      {
+        "publishingDate": "2019-11-04"
+      },
+      {
+        "publishingDate": "2019-10-29"
+      },
+      {
+        "publishingDate": "2019-10-29"
+      },
+      {
+        "publishingDate": "2019-10-28"
+      },
+      {
+        "publishingDate": "2019-10-28"
+      },
+      {
+        "publishingDate": "2019-10-25"
+      },
+      {
+        "publishingDate": "2019-10-24"
+      },
+      {
+        "publishingDate": "2019-10-24"
+      },
+      {
+        "publishingDate": "2019-10-21"
+      },
+      {
+        "publishingDate": "2019-10-21"
+      },
+      {
+        "publishingDate": "2019-10-18"
+      },
+      {
+        "publishingDate": "2019-10-18"
+      },
+      {
+        "publishingDate": "2019-10-17"
+      },
+      {
+        "publishingDate": "2019-10-17"
+      },
+      {
+        "publishingDate": "2019-10-16"
+      },
+      {
+        "publishingDate": "2019-10-16"
+      },
+      {
+        "publishingDate": "2019-10-15"
+      },
+      {
+        "publishingDate": "2019-10-15"
+      },
+      {
+        "publishingDate": "2019-10-14"
+      },
+      {
+        "publishingDate": "2019-10-08"
+      },
+      {
+        "publishingDate": "2019-10-08"
+      },
+      {
+        "publishingDate": "2019-10-08"
+      },
+      {
+        "publishingDate": "2019-10-08"
+      },
+      {
+        "publishingDate": "2019-10-08"
+      },
+      {
+        "publishingDate": "2019-08-21"
+      },
+      {
+        "publishingDate": "2019-08-20"
+      },
+      {
+        "publishingDate": "2019-06-05"
+      },
+      {
+        "publishingDate": "2019-06-05"
+      },
+      {
+        "publishingDate": "2019-06-03"
+      },
+      {
+        "publishingDate": "2019-05-28"
+      },
+      {
+        "publishingDate": "2019-05-28"
+      },
+      {
+        "publishingDate": "2019-05-28"
+      },
+      {
+        "publishingDate": "2019-04-16"
+      },
+      {
+        "publishingDate": "2019-04-16"
+      },
+      {
+        "publishingDate": "2019-04-16"
+      },
+      {
+        "publishingDate": "2019-04-16"
+      },
+      {
+        "publishingDate": "2019-04-16"
+      },
+      {
+        "publishingDate": "2019-04-16"
+      },
+      {
+        "publishingDate": "2019-04-16"
+      },
+      {
+        "publishingDate": "2019-03-18"
+      },
+      {
+        "publishingDate": "2019-03-18"
+      },
+      {
+        "publishingDate": "2019-03-18"
+      },
+      {
+        "publishingDate": "2019-03-18"
+      },
+      {
+        "publishingDate": "2019-03-18"
+      },
+      {
+        "publishingDate": "2019-03-18"
+      },
+      {
+        "publishingDate": "2019-03-18"
+      },
+      {
+        "publishingDate": "2019-03-18"
+      },
+      {
+        "publishingDate": "2019-03-18"
+      },
+      {
+        "publishingDate": "2019-03-18"
+      },
+      {
+        "publishingDate": "2019-03-18"
+      },
+      {
+        "publishingDate": "2019-03-18"
+      },
+      {
+        "publishingDate": "2019-03-18"
+      }
+    ],
+    "logoRepoImage": "p8jow27.png"
   }
 }

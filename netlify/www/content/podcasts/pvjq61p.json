@@ -28,16 +28,122 @@
   "pid": "pvjq61p",
   "yamlDescriptionFile": "dev_to_be_curious-146.yaml",
   "extra": {
-    "timestamp": 0,
+    "timestamp": 1617267174000,
     "colors": {
-      "vibrant": null,
-      "darkVibrant": null,
-      "lightVibrant": null,
-      "muted": null,
-      "darkMuted": null,
-      "lightMuted": null
+      "vibrant": "#2c434b",
+      "darkVibrant": "#841414",
+      "lightVibrant": "#ee8a8b",
+      "muted": "#9c4c4b",
+      "darkMuted": "#2c434b",
+      "lightMuted": "#bc7c7c"
     },
-    "episodes": [],
+    "episodes": [
+      {
+        "publishingDate": "2021-04-01"
+      },
+      {
+        "publishingDate": "2021-02-24"
+      },
+      {
+        "publishingDate": "2021-01-22"
+      },
+      {
+        "publishingDate": "2020-12-29"
+      },
+      {
+        "publishingDate": "2020-12-11"
+      },
+      {
+        "publishingDate": "2020-11-20"
+      },
+      {
+        "publishingDate": "2020-11-10"
+      },
+      {
+        "publishingDate": "2020-11-04"
+      },
+      {
+        "publishingDate": "2020-07-31"
+      },
+      {
+        "publishingDate": "2020-06-25"
+      },
+      {
+        "publishingDate": "2020-06-08"
+      },
+      {
+        "publishingDate": "2020-05-20"
+      },
+      {
+        "publishingDate": "2020-04-08"
+      },
+      {
+        "publishingDate": "2020-03-16"
+      },
+      {
+        "publishingDate": "2020-03-04"
+      },
+      {
+        "publishingDate": "2020-02-07"
+      },
+      {
+        "publishingDate": "2020-01-17"
+      },
+      {
+        "publishingDate": "2019-12-27"
+      },
+      {
+        "publishingDate": "2019-11-12"
+      },
+      {
+        "publishingDate": "2019-10-29"
+      },
+      {
+        "publishingDate": "2019-09-22"
+      },
+      {
+        "publishingDate": "2019-09-04"
+      },
+      {
+        "publishingDate": "2019-08-21"
+      },
+      {
+        "publishingDate": "2019-07-26"
+      },
+      {
+        "publishingDate": "2019-07-10"
+      },
+      {
+        "publishingDate": "2019-07-03"
+      },
+      {
+        "publishingDate": "2019-06-27"
+      },
+      {
+        "publishingDate": "2019-06-26"
+      },
+      {
+        "publishingDate": "2019-06-11"
+      },
+      {
+        "publishingDate": "2019-06-04"
+      },
+      {
+        "publishingDate": "2019-05-13"
+      },
+      {
+        "publishingDate": "2019-05-07"
+      },
+      {
+        "publishingDate": "2019-04-29"
+      },
+      {
+        "publishingDate": "2019-04-29"
+      },
+      {
+        "publishingDate": "2019-04-23"
+      }
+    ],
     "logoRepoImage": "pvjq61p.png"
   }
 }

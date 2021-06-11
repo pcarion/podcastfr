@@ -28,15 +28,71 @@
   "pid": "pdjwklj",
   "yamlDescriptionFile": "le_joboscope-149.yaml",
   "extra": {
-    "timestamp": 0,
+    "timestamp": 1607617486000,
     "colors": {
-      "vibrant": null,
-      "darkVibrant": null,
-      "lightVibrant": null,
-      "muted": null,
-      "darkMuted": null,
-      "lightMuted": null
+      "vibrant": "#4b4f5e",
+      "darkVibrant": "#04346c",
+      "lightVibrant": "#dcc4fb",
+      "muted": "#649c6c",
+      "darkMuted": "#4b4f5e",
+      "lightMuted": "#acd4b4"
     },
-    "episodes": []
+    "episodes": [
+      {
+        "publishingDate": "2020-12-10"
+      },
+      {
+        "publishingDate": "2020-11-27"
+      },
+      {
+        "publishingDate": "2020-11-12"
+      },
+      {
+        "publishingDate": "2020-10-29"
+      },
+      {
+        "publishingDate": "2020-05-28"
+      },
+      {
+        "publishingDate": "2020-05-16"
+      },
+      {
+        "publishingDate": "2020-04-30"
+      },
+      {
+        "publishingDate": "2020-04-16"
+      },
+      {
+        "publishingDate": "2020-04-02"
+      },
+      {
+        "publishingDate": "2020-03-19"
+      },
+      {
+        "publishingDate": "2020-03-06"
+      },
+      {
+        "publishingDate": "2020-02-20"
+      },
+      {
+        "publishingDate": "2020-02-05"
+      },
+      {
+        "publishingDate": "2020-01-23"
+      },
+      {
+        "publishingDate": "2020-01-09"
+      },
+      {
+        "publishingDate": "2019-12-19"
+      },
+      {
+        "publishingDate": "2019-12-05"
+      },
+      {
+        "publishingDate": "2019-11-28"
+      }
+    ],
+    "logoRepoImage": "pdjwklj.png"
   }
 }
