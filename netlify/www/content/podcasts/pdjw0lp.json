@@ -28,7 +28,7 @@
   "pid": "pdjw0lp",
   "yamlDescriptionFile": "135_grammes-101.yaml",
   "extra": {
-    "timestamp": 1622183596000,
+    "timestamp": 1623396642000,
     "colors": {
       "vibrant": "#4c453c",
       "darkVibrant": "#1c3c82",
@@ -38,6 +38,9 @@
       "lightMuted": "#acbcda"
     },
     "episodes": [
+      {
+        "publishingDate": "2021-06-11"
+      },
       {
         "publishingDate": "2021-05-28"
       },
