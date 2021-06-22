@@ -28,7 +28,7 @@
   "pid": "pypgo4j",
   "yamlDescriptionFile": "am_kam_gram-154.yaml",
   "extra": {
-    "timestamp": 1623650400000,
+    "timestamp": 1624255200000,
     "colors": {
       "vibrant": "#4e4431",
       "darkVibrant": "#5b4c29",
@@ -38,6 +38,9 @@
       "lightMuted": "#b49c74"
     },
     "episodes": [
+      {
+        "publishingDate": "2021-06-21"
+      },
       {
         "publishingDate": "2021-06-14"
       },
