@@ -28,7 +28,7 @@
   "pid": "pxj40g7",
   "yamlDescriptionFile": "la_recette_by_urban_linker-153.yaml",
   "extra": {
-    "timestamp": 1621950346000,
+    "timestamp": 1624442672000,
     "colors": {
       "vibrant": "#8e3f7c",
       "darkVibrant": "#881970",
@@ -38,6 +38,9 @@
       "lightMuted": "#ceaac7"
     },
     "episodes": [
+      {
+        "publishingDate": "2021-06-23"
+      },
       {
         "publishingDate": "2021-05-25"
       },
