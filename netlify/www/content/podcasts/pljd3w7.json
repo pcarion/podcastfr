@@ -28,122 +28,16 @@
   "pid": "pljd3w7",
   "yamlDescriptionFile": "welovedevs_le_podcast-138.yaml",
   "extra": {
-    "timestamp": 1625186040000,
+    "timestamp": 0,
     "colors": {
-      "vibrant": "#74586c",
-      "darkVibrant": "#360eb3",
-      "lightVibrant": "#fc64a4",
-      "muted": "#9a8152",
-      "darkMuted": "#74586c",
-      "lightMuted": "#9d848b"
+      "vibrant": null,
+      "darkVibrant": null,
+      "lightVibrant": null,
+      "muted": null,
+      "darkMuted": null,
+      "lightMuted": null
     },
-    "episodes": [
-      {
-        "publishingDate": "2021-07-02"
-      },
-      {
-        "publishingDate": "2021-06-25"
-      },
-      {
-        "publishingDate": "2021-06-17"
-      },
-      {
-        "publishingDate": "2021-06-11"
-      },
-      {
-        "publishingDate": "2021-06-04"
-      },
-      {
-        "publishingDate": "2021-05-28"
-      },
-      {
-        "publishingDate": "2021-05-21"
-      },
-      {
-        "publishingDate": "2021-05-12"
-      },
-      {
-        "publishingDate": "2021-05-07"
-      },
-      {
-        "publishingDate": "2021-04-29"
-      },
-      {
-        "publishingDate": "2021-04-22"
-      },
-      {
-        "publishingDate": "2021-04-15"
-      },
-      {
-        "publishingDate": "2021-04-09"
-      },
-      {
-        "publishingDate": "2021-04-01"
-      },
-      {
-        "publishingDate": "2021-03-26"
-      },
-      {
-        "publishingDate": "2021-03-18"
-      },
-      {
-        "publishingDate": "2021-03-11"
-      },
-      {
-        "publishingDate": "2021-03-04"
-      },
-      {
-        "publishingDate": "2021-02-25"
-      },
-      {
-        "publishingDate": "2021-02-24"
-      },
-      {
-        "publishingDate": "2020-10-05"
-      },
-      {
-        "publishingDate": "2020-08-02"
-      },
-      {
-        "publishingDate": "2020-03-17"
-      },
-      {
-        "publishingDate": "2020-03-03"
-      },
-      {
-        "publishingDate": "2019-12-07"
-      },
-      {
-        "publishingDate": "2019-11-14"
-      },
-      {
-        "publishingDate": "2019-09-27"
-      },
-      {
-        "publishingDate": "2019-04-25"
-      },
-      {
-        "publishingDate": "2019-04-11"
-      },
-      {
-        "publishingDate": "2019-03-15"
-      },
-      {
-        "publishingDate": "2019-03-11"
-      },
-      {
-        "publishingDate": "2019-03-04"
-      },
-      {
-        "publishingDate": "2019-02-21"
-      },
-      {
-        "publishingDate": "2019-02-13"
-      },
-      {
-        "publishingDate": "2019-02-06"
-      }
-    ],
+    "episodes": [],
     "logoRepoImage": "pljd3w7.png"
   }
 }
