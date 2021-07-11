@@ -32,7 +32,7 @@
   "pid": "p8jox2j",
   "yamlDescriptionFile": "ifttd_-_if_this_then_dev-39.yaml",
   "extra": {
-    "timestamp": 1625799600000,
+    "timestamp": 1625626800000,
     "colors": {
       "vibrant": "#2c2b31",
       "darkVibrant": "#7e4e05",
@@ -43,25 +43,16 @@
     },
     "episodes": [
       {
-        "publishingDate": "2021-07-09"
-      },
-      {
         "publishingDate": "2021-07-07"
-      },
-      {
-        "publishingDate": "2021-07-02"
       },
       {
         "publishingDate": "2021-06-30"
       },
       {
-        "publishingDate": "2021-06-25"
-      },
-      {
         "publishingDate": "2021-06-23"
       },
       {
-        "publishingDate": "2021-06-18"
+        "publishingDate": "2021-06-17"
       },
       {
         "publishingDate": "2021-06-16"
@@ -70,13 +61,10 @@
         "publishingDate": "2021-06-09"
       },
       {
-        "publishingDate": "2021-06-04"
-      },
-      {
         "publishingDate": "2021-06-02"
       },
       {
-        "publishingDate": "2021-05-28"
+        "publishingDate": "2021-05-27"
       },
       {
         "publishingDate": "2021-05-26"
@@ -88,145 +76,136 @@
         "publishingDate": "2021-05-19"
       },
       {
-        "publishingDate": "2021-05-14"
-      },
-      {
         "publishingDate": "2021-05-12"
       },
       {
-        "publishingDate": "2021-05-07"
+        "publishingDate": "2021-05-06"
       },
       {
         "publishingDate": "2021-05-05"
       },
       {
-        "publishingDate": "2021-04-30"
+        "publishingDate": "2021-04-29"
       },
       {
         "publishingDate": "2021-04-28"
       },
       {
-        "publishingDate": "2021-04-23"
-      },
-      {
         "publishingDate": "2021-04-21"
       },
       {
-        "publishingDate": "2021-04-16"
+        "publishingDate": "2021-04-15"
       },
       {
         "publishingDate": "2021-04-14"
       },
       {
-        "publishingDate": "2021-04-09"
+        "publishingDate": "2021-04-08"
       },
       {
         "publishingDate": "2021-04-07"
       },
       {
-        "publishingDate": "2021-04-02"
+        "publishingDate": "2021-04-01"
       },
       {
         "publishingDate": "2021-03-31"
       },
       {
-        "publishingDate": "2021-03-26"
+        "publishingDate": "2021-03-25"
       },
       {
         "publishingDate": "2021-03-24"
       },
       {
-        "publishingDate": "2021-03-19"
+        "publishingDate": "2021-03-18"
       },
       {
         "publishingDate": "2021-03-17"
       },
       {
-        "publishingDate": "2021-03-12"
+        "publishingDate": "2021-03-11"
       },
       {
         "publishingDate": "2021-03-10"
       },
       {
-        "publishingDate": "2021-03-05"
+        "publishingDate": "2021-03-04"
       },
       {
         "publishingDate": "2021-03-03"
       },
       {
-        "publishingDate": "2021-02-26"
+        "publishingDate": "2021-02-25"
       },
       {
         "publishingDate": "2021-02-23"
       },
       {
-        "publishingDate": "2021-02-19"
+        "publishingDate": "2021-02-18"
       },
       {
         "publishingDate": "2021-02-17"
       },
       {
-        "publishingDate": "2021-02-12"
+        "publishingDate": "2021-02-11"
       },
       {
         "publishingDate": "2021-02-10"
       },
       {
-        "publishingDate": "2021-02-05"
+        "publishingDate": "2021-02-04"
       },
       {
         "publishingDate": "2021-02-03"
       },
       {
-        "publishingDate": "2021-01-29"
+        "publishingDate": "2021-01-28"
       },
       {
         "publishingDate": "2021-01-27"
       },
       {
-        "publishingDate": "2021-01-22"
+        "publishingDate": "2021-01-21"
       },
       {
         "publishingDate": "2021-01-20"
       },
       {
-        "publishingDate": "2021-01-15"
+        "publishingDate": "2021-01-14"
       },
       {
         "publishingDate": "2021-01-13"
       },
       {
-        "publishingDate": "2021-01-08"
-      },
-      {
         "publishingDate": "2021-01-06"
       },
       {
-        "publishingDate": "2021-01-01"
+        "publishingDate": "2020-12-31"
       },
       {
         "publishingDate": "2020-12-30"
       },
       {
-        "publishingDate": "2020-12-25"
+        "publishingDate": "2020-12-24"
       },
       {
         "publishingDate": "2020-12-23"
       },
       {
-        "publishingDate": "2020-12-18"
+        "publishingDate": "2020-12-17"
       },
       {
         "publishingDate": "2020-12-16"
       },
       {
-        "publishingDate": "2020-12-11"
+        "publishingDate": "2020-12-10"
       },
       {
         "publishingDate": "2020-12-09"
       },
       {
-        "publishingDate": "2020-12-04"
+        "publishingDate": "2020-12-03"
       },
       {
         "publishingDate": "2020-12-02"
@@ -238,25 +217,25 @@
         "publishingDate": "2020-11-25"
       },
       {
-        "publishingDate": "2020-11-20"
+        "publishingDate": "2020-11-19"
       },
       {
         "publishingDate": "2020-11-18"
       },
       {
-        "publishingDate": "2020-11-13"
+        "publishingDate": "2020-11-12"
       },
       {
         "publishingDate": "2020-11-11"
       },
       {
-        "publishingDate": "2020-11-06"
+        "publishingDate": "2020-11-05"
       },
       {
         "publishingDate": "2020-11-04"
       },
       {
-        "publishingDate": "2020-10-30"
+        "publishingDate": "2020-10-29"
       },
       {
         "publishingDate": "2020-10-28"
@@ -268,178 +247,181 @@
         "publishingDate": "2020-10-21"
       },
       {
-        "publishingDate": "2020-10-16"
+        "publishingDate": "2020-10-15"
       },
       {
         "publishingDate": "2020-10-14"
       },
       {
-        "publishingDate": "2020-10-09"
+        "publishingDate": "2020-10-08"
       },
       {
         "publishingDate": "2020-10-07"
       },
       {
-        "publishingDate": "2020-10-02"
+        "publishingDate": "2020-10-01"
       },
       {
         "publishingDate": "2020-09-30"
       },
       {
-        "publishingDate": "2020-09-25"
+        "publishingDate": "2020-09-24"
       },
       {
         "publishingDate": "2020-09-23"
       },
       {
-        "publishingDate": "2020-09-18"
+        "publishingDate": "2020-09-17"
       },
       {
         "publishingDate": "2020-09-16"
       },
       {
-        "publishingDate": "2020-09-11"
+        "publishingDate": "2020-09-10"
       },
       {
         "publishingDate": "2020-09-09"
       },
       {
-        "publishingDate": "2020-09-04"
+        "publishingDate": "2020-09-03"
       },
       {
         "publishingDate": "2020-09-02"
       },
       {
-        "publishingDate": "2020-08-28"
+        "publishingDate": "2020-08-27"
       },
       {
         "publishingDate": "2020-08-26"
       },
       {
-        "publishingDate": "2020-08-21"
+        "publishingDate": "2020-08-20"
       },
       {
         "publishingDate": "2020-08-19"
       },
       {
-        "publishingDate": "2020-08-14"
+        "publishingDate": "2020-08-13"
       },
       {
         "publishingDate": "2020-08-12"
       },
       {
-        "publishingDate": "2020-08-07"
+        "publishingDate": "2020-08-06"
       },
       {
         "publishingDate": "2020-08-05"
       },
       {
-        "publishingDate": "2020-07-31"
+        "publishingDate": "2020-07-30"
       },
       {
         "publishingDate": "2020-07-29"
       },
       {
-        "publishingDate": "2020-07-24"
+        "publishingDate": "2020-07-23"
       },
       {
         "publishingDate": "2020-07-22"
       },
       {
-        "publishingDate": "2020-07-17"
+        "publishingDate": "2020-07-16"
       },
       {
         "publishingDate": "2020-07-15"
       },
       {
-        "publishingDate": "2020-07-10"
+        "publishingDate": "2020-07-09"
       },
       {
         "publishingDate": "2020-07-08"
       },
       {
-        "publishingDate": "2020-07-03"
+        "publishingDate": "2020-07-02"
       },
       {
         "publishingDate": "2020-07-01"
       },
       {
-        "publishingDate": "2020-06-26"
+        "publishingDate": "2020-06-25"
       },
       {
         "publishingDate": "2020-06-24"
       },
       {
-        "publishingDate": "2020-06-19"
+        "publishingDate": "2020-06-18"
       },
       {
         "publishingDate": "2020-06-17"
       },
       {
-        "publishingDate": "2020-06-12"
+        "publishingDate": "2020-06-11"
       },
       {
         "publishingDate": "2020-06-10"
       },
       {
-        "publishingDate": "2020-06-05"
+        "publishingDate": "2020-06-04"
       },
       {
         "publishingDate": "2020-06-03"
       },
       {
-        "publishingDate": "2020-05-29"
+        "publishingDate": "2020-05-28"
       },
       {
         "publishingDate": "2020-05-27"
       },
       {
-        "publishingDate": "2020-05-22"
+        "publishingDate": "2020-05-21"
       },
       {
         "publishingDate": "2020-05-20"
       },
       {
+        "publishingDate": "2020-05-14"
+      },
+      {
         "publishingDate": "2020-05-13"
       },
       {
-        "publishingDate": "2020-05-08"
+        "publishingDate": "2020-05-07"
       },
       {
         "publishingDate": "2020-05-06"
       },
       {
-        "publishingDate": "2020-05-01"
+        "publishingDate": "2020-04-30"
       },
       {
         "publishingDate": "2020-04-29"
       },
       {
-        "publishingDate": "2020-04-27"
+        "publishingDate": "2020-04-23"
       },
       {
         "publishingDate": "2020-04-22"
       },
       {
-        "publishingDate": "2020-04-17"
+        "publishingDate": "2020-04-16"
       },
       {
         "publishingDate": "2020-04-15"
       },
       {
-        "publishingDate": "2020-04-10"
+        "publishingDate": "2020-04-09"
       },
       {
         "publishingDate": "2020-04-08"
       },
       {
-        "publishingDate": "2020-04-03"
+        "publishingDate": "2020-04-02"
       },
       {
         "publishingDate": "2020-04-01"
       },
       {
-        "publishingDate": "2020-03-27"
+        "publishingDate": "2020-03-26"
       },
       {
         "publishingDate": "2020-03-25"
@@ -448,40 +430,43 @@
         "publishingDate": "2020-03-23"
       },
       {
-        "publishingDate": "2020-03-20"
+        "publishingDate": "2020-03-19"
       },
       {
         "publishingDate": "2020-03-18"
       },
       {
-        "publishingDate": "2020-03-14"
+        "publishingDate": "2020-03-12"
       },
       {
         "publishingDate": "2020-03-11"
       },
       {
+        "publishingDate": "2020-03-05"
+      },
+      {
         "publishingDate": "2020-03-04"
       },
       {
-        "publishingDate": "2020-02-28"
+        "publishingDate": "2020-02-27"
       },
       {
         "publishingDate": "2020-02-26"
       },
       {
-        "publishingDate": "2020-02-21"
+        "publishingDate": "2020-02-20"
       },
       {
         "publishingDate": "2020-02-19"
       },
       {
-        "publishingDate": "2020-02-14"
+        "publishingDate": "2020-02-13"
       },
       {
         "publishingDate": "2020-02-12"
       },
       {
-        "publishingDate": "2020-02-07"
+        "publishingDate": "2020-02-06"
       },
       {
         "publishingDate": "2020-02-05"
@@ -493,7 +478,13 @@
         "publishingDate": "2020-01-29"
       },
       {
+        "publishingDate": "2020-01-23"
+      },
+      {
         "publishingDate": "2020-01-22"
+      },
+      {
+        "publishingDate": "2020-01-16"
       },
       {
         "publishingDate": "2020-01-15"
@@ -523,7 +514,7 @@
         "publishingDate": "2019-12-11"
       },
       {
-        "publishingDate": "2019-12-06"
+        "publishingDate": "2019-12-05"
       },
       {
         "publishingDate": "2019-12-04"
@@ -547,7 +538,7 @@
         "publishingDate": "2019-11-13"
       },
       {
-        "publishingDate": "2019-11-08"
+        "publishingDate": "2019-11-07"
       },
       {
         "publishingDate": "2019-11-06"
@@ -593,6 +584,9 @@
       },
       {
         "publishingDate": "2019-09-04"
+      },
+      {
+        "publishingDate": "2019-08-01"
       },
       {
         "publishingDate": "2019-07-31"
