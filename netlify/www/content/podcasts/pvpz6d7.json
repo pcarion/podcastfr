@@ -32,7 +32,7 @@
   "pid": "pvpz6d7",
   "yamlDescriptionFile": "double_slash-95.yaml",
   "extra": {
-    "timestamp": 1624233600000,
+    "timestamp": 1626048000000,
     "colors": {
       "vibrant": "#6c6454",
       "darkVibrant": "#bbac25",
@@ -43,22 +43,25 @@
     },
     "episodes": [
       {
+        "publishingDate": "2020-12-07"
+      },
+      {
+        "publishingDate": "2021-06-02"
+      },
+      {
         "publishingDate": "2020-12-25"
       },
       {
-        "publishingDate": "2020-05-11"
+        "publishingDate": "2020-10-21"
       },
       {
         "publishingDate": "2020-04-21"
       },
       {
-        "publishingDate": "2020-12-07"
+        "publishingDate": "2020-05-11"
       },
       {
         "publishingDate": "2021-02-24"
-      },
-      {
-        "publishingDate": "2020-10-21"
       },
       {
         "publishingDate": "2020-05-19"
@@ -73,10 +76,10 @@
         "publishingDate": "2020-04-09"
       },
       {
-        "publishingDate": "2020-06-01"
+        "publishingDate": "2021-01-29"
       },
       {
-        "publishingDate": "2021-01-29"
+        "publishingDate": "2020-06-01"
       },
       {
         "publishingDate": "2021-01-11"
@@ -85,7 +88,7 @@
         "publishingDate": "2020-08-01"
       },
       {
-        "publishingDate": "2020-11-05"
+        "publishingDate": "2021-05-14"
       },
       {
         "publishingDate": "2020-08-21"
@@ -94,7 +97,16 @@
         "publishingDate": "2020-08-31"
       },
       {
+        "publishingDate": "2020-11-05"
+      },
+      {
         "publishingDate": "2020-04-01"
+      },
+      {
+        "publishingDate": "2020-07-10"
+      },
+      {
+        "publishingDate": "2021-06-21"
       },
       {
         "publishingDate": "2021-03-08"
@@ -103,19 +115,10 @@
         "publishingDate": "2020-06-19"
       },
       {
-        "publishingDate": "2020-07-10"
-      },
-      {
         "publishingDate": "2021-04-19"
       },
       {
-        "publishingDate": "2021-05-14"
-      },
-      {
-        "publishingDate": "2021-06-02"
-      },
-      {
-        "publishingDate": "2021-06-21"
+        "publishingDate": "2021-07-12"
       }
     ],
     "logoRepoImage": "pvpz6d7.png"
