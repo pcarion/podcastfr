@@ -28,7 +28,7 @@
   "pid": "pljd0w7",
   "yamlDescriptionFile": "indie_makers-162.yaml",
   "extra": {
-    "timestamp": 1625560509000,
+    "timestamp": 1626159600000,
     "colors": {
       "vibrant": "#4b362f",
       "darkVibrant": "#642414",
@@ -38,6 +38,9 @@
       "lightMuted": "#bdb3d5"
     },
     "episodes": [
+      {
+        "publishingDate": "2021-07-13"
+      },
       {
         "publishingDate": "2021-07-06"
       },
