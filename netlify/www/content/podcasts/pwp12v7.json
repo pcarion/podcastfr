@@ -28,7 +28,7 @@
   "pid": "pwp12v7",
   "yamlDescriptionFile": "parlons_design-121.yaml",
   "extra": {
-    "timestamp": 1626775200000,
+    "timestamp": 1627380000000,
     "colors": {
       "vibrant": "#2a2a2a",
       "darkVibrant": "#825602",
@@ -607,6 +607,9 @@
       },
       {
         "publishingDate": "2021-07-20"
+      },
+      {
+        "publishingDate": "2021-07-27"
       }
     ],
     "logoRepoImage": "pwp12v7.png"
