@@ -28,7 +28,7 @@
   "pid": "pdjwllp",
   "yamlDescriptionFile": "le_digital_pour_tous-125.yaml",
   "extra": {
-    "timestamp": 1629271374000,
+    "timestamp": 1629356400000,
     "colors": {
       "vibrant": "#483c34",
       "darkVibrant": "#571e04",
@@ -38,6 +38,9 @@
       "lightMuted": "#bcbcbc"
     },
     "episodes": [
+      {
+        "publishingDate": "2021-08-19"
+      },
       {
         "publishingDate": "2021-08-18"
       },
@@ -480,6 +483,9 @@
         "publishingDate": "2021-01-20"
       },
       {
+        "publishingDate": "2021-01-20"
+      },
+      {
         "publishingDate": "2021-01-19"
       },
       {
@@ -802,6 +808,9 @@
       },
       {
         "publishingDate": "2020-07-31"
+      },
+      {
+        "publishingDate": "2020-07-30"
       },
       {
         "publishingDate": "2020-07-30"
@@ -1135,6 +1144,9 @@
       },
       {
         "publishingDate": "2020-02-27"
+      },
+      {
+        "publishingDate": "2020-02-26"
       },
       {
         "publishingDate": "2020-02-26"
