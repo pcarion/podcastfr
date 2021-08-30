@@ -32,7 +32,7 @@
   "pid": "pwp1mvp",
   "yamlDescriptionFile": "the_farmspot_podcast-169.yaml",
   "extra": {
-    "timestamp": 1629640485000,
+    "timestamp": 1630235869000,
     "colors": {
       "vibrant": "#36484d",
       "darkVibrant": "#654a1d",
@@ -42,6 +42,9 @@
       "lightMuted": "#e1d7d3"
     },
     "episodes": [
+      {
+        "publishingDate": "2021-08-29"
+      },
       {
         "publishingDate": "2021-08-22"
       },
