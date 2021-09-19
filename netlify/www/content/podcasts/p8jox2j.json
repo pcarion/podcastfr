@@ -32,7 +32,7 @@
   "pid": "p8jox2j",
   "yamlDescriptionFile": "ifttd_-_if_this_then_dev-39.yaml",
   "extra": {
-    "timestamp": 1631847600000,
+    "timestamp": 1631674800000,
     "colors": {
       "vibrant": "#2c2b31",
       "darkVibrant": "#7e4e05",
@@ -43,19 +43,10 @@
     },
     "episodes": [
       {
-        "publishingDate": "2021-09-17"
-      },
-      {
         "publishingDate": "2021-09-15"
       },
       {
-        "publishingDate": "2021-09-10"
-      },
-      {
         "publishingDate": "2021-09-08"
-      },
-      {
-        "publishingDate": "2021-09-03"
       },
       {
         "publishingDate": "2021-09-01"
@@ -94,6 +85,9 @@
         "publishingDate": "2021-07-07"
       },
       {
+        "publishingDate": "2021-07-01"
+      },
+      {
         "publishingDate": "2021-06-30"
       },
       {
@@ -107,6 +101,9 @@
       },
       {
         "publishingDate": "2021-06-09"
+      },
+      {
+        "publishingDate": "2021-06-03"
       },
       {
         "publishingDate": "2021-06-02"
@@ -632,6 +629,9 @@
       },
       {
         "publishingDate": "2019-09-18"
+      },
+      {
+        "publishingDate": "2019-09-12"
       },
       {
         "publishingDate": "2019-09-11"
