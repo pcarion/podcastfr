@@ -28,7 +28,7 @@
   "pid": "px754py",
   "yamlDescriptionFile": "radio_devops-12.yaml",
   "extra": {
-    "timestamp": 1631746817000,
+    "timestamp": 1632952859000,
     "colors": {
       "vibrant": "#2c3444",
       "darkVibrant": "#805904",
@@ -38,6 +38,9 @@
       "lightMuted": "#876511"
     },
     "episodes": [
+      {
+        "publishingDate": "2021-09-29"
+      },
       {
         "publishingDate": "2021-09-15"
       },
