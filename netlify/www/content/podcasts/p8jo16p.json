@@ -28,7 +28,7 @@
   "pid": "p8jo16p",
   "yamlDescriptionFile": "la_french_connection-139.yaml",
   "extra": {
-    "timestamp": 1631419200000,
+    "timestamp": 1632974400000,
     "colors": {
       "vibrant": "#116387",
       "darkVibrant": "#0f5675",
@@ -38,6 +38,9 @@
       "lightMuted": "#902908"
     },
     "episodes": [
+      {
+        "publishingDate": "2021-09-30"
+      },
       {
         "publishingDate": "2021-09-12"
       },
@@ -334,9 +337,6 @@
       },
       {
         "publishingDate": "2019-02-18"
-      },
-      {
-        "publishingDate": "2019-02-03"
       }
     ],
     "logoRepoImage": "p8jo16p.png"
