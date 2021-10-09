@@ -32,7 +32,7 @@
   "pid": "p1j08e7",
   "yamlDescriptionFile": "generation_statique-99.yaml",
   "extra": {
-    "timestamp": 0,
+    "timestamp": 1615298400000,
     "colors": {
       "vibrant": "#471088",
       "darkVibrant": "#340c64",
@@ -41,7 +41,236 @@
       "darkMuted": "#471088",
       "lightMuted": "#a89ec3"
     },
-    "episodes": [],
+    "episodes": [
+      {
+        "publishingDate": "2021-03-09"
+      },
+      {
+        "publishingDate": "2020-12-08"
+      },
+      {
+        "publishingDate": "2020-11-19"
+      },
+      {
+        "publishingDate": "2020-10-31"
+      },
+      {
+        "publishingDate": "2020-10-05"
+      },
+      {
+        "publishingDate": "2020-09-05"
+      },
+      {
+        "publishingDate": "2019-12-27"
+      },
+      {
+        "publishingDate": "2019-12-22"
+      },
+      {
+        "publishingDate": "2019-12-10"
+      },
+      {
+        "publishingDate": "2019-12-03"
+      },
+      {
+        "publishingDate": "2019-10-30"
+      },
+      {
+        "publishingDate": "2019-09-28"
+      },
+      {
+        "publishingDate": "2019-09-08"
+      },
+      {
+        "publishingDate": "2019-09-07"
+      },
+      {
+        "publishingDate": "2019-09-07"
+      },
+      {
+        "publishingDate": "2019-07-11"
+      },
+      {
+        "publishingDate": "2019-06-22"
+      },
+      {
+        "publishingDate": "2019-03-01"
+      },
+      {
+        "publishingDate": "2019-02-07"
+      },
+      {
+        "publishingDate": "2019-02-06"
+      },
+      {
+        "publishingDate": "2019-02-05"
+      },
+      {
+        "publishingDate": "2019-01-29"
+      },
+      {
+        "publishingDate": "2019-01-28"
+      },
+      {
+        "publishingDate": "2018-12-12"
+      },
+      {
+        "publishingDate": "2018-12-07"
+      },
+      {
+        "publishingDate": "2018-11-28"
+      },
+      {
+        "publishingDate": "2018-09-07"
+      },
+      {
+        "publishingDate": "2018-08-26"
+      },
+      {
+        "publishingDate": "2018-08-17"
+      },
+      {
+        "publishingDate": "2018-07-21"
+      },
+      {
+        "publishingDate": "2018-05-31"
+      },
+      {
+        "publishingDate": "2018-04-26"
+      },
+      {
+        "publishingDate": "2018-04-06"
+      },
+      {
+        "publishingDate": "2018-04-04"
+      },
+      {
+        "publishingDate": "2018-03-19"
+      },
+      {
+        "publishingDate": "2018-03-17"
+      },
+      {
+        "publishingDate": "2018-03-13"
+      },
+      {
+        "publishingDate": "2018-03-10"
+      },
+      {
+        "publishingDate": "2018-02-18"
+      },
+      {
+        "publishingDate": "2018-02-09"
+      },
+      {
+        "publishingDate": "2018-02-08"
+      },
+      {
+        "publishingDate": "2018-01-24"
+      },
+      {
+        "publishingDate": "2018-01-09"
+      },
+      {
+        "publishingDate": "2018-01-07"
+      },
+      {
+        "publishingDate": "2017-12-15"
+      },
+      {
+        "publishingDate": "2017-12-13"
+      },
+      {
+        "publishingDate": "2017-12-05"
+      },
+      {
+        "publishingDate": "2017-12-02"
+      },
+      {
+        "publishingDate": "2017-11-27"
+      },
+      {
+        "publishingDate": "2017-10-03"
+      },
+      {
+        "publishingDate": "2017-10-03"
+      },
+      {
+        "publishingDate": "2017-10-01"
+      },
+      {
+        "publishingDate": "2017-09-02"
+      },
+      {
+        "publishingDate": "2017-08-28"
+      },
+      {
+        "publishingDate": "2017-07-11"
+      },
+      {
+        "publishingDate": "2017-07-05"
+      },
+      {
+        "publishingDate": "2017-06-07"
+      },
+      {
+        "publishingDate": "2017-05-29"
+      },
+      {
+        "publishingDate": "2017-03-17"
+      },
+      {
+        "publishingDate": "2017-03-16"
+      },
+      {
+        "publishingDate": "2017-03-11"
+      },
+      {
+        "publishingDate": "2017-02-23"
+      },
+      {
+        "publishingDate": "2017-02-10"
+      },
+      {
+        "publishingDate": "2017-02-09"
+      },
+      {
+        "publishingDate": "2017-01-23"
+      },
+      {
+        "publishingDate": "2017-01-17"
+      },
+      {
+        "publishingDate": "2016-12-09"
+      },
+      {
+        "publishingDate": "2016-11-10"
+      },
+      {
+        "publishingDate": "2016-10-29"
+      },
+      {
+        "publishingDate": "2016-10-07"
+      },
+      {
+        "publishingDate": "2016-09-18"
+      },
+      {
+        "publishingDate": "2016-08-31"
+      },
+      {
+        "publishingDate": "2016-04-19"
+      },
+      {
+        "publishingDate": "2016-04-14"
+      },
+      {
+        "publishingDate": "2016-04-01"
+      },
+      {
+        "publishingDate": "2016-04-01"
+      }
+    ],
     "logoRepoImage": "p1j08e7.png"
   }
 }
