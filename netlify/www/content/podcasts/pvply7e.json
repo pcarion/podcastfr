@@ -28,7 +28,7 @@
   "pid": "pvply7e",
   "yamlDescriptionFile": "electro_monkeys-13.yaml",
   "extra": {
-    "timestamp": 1633471200000,
+    "timestamp": 1634081517000,
     "colors": {
       "vibrant": "#444444",
       "darkVibrant": "#135c56",
@@ -38,6 +38,9 @@
       "lightMuted": "#cccccc"
     },
     "episodes": [
+      {
+        "publishingDate": "2021-10-12"
+      },
       {
         "publishingDate": "2021-10-05"
       },
