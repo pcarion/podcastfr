@@ -28,7 +28,7 @@
   "pid": "pdjwllp",
   "yamlDescriptionFile": "le_digital_pour_tous-125.yaml",
   "extra": {
-    "timestamp": 1634023116000,
+    "timestamp": 1634109808000,
     "colors": {
       "vibrant": "#483c34",
       "darkVibrant": "#571e04",
@@ -38,6 +38,9 @@
       "lightMuted": "#bcbcbc"
     },
     "episodes": [
+      {
+        "publishingDate": "2021-10-13"
+      },
       {
         "publishingDate": "2021-10-12"
       },
