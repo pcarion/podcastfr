@@ -32,7 +32,7 @@
   "pid": "p8jom2p",
   "yamlDescriptionFile": "les_technos-87.yaml",
   "extra": {
-    "timestamp": 1633946403000,
+    "timestamp": 1634244208000,
     "colors": {
       "vibrant": "#234f75",
       "darkVibrant": "#1e4466",
@@ -42,6 +42,9 @@
       "lightMuted": "#ccdce4"
     },
     "episodes": [
+      {
+        "publishingDate": "2021-10-14"
+      },
       {
         "publishingDate": "2021-10-11"
       },
