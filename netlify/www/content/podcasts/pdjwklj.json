@@ -28,7 +28,7 @@
   "pid": "pdjwklj",
   "yamlDescriptionFile": "le_joboscope-149.yaml",
   "extra": {
-    "timestamp": 1630602013000,
+    "timestamp": 1634826304000,
     "colors": {
       "vibrant": "#4b4f5e",
       "darkVibrant": "#04346c",
@@ -38,6 +38,9 @@
       "lightMuted": "#acd4b4"
     },
     "episodes": [
+      {
+        "publishingDate": "2021-10-21"
+      },
       {
         "publishingDate": "2021-09-02"
       },
