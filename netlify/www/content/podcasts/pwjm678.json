@@ -44,7 +44,7 @@
   "pid": "pwjm678",
   "yamlDescriptionFile": "les_cast_codeurs_podcast-11.yaml",
   "extra": {
-    "timestamp": 1634116098000,
+    "timestamp": 1634896175000,
     "colors": {
       "vibrant": "#644434",
       "darkVibrant": "#502c0f",
@@ -54,6 +54,9 @@
       "lightMuted": "#c1a588"
     },
     "episodes": [
+      {
+        "publishingDate": "2021-10-22"
+      },
       {
         "publishingDate": "2021-10-13"
       },
