@@ -28,7 +28,7 @@
   "pid": "pnp2voj",
   "yamlDescriptionFile": "le_podcast_agile-120.yaml",
   "extra": {
-    "timestamp": 1634496041000,
+    "timestamp": 1635095068000,
     "colors": {
       "vibrant": "#172426",
       "darkVibrant": "#7c740d",
@@ -38,6 +38,9 @@
       "lightMuted": "#71a4b4"
     },
     "episodes": [
+      {
+        "publishingDate": "2021-10-24"
+      },
       {
         "publishingDate": "2021-10-17"
       },
