@@ -64,7 +64,7 @@
   "pid": "pmjv4zj",
   "yamlDescriptionFile": "goood_morning_web_-_le_podcast_pour_et_par_les_amoureux_du_web_on_goood_morning_web-41.yaml",
   "extra": {
-    "timestamp": 1632722400000,
+    "timestamp": 1635141600000,
     "colors": {
       "vibrant": "#373535",
       "darkVibrant": "#6a191d",
@@ -74,6 +74,18 @@
       "lightMuted": "#d9bebd"
     },
     "episodes": [
+      {
+        "publishingDate": "2021-10-25"
+      },
+      {
+        "publishingDate": "2021-10-18"
+      },
+      {
+        "publishingDate": "2021-10-11"
+      },
+      {
+        "publishingDate": "2021-10-04"
+      },
       {
         "publishingDate": "2021-09-27"
       },
