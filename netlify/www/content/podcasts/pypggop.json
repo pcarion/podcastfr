@@ -32,7 +32,7 @@
   "pid": "pypggop",
   "yamlDescriptionFile": "visual_studio_talk_show-30.yaml",
   "extra": {
-    "timestamp": 1633090397000,
+    "timestamp": 1636406794000,
     "colors": {
       "vibrant": "#282a46",
       "darkVibrant": "#044484",
@@ -42,6 +42,9 @@
       "lightMuted": "#b0bcd5"
     },
     "episodes": [
+      {
+        "publishingDate": "2021-11-08"
+      },
       {
         "publishingDate": "2021-10-01"
       },
@@ -338,9 +341,6 @@
       },
       {
         "publishingDate": "2013-08-27"
-      },
-      {
-        "publishingDate": "2013-07-14"
       }
     ],
     "logoRepoImage": "pypggop.png"
