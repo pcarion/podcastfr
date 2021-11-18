@@ -34,14 +34,13 @@
   "extra": {
     "timestamp": 0,
     "colors": {
-      "vibrant": "#234f75",
-      "darkVibrant": "#1e4466",
-      "lightVibrant": "#a3c3e4",
-      "muted": "#234f75",
-      "darkMuted": "#234f75",
-      "lightMuted": "#ccdce4"
+      "vibrant": null,
+      "darkVibrant": null,
+      "lightVibrant": null,
+      "muted": null,
+      "darkMuted": null,
+      "lightMuted": null
     },
-    "episodes": [],
-    "logoRepoImage": "p8jom2p.png"
+    "episodes": []
   }
 }
