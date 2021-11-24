@@ -28,7 +28,7 @@
   "pid": "pvpl3yp",
   "yamlDescriptionFile": "le_rendez-vous_tech-37.yaml",
   "extra": {
-    "timestamp": 1637470839000,
+    "timestamp": 1637674200000,
     "colors": {
       "vibrant": "#343434",
       "darkVibrant": "#9c043c",
@@ -38,6 +38,9 @@
       "lightMuted": "#969696"
     },
     "episodes": [
+      {
+        "publishingDate": "2021-11-23"
+      },
       {
         "publishingDate": "2021-11-21"
       },
@@ -484,9 +487,6 @@
       },
       {
         "publishingDate": "2019-04-02"
-      },
-      {
-        "publishingDate": "2019-03-26"
       }
     ],
     "logoRepoImage": "pvpl3yp.png"
