@@ -32,7 +32,7 @@
   "pid": "pwp1lnj",
   "yamlDescriptionFile": "burgertech-93.yaml",
   "extra": {
-    "timestamp": 1637011394000,
+    "timestamp": 1638226277000,
     "colors": {
       "vibrant": "#243444",
       "darkVibrant": "#530404",
@@ -42,6 +42,9 @@
       "lightMuted": "#acb2b8"
     },
     "episodes": [
+      {
+        "publishingDate": "2021-11-29"
+      },
       {
         "publishingDate": "2021-11-15"
       },
