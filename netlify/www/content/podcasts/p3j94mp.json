@@ -28,7 +28,7 @@
   "pid": "p3j94mp",
   "yamlDescriptionFile": "tech_co-172.yaml",
   "extra": {
-    "timestamp": 1639090170000,
+    "timestamp": 1639696268000,
     "colors": {
       "vibrant": "#44345c",
       "darkVibrant": "#144c6c",
@@ -38,6 +38,45 @@
       "lightMuted": "#c7c4c6"
     },
     "episodes": [
+      {
+        "publishingDate": "2021-12-16"
+      },
+      {
+        "publishingDate": "2021-12-16"
+      },
+      {
+        "publishingDate": "2021-12-16"
+      },
+      {
+        "publishingDate": "2021-12-15"
+      },
+      {
+        "publishingDate": "2021-12-15"
+      },
+      {
+        "publishingDate": "2021-12-15"
+      },
+      {
+        "publishingDate": "2021-12-15"
+      },
+      {
+        "publishingDate": "2021-12-15"
+      },
+      {
+        "publishingDate": "2021-12-14"
+      },
+      {
+        "publishingDate": "2021-12-14"
+      },
+      {
+        "publishingDate": "2021-12-13"
+      },
+      {
+        "publishingDate": "2021-12-13"
+      },
+      {
+        "publishingDate": "2021-12-13"
+      },
       {
         "publishingDate": "2021-12-09"
       },
@@ -283,42 +322,6 @@
       },
       {
         "publishingDate": "2021-10-20"
-      },
-      {
-        "publishingDate": "2021-10-20"
-      },
-      {
-        "publishingDate": "2021-10-19"
-      },
-      {
-        "publishingDate": "2021-10-19"
-      },
-      {
-        "publishingDate": "2021-10-19"
-      },
-      {
-        "publishingDate": "2021-10-18"
-      },
-      {
-        "publishingDate": "2021-10-18"
-      },
-      {
-        "publishingDate": "2021-10-18"
-      },
-      {
-        "publishingDate": "2021-10-14"
-      },
-      {
-        "publishingDate": "2021-10-14"
-      },
-      {
-        "publishingDate": "2021-10-14"
-      },
-      {
-        "publishingDate": "2021-10-13"
-      },
-      {
-        "publishingDate": "2021-10-13"
       }
     ],
     "logoRepoImage": "p3j94mp.png"
