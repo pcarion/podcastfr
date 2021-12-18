@@ -28,7 +28,7 @@
   "pid": "plpe8p4",
   "yamlDescriptionFile": "big_data_hebdo-8.yaml",
   "extra": {
-    "timestamp": 1639114200000,
+    "timestamp": 1639719000000,
     "colors": {
       "vibrant": "#966b02",
       "darkVibrant": "#825d02",
@@ -38,6 +38,9 @@
       "lightMuted": "#956903"
     },
     "episodes": [
+      {
+        "publishingDate": "2021-12-17"
+      },
       {
         "publishingDate": "2021-12-10"
       },
