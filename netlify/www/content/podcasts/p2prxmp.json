@@ -28,68 +28,15 @@
   "pid": "p2prxmp",
   "yamlDescriptionFile": "putain_de_code_!-40.yaml",
   "extra": {
-    "timestamp": 1613637811000,
+    "timestamp": 0,
     "colors": {
-      "vibrant": "#940411",
-      "darkVibrant": "#cc0618",
-      "lightVibrant": "#e5909c",
-      "muted": "#90081a",
-      "darkMuted": "#940411",
-      "lightMuted": "#7b1d2a"
+      "vibrant": null,
+      "darkVibrant": null,
+      "lightVibrant": null,
+      "muted": null,
+      "darkMuted": null,
+      "lightMuted": null
     },
-    "episodes": [
-      {
-        "publishingDate": "2021-02-18"
-      },
-      {
-        "publishingDate": "2020-12-30"
-      },
-      {
-        "publishingDate": "2020-05-11"
-      },
-      {
-        "publishingDate": "2019-06-12"
-      },
-      {
-        "publishingDate": "2019-04-07"
-      },
-      {
-        "publishingDate": "2019-03-01"
-      },
-      {
-        "publishingDate": "2018-12-12"
-      },
-      {
-        "publishingDate": "2018-04-10"
-      },
-      {
-        "publishingDate": "2018-02-01"
-      },
-      {
-        "publishingDate": "2017-11-23"
-      },
-      {
-        "publishingDate": "2017-10-24"
-      },
-      {
-        "publishingDate": "2017-06-26"
-      },
-      {
-        "publishingDate": "2017-05-02"
-      },
-      {
-        "publishingDate": "2017-03-21"
-      },
-      {
-        "publishingDate": "2017-02-15"
-      },
-      {
-        "publishingDate": "2017-01-11"
-      },
-      {
-        "publishingDate": "2016-12-11"
-      }
-    ],
-    "logoRepoImage": "p2prxmp.png"
+    "episodes": []
   }
 }
