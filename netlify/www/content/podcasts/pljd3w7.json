@@ -28,7 +28,7 @@
   "pid": "pljd3w7",
   "yamlDescriptionFile": "welovedevs_le_podcast-138.yaml",
   "extra": {
-    "timestamp": 1639114620000,
+    "timestamp": 1640148780000,
     "colors": {
       "vibrant": "#74586c",
       "darkVibrant": "#360eb3",
@@ -38,6 +38,9 @@
       "lightMuted": "#9d848b"
     },
     "episodes": [
+      {
+        "publishingDate": "2021-12-22"
+      },
       {
         "publishingDate": "2021-12-10"
       },
