@@ -19,12 +19,10 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-matomo',
+      resolve: 'gatsby-plugin-plausible',
       options: {
-        siteId: '1',
-        matomoUrl: 'https://www.cistula.com/',
-        siteUrl: 'https://www.podcastfr.com/',
-        disableCookies: true,
+        domain: 'podcastfr.com',
+        customDomain: `typingfrog.com/js/plausible.js?original=`,
       },
     },
     {
