@@ -28,7 +28,7 @@
   "pid": "pdjn03p",
   "yamlDescriptionFile": "cpu_carre_petit_utile-31.yaml",
   "extra": {
-    "timestamp": 1639648800000,
+    "timestamp": 1642672800000,
     "colors": {
       "vibrant": "#5c5c4c",
       "darkVibrant": "#025c82",
@@ -38,6 +38,9 @@
       "lightMuted": "#b4acac"
     },
     "episodes": [
+      {
+        "publishingDate": "2022-01-20"
+      },
       {
         "publishingDate": "2021-12-16"
       },
@@ -340,9 +343,6 @@
       },
       {
         "publishingDate": "2018-04-05"
-      },
-      {
-        "publishingDate": "2018-03-29"
       }
     ],
     "logoRepoImage": "pdjn03p.png"
