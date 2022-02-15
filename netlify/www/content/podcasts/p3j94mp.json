@@ -28,7 +28,7 @@
   "pid": "p3j94mp",
   "yamlDescriptionFile": "tech_co-172.yaml",
   "extra": {
-    "timestamp": 1644525708000,
+    "timestamp": 1644874412000,
     "colors": {
       "vibrant": "#44345c",
       "darkVibrant": "#144c6c",
@@ -38,6 +38,12 @@
       "lightMuted": "#c7c4c6"
     },
     "episodes": [
+      {
+        "publishingDate": "2022-02-14"
+      },
+      {
+        "publishingDate": "2022-02-14"
+      },
       {
         "publishingDate": "2022-02-10"
       },
@@ -331,12 +337,6 @@
       },
       {
         "publishingDate": "2021-12-07"
-      },
-      {
-        "publishingDate": "2021-12-07"
-      },
-      {
-        "publishingDate": "2021-12-06"
       }
     ],
     "logoRepoImage": "p3j94mp.png"

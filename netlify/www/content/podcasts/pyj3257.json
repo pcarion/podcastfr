@@ -28,7 +28,7 @@
   "pid": "pyj3257",
   "yamlDescriptionFile": "devtheory_interviews-142.yaml",
   "extra": {
-    "timestamp": 1643002200000,
+    "timestamp": 1644816600000,
     "colors": {
       "vibrant": "#2c2c4c",
       "darkVibrant": "#242c4b",
@@ -38,6 +38,9 @@
       "lightMuted": "#900820"
     },
     "episodes": [
+      {
+        "publishingDate": "2022-02-14"
+      },
       {
         "publishingDate": "2022-01-24"
       },
