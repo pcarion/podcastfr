@@ -28,7 +28,7 @@
   "pid": "pwjyvjo",
   "yamlDescriptionFile": "le_podcast_aws_en_francais-2.yaml",
   "extra": {
-    "timestamp": 1646978400000,
+    "timestamp": 1647583200000,
     "colors": {
       "vibrant": "#385c7c",
       "darkVibrant": "#345c84",
@@ -38,6 +38,9 @@
       "lightMuted": "#94acc4"
     },
     "episodes": [
+      {
+        "publishingDate": "2022-03-18"
+      },
       {
         "publishingDate": "2022-03-11"
       },
