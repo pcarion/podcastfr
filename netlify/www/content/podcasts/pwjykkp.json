@@ -28,7 +28,7 @@
   "pid": "pwjykkp",
   "yamlDescriptionFile": "le_podcast_tech-150.yaml",
   "extra": {
-    "timestamp": 1646290814000,
+    "timestamp": 1649833256000,
     "colors": {
       "vibrant": "#6d4938",
       "darkVibrant": "#422414",
@@ -38,6 +38,9 @@
       "lightMuted": "#ddc7c0"
     },
     "episodes": [
+      {
+        "publishingDate": "2022-04-13"
+      },
       {
         "publishingDate": "2022-03-03"
       },
