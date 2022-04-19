@@ -28,7 +28,7 @@
   "pid": "pxj6e79",
   "yamlDescriptionFile": "anti-brouillard-9.yaml",
   "extra": {
-    "timestamp": 1649638800000,
+    "timestamp": 1650330000000,
     "colors": {
       "vibrant": "#57405e",
       "darkVibrant": "#275d51",
@@ -38,6 +38,9 @@
       "lightMuted": "#a4c6cc"
     },
     "episodes": [
+      {
+        "publishingDate": "2022-04-19"
+      },
       {
         "publishingDate": "2022-04-11"
       },
