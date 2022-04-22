@@ -28,7 +28,7 @@
   "pid": "pnpxx5p",
   "yamlDescriptionFile": "cafe_craft-76.yaml",
   "extra": {
-    "timestamp": 1557785700000,
+    "timestamp": 0,
     "colors": {
       "vibrant": "#613f2e",
       "darkVibrant": "#6c3425",
@@ -37,122 +37,7 @@
       "darkMuted": "#613f2e",
       "lightMuted": "#c4aca4"
     },
-    "episodes": [
-      {
-        "publishingDate": "2019-05-13"
-      },
-      {
-        "publishingDate": "2019-05-12"
-      },
-      {
-        "publishingDate": "2019-04-28"
-      },
-      {
-        "publishingDate": "2019-04-01"
-      },
-      {
-        "publishingDate": "2019-03-31"
-      },
-      {
-        "publishingDate": "2019-03-25"
-      },
-      {
-        "publishingDate": "2019-03-25"
-      },
-      {
-        "publishingDate": "2018-06-24"
-      },
-      {
-        "publishingDate": "2018-06-22"
-      },
-      {
-        "publishingDate": "2018-06-17"
-      },
-      {
-        "publishingDate": "2018-06-10"
-      },
-      {
-        "publishingDate": "2018-06-02"
-      },
-      {
-        "publishingDate": "2018-04-11"
-      },
-      {
-        "publishingDate": "2018-03-25"
-      },
-      {
-        "publishingDate": "2018-03-18"
-      },
-      {
-        "publishingDate": "2018-03-11"
-      },
-      {
-        "publishingDate": "2018-03-04"
-      },
-      {
-        "publishingDate": "2018-02-25"
-      },
-      {
-        "publishingDate": "2018-02-18"
-      },
-      {
-        "publishingDate": "2018-02-04"
-      },
-      {
-        "publishingDate": "2018-01-21"
-      },
-      {
-        "publishingDate": "2018-01-14"
-      },
-      {
-        "publishingDate": "2018-01-07"
-      },
-      {
-        "publishingDate": "2017-12-31"
-      },
-      {
-        "publishingDate": "2017-12-24"
-      },
-      {
-        "publishingDate": "2017-12-17"
-      },
-      {
-        "publishingDate": "2017-12-10"
-      },
-      {
-        "publishingDate": "2017-12-03"
-      },
-      {
-        "publishingDate": "2017-11-26"
-      },
-      {
-        "publishingDate": "2017-11-19"
-      },
-      {
-        "publishingDate": "2017-11-12"
-      },
-      {
-        "publishingDate": "2017-11-05"
-      },
-      {
-        "publishingDate": "2017-10-29"
-      },
-      {
-        "publishingDate": "2017-10-22"
-      },
-      {
-        "publishingDate": "2017-10-15"
-      },
-      {
-        "publishingDate": "2017-10-07"
-      },
-      {
-        "publishingDate": "2017-10-07"
-      },
-      {
-        "publishingDate": "2017-10-07"
-      }
-    ],
+    "episodes": [],
     "logoRepoImage": "pnpxx5p.png"
   }
 }
