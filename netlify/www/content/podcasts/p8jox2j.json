@@ -32,7 +32,7 @@
   "pid": "p8jox2j",
   "yamlDescriptionFile": "ifttd_-_if_this_then_dev-39.yaml",
   "extra": {
-    "timestamp": 1650596412000,
+    "timestamp": 1650423620000,
     "colors": {
       "vibrant": "#2c2b31",
       "darkVibrant": "#7e4e05",
@@ -42,9 +42,6 @@
       "lightMuted": "#c4bbc0"
     },
     "episodes": [
-      {
-        "publishingDate": "2022-04-22"
-      },
       {
         "publishingDate": "2022-04-20"
       },
@@ -128,6 +125,9 @@
       },
       {
         "publishingDate": "2022-01-04"
+      },
+      {
+        "publishingDate": "2021-12-30"
       },
       {
         "publishingDate": "2021-12-28"
