@@ -28,50 +28,16 @@
   "pid": "pwjmzrp",
   "yamlDescriptionFile": "nocode_masta_le_podcast_sans_code-159.yaml",
   "extra": {
-    "timestamp": 1644850800000,
+    "timestamp": 0,
     "colors": {
-      "vibrant": "#3c464c",
-      "darkVibrant": "#801903",
-      "lightVibrant": "#fc947c",
-      "muted": "#ac544c",
-      "darkMuted": "#3c464c",
-      "lightMuted": "#c8b4ad"
+      "vibrant": null,
+      "darkVibrant": null,
+      "lightVibrant": null,
+      "muted": null,
+      "darkMuted": null,
+      "lightMuted": null
     },
-    "episodes": [
-      {
-        "publishingDate": "2022-02-14"
-      },
-      {
-        "publishingDate": "2021-03-01"
-      },
-      {
-        "publishingDate": "2021-02-08"
-      },
-      {
-        "publishingDate": "2021-01-27"
-      },
-      {
-        "publishingDate": "2021-01-04"
-      },
-      {
-        "publishingDate": "2020-12-01"
-      },
-      {
-        "publishingDate": "2020-11-18"
-      },
-      {
-        "publishingDate": "2020-11-08"
-      },
-      {
-        "publishingDate": "2020-10-27"
-      },
-      {
-        "publishingDate": "2020-10-19"
-      },
-      {
-        "publishingDate": "2020-02-16"
-      }
-    ],
+    "episodes": [],
     "logoRepoImage": "pwjmzrp.png"
   }
 }
