@@ -28,7 +28,7 @@
   "pid": "pvpl3yp",
   "yamlDescriptionFile": "le_rendez-vous_tech-37.yaml",
   "extra": {
-    "timestamp": 1650979405000,
+    "timestamp": 1651582802000,
     "colors": {
       "vibrant": "#343434",
       "darkVibrant": "#d40c4c",
@@ -38,6 +38,9 @@
       "lightMuted": "#989898"
     },
     "episodes": [
+      {
+        "publishingDate": "2022-05-03"
+      },
       {
         "publishingDate": "2022-04-26"
       },
@@ -334,159 +337,6 @@
       },
       {
         "publishingDate": "2020-07-28"
-      },
-      {
-        "publishingDate": "2020-07-21"
-      },
-      {
-        "publishingDate": "2020-07-14"
-      },
-      {
-        "publishingDate": "2020-07-07"
-      },
-      {
-        "publishingDate": "2020-07-05"
-      },
-      {
-        "publishingDate": "2020-06-30"
-      },
-      {
-        "publishingDate": "2020-06-28"
-      },
-      {
-        "publishingDate": "2020-06-23"
-      },
-      {
-        "publishingDate": "2020-06-21"
-      },
-      {
-        "publishingDate": "2020-06-16"
-      },
-      {
-        "publishingDate": "2020-06-12"
-      },
-      {
-        "publishingDate": "2020-06-09"
-      },
-      {
-        "publishingDate": "2020-06-02"
-      },
-      {
-        "publishingDate": "2020-05-26"
-      },
-      {
-        "publishingDate": "2020-05-21"
-      },
-      {
-        "publishingDate": "2020-05-19"
-      },
-      {
-        "publishingDate": "2020-05-12"
-      },
-      {
-        "publishingDate": "2020-05-07"
-      },
-      {
-        "publishingDate": "2020-05-05"
-      },
-      {
-        "publishingDate": "2020-04-28"
-      },
-      {
-        "publishingDate": "2020-04-21"
-      },
-      {
-        "publishingDate": "2020-04-14"
-      },
-      {
-        "publishingDate": "2020-04-07"
-      },
-      {
-        "publishingDate": "2020-03-30"
-      },
-      {
-        "publishingDate": "2020-03-27"
-      },
-      {
-        "publishingDate": "2020-03-24"
-      },
-      {
-        "publishingDate": "2020-03-17"
-      },
-      {
-        "publishingDate": "2020-03-10"
-      },
-      {
-        "publishingDate": "2020-03-03"
-      },
-      {
-        "publishingDate": "2020-02-25"
-      },
-      {
-        "publishingDate": "2020-02-18"
-      },
-      {
-        "publishingDate": "2020-02-11"
-      },
-      {
-        "publishingDate": "2020-02-04"
-      },
-      {
-        "publishingDate": "2020-01-28"
-      },
-      {
-        "publishingDate": "2020-01-21"
-      },
-      {
-        "publishingDate": "2020-01-14"
-      },
-      {
-        "publishingDate": "2020-01-06"
-      },
-      {
-        "publishingDate": "2019-12-30"
-      },
-      {
-        "publishingDate": "2019-12-23"
-      },
-      {
-        "publishingDate": "2019-12-17"
-      },
-      {
-        "publishingDate": "2019-12-10"
-      },
-      {
-        "publishingDate": "2019-12-03"
-      },
-      {
-        "publishingDate": "2019-11-26"
-      },
-      {
-        "publishingDate": "2019-11-19"
-      },
-      {
-        "publishingDate": "2019-11-12"
-      },
-      {
-        "publishingDate": "2019-11-06"
-      },
-      {
-        "publishingDate": "2019-10-28"
-      },
-      {
-        "publishingDate": "2019-10-22"
-      },
-      {
-        "publishingDate": "2019-10-15"
-      },
-      {
-        "publishingDate": "2019-10-08"
-      },
-      {
-        "publishingDate": "2019-10-01"
-      },
-      {
-        "publishingDate": "2019-09-24"
       }
     ],
     "logoRepoImage": "pvpl3yp.png"
