@@ -28,7 +28,7 @@
   "pid": "pljdo17",
   "yamlDescriptionFile": "dev'obs-62.yaml",
   "extra": {
-    "timestamp": 1645180141000,
+    "timestamp": 1651815000000,
     "colors": {
       "vibrant": "#4c4c4c",
       "darkVibrant": "#21632b",
@@ -38,6 +38,9 @@
       "lightMuted": "#c4e5c3"
     },
     "episodes": [
+      {
+        "publishingDate": "2022-05-06"
+      },
       {
         "publishingDate": "2022-02-18"
       },
