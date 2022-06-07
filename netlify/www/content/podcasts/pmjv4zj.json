@@ -64,7 +64,7 @@
   "pid": "pmjv4zj",
   "yamlDescriptionFile": "goood_morning_web_-_le_podcast_pour_et_par_les_amoureux_du_web_on_goood_morning_web-41.yaml",
   "extra": {
-    "timestamp": 1645423200000,
+    "timestamp": 1654495200000,
     "colors": {
       "vibrant": "#373535",
       "darkVibrant": "#6a191d",
@@ -74,6 +74,51 @@
       "lightMuted": "#d9bebd"
     },
     "episodes": [
+      {
+        "publishingDate": "2022-06-06"
+      },
+      {
+        "publishingDate": "2022-05-30"
+      },
+      {
+        "publishingDate": "2022-05-23"
+      },
+      {
+        "publishingDate": "2022-05-16"
+      },
+      {
+        "publishingDate": "2022-05-09"
+      },
+      {
+        "publishingDate": "2022-05-02"
+      },
+      {
+        "publishingDate": "2022-04-25"
+      },
+      {
+        "publishingDate": "2022-04-18"
+      },
+      {
+        "publishingDate": "2022-04-11"
+      },
+      {
+        "publishingDate": "2022-04-04"
+      },
+      {
+        "publishingDate": "2022-03-28"
+      },
+      {
+        "publishingDate": "2022-03-21"
+      },
+      {
+        "publishingDate": "2022-03-14"
+      },
+      {
+        "publishingDate": "2022-03-07"
+      },
+      {
+        "publishingDate": "2022-02-28"
+      },
       {
         "publishingDate": "2022-02-21"
       },
