@@ -28,86 +28,15 @@
   "pid": "p1j08m7",
   "yamlDescriptionFile": "coder_pour_changer_de_vie-103.yaml",
   "extra": {
-    "timestamp": 1649492845000,
+    "timestamp": 0,
     "colors": {
-      "vibrant": "#6a4539",
-      "darkVibrant": "#536a2b",
-      "lightVibrant": "#d4afa5",
-      "muted": "#a67d64",
-      "darkMuted": "#6a4539",
-      "lightMuted": "#abc0cc"
+      "vibrant": null,
+      "darkVibrant": null,
+      "lightVibrant": null,
+      "muted": null,
+      "darkMuted": null,
+      "lightMuted": null
     },
-    "episodes": [
-      {
-        "publishingDate": "2022-04-09"
-      },
-      {
-        "publishingDate": "2022-01-30"
-      },
-      {
-        "publishingDate": "2021-03-27"
-      },
-      {
-        "publishingDate": "2021-03-05"
-      },
-      {
-        "publishingDate": "2021-01-16"
-      },
-      {
-        "publishingDate": "2020-12-21"
-      },
-      {
-        "publishingDate": "2020-11-26"
-      },
-      {
-        "publishingDate": "2020-10-10"
-      },
-      {
-        "publishingDate": "2020-10-04"
-      },
-      {
-        "publishingDate": "2020-09-23"
-      },
-      {
-        "publishingDate": "2020-09-13"
-      },
-      {
-        "publishingDate": "2020-07-21"
-      },
-      {
-        "publishingDate": "2020-05-29"
-      },
-      {
-        "publishingDate": "2020-05-08"
-      },
-      {
-        "publishingDate": "2020-05-01"
-      },
-      {
-        "publishingDate": "2020-04-04"
-      },
-      {
-        "publishingDate": "2020-02-17"
-      },
-      {
-        "publishingDate": "2020-01-29"
-      },
-      {
-        "publishingDate": "2019-12-30"
-      },
-      {
-        "publishingDate": "2019-12-20"
-      },
-      {
-        "publishingDate": "2019-12-12"
-      },
-      {
-        "publishingDate": "2019-12-02"
-      },
-      {
-        "publishingDate": "2019-10-25"
-      }
-    ],
-    "logoRepoImage": "p1j08m7.png"
+    "episodes": []
   }
 }
