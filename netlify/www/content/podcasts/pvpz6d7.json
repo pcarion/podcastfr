@@ -32,7 +32,7 @@
   "pid": "pvpz6d7",
   "yamlDescriptionFile": "double_slash-95.yaml",
   "extra": {
-    "timestamp": 1655856000000,
+    "timestamp": 1656460800000,
     "colors": {
       "vibrant": "#6c6454",
       "darkVibrant": "#bbac25",
@@ -158,6 +158,9 @@
       },
       {
         "publishingDate": "2022-06-22"
+      },
+      {
+        "publishingDate": "2022-06-29"
       }
     ],
     "logoRepoImage": "pvpz6d7.png"
