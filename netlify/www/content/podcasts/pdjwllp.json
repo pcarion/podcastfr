@@ -28,7 +28,7 @@
   "pid": "pdjwllp",
   "yamlDescriptionFile": "le_digital_pour_tous-125.yaml",
   "extra": {
-    "timestamp": 1656658892000,
+    "timestamp": 1656909006000,
     "colors": {
       "vibrant": "#483c34",
       "darkVibrant": "#571e04",
@@ -38,6 +38,9 @@
       "lightMuted": "#bcbcbc"
     },
     "episodes": [
+      {
+        "publishingDate": "2022-07-04"
+      },
       {
         "publishingDate": "2022-07-01"
       },
