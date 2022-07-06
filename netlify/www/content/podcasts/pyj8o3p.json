@@ -28,7 +28,7 @@
   "pid": "pyj8o3p",
   "yamlDescriptionFile": "poddev-134.yaml",
   "extra": {
-    "timestamp": 1655191341000,
+    "timestamp": 1657040197000,
     "colors": {
       "vibrant": "#452f2d",
       "darkVibrant": "#671c24",
@@ -38,6 +38,9 @@
       "lightMuted": "#bcbcbc"
     },
     "episodes": [
+      {
+        "publishingDate": "2022-07-05"
+      },
       {
         "publishingDate": "2022-06-14"
       },

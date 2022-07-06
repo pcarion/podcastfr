@@ -28,7 +28,7 @@
   "pid": "p2prz9j",
   "yamlDescriptionFile": "saas_connection-164.yaml",
   "extra": {
-    "timestamp": 1656395156000,
+    "timestamp": 1656999154000,
     "colors": {
       "vibrant": "#3f404d",
       "darkVibrant": "#1484bc",
@@ -38,6 +38,9 @@
       "lightMuted": "#a7b8ce"
     },
     "episodes": [
+      {
+        "publishingDate": "2022-07-05"
+      },
       {
         "publishingDate": "2022-06-28"
       },
