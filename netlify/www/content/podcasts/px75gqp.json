@@ -28,7 +28,7 @@
   "pid": "px75gqp",
   "yamlDescriptionFile": "exostif-136.yaml",
   "extra": {
-    "timestamp": 1589192547000,
+    "timestamp": 0,
     "colors": {
       "vibrant": "#7a1e5a",
       "darkVibrant": "#b42c84",
@@ -37,17 +37,7 @@
       "darkMuted": "#7a1e5a",
       "lightMuted": "#f1ebf3"
     },
-    "episodes": [
-      {
-        "publishingDate": "2020-05-11"
-      },
-      {
-        "publishingDate": "2020-05-11"
-      },
-      {
-        "publishingDate": "2020-05-04"
-      }
-    ],
+    "episodes": [],
     "logoRepoImage": "px75gqp.png"
   }
 }
