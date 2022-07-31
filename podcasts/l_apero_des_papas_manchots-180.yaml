@@ -1,0 +1,27 @@
+title: L'Apéro des Papas Manchots
+description: |
+  Animateurs: Donkluivert et John Guecko Un podcast pour les petit nouveaux sur Linux
+imageUrl: http://www.bloguelinux.ca/wp-content/uploads/2016/12/images-duckduckgo-com.png
+
+contacts:
+  link: _
+  email: _
+  twitter: _
+  patreon: _
+  googleGroup: _
+
+hosts:
+  - name: Donkluivert et John Guecko
+    twitter: _
+
+feed:
+  rss: https://feeds.feedburner.com/AperoDesPapasManchots
+  itunes: _
+  spotify: _
+  soundcloud: _
+  deezer: _
+  google: _
+  castbox: _
+  pocketcast: _
+
+pid: plper47 # do not change
