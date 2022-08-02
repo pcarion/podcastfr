@@ -1,0 +1,139 @@
+{
+  "title": "La NoCode Family",
+  "description": "Chaque semaine, on rencontre un.e membre de la communauté NoCode, on découvre ses projets et on apprend comment se lancer sans coder ! NoCode.family, le podcast 🎙 qui t'aide à te lancer sans savoir coder, pour apprendre de celles et ceux qui développent leur business sans faire une ligne de code. Toi aussi, rejoins la NoCode Family 👊",
+  "imageUrl": "https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/7066581/7066581-1594191888755-eaed4f774d41e.jpg",
+  "pid": "pxj6y2p",
+  "feed": {
+    "rss": "https://anchor.fm/s/2ab755b4/podcast/rss",
+    "itunes": "https://podcasts.apple.com/fr/podcast/la-nocode-family/id1523536770?l=en",
+    "spotify": "_",
+    "soundcloud": "_",
+    "deezer": "_",
+    "google": "_",
+    "castbox": "_",
+    "pocketcast": "_"
+  },
+  "hosts": [
+    {
+      "name": "Simon Robic"
+    }
+  ],
+  "contacts": {
+    "link": "_",
+    "email": "_",
+    "twitter": "_",
+    "patreon": "_",
+    "googleGroup": "_"
+  },
+  "yamlDescriptionFile": "la_nocode_family-181.yaml",
+  "extra": {
+    "timestamp": 1618290000000,
+    "colors": {
+      "vibrant": "#3c4444",
+      "darkVibrant": "#404244",
+      "lightVibrant": "#babdbe",
+      "muted": "#7a7d7e",
+      "darkMuted": "#3c4444",
+      "lightMuted": "#cacccd"
+    },
+    "episodes": [
+      {
+        "publishingDate": "2021-04-13"
+      },
+      {
+        "publishingDate": "2021-03-10"
+      },
+      {
+        "publishingDate": "2021-03-02"
+      },
+      {
+        "publishingDate": "2021-02-25"
+      },
+      {
+        "publishingDate": "2021-02-23"
+      },
+      {
+        "publishingDate": "2021-02-16"
+      },
+      {
+        "publishingDate": "2021-02-11"
+      },
+      {
+        "publishingDate": "2021-02-09"
+      },
+      {
+        "publishingDate": "2021-02-04"
+      },
+      {
+        "publishingDate": "2021-02-02"
+      },
+      {
+        "publishingDate": "2021-01-28"
+      },
+      {
+        "publishingDate": "2021-01-26"
+      },
+      {
+        "publishingDate": "2021-01-21"
+      },
+      {
+        "publishingDate": "2021-01-19"
+      },
+      {
+        "publishingDate": "2021-01-14"
+      },
+      {
+        "publishingDate": "2021-01-12"
+      },
+      {
+        "publishingDate": "2021-01-05"
+      },
+      {
+        "publishingDate": "2020-11-24"
+      },
+      {
+        "publishingDate": "2020-11-17"
+      },
+      {
+        "publishingDate": "2020-10-16"
+      },
+      {
+        "publishingDate": "2020-10-06"
+      },
+      {
+        "publishingDate": "2020-09-29"
+      },
+      {
+        "publishingDate": "2020-09-22"
+      },
+      {
+        "publishingDate": "2020-09-16"
+      },
+      {
+        "publishingDate": "2020-09-08"
+      },
+      {
+        "publishingDate": "2020-09-01"
+      },
+      {
+        "publishingDate": "2020-08-18"
+      },
+      {
+        "publishingDate": "2020-08-11"
+      },
+      {
+        "publishingDate": "2020-08-04"
+      },
+      {
+        "publishingDate": "2020-07-28"
+      },
+      {
+        "publishingDate": "2020-07-21"
+      },
+      {
+        "publishingDate": "2020-07-14"
+      }
+    ],
+    "logoRepoImage": "pxj6y2p.png"
+  }
+}

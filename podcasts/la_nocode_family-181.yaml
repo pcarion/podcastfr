@@ -1,0 +1,27 @@
+title: La NoCode Family
+description: |
+  Chaque semaine, on rencontre un.e membre de la communauté NoCode, on découvre ses projets et on apprend comment se lancer sans coder ! NoCode.family, le podcast 🎙 qui t'aide à te lancer sans savoir coder, pour apprendre de celles et ceux qui développent leur business sans faire une ligne de code. Toi aussi, rejoins la NoCode Family 👊
+imageUrl: https://d3t3ozftmdmh3i.cloudfront.net/production/podcast_uploaded/7066581/7066581-1594191888755-eaed4f774d41e.jpg
+
+contacts:
+  link: _
+  email: _
+  twitter: _
+  patreon: _
+  googleGroup: _
+
+hosts:
+  - name: Simon Robic
+    twitter: _
+
+feed:
+  rss: https://anchor.fm/s/2ab755b4/podcast/rss
+  itunes: https://podcasts.apple.com/fr/podcast/la-nocode-family/id1523536770?l=en
+  spotify: _
+  soundcloud: _
+  deezer: _
+  google: _
+  castbox: _
+  pocketcast: _
+
+pid: pxj6y2p # do not change
