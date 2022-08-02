@@ -28,47 +28,15 @@
   "pid": "pxj41oj",
   "yamlDescriptionFile": "les_enflures_de_la_tech-53.yaml",
   "extra": {
-    "timestamp": 1656763903000,
+    "timestamp": 0,
     "colors": {
-      "vibrant": "#873c75",
-      "darkVibrant": "#6c145b",
-      "lightVibrant": "#df99cc",
-      "muted": "#a36995",
-      "darkMuted": "#873c75",
-      "lightMuted": "#d0b4c9"
+      "vibrant": null,
+      "darkVibrant": null,
+      "lightVibrant": null,
+      "muted": null,
+      "darkMuted": null,
+      "lightMuted": null
     },
-    "episodes": [
-      {
-        "publishingDate": "2022-07-02"
-      },
-      {
-        "publishingDate": "2021-10-03"
-      },
-      {
-        "publishingDate": "2020-12-16"
-      },
-      {
-        "publishingDate": "2020-12-11"
-      },
-      {
-        "publishingDate": "2020-12-11"
-      },
-      {
-        "publishingDate": "2020-12-04"
-      },
-      {
-        "publishingDate": "2020-12-01"
-      },
-      {
-        "publishingDate": "2020-12-01"
-      },
-      {
-        "publishingDate": "2020-11-29"
-      },
-      {
-        "publishingDate": "2020-11-28"
-      }
-    ],
-    "logoRepoImage": "pxj41oj.png"
+    "episodes": []
   }
 }
