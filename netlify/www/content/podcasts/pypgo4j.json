@@ -28,15 +28,320 @@
   "pid": "pypgo4j",
   "yamlDescriptionFile": "am_kam_gram-154.yaml",
   "extra": {
-    "timestamp": 0,
+    "timestamp": 1625464800000,
     "colors": {
-      "vibrant": null,
-      "darkVibrant": null,
-      "lightVibrant": null,
-      "muted": null,
-      "darkMuted": null,
-      "lightMuted": null
+      "vibrant": "#4e4431",
+      "darkVibrant": "#5b4c29",
+      "lightVibrant": "#fcdc9c",
+      "muted": "#a18c64",
+      "darkMuted": "#4e4431",
+      "lightMuted": "#b49c74"
     },
-    "episodes": []
+    "episodes": [
+      {
+        "publishingDate": "2021-07-05"
+      },
+      {
+        "publishingDate": "2021-06-28"
+      },
+      {
+        "publishingDate": "2021-06-21"
+      },
+      {
+        "publishingDate": "2021-06-14"
+      },
+      {
+        "publishingDate": "2021-06-07"
+      },
+      {
+        "publishingDate": "2021-05-31"
+      },
+      {
+        "publishingDate": "2021-05-24"
+      },
+      {
+        "publishingDate": "2021-05-17"
+      },
+      {
+        "publishingDate": "2021-05-10"
+      },
+      {
+        "publishingDate": "2021-05-03"
+      },
+      {
+        "publishingDate": "2021-04-26"
+      },
+      {
+        "publishingDate": "2021-04-19"
+      },
+      {
+        "publishingDate": "2021-04-12"
+      },
+      {
+        "publishingDate": "2021-04-05"
+      },
+      {
+        "publishingDate": "2021-03-29"
+      },
+      {
+        "publishingDate": "2021-03-22"
+      },
+      {
+        "publishingDate": "2021-03-15"
+      },
+      {
+        "publishingDate": "2021-03-08"
+      },
+      {
+        "publishingDate": "2021-03-01"
+      },
+      {
+        "publishingDate": "2021-02-22"
+      },
+      {
+        "publishingDate": "2021-02-15"
+      },
+      {
+        "publishingDate": "2021-02-08"
+      },
+      {
+        "publishingDate": "2021-02-01"
+      },
+      {
+        "publishingDate": "2021-01-25"
+      },
+      {
+        "publishingDate": "2021-01-18"
+      },
+      {
+        "publishingDate": "2021-01-11"
+      },
+      {
+        "publishingDate": "2021-01-04"
+      },
+      {
+        "publishingDate": "2020-12-28"
+      },
+      {
+        "publishingDate": "2020-12-21"
+      },
+      {
+        "publishingDate": "2020-12-17"
+      },
+      {
+        "publishingDate": "2020-12-14"
+      },
+      {
+        "publishingDate": "2020-12-10"
+      },
+      {
+        "publishingDate": "2020-12-07"
+      },
+      {
+        "publishingDate": "2020-11-30"
+      },
+      {
+        "publishingDate": "2020-11-23"
+      },
+      {
+        "publishingDate": "2020-11-19"
+      },
+      {
+        "publishingDate": "2020-11-16"
+      },
+      {
+        "publishingDate": "2020-11-09"
+      },
+      {
+        "publishingDate": "2020-11-05"
+      },
+      {
+        "publishingDate": "2020-11-02"
+      },
+      {
+        "publishingDate": "2020-10-29"
+      },
+      {
+        "publishingDate": "2020-10-26"
+      },
+      {
+        "publishingDate": "2020-10-26"
+      },
+      {
+        "publishingDate": "2020-10-22"
+      },
+      {
+        "publishingDate": "2020-10-19"
+      },
+      {
+        "publishingDate": "2020-10-16"
+      },
+      {
+        "publishingDate": "2020-10-12"
+      },
+      {
+        "publishingDate": "2020-10-05"
+      },
+      {
+        "publishingDate": "2020-09-28"
+      },
+      {
+        "publishingDate": "2020-09-21"
+      },
+      {
+        "publishingDate": "2020-09-17"
+      },
+      {
+        "publishingDate": "2020-09-14"
+      },
+      {
+        "publishingDate": "2020-09-10"
+      },
+      {
+        "publishingDate": "2020-09-07"
+      },
+      {
+        "publishingDate": "2020-09-04"
+      },
+      {
+        "publishingDate": "2020-09-03"
+      },
+      {
+        "publishingDate": "2020-09-02"
+      },
+      {
+        "publishingDate": "2020-09-01"
+      },
+      {
+        "publishingDate": "2020-08-31"
+      },
+      {
+        "publishingDate": "2020-08-27"
+      },
+      {
+        "publishingDate": "2020-08-24"
+      },
+      {
+        "publishingDate": "2020-08-20"
+      },
+      {
+        "publishingDate": "2020-08-17"
+      },
+      {
+        "publishingDate": "2020-08-13"
+      },
+      {
+        "publishingDate": "2020-08-10"
+      },
+      {
+        "publishingDate": "2020-08-06"
+      },
+      {
+        "publishingDate": "2020-08-03"
+      },
+      {
+        "publishingDate": "2020-07-30"
+      },
+      {
+        "publishingDate": "2020-07-27"
+      },
+      {
+        "publishingDate": "2020-07-23"
+      },
+      {
+        "publishingDate": "2020-07-20"
+      },
+      {
+        "publishingDate": "2020-07-16"
+      },
+      {
+        "publishingDate": "2020-07-13"
+      },
+      {
+        "publishingDate": "2020-07-10"
+      },
+      {
+        "publishingDate": "2020-07-07"
+      },
+      {
+        "publishingDate": "2020-07-02"
+      },
+      {
+        "publishingDate": "2020-06-29"
+      },
+      {
+        "publishingDate": "2020-06-26"
+      },
+      {
+        "publishingDate": "2020-06-24"
+      },
+      {
+        "publishingDate": "2020-06-22"
+      },
+      {
+        "publishingDate": "2020-06-19"
+      },
+      {
+        "publishingDate": "2020-06-17"
+      },
+      {
+        "publishingDate": "2020-06-15"
+      },
+      {
+        "publishingDate": "2020-06-12"
+      },
+      {
+        "publishingDate": "2020-06-10"
+      },
+      {
+        "publishingDate": "2020-06-08"
+      },
+      {
+        "publishingDate": "2020-06-05"
+      },
+      {
+        "publishingDate": "2020-06-03"
+      },
+      {
+        "publishingDate": "2020-06-01"
+      },
+      {
+        "publishingDate": "2020-05-29"
+      },
+      {
+        "publishingDate": "2020-05-26"
+      },
+      {
+        "publishingDate": "2020-05-22"
+      },
+      {
+        "publishingDate": "2020-05-19"
+      },
+      {
+        "publishingDate": "2020-05-15"
+      },
+      {
+        "publishingDate": "2020-05-12"
+      },
+      {
+        "publishingDate": "2020-05-08"
+      },
+      {
+        "publishingDate": "2020-05-05"
+      },
+      {
+        "publishingDate": "2020-05-01"
+      },
+      {
+        "publishingDate": "2020-04-28"
+      },
+      {
+        "publishingDate": "2020-04-19"
+      },
+      {
+        "publishingDate": "2020-04-19"
+      }
+    ],
+    "logoRepoImage": "pypgo4j.png"
   }
 }
