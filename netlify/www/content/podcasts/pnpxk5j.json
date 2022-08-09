@@ -28,7 +28,7 @@
   "pid": "pnpxk5j",
   "yamlDescriptionFile": "punkindev-52.yaml",
   "extra": {
-    "timestamp": 1659326400000,
+    "timestamp": 1659931200000,
     "colors": {
       "vibrant": "#744e3e",
       "darkVibrant": "#2b6b0e",
@@ -38,6 +38,9 @@
       "lightMuted": "#b1bfb3"
     },
     "episodes": [
+      {
+        "publishingDate": "2022-08-08"
+      },
       {
         "publishingDate": "2022-08-01"
       },
