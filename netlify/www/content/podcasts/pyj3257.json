@@ -28,16 +28,38 @@
   "pid": "pyj3257",
   "yamlDescriptionFile": "devtheory_interviews-142.yaml",
   "extra": {
-    "timestamp": 0,
+    "timestamp": 1644816600000,
     "colors": {
-      "vibrant": null,
-      "darkVibrant": null,
-      "lightVibrant": null,
-      "muted": null,
-      "darkMuted": null,
-      "lightMuted": null
+      "vibrant": "#2c2c4c",
+      "darkVibrant": "#242c4b",
+      "lightVibrant": "#f33c5c",
+      "muted": "#96021e",
+      "darkMuted": "#2c2c4c",
+      "lightMuted": "#900820"
     },
-    "episodes": [],
+    "episodes": [
+      {
+        "publishingDate": "2022-02-14"
+      },
+      {
+        "publishingDate": "2022-01-24"
+      },
+      {
+        "publishingDate": "2021-01-13"
+      },
+      {
+        "publishingDate": "2020-12-02"
+      },
+      {
+        "publishingDate": "2020-11-05"
+      },
+      {
+        "publishingDate": "2020-10-07"
+      },
+      {
+        "publishingDate": "2020-09-08"
+      }
+    ],
     "logoRepoImage": "pyj3257.png"
   }
 }
