@@ -28,15 +28,56 @@
   "pid": "pyj8137",
   "yamlDescriptionFile": "big_data_synthesis-110.yaml",
   "extra": {
-    "timestamp": 0,
+    "timestamp": 1582009573000,
     "colors": {
-      "vibrant": null,
-      "darkVibrant": null,
-      "lightVibrant": null,
-      "muted": null,
-      "darkMuted": null,
-      "lightMuted": null
+      "vibrant": "#3f3e1c",
+      "darkVibrant": "#063582",
+      "lightVibrant": "#7db1f8",
+      "muted": "#969602",
+      "darkMuted": "#3f3e1c",
+      "lightMuted": "#e2e8de"
     },
-    "episodes": []
+    "episodes": [
+      {
+        "publishingDate": "2020-02-18"
+      },
+      {
+        "publishingDate": "2020-01-18"
+      },
+      {
+        "publishingDate": "2019-11-19"
+      },
+      {
+        "publishingDate": "2019-11-11"
+      },
+      {
+        "publishingDate": "2019-10-13"
+      },
+      {
+        "publishingDate": "2019-10-13"
+      },
+      {
+        "publishingDate": "2019-10-13"
+      },
+      {
+        "publishingDate": "2019-09-22"
+      },
+      {
+        "publishingDate": "2019-09-22"
+      },
+      {
+        "publishingDate": "2019-09-10"
+      },
+      {
+        "publishingDate": "2019-09-10"
+      },
+      {
+        "publishingDate": "2019-09-02"
+      },
+      {
+        "publishingDate": "2019-08-26"
+      }
+    ],
+    "logoRepoImage": "pyj8137.png"
   }
 }
