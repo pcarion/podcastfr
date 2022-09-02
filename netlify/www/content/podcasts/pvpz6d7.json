@@ -43,13 +43,25 @@
     },
     "episodes": [
       {
+        "publishingDate": "2022-08-31"
+      },
+      {
+        "publishingDate": "2022-05-10"
+      },
+      {
+        "publishingDate": "2022-08-19"
+      },
+      {
         "publishingDate": "2020-12-07"
+      },
+      {
+        "publishingDate": "2021-12-06"
       },
       {
         "publishingDate": "2021-09-17"
       },
       {
-        "publishingDate": "2021-12-06"
+        "publishingDate": "2020-12-25"
       },
       {
         "publishingDate": "2021-06-02"
@@ -58,16 +70,13 @@
         "publishingDate": "2020-10-21"
       },
       {
-        "publishingDate": "2020-12-25"
-      },
-      {
         "publishingDate": "2020-04-21"
       },
       {
-        "publishingDate": "2020-05-11"
+        "publishingDate": "2022-07-13"
       },
       {
-        "publishingDate": "2021-02-24"
+        "publishingDate": "2020-05-11"
       },
       {
         "publishingDate": "2020-05-19"
@@ -79,10 +88,10 @@
         "publishingDate": "2020-10-05"
       },
       {
-        "publishingDate": "2022-01-20"
+        "publishingDate": "2021-02-24"
       },
       {
-        "publishingDate": "2020-06-01"
+        "publishingDate": "2022-01-20"
       },
       {
         "publishingDate": "2020-04-09"
@@ -94,13 +103,25 @@
         "publishingDate": "2020-08-01"
       },
       {
+        "publishingDate": "2022-07-27"
+      },
+      {
         "publishingDate": "2021-01-11"
       },
       {
         "publishingDate": "2021-05-14"
       },
       {
+        "publishingDate": "2022-04-15"
+      },
+      {
+        "publishingDate": "2022-06-22"
+      },
+      {
         "publishingDate": "2020-11-05"
+      },
+      {
+        "publishingDate": "2020-06-01"
       },
       {
         "publishingDate": "2021-11-11"
@@ -109,73 +130,52 @@
         "publishingDate": "2021-10-19"
       },
       {
-        "publishingDate": "2020-08-21"
+        "publishingDate": "2020-08-31"
       },
       {
         "publishingDate": "2020-04-01"
       },
       {
-        "publishingDate": "2020-08-31"
+        "publishingDate": "2020-08-21"
       },
       {
         "publishingDate": "2021-12-28"
       },
       {
-        "publishingDate": "2020-06-19"
+        "publishingDate": "2020-07-10"
       },
       {
         "publishingDate": "2021-06-21"
       },
       {
-        "publishingDate": "2021-03-08"
-      },
-      {
-        "publishingDate": "2020-07-10"
-      },
-      {
-        "publishingDate": "2021-04-19"
-      },
-      {
-        "publishingDate": "2021-07-12"
-      },
-      {
-        "publishingDate": "2022-03-09"
-      },
-      {
-        "publishingDate": "2022-04-15"
-      },
-      {
         "publishingDate": "2022-04-27"
       },
       {
-        "publishingDate": "2022-05-10"
+        "publishingDate": "2021-03-08"
       },
       {
         "publishingDate": "2022-05-25"
       },
       {
-        "publishingDate": "2022-06-08"
-      },
-      {
-        "publishingDate": "2022-06-22"
-      },
-      {
-        "publishingDate": "2022-06-29"
-      },
-      {
-        "publishingDate": "2022-07-13"
-      },
-      {
-        "publishingDate": "2022-07-27"
-      },
-      {
         "publishingDate": "2022-08-10"
       },
       {
-        "publishingDate": "2022-08-19"
+        "publishingDate": "2020-06-19"
       },
       {
-        "publishingDate": "2022-08-31"
+        "publishingDate": "2021-04-19"
+      },
+      {
+        "publishingDate": "2022-06-08"
+      },
+      {
+        "publishingDate": "2022-03-09"
+      },
+      {
+        "publishingDate": "2021-07-12"
+      },
+      {
+        "publishingDate": "2022-06-29"
       }
     ],
     "logoRepoImage": "pvpz6d7.png"
