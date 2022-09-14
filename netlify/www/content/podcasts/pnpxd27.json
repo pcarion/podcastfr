@@ -28,7 +28,7 @@
   "pid": "pnpxd27",
   "yamlDescriptionFile": "theo_cafe_entrepreneuriat_no_code_et_productivite-176.yaml",
   "extra": {
-    "timestamp": 1658243051000,
+    "timestamp": 1663067263000,
     "colors": {
       "vibrant": "#5b3f2f",
       "darkVibrant": "#b0331a",
@@ -38,6 +38,9 @@
       "lightMuted": "#dac5ad"
     },
     "episodes": [
+      {
+        "publishingDate": "2022-09-13"
+      },
       {
         "publishingDate": "2022-07-19"
       },
