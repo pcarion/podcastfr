@@ -28,7 +28,7 @@
   "pid": "p1j0vmp",
   "yamlDescriptionFile": "les_talks_du_wagon-127.yaml",
   "extra": {
-    "timestamp": 1662105606000,
+    "timestamp": 1663315200000,
     "colors": {
       "vibrant": "#3c3c3c",
       "darkVibrant": "#100707",
@@ -38,6 +38,9 @@
       "lightMuted": "#ece4d6"
     },
     "episodes": [
+      {
+        "publishingDate": "2022-09-16"
+      },
       {
         "publishingDate": "2022-09-02"
       },
