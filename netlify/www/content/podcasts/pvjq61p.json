@@ -28,7 +28,7 @@
   "pid": "pvjq61p",
   "yamlDescriptionFile": "dev_to_be_curious-146.yaml",
   "extra": {
-    "timestamp": 1661958397000,
+    "timestamp": 1663689964000,
     "colors": {
       "vibrant": "#2c434b",
       "darkVibrant": "#841414",
@@ -38,6 +38,9 @@
       "lightMuted": "#bc7c7c"
     },
     "episodes": [
+      {
+        "publishingDate": "2022-09-20"
+      },
       {
         "publishingDate": "2022-08-31"
       },
