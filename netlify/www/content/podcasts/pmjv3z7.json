@@ -32,15 +32,275 @@
   "pid": "pmjv3z7",
   "yamlDescriptionFile": "niptech_tech_&_startups-89.yaml",
   "extra": {
-    "timestamp": 0,
+    "timestamp": 1664326335000,
     "colors": {
-      "vibrant": null,
-      "darkVibrant": null,
-      "lightVibrant": null,
-      "muted": null,
-      "darkMuted": null,
-      "lightMuted": null
+      "vibrant": "#047494",
+      "darkVibrant": "#047494",
+      "lightVibrant": "#9ac8d4",
+      "muted": "#76b3c3",
+      "darkMuted": "#047494",
+      "lightMuted": "#acd1d4"
     },
-    "episodes": []
+    "episodes": [
+      {
+        "publishingDate": "2022-09-28"
+      },
+      {
+        "publishingDate": "2022-09-14"
+      },
+      {
+        "publishingDate": "2022-08-31"
+      },
+      {
+        "publishingDate": "2022-08-17"
+      },
+      {
+        "publishingDate": "2022-06-29"
+      },
+      {
+        "publishingDate": "2022-06-08"
+      },
+      {
+        "publishingDate": "2022-05-25"
+      },
+      {
+        "publishingDate": "2022-05-11"
+      },
+      {
+        "publishingDate": "2022-04-27"
+      },
+      {
+        "publishingDate": "2022-04-23"
+      },
+      {
+        "publishingDate": "2022-04-06"
+      },
+      {
+        "publishingDate": "2022-03-02"
+      },
+      {
+        "publishingDate": "2022-02-14"
+      },
+      {
+        "publishingDate": "2022-02-09"
+      },
+      {
+        "publishingDate": "2022-01-26"
+      },
+      {
+        "publishingDate": "2022-01-12"
+      },
+      {
+        "publishingDate": "2021-12-26"
+      },
+      {
+        "publishingDate": "2021-12-08"
+      },
+      {
+        "publishingDate": "2021-11-24"
+      },
+      {
+        "publishingDate": "2021-11-10"
+      },
+      {
+        "publishingDate": "2021-10-19"
+      },
+      {
+        "publishingDate": "2021-10-14"
+      },
+      {
+        "publishingDate": "2021-10-13"
+      },
+      {
+        "publishingDate": "2021-09-22"
+      },
+      {
+        "publishingDate": "2021-09-01"
+      },
+      {
+        "publishingDate": "2021-08-18"
+      },
+      {
+        "publishingDate": "2021-08-05"
+      },
+      {
+        "publishingDate": "2021-07-22"
+      },
+      {
+        "publishingDate": "2021-07-06"
+      },
+      {
+        "publishingDate": "2021-06-23"
+      },
+      {
+        "publishingDate": "2021-05-31"
+      },
+      {
+        "publishingDate": "2021-05-26"
+      },
+      {
+        "publishingDate": "2021-05-12"
+      },
+      {
+        "publishingDate": "2021-05-05"
+      },
+      {
+        "publishingDate": "2021-04-28"
+      },
+      {
+        "publishingDate": "2021-04-14"
+      },
+      {
+        "publishingDate": "2021-03-24"
+      },
+      {
+        "publishingDate": "2021-03-09"
+      },
+      {
+        "publishingDate": "2021-03-06"
+      },
+      {
+        "publishingDate": "2021-02-24"
+      },
+      {
+        "publishingDate": "2021-02-10"
+      },
+      {
+        "publishingDate": "2021-01-26"
+      },
+      {
+        "publishingDate": "2021-01-13"
+      },
+      {
+        "publishingDate": "2021-01-07"
+      },
+      {
+        "publishingDate": "2021-01-07"
+      },
+      {
+        "publishingDate": "2021-01-07"
+      },
+      {
+        "publishingDate": "2020-12-30"
+      },
+      {
+        "publishingDate": "2020-12-16"
+      },
+      {
+        "publishingDate": "2020-12-02"
+      },
+      {
+        "publishingDate": "2020-11-28"
+      },
+      {
+        "publishingDate": "2020-11-18"
+      },
+      {
+        "publishingDate": "2020-11-08"
+      },
+      {
+        "publishingDate": "2020-11-04"
+      },
+      {
+        "publishingDate": "2020-10-21"
+      },
+      {
+        "publishingDate": "2020-10-07"
+      },
+      {
+        "publishingDate": "2020-09-23"
+      },
+      {
+        "publishingDate": "2020-09-16"
+      },
+      {
+        "publishingDate": "2020-09-09"
+      },
+      {
+        "publishingDate": "2020-08-26"
+      },
+      {
+        "publishingDate": "2020-08-21"
+      },
+      {
+        "publishingDate": "2020-08-12"
+      },
+      {
+        "publishingDate": "2020-07-22"
+      },
+      {
+        "publishingDate": "2020-07-08"
+      },
+      {
+        "publishingDate": "2020-07-03"
+      },
+      {
+        "publishingDate": "2020-06-10"
+      },
+      {
+        "publishingDate": "2020-05-27"
+      },
+      {
+        "publishingDate": "2020-05-13"
+      },
+      {
+        "publishingDate": "2020-05-06"
+      },
+      {
+        "publishingDate": "2020-04-29"
+      },
+      {
+        "publishingDate": "2020-04-22"
+      },
+      {
+        "publishingDate": "2020-04-15"
+      },
+      {
+        "publishingDate": "2020-04-09"
+      },
+      {
+        "publishingDate": "2020-04-01"
+      },
+      {
+        "publishingDate": "2020-03-27"
+      },
+      {
+        "publishingDate": "2020-03-25"
+      },
+      {
+        "publishingDate": "2020-03-18"
+      },
+      {
+        "publishingDate": "2020-03-11"
+      },
+      {
+        "publishingDate": "2020-02-26"
+      },
+      {
+        "publishingDate": "2020-02-04"
+      },
+      {
+        "publishingDate": "2020-01-15"
+      },
+      {
+        "publishingDate": "2019-12-23"
+      },
+      {
+        "publishingDate": "2019-12-10"
+      },
+      {
+        "publishingDate": "2019-11-27"
+      },
+      {
+        "publishingDate": "2019-10-30"
+      },
+      {
+        "publishingDate": "2019-10-09"
+      },
+      {
+        "publishingDate": "2019-09-18"
+      }
+    ],
+    "logoRepoImage": "pmjv3z7.png"
   }
 }
