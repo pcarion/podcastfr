@@ -28,7 +28,7 @@
   "pid": "pljk94p",
   "yamlDescriptionFile": "nolimitsecu-43.yaml",
   "extra": {
-    "timestamp": 1664146242000,
+    "timestamp": 1664738337000,
     "colors": {
       "vibrant": "#341c1c",
       "darkVibrant": "#780404",
@@ -38,6 +38,9 @@
       "lightMuted": "#c0acac"
     },
     "episodes": [
+      {
+        "publishingDate": "2022-10-02"
+      },
       {
         "publishingDate": "2022-09-25"
       },
@@ -934,9 +937,6 @@
       },
       {
         "publishingDate": "2016-10-09"
-      },
-      {
-        "publishingDate": "2016-10-02"
       }
     ],
     "logoRepoImage": "pljk94p.png"
