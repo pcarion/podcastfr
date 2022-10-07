@@ -28,7 +28,7 @@
   "pid": "plpe8p4",
   "yamlDescriptionFile": "big_data_hebdo-8.yaml",
   "extra": {
-    "timestamp": 1663569000000,
+    "timestamp": 1663828200000,
     "colors": {
       "vibrant": "#966b02",
       "darkVibrant": "#825d02",
@@ -38,6 +38,9 @@
       "lightMuted": "#956903"
     },
     "episodes": [
+      {
+        "publishingDate": "2022-09-22"
+      },
       {
         "publishingDate": "2022-09-19"
       },
@@ -481,9 +484,6 @@
       },
       {
         "publishingDate": "2014-05-17"
-      },
-      {
-        "publishingDate": "2001-01-01"
       }
     ],
     "logoRepoImage": "plpe8p4.png"
