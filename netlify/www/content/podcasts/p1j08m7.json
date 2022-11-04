@@ -28,7 +28,7 @@
   "pid": "p1j08m7",
   "yamlDescriptionFile": "coder_pour_changer_de_vie-103.yaml",
   "extra": {
-    "timestamp": 1649492845000,
+    "timestamp": 1667490449000,
     "colors": {
       "vibrant": "#6a4539",
       "darkVibrant": "#536a2b",
@@ -38,6 +38,9 @@
       "lightMuted": "#abc0cc"
     },
     "episodes": [
+      {
+        "publishingDate": "2022-11-03"
+      },
       {
         "publishingDate": "2022-04-09"
       },
