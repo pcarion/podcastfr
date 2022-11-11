@@ -28,15 +28,47 @@
   "pid": "plper47",
   "yamlDescriptionFile": "l_apero_des_papas_manchots-180.yaml",
   "extra": {
-    "timestamp": 0,
+    "timestamp": 1667308312000,
     "colors": {
-      "vibrant": null,
-      "darkVibrant": null,
-      "lightVibrant": null,
-      "muted": null,
-      "darkMuted": null,
-      "lightMuted": null
+      "vibrant": "#495e38",
+      "darkVibrant": "#10115b",
+      "lightVibrant": "#f4dc68",
+      "muted": "#ae7c89",
+      "darkMuted": "#495e38",
+      "lightMuted": "#d39fab"
     },
-    "episodes": []
+    "episodes": [
+      {
+        "publishingDate": "2022-11-01"
+      },
+      {
+        "publishingDate": "2022-10-29"
+      },
+      {
+        "publishingDate": "2022-08-31"
+      },
+      {
+        "publishingDate": "2022-08-31"
+      },
+      {
+        "publishingDate": "2022-07-30"
+      },
+      {
+        "publishingDate": "2022-07-09"
+      },
+      {
+        "publishingDate": "2022-07-01"
+      },
+      {
+        "publishingDate": "2022-05-31"
+      },
+      {
+        "publishingDate": "2022-04-30"
+      },
+      {
+        "publishingDate": "2022-04-29"
+      }
+    ],
+    "logoRepoImage": "plper47.png"
   }
 }
