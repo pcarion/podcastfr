@@ -28,7 +28,7 @@
   "pid": "pyj8qje",
   "yamlDescriptionFile": "artisan_developpeur-10.yaml",
   "extra": {
-    "timestamp": 1668492000000,
+    "timestamp": 1669096800000,
     "colors": {
       "vibrant": "#3f3f3f",
       "darkVibrant": "#424242",
@@ -38,6 +38,9 @@
       "lightMuted": "#bcbcbc"
     },
     "episodes": [
+      {
+        "publishingDate": "2022-11-22"
+      },
       {
         "publishingDate": "2022-11-15"
       },
