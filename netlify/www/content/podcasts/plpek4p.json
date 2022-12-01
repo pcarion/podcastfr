@@ -28,7 +28,7 @@
   "pid": "plpek4p",
   "yamlDescriptionFile": "hack_n_speak-132.yaml",
   "extra": {
-    "timestamp": 1667384458000,
+    "timestamp": 1669722411000,
     "colors": {
       "vibrant": "#37444c",
       "darkVibrant": "#314752",
@@ -38,6 +38,9 @@
       "lightMuted": "#a7beca"
     },
     "episodes": [
+      {
+        "publishingDate": "2022-11-29"
+      },
       {
         "publishingDate": "2022-11-02"
       },
