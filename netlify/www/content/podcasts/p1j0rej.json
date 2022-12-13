@@ -28,7 +28,7 @@
   "pid": "p1j0rej",
   "yamlDescriptionFile": "s_informer_sur_la_tech-27.yaml",
   "extra": {
-    "timestamp": 1666044404000,
+    "timestamp": 1670889818000,
     "colors": {
       "vibrant": "#970101",
       "darkVibrant": "#830101",
@@ -38,6 +38,9 @@
       "lightMuted": "#950303"
     },
     "episodes": [
+      {
+        "publishingDate": "2022-12-13"
+      },
       {
         "publishingDate": "2022-10-17"
       },
