@@ -28,7 +28,7 @@
   "pid": "plper47",
   "yamlDescriptionFile": "l_apero_des_papas_manchots-180.yaml",
   "extra": {
-    "timestamp": 1670268993000,
+    "timestamp": 1671793706000,
     "colors": {
       "vibrant": "#495e38",
       "darkVibrant": "#10115b",
@@ -38,6 +38,9 @@
       "lightMuted": "#d39fab"
     },
     "episodes": [
+      {
+        "publishingDate": "2022-12-23"
+      },
       {
         "publishingDate": "2022-12-05"
       },
@@ -64,9 +67,6 @@
       },
       {
         "publishingDate": "2022-07-09"
-      },
-      {
-        "publishingDate": "2022-07-01"
       }
     ],
     "logoRepoImage": "plper47.png"
