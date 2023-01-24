@@ -28,62 +28,16 @@
   "pid": "pvpzk6p",
   "yamlDescriptionFile": "docstring-147.yaml",
   "extra": {
-    "timestamp": 1622530800000,
+    "timestamp": 0,
     "colors": {
-      "vibrant": "#24334d",
-      "darkVibrant": "#253c59",
-      "lightVibrant": "#ec8cac",
-      "muted": "#716aa1",
-      "darkMuted": "#24334d",
-      "lightMuted": "#f4ebed"
+      "vibrant": null,
+      "darkVibrant": null,
+      "lightVibrant": null,
+      "muted": null,
+      "darkMuted": null,
+      "lightMuted": null
     },
-    "episodes": [
-      {
-        "publishingDate": "2021-06-01"
-      },
-      {
-        "publishingDate": "2021-05-17"
-      },
-      {
-        "publishingDate": "2021-05-01"
-      },
-      {
-        "publishingDate": "2021-04-15"
-      },
-      {
-        "publishingDate": "2021-04-01"
-      },
-      {
-        "publishingDate": "2021-03-15"
-      },
-      {
-        "publishingDate": "2021-03-01"
-      },
-      {
-        "publishingDate": "2021-02-01"
-      },
-      {
-        "publishingDate": "2020-12-01"
-      },
-      {
-        "publishingDate": "2020-11-01"
-      },
-      {
-        "publishingDate": "2020-10-01"
-      },
-      {
-        "publishingDate": "2020-09-01"
-      },
-      {
-        "publishingDate": "2020-08-01"
-      },
-      {
-        "publishingDate": "2020-07-01"
-      },
-      {
-        "publishingDate": "2020-06-01"
-      }
-    ],
+    "episodes": [],
     "logoRepoImage": "pvpzk6p.png"
   }
 }
