@@ -28,7 +28,7 @@
   "pid": "p3j9vmp",
   "yamlDescriptionFile": "choses_a_savoir_tech-124.yaml",
   "extra": {
-    "timestamp": 1674687600000,
+    "timestamp": 1674756000000,
     "colors": {
       "vibrant": "#4d4077",
       "darkVibrant": "#042379",
@@ -38,6 +38,9 @@
       "lightMuted": "#969db7"
     },
     "episodes": [
+      {
+        "publishingDate": "2023-01-26"
+      },
       {
         "publishingDate": "2023-01-25"
       },
