@@ -28,7 +28,7 @@
   "pid": "pnpx52j",
   "yamlDescriptionFile": "octo_buzzword_bingo-104.yaml",
   "extra": {
-    "timestamp": 1624863600000,
+    "timestamp": 0,
     "colors": {
       "vibrant": "#958c03",
       "darkVibrant": "#817902",
@@ -37,32 +37,7 @@
       "darkMuted": "#958c03",
       "lightMuted": "#ac92cf"
     },
-    "episodes": [
-      {
-        "publishingDate": "2021-06-28"
-      },
-      {
-        "publishingDate": "2021-05-19"
-      },
-      {
-        "publishingDate": "2021-04-13"
-      },
-      {
-        "publishingDate": "2021-03-16"
-      },
-      {
-        "publishingDate": "2021-02-05"
-      },
-      {
-        "publishingDate": "2021-01-20"
-      },
-      {
-        "publishingDate": "2020-12-14"
-      },
-      {
-        "publishingDate": "2020-10-23"
-      }
-    ],
+    "episodes": [],
     "logoRepoImage": "pnpx52j.png"
   }
 }

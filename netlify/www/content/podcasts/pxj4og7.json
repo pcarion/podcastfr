@@ -28,7 +28,7 @@
   "pid": "pxj4og7",
   "yamlDescriptionFile": "debrief_de_la_semaine_frenchweb-129.yaml",
   "extra": {
-    "timestamp": 1676610508000,
+    "timestamp": 1677214313000,
     "colors": {
       "vibrant": "#373751",
       "darkVibrant": "#141c2c",
@@ -38,6 +38,9 @@
       "lightMuted": "#bca094"
     },
     "episodes": [
+      {
+        "publishingDate": "2023-02-24"
+      },
       {
         "publishingDate": "2023-02-17"
       },
