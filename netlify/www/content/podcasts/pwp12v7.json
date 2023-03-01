@@ -28,7 +28,7 @@
   "pid": "pwp12v7",
   "yamlDescriptionFile": "parlons_design-121.yaml",
   "extra": {
-    "timestamp": 1676959319000,
+    "timestamp": 1677564122000,
     "colors": {
       "vibrant": "#2a2a2a",
       "darkVibrant": "#825602",
@@ -38,6 +38,9 @@
       "lightMuted": "#b4b4b4"
     },
     "episodes": [
+      {
+        "publishingDate": "2023-02-28"
+      },
       {
         "publishingDate": "2023-02-21"
       },
