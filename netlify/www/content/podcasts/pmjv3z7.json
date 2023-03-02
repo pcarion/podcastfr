@@ -32,7 +32,7 @@
   "pid": "pmjv3z7",
   "yamlDescriptionFile": "niptech_tech_&_startups-89.yaml",
   "extra": {
-    "timestamp": 1676452503000,
+    "timestamp": 1677664915000,
     "colors": {
       "vibrant": "#047494",
       "darkVibrant": "#047494",
@@ -42,6 +42,9 @@
       "lightMuted": "#acd1d4"
     },
     "episodes": [
+      {
+        "publishingDate": "2023-03-01"
+      },
       {
         "publishingDate": "2023-02-15"
       },
