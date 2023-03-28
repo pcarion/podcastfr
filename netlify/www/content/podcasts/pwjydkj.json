@@ -28,7 +28,7 @@
   "pid": "pwjydkj",
   "yamlDescriptionFile": "la_galere-174.yaml",
   "extra": {
-    "timestamp": 1678310653000,
+    "timestamp": 1679883692000,
     "colors": {
       "vibrant": "#344c6b",
       "darkVibrant": "#2c4c6d",
@@ -38,6 +38,9 @@
       "lightMuted": "#bcbcbc"
     },
     "episodes": [
+      {
+        "publishingDate": "2023-03-27"
+      },
       {
         "publishingDate": "2023-03-08"
       },
