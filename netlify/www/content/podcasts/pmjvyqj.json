@@ -28,7 +28,7 @@
   "pid": "pmjvyqj",
   "yamlDescriptionFile": "le_podcast_des_eclaireurs-117.yaml",
   "extra": {
-    "timestamp": 1680249696000,
+    "timestamp": 1680872868000,
     "colors": {
       "vibrant": "#7a281e",
       "darkVibrant": "#69221a",
@@ -38,6 +38,9 @@
       "lightMuted": "#c4a6a4"
     },
     "episodes": [
+      {
+        "publishingDate": "2023-04-07"
+      },
       {
         "publishingDate": "2023-03-31"
       },
