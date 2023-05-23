@@ -28,7 +28,7 @@
   "pid": "pwjylk7",
   "yamlDescriptionFile": "dans_la_poche-126.yaml",
   "extra": {
-    "timestamp": 1684128601000,
+    "timestamp": 1684733405000,
     "colors": {
       "vibrant": "#28304a",
       "darkVibrant": "#132962",
@@ -38,6 +38,9 @@
       "lightMuted": "#9cafca"
     },
     "episodes": [
+      {
+        "publishingDate": "2023-05-22"
+      },
       {
         "publishingDate": "2023-05-15"
       },
